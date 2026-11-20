@@ -2,7 +2,7 @@
 
 A meteorologist-led editorial workflow for original, accurately sourced, single-post weather-history content on X.
 
-**Status:** Phase 1 foundation. No automated collection, scheduling, or posting is enabled.
+**Status:** Phase 2 historical discovery implemented. Automated archive collection/ranking is enabled through GitHub Actions; X publishing is NOT enabled.
 
 ## Editorial promise
 
@@ -19,10 +19,14 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 - docs/WORKFLOW.md — how the repository and editorial Google Sheet relate.
 - docs/DATA_MODEL.md — event, provenance, and posting data contracts.
 - data/schema/event.schema.json — JSON Schema for researched events.
-- data/events.json — curated historical-event library (currently empty intentionally).
+- data/events.json — fully reviewed canonical event library (kept separate from automated research leads).
+- data/curated_candidates.json — manually sourced case studies for editorial research.
+- data/discovery_candidates.json — generated unverified historical candidate catalog.
+- data/editorial_handoff.json — compact 60-day suggestions for Google Sheets review.
 - data/publishing_log.json — publication history (currently empty).
 - data/source_registry.json — initial research source directory.
-- src/otdwx/ — post formatting, weighted length estimates, data checks, diversity warnings.
+- src/otdwx/ — post formatting, weighted length estimates, data checks, diversity warnings and live historical archive pipeline.
+- docs/PHASE2_DISCOVERY.md — source coverage, limitations, selection design, and data handoff.
 - tests/ — self-contained unit tests.
 - .github/workflows/quality.yml — validation on commits and pull requests only.
 
@@ -35,12 +39,13 @@ Requires Python 3.11 or later, without third-party runtime dependencies.
     python -m otdwx validate-data
     python -m otdwx post-check --file path/to/post.txt
     python -m otdwx diversity-check --event-id EVENT_ID
+    python -m otdwx.pipeline --start-year 1950 --end-year 2025 --days 60
 
 The post checker uses the standard 280-character budget, 23-character URL weighting, and conservative Unicode estimates. For unusual emoji sequences and links, verify the final count in the X composer as well.
 
 ## Spreadsheet
 
-The companion **OTDwx Editorial Desk** Google Sheet is the human-facing queue. It is a separate editorial workspace, not yet synchronized with this repository. Its plain LEN formula is labeled an estimate; the command-line validator is the better preflight. Phase 2 can add a one-way export/import mechanism after the field schema is stabilized.
+The companion **OTDwx Editorial Desk** Google Sheet is the human-facing queue. It is a separate editorial workspace, not yet synchronized with this repository. Its plain LEN formula is labeled an estimate; the command-line validator is the better preflight. Phase 2 produces repository-based JSON and downloadable CSV handoff artifacts and has a reviewed one-time feed into the Google Sheet. There is no unattended authenticated two-way Google Sheet synchronization.
 
 ## Safety gates
 
@@ -49,7 +54,7 @@ No X API credentials, access tokens, image assets without documented rights, or 
 ## Roadmap
 
 - **Phase 1 (foundation):** standards, database schema, empty history, source registry, post checker, diversity warnings, editorial dashboard, CI.
-- **Phase 2:** archived data ingestion, verified candidate generation, deterministic source deduplication, score/rank and Google Sheet synchronization.
+- **Phase 2 (implemented, expanding):** NCEI + NHC source ingestion, researched case-study seeds, deterministic event-ID deduplication, candidate ranking, 366-day coverage measurement, monthly GitHub workflow, and Google Sheet research handoff. Candidates still require independent verification; automated Sheet synchronization is not enabled.
 - **Phase 3:** rights-cleared maps/graphics and editorial review packages.
 - **Phase 4:** opt-in X API publishing for human-approved items, idempotent logging and monitoring.
 - **Phase 5:** coverage and engagement analysis.
