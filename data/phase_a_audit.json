@@ -4,24 +4,24 @@
     "as_of": "2026-11-20",
     "source_catalog_sha": "4dfc2387034a9c8c19f0a23cb06af794bb743056",
     "source_candidates": 4323,
-    "additional_authoritative_anchors": 101,
+    "additional_authoritative_anchors": 103,
     "manual_curated_seeds": 7,
     "selection_status": "PROVISIONAL RESEARCH — NOT EDITORIALLY APPROVED",
     "notes": "These 366 provisional research selections are not 366 verified stories. Source-led discovery and editor approval are separate. No published copy or unpublished graphics included.",
     "manual_editorial_override_count": 89,
     "pass2_manual_upgrades": 64,
-    "summary": "Pass5: 8 stronger international/historic primaries; first 2 reviewed August27 alternate leads; 126 core corroborated, 240 source gaps; no publication approvals."
+    "summary": "Pass 6: 139/366 core occurrence/date/location confirmed, 227 lacking secondary research links; 2 dates with two core-reviewed alternates, 0 approvals or rights clearances."
   },
   "metrics": {
     "calendar_rows": 366,
     "unique_primary_event_ids": 366,
     "dates_with_two_alternates": 366,
-    "dates_with_two_corroborated_alternates": 1,
-    "authoritative_core_corroborated": 126,
+    "dates_with_two_corroborated_alternates": 2,
+    "authoritative_core_corroborated": 139,
     "complete_fact_checked": 0,
     "human_approved": 0,
     "primary_with_source_url": 366,
-    "with_secondary_source_url": 126,
+    "with_secondary_source_url": 139,
     "graphic_concepts_assigned": 366,
     "imagery_rights_cleared": 0,
     "geography_international": 44,
@@ -231,15 +231,15 @@
       "phasea-pass2-national-records-of-scotland": 1
     },
     "editorial_tiers": {
-      "Tier 1 — Flagship": 99,
-      "Tier 2 — Strong": 267
+      "Tier 2 — Strong": 260,
+      "Tier 1 — Flagship": 106
     },
     "consecutive_same_hazard": 63,
     "consecutive_same_region": 21,
     "consecutive_same_state_or_country": 3,
     "consecutive_same_source_family": 181,
     "weak_primary_dates": [],
-    "high_risk_source_gaps": 240,
+    "high_risk_source_gaps": 227,
     "pass2_alternate_screened_days": 15,
     "pass2_alternate_screened_leads": 30,
     "pass2_alternates_independently_corroborated": 0
@@ -280,7 +280,11 @@
     "May28 2019 Fort Smith river stage exceeding its prior record does NOT mean May28 was the final flood peak; finalized 2019 Arkansas River crests occurred later at several stations.",
     "May27-29 primary tornado repetition was reduced by replacing the May28 Linwood tornado with the Arkansas River flood. Original Linwood case remains a preserved research alternative; no alternates were newly independently screened.",
     "Pass5 date pitfalls: Idai March15 only in Mozambique civil time; Bangladesh cyclone spans Apr29–30; Ahr downstream crests Jul15 after Jul14 heavy rain; 1913 Lake Huron winds/waves are modeled retrospectives, not contemporary observations.",
-    "1883 Krakatau eruption is selected for barometric wave forcing, not volcanic tsunami mislabeled as storm surge. Pre-instrument 1780 hurricane wind estimates are uncertain."
+    "1883 Krakatau eruption is selected for barometric wave forcing, not volcanic tsunami mislabeled as storm surge. Pre-instrument 1780 hurricane wind estimates are uncertain.",
+    "Pass 6: Feb 2, 2007 operational EF-scale transition means NCEI old 'F3' prose should not override finalized survey classification.",
+    "Pass 6: 2011 El Reno EF5 and 2013 El Reno tornado are different storms; measured Mesonet gusts and survey-inferred maxima are separate.",
+    "Pass 6: July27 2022 Kentucky marks intense evening rain onset and July28 the peak impacts; NASA Aug8 Maui weather reanalysis and fire ignition causality must not be conflated.",
+    "The 2011 Indiana State Fair case's old NWS event-detail link returned 404; date supported by Indiana state chronology and NWS year-index, with numerical gust/engineering findings pending."
   ],
   "revision_workflow": [
     "Preserve manually curated events and all existing Post Studio copy.",
