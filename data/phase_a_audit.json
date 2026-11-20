@@ -4,11 +4,11 @@
     "as_of": "2026-11-20",
     "source_catalog_sha": "4dfc2387034a9c8c19f0a23cb06af794bb743056",
     "source_candidates": 4323,
-    "additional_authoritative_anchors": 110,
+    "additional_authoritative_anchors": 116,
     "manual_curated_seeds": 7,
     "selection_status": "PROVISIONAL RESEARCH — NOT EDITORIALLY APPROVED",
     "notes": "These 366 provisional research selections are not 366 verified stories. Source-led discovery and editor approval are separate. No published copy or unpublished graphics included.",
-    "manual_editorial_override_count": 94,
+    "manual_editorial_override_count": 98,
     "pass2_manual_upgrades": 64,
     "summary": "Pass 8: four source-led primary replacements, one original NCEI fog story core-reviewed, two alternate leads; 159 primary core corroborations, 207 gaps. No approval or image-rights clearance."
   },
