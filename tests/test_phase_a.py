@@ -179,7 +179,7 @@ class PhaseAEditorialTests(unittest.TestCase):
     def test_claim_ledger_discovers_recent_research_passes(self):
         from otdwx.phase_a import CLAIM_LEDGERS
         included = {p.name for p in CLAIM_LEDGERS}
-        for number in range(10, 19):
+        for number in range(10, 20):
             self.assertIn(f"phase_a_pass{number}_research.json", included)
 
     def test_links_are_https(self):
