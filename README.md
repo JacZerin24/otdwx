@@ -4,13 +4,14 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 
 **Status:** Phase A provisional 366-day research calendar and read-only audit added. Phase 2 historical discovery remains enabled; evidence verification and human editorial approval are outstanding. X publishing is NOT enabled.
 
-## Phase A provisional editorial library (Nov 19, 2026)
+## Phase A provisional editorial library (updated Nov 20, 2026)
 
 **Research coverage is not publication readiness.** We now maintain a 366-day provisional research calendar (including leap day), two alternate *leads* per day, visual concepts, verified-versus-unverified fact boundaries, and a recorded diversity audit. Full editorial verification is incomplete.
 
 - [Phase A research status, limitations, and handoff](docs/PHASE_A_PROGRESS.md)
 - [366-day research calendar](data/phase_a_calendar.json) and [quality/diversity audit](data/phase_a_audit.json)
-- [27 authoritative historical research anchors](data/phase_a_sourced_anchors.json)
+- [42 authoritative historical research anchors](data/phase_a_sourced_anchors.json)
+- [Pass 2: 15 source-checked research upgrades with caveats](data/phase_a_pass2_research.json)
 - [Google Sheets Phase A Calendar and review queue](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit)
 
 Local read-only audit and exploratory candidate comparison:
