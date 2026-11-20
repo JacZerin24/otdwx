@@ -26,11 +26,11 @@ February 29's initial provisional choice was an ordinary winter-weather road inc
 
 The 366 primary IDs are distinct; all dates have two alternate *IDs*. A count of two alternates is not a claim of two verified alternatives.
 
-- **66 / 366** have corroboration for core date/location/broad event identity (only 12.0%, *not* full fact-checks).
+- **66 / 366** have corroboration for core date/location/broad event identity (18.0%, *not* full fact-checks).
 - **0** have completed human fact checks or approvals in Phase A, and **0** have a formally cleared historical image in this library.
 - **66 / 366** have a secondary corroborating URL; **300** still need one.
 - **366 / 366** have a proposed visualization type, but observed data and license feasibility are mostly *not established*.
-- **24 / 366** primary selections are international (6.6%); **16 / 366** predate 1950 (4.4%).
+- **26 / 366** primary selections have non-USA, mixed-country or offshore geography tags (7.1%); **18 / 366** predate 1950 (4.9%). The geographic audit's `country != USA` rule includes shared/offshore areas, so it is not a count of exclusively foreign landfalls.
 - **294 / 366** primaries are NCEI Storm Events leads (80.3%).
 - Provisional editorial tiers: **73 Tier 1**, **266 Tier 2**, **27 Tier 3**. All 27 Tier 3 cases lacking core corroboration appear in the Google Sheet Phase A Review Queue.
 - 1950–1979 is thin and global 1800s coverage is nearly absent. Tropical track-only records were penalized; no offshore position is treated as a verified landfall community.
