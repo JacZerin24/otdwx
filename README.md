@@ -40,6 +40,7 @@ Requires Python 3.11 or later, without third-party runtime dependencies.
     python -m otdwx post-check --file path/to/post.txt
     python -m otdwx diversity-check --event-id EVENT_ID
     python -m otdwx.pipeline --start-year 1950 --end-year 2025 --days 60
+    python -m otdwx.production --input /private/research_post_packages.json --output exports/post-studio
 
 The post checker uses the standard 280-character budget, 23-character URL weighting, and conservative Unicode estimates. For unusual emoji sequences and links, verify the final count in the X composer as well.
 
@@ -55,8 +56,10 @@ No X API credentials, access tokens, image assets without documented rights, or 
 
 - **Phase 1 (foundation):** standards, database schema, empty history, source registry, post checker, diversity warnings, editorial dashboard, CI.
 - **Phase 2 (implemented, expanding):** NCEI + NHC source ingestion, researched case-study seeds, deterministic event-ID deduplication, candidate ranking, 366-day coverage measurement, monthly GitHub workflow, and Google Sheet research handoff. Candidates still require independent verification; automated Sheet synchronization is not enabled.
-- **Phase 3:** rights-cleared maps/graphics and editorial review packages.
+- **Phase 3 (starter delivered):** six source-checked drafts and rights-cleared original illustrations in **private Drive**; reproducible open-source SVG layouts, source preflight and local generation documented in docs/PHASE3_PRODUCTION.md. No automatic editorial approval.
 - **Phase 4:** opt-in X API publishing for human-approved items, idempotent logging and monitoring.
 - **Phase 5:** coverage and engagement analysis.
 
 This repository is independent of NOAA and the National Weather Service. Credit original sources and distinguish public-domain data from third-party photographs.
+
+**Unpublished editorial assets are private:** Never commit unpublished captions or images to this public GitHub repo. See docs/PHASE3_PRODUCTION.md for the private Drive workflow.

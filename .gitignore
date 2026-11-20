@@ -13,3 +13,10 @@ build/
 *.egg-info/
 data/private/
 exports/
+
+# Do not expose unpublished OTDwx editorial material in this public repository
+private-posts/
+assets/unpublished/
+research_post_packages.json
+build_original_graphics.py
+otdwx_phase3/
