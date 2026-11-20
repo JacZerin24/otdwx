@@ -10,18 +10,18 @@
     "notes": "These 366 provisional research selections are not 366 verified stories. Source-led discovery and editor approval are separate. No published copy or unpublished graphics included.",
     "manual_editorial_override_count": 109,
     "pass2_manual_upgrades": 64,
-    "summary": "Pass11: 15 source-led event-level reviews, including 8 older/international replacements and 17 claim-ledger assertions; 201/366 core, 165 source gaps, no approvals."
+    "summary": "Pass12: 15 additional source-backed core event/date/location reviews and 19 claim-level assertions; 216/366 core, 150 source gaps, no approvals."
   },
   "metrics": {
     "calendar_rows": 366,
     "unique_primary_event_ids": 366,
     "dates_with_two_alternates": 366,
     "dates_with_two_corroborated_alternates": 3,
-    "authoritative_core_corroborated": 201,
+    "authoritative_core_corroborated": 216,
     "complete_fact_checked": 0,
     "human_approved": 0,
     "primary_with_source_url": 366,
-    "with_secondary_source_url": 201,
+    "with_secondary_source_url": 216,
     "graphic_concepts_assigned": 366,
     "imagery_rights_cleared": 0,
     "geography_international": 50,
@@ -269,7 +269,8 @@
     "pass2_alternate_screened_days": 15,
     "pass2_alternate_screened_leads": 30,
     "pass2_alternates_independently_corroborated": 0,
-    "adjacent_repeated_story_warnings": []
+    "adjacent_repeated_story_warnings": [],
+    "tier_1_flagship": 153
   },
   "limitations": [
     "All 366 dates have provisional primary/alternate IDs, not publication-ready vetted stories.",
