@@ -299,3 +299,14 @@ Pass19 research, source and statement-level cautions: [research ledger](../data/
 Retired/deferred primary choices logged in [Pass 20 research registry](../data/phase_a_pass20_research.json), especially consecutive flood/tropical-category or same-event alternate duplication risks. We distinguished local/UTC times, brief damage records versus total outbreaks, station versus storm-total snowfall, and survey-backed versus source-independent evidence. Links are research references, not image licenses or full editorial approval.
 
 **Status:** **310/366 primary event/date/location cores**, **56 second-source gaps**, **196 authoritative anchors**, **77 non-USA/mixed primaries**, **44 pre-1950 primaries**, **230 claim checks** across passes 10–20. Zero complete human fact checks, zero human approvals, zero media-rights clearances.
+
+
+## Pass 21 — smoke, ash, hurricanes, tornadoes and exact-day source corrections (20 November 2026)
+
+**Eight source-reviewed primary anniversaries:** Jan 16, 2014 Rexford Kansas localized dust-storm traffic incidents (original NCEI ID retained); Feb 4, 2024 California atmospheric river; Apr 17, 2010 Icelandic ash persisting over European airspace; Jun 7, 2023 NYC Canadian-wildfire smoke; Jul 12, 1996 Hurricane Bertha NC landfall; Aug 28, 1990 Plainfield Illinois F5 tornado; Oct 6, 2010 northern Arizona tornado outbreak; Dec 21, 2008 Chicago cold and dangerous wind chills (original NCEI ID retained).
+
+Important editorial corrections: Aug 28 original Katrina segment duplicated the August 29 Katrina primary, and the prior Oct 6 Volusia Matthew NCEI record discussed Oct 7 strongest local effects. Oct 6 Kachina Village alternate belonged to the same Arizona outbreak as the upgraded primary, so it was replaced with a genuinely separate **Oct 6, 2016 Bahamas Hurricane Matthew** backup supported by an NHC Oct 6 advisory and Bahamas government chronology. Pass21 [research ledger](../data/phase_a_pass21_research.json) preserves all replaced IDs and cautions.
+
+Cautions: do not treat Apr 17 as volcanic eruption onset, Feb 4 California as a complete Feb 4–6 storm-total window, NYC smoke satellite area as station AQI, 1990 F5 as EF5, or a provisional 2010 Arizona tornado count as the final survey. Kansas NWS and NCEI dust reports share original observational lineage. Do not publish archived artwork without asset-specific rights review.
+
+**Status:** **318/366 primary core/date/place corroborations**, **48 primary gaps**, **205 total source anchors including one alternate**, **78 international/mixed-country primaries**, **44 pre-1950 primaries**, **246 claim checks**, **15 of 732 backup cores corroborated**, **0 complete human checks, 0 approved posts and 0 cleared media assets**.
