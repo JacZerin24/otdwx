@@ -1,14 +1,60 @@
 {
   "metadata": {
-    "generated_at": "2026-11-19T22:10:00.079077-06:00",
-    "years": "1996-2025",
-    "raw_unique_records": 657746,
-    "total_candidates": 4315,
+    "generated_at": "2026-11-19T22:14:15.109030-06:00",
+    "years": "1950-2025",
+    "raw_unique_records": 667825,
+    "total_candidates": 4323,
     "anniversary_days_covered": 366,
     "anniversary_days_uncovered": [],
     "plan_days": 60,
     "unfilled_plan_days": 0,
     "source_counts": {
+      "ncei_1950": 62,
+      "ncei_1951": 43,
+      "ncei_1952": 80,
+      "ncei_1953": 125,
+      "ncei_1954": 93,
+      "ncei_1955": 70,
+      "ncei_1956": 102,
+      "ncei_1957": 152,
+      "ncei_1958": 76,
+      "ncei_1959": 64,
+      "ncei_1960": 77,
+      "ncei_1961": 129,
+      "ncei_1962": 57,
+      "ncei_1963": 62,
+      "ncei_1964": 88,
+      "ncei_1965": 187,
+      "ncei_1966": 54,
+      "ncei_1967": 103,
+      "ncei_1968": 96,
+      "ncei_1969": 90,
+      "ncei_1970": 91,
+      "ncei_1971": 146,
+      "ncei_1972": 83,
+      "ncei_1973": 170,
+      "ncei_1974": 299,
+      "ncei_1975": 83,
+      "ncei_1976": 124,
+      "ncei_1977": 81,
+      "ncei_1978": 59,
+      "ncei_1979": 73,
+      "ncei_1980": 77,
+      "ncei_1981": 52,
+      "ncei_1982": 143,
+      "ncei_1983": 104,
+      "ncei_1984": 178,
+      "ncei_1985": 116,
+      "ncei_1986": 95,
+      "ncei_1987": 74,
+      "ncei_1988": 83,
+      "ncei_1989": 94,
+      "ncei_1990": 195,
+      "ncei_1991": 124,
+      "ncei_1992": 142,
+      "ncei_1993": 1109,
+      "ncei_1994": 1988,
+      "ncei_1995": 2479,
       "ncei_1996": 18785,
       "ncei_1997": 18787,
       "ncei_1998": 24312,
@@ -40,12 +86,20 @@
       "ncei_2024": 21556,
       "ncei_2025": 22251,
       "nhc_atlantic": 1467,
-      "nhc_pacific": 389
+      "nhc_pacific": 389,
+      "curated_official_cases": 7
     },
     "source_families": {
-      "ncei-storm-events": 3520,
+      "ncei-storm-events": 3519,
       "nhc-hurdat-atlantic": 492,
-      "nhc-hurdat-pacific": 303
+      "nhc-hurdat-pacific": 305,
+      "nws-iwx-case-study": 1,
+      "nws-lix-case-study": 1,
+      "nws-ind-case-study": 1,
+      "nws-jkl-case-study": 1,
+      "nws-grb-case-study": 1,
+      "nws-shv-case-study": 1,
+      "metoffice-case-study": 1
     },
     "warnings": [],
     "notice": "Unverified research leads — human fact check required; not publishable copy."
@@ -56,179 +110,165 @@
       "event_id": "nhc-al161999-19991119-landfall_marker",
       "selection_score": 44.75,
       "alternatives": [
+        "ncei-10092386",
         "ncei-550174",
-        "ncei-5570839",
-        "ncei-5332384"
+        "ncei-10092383"
       ],
       "reason_codes": [],
       "status": "researching"
     },
     {
       "planned_date": "2026-11-20",
-      "event_id": "ncei-267294",
-      "selection_score": 37.31,
+      "event_id": "curated-2022-11-20-northern-indiana-lake-effect",
+      "selection_score": 70.0,
       "alternatives": [
+        "ncei-267294",
         "ncei-5621703",
-        "ncei-200250",
-        "ncei-1058793"
+        "ncei-200250"
       ],
       "reason_codes": [],
       "status": "researching"
     },
     {
       "planned_date": "2026-11-21",
-      "event_id": "ncei-5620719",
-      "selection_score": 18.35,
+      "event_id": "ncei-10062523",
+      "selection_score": 65.56,
       "alternatives": [
-        "ncei-482834",
-        "ncei-485319",
-        "nhc-al131985-19851121-landfall_marker"
+        "curated-1997-11-21-northshore-tornado",
+        "ncei-10153887",
+        "ncei-5620719"
       ],
-      "reason_codes": [
-        "source_id -12.0"
-      ],
+      "reason_codes": [],
       "status": "researching"
     },
     {
       "planned_date": "2026-11-22",
-      "event_id": "nhc-ep132011-20111122-peak_wind",
-      "selection_score": 39.0,
+      "event_id": "curated-1992-11-22-indiana-tornadoes",
+      "selection_score": 67.0,
       "alternatives": [
+        "ncei-10010604",
         "ncei-421680",
-        "ncei-350654",
-        "ncei-484675"
+        "ncei-10010606"
       ],
       "reason_codes": [
-        "weather_type -7.0"
+        "weather_type -16.0"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-11-23",
       "event_id": "ncei-1219854",
-      "selection_score": 19.78,
+      "selection_score": 25.08,
       "alternatives": [
+        "nhc-al121988-19881123-landfall_marker",
         "ncei-143311",
-        "ncei-1143746",
-        "ncei-1220519"
+        "ncei-1143746"
       ],
       "reason_codes": [
-        "source_id -7.1",
-        "source_id -5.3"
+        "source_id -7.1"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-11-24",
-      "event_id": "nhc-al162016-20161124-landfall_marker",
-      "selection_score": 25.9,
+      "event_id": "nhc-ep222016-20161124-landfall_marker",
+      "selection_score": 46.2,
       "alternatives": [
-        "ncei-5272442",
-        "ncei-5272625",
-        "nhc-ep222016-20161124-landfall_marker"
+        "nhc-al162016-20161124-landfall_marker",
+        "nhc-al291969-19691124-landfall_marker",
+        "ncei-5272442"
       ],
       "reason_codes": [
-        "weather_type -9.5",
-        "region -7.2",
+        "weather_type -4.8"
+      ],
+      "status": "researching"
+    },
+    {
+      "planned_date": "2026-11-25",
+      "event_id": "curated-1950-11-25-great-appalachian-storm",
+      "selection_score": 81.2,
+      "alternatives": [
+        "ncei-10138488",
+        "ncei-1218766",
+        "ncei-478583"
+      ],
+      "reason_codes": [
+        "weather_type -4.8"
+      ],
+      "status": "researching"
+    },
+    {
+      "planned_date": "2026-11-26",
+      "event_id": "ncei-5276088",
+      "selection_score": 25.48,
+      "alternatives": [
+        "ncei-5674739",
+        "ncei-6229",
+        "ncei-5721762"
+      ],
+      "reason_codes": [
+        "source_id -5.3",
+        "weather_type -5.7",
         "weather_type -4.8",
         "source_id -3.6"
       ],
       "status": "researching"
     },
     {
-      "planned_date": "2026-11-25",
-      "event_id": "ncei-1218766",
-      "selection_score": 10.42,
-      "alternatives": [
-        "ncei-478583",
-        "ncei-483793",
-        "ncei-5272575"
-      ],
-      "reason_codes": [
-        "source_id -7.1",
-        "source_id -4.2",
-        "source_id -3.6"
-      ],
-      "status": "researching"
-    },
-    {
-      "planned_date": "2026-11-26",
-      "event_id": "nhc-ep222015-20151126-peak_wind",
-      "selection_score": 14.4,
-      "alternatives": [
-        "ncei-6229",
-        "ncei-608643",
-        "ncei-662016"
-      ],
-      "reason_codes": [
-        "weather_type -9.5",
-        "region -8.5",
-        "weather_type -5.7",
-        "source_id -4.2",
-        "weather_type -3.7"
-      ],
-      "status": "researching"
-    },
-    {
       "planned_date": "2026-11-27",
-      "event_id": "ncei-5484328",
-      "selection_score": 19.51,
+      "event_id": "ncei-5479881",
+      "selection_score": 15.47,
       "alternatives": [
-        "ncei-5479881",
         "ncei-1148806",
-        "ncei-5762"
+        "ncei-5762",
+        "ncei-420183"
       ],
       "reason_codes": [
-        "source_id -7.1",
+        "source_id -12.0",
         "source_id -4.2",
-        "weather_type -4.2",
-        "source_id -3.1",
-        "source_id -2.8"
+        "source_id -3.1"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-11-28",
       "event_id": "ncei-198348",
-      "selection_score": 8.06,
+      "selection_score": 8.76,
       "alternatives": [
-        "ncei-667508",
-        "ncei-5160833",
-        "ncei-5625461"
+        "ncei-10089411",
+        "ncei-10089413",
+        "ncei-860239"
       ],
       "reason_codes": [
         "source_id -12.0",
-        "source_id -5.3",
+        "source_id -7.1",
         "source_id -3.6",
-        "source_id -2.8",
-        "source_id -2.5"
+        "source_id -2.8"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-11-29",
-      "event_id": "ncei-5275582",
-      "selection_score": 0.71,
+      "event_id": "ncei-5336514",
+      "selection_score": 3.48,
       "alternatives": [
-        "ncei-5275588",
-        "ncei-5336514",
-        "ncei-5134"
+        "ncei-10071109",
+        "ncei-5134",
+        "ncei-5275582"
       ],
       "reason_codes": [
         "source_id -12.0",
         "source_id -7.1",
-        "source_id -4.2",
+        "source_id -5.3",
         "source_id -3.1",
-        "source_id -2.5",
-        "weather_type -3.1",
-        "source_id -2.3"
+        "source_id -2.5"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-11-30",
       "event_id": "ncei-863301",
-      "selection_score": 0.03,
+      "selection_score": -3.47,
       "alternatives": [
         "ncei-665863",
         "ncei-665859",
@@ -238,43 +278,39 @@
         "source_id -12.0",
         "source_id -7.1",
         "source_id -5.3",
-        "source_id -3.6",
+        "source_id -4.2",
         "weather_type -3.7",
         "source_id -2.8",
-        "source_id -2.3",
-        "source_id -2.1"
+        "region -5.0",
+        "source_id -2.3"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-12-01",
-      "event_id": "nhc-al041925-19251201-landfall_marker",
-      "selection_score": 14.65,
+      "event_id": "curated-1970-12-01-wisconsin-tornadoes",
+      "selection_score": 64.3,
       "alternatives": [
-        "ncei-5429511",
-        "ncei-70204",
-        "ncei-5429521"
+        "nhc-al041925-19251201-landfall_marker",
+        "ncei-552151",
+        "ncei-70204"
       ],
       "reason_codes": [
         "weather_type -4.8",
-        "region -5.6",
-        "weather_type -3.7",
-        "source_id -2.8",
         "weather_type -3.1",
-        "region -3.7",
-        "weather_type -2.5",
-        "source_id -1.9"
+        "weather_type -2.8",
+        "region -4.0"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-12-02",
       "event_id": "ncei-8218",
-      "selection_score": 5.83,
+      "selection_score": 3.13,
       "alternatives": [
         "ncei-1069470",
         "ncei-66221",
-        "ncei-791719"
+        "ncei-5166650"
       ],
       "reason_codes": [
         "region -14.3",
@@ -282,129 +318,101 @@
         "source_id -5.3",
         "source_id -4.2",
         "source_id -3.6",
-        "source_id -2.8",
+        "source_id -3.1",
         "source_id -2.3",
-        "source_id -2.0",
-        "source_id -1.9"
+        "region -4.3",
+        "source_id -2.0"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-12-03",
-      "event_id": "ncei-1153680",
-      "selection_score": -13.98,
+      "event_id": "curated-1978-12-03-bossier-city-f4",
+      "selection_score": 59.0,
       "alternatives": [
-        "ncei-5166651",
-        "ncei-988101",
-        "ncei-661853"
+        "ncei-10029318",
+        "ncei-10029982",
+        "ncei-5582942"
       ],
       "reason_codes": [
-        "source_id -12.0",
-        "source_id -5.3",
-        "source_id -4.2",
-        "weather_type -4.8",
-        "source_id -3.6",
-        "source_id -3.1",
-        "source_id -2.5",
-        "source_id -2.1",
-        "source_id -1.9",
-        "source_id -1.8"
+        "weather_type -9.5",
+        "weather_type -3.7",
+        "weather_type -2.6",
+        "region -3.7",
+        "weather_type -2.5"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-12-04",
       "event_id": "ncei-544667",
-      "selection_score": -14.91,
+      "selection_score": 0.29,
       "alternatives": [
         "ncei-271971",
-        "ncei-729836",
-        "ncei-274007"
+        "ncei-274007",
+        "ncei-1153901"
       ],
       "reason_codes": [
-        "source_id -12.0",
         "source_id -7.1",
         "source_id -4.2",
-        "weather_type -4.8",
         "source_id -3.6",
         "source_id -3.1",
         "source_id -2.8",
-        "source_id -2.3",
+        "source_id -2.5",
+        "weather_type -3.1",
         "source_id -2.0",
         "source_id -1.8",
-        "weather_type -2.2",
-        "source_id -1.7"
+        "weather_type -2.2"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-12-05",
-      "event_id": "ncei-488077",
-      "selection_score": -18.54,
+      "event_id": "curated-1952-12-05-london-great-smog",
+      "selection_score": 84.3,
       "alternatives": [
-        "ncei-198959",
-        "ncei-268503",
+        "ncei-10047316",
+        "ncei-488077",
         "ncei-488078"
       ],
       "reason_codes": [
-        "weather_type -16.0",
-        "source_id -12.0",
-        "source_id -7.1",
-        "source_id -5.3",
-        "source_id -3.6",
-        "weather_type -4.2",
-        "source_id -3.1",
-        "source_id -2.8",
-        "region -5.0",
-        "source_id -2.5",
-        "source_id -2.1",
-        "source_id -1.9",
-        "source_id -1.7"
+        "weather_type -3.7"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-12-06",
       "event_id": "nhc-al202003-20031206-landfall_marker",
-      "selection_score": 9.8,
+      "selection_score": 36.0,
       "alternatives": [
+        "ncei-208530",
         "ncei-5582433",
-        "ncei-353667",
-        "ncei-5626263"
+        "ncei-9979829"
       ],
       "reason_codes": [
-        "region -7.2",
-        "weather_type -4.8",
-        "source_id -3.6",
-        "weather_type -2.8",
-        "region -3.7",
-        "weather_type -2.5",
-        "source_id -1.9",
-        "weather_type -2.2"
+        "weather_type -2.5"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-12-07",
       "event_id": "ncei-1147287",
-      "selection_score": -17.17,
+      "selection_score": 5.53,
       "alternatives": [
         "ncei-200527",
-        "ncei-426476",
-        "ncei-730852"
+        "ncei-734882",
+        "ncei-5623952"
       ],
       "reason_codes": [
-        "region -14.3",
-        "source_id -7.1",
         "source_id -5.3",
-        "source_id -4.2",
         "source_id -3.6",
         "source_id -2.8",
         "source_id -2.5",
         "source_id -2.3",
         "region -4.3",
+        "weather_type -2.8",
         "source_id -2.1",
-        "source_id -1.9",
+        "source_id -2.0",
         "source_id -1.7"
       ],
       "status": "researching"
@@ -412,26 +420,22 @@
     {
       "planned_date": "2026-12-08",
       "event_id": "ncei-5324056",
-      "selection_score": -12.36,
+      "selection_score": 2.64,
       "alternatives": [
-        "ncei-545210",
         "ncei-5626424",
+        "ncei-204506",
         "ncei-490982"
       ],
       "reason_codes": [
         "source_id -12.0",
         "weather_type -9.5",
-        "source_id -5.3",
         "source_id -4.2",
-        "source_id -3.6",
         "source_id -3.1",
-        "weather_type -3.7",
         "source_id -2.5",
         "source_id -2.3",
         "source_id -2.1",
         "source_id -2.0",
-        "weather_type -2.5",
-        "source_id -1.8",
+        "source_id -1.9",
         "weather_type -2.2"
       ],
       "status": "researching"
@@ -439,7 +443,7 @@
     {
       "planned_date": "2026-12-09",
       "event_id": "ncei-1144360",
-      "selection_score": 9.14,
+      "selection_score": 8.74,
       "alternatives": [
         "ncei-1144554",
         "ncei-205430",
@@ -448,28 +452,28 @@
       "reason_codes": [
         "source_id -12.0",
         "source_id -7.1",
-        "source_id -4.2",
         "source_id -3.6",
-        "source_id -3.1",
+        "weather_type -4.2",
         "source_id -2.8",
+        "weather_type -3.4",
         "source_id -2.3",
         "source_id -2.1",
         "source_id -2.0",
-        "weather_type -2.5",
         "source_id -1.9",
-        "region -3.3",
-        "source_id -1.7"
+        "region -3.5",
+        "weather_type -2.3",
+        "source_id -1.8"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-12-10",
       "event_id": "ncei-994196",
-      "selection_score": -2.44,
+      "selection_score": -7.74,
       "alternatives": [
         "ncei-995999",
-        "ncei-996014",
-        "ncei-997130"
+        "ncei-5168460",
+        "ncei-264444"
       ],
       "reason_codes": [
         "region -24.0",
@@ -477,22 +481,24 @@
         "source_id -12.0",
         "source_id -7.1",
         "source_id -5.3",
-        "source_id -3.6",
         "source_id -3.1",
-        "source_id -2.8",
+        "weather_type -3.7",
         "source_id -2.5",
+        "weather_type -3.1",
         "source_id -2.1",
         "source_id -2.0",
         "source_id -1.9",
-        "weather_type -2.3",
-        "source_id -1.8"
+        "source_id -1.8",
+        "region -3.3",
+        "weather_type -2.2",
+        "source_id -1.7"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-12-11",
       "event_id": "nhc-al172007-20071211-landfall_marker",
-      "selection_score": 6.7,
+      "selection_score": 15.9,
       "alternatives": [
         "ncei-5624156",
         "ncei-1080206",
@@ -502,32 +508,29 @@
         "weather_type -7.0",
         "region -7.2",
         "weather_type -4.8",
-        "source_id -3.6",
-        "region -4.3",
-        "weather_type -2.8",
-        "source_id -2.1"
+        "source_id -3.6"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-12-12",
       "event_id": "ncei-5167116",
-      "selection_score": -4.69,
+      "selection_score": -5.39,
       "alternatives": [
+        "ncei-1062629",
         "ncei-5166009",
-        "ncei-5169464",
-        "ncei-207835"
+        "ncei-5169464"
       ],
       "reason_codes": [
         "source_id -7.1",
         "source_id -5.3",
         "source_id -4.2",
         "source_id -3.6",
-        "source_id -2.8",
         "source_id -2.5",
-        "source_id -2.3",
         "source_id -2.1",
         "source_id -1.9",
+        "region -3.5",
+        "weather_type -2.3",
         "source_id -1.8",
         "source_id -1.7"
       ],
@@ -536,11 +539,11 @@
     {
       "planned_date": "2026-12-13",
       "event_id": "ncei-1062630",
-      "selection_score": -8.8,
+      "selection_score": 1.4,
       "alternatives": [
         "ncei-1073379",
-        "ncei-1061294",
-        "ncei-1221746"
+        "ncei-351619",
+        "ncei-1301835"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -548,14 +551,10 @@
         "source_id -4.2",
         "source_id -3.6",
         "source_id -3.1",
-        "weather_type -3.4",
-        "source_id -2.5",
         "weather_type -3.1",
         "source_id -2.3",
-        "source_id -2.1",
         "source_id -2.0",
         "source_id -1.8",
-        "weather_type -2.2",
         "source_id -1.7"
       ],
       "status": "researching"
@@ -563,10 +562,10 @@
     {
       "planned_date": "2026-12-14",
       "event_id": "ncei-7245",
-      "selection_score": 10.09,
+      "selection_score": 14.39,
       "alternatives": [
+        "ncei-9989654",
         "ncei-7248",
-        "ncei-1071358",
         "ncei-5576438"
       ],
       "reason_codes": [
@@ -577,9 +576,7 @@
         "source_id -3.6",
         "source_id -3.1",
         "source_id -2.8",
-        "source_id -2.3",
         "source_id -2.1",
-        "source_id -2.0",
         "source_id -1.9",
         "source_id -1.7"
       ],
@@ -588,7 +585,7 @@
     {
       "planned_date": "2026-12-15",
       "event_id": "ncei-4736",
-      "selection_score": -15.22,
+      "selection_score": -11.52,
       "alternatives": [
         "ncei-994020",
         "ncei-860583",
@@ -602,10 +599,8 @@
         "source_id -3.1",
         "source_id -2.8",
         "source_id -2.5",
-        "source_id -2.1",
+        "weather_type -2.8",
         "source_id -2.0",
-        "weather_type -2.5",
-        "source_id -1.9",
         "source_id -1.8"
       ],
       "status": "researching"
@@ -613,11 +608,11 @@
     {
       "planned_date": "2026-12-16",
       "event_id": "ncei-5166971",
-      "selection_score": -0.85,
+      "selection_score": 0.65,
       "alternatives": [
-        "ncei-869482",
         "ncei-5321893",
-        "ncei-669638"
+        "ncei-669638",
+        "ncei-1004971"
       ],
       "reason_codes": [
         "region -24.0",
@@ -631,48 +626,48 @@
         "source_id -2.8",
         "source_id -2.5",
         "source_id -2.3",
-        "source_id -2.0",
         "source_id -1.9",
-        "source_id -1.8",
+        "weather_type -2.3",
         "source_id -1.7"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-12-17",
-      "event_id": "ncei-997644",
-      "selection_score": -22.9,
+      "event_id": "ncei-669815",
+      "selection_score": -18.82,
       "alternatives": [
-        "ncei-669815",
         "ncei-670095",
+        "ncei-997644",
         "ncei-5160459"
       ],
       "reason_codes": [
         "source_id -12.0",
         "source_id -7.1",
         "source_id -5.3",
+        "weather_type -5.7",
         "source_id -4.2",
         "source_id -3.6",
         "source_id -2.8",
         "source_id -2.5",
         "source_id -2.3",
         "source_id -2.1",
-        "source_id -1.9",
-        "source_id -1.8",
-        "source_id -1.7"
+        "weather_type -2.3",
+        "source_id -1.8"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-12-18",
       "event_id": "nhc-cp051997-19971218-peak_wind",
-      "selection_score": 37.0,
+      "selection_score": 11.0,
       "alternatives": [
+        "ncei-10008665",
         "ncei-5676985",
-        "ncei-670462",
-        "ncei-5327116"
+        "ncei-5482580"
       ],
       "reason_codes": [
+        "offshore_peak_without_impact_corroboration -26",
         "weather_type -3.7",
         "weather_type -2.8",
         "weather_type -2.5"
@@ -682,13 +677,14 @@
     {
       "planned_date": "2026-12-19",
       "event_id": "ncei-352561",
-      "selection_score": -0.89,
+      "selection_score": -6.49,
       "alternatives": [
+        "ncei-9980864",
         "ncei-357315",
-        "ncei-794225",
-        "ncei-5673671"
+        "ncei-418711"
       ],
       "reason_codes": [
+        "weather_type -9.5",
         "source_id -7.1",
         "source_id -5.3",
         "source_id -4.2",
@@ -699,24 +695,21 @@
         "source_id -2.3",
         "source_id -2.1",
         "source_id -2.0",
-        "source_id -1.9",
-        "weather_type -2.2",
-        "source_id -1.7"
+        "source_id -1.9"
       ],
       "status": "researching"
     },
     {
       "planned_date": "2026-12-20",
       "event_id": "ncei-5626885",
-      "selection_score": -22.54,
+      "selection_score": -15.54,
       "alternatives": [
-        "ncei-417152",
         "ncei-5620119",
-        "ncei-5577849"
+        "ncei-5577849",
+        "ncei-549926"
       ],
       "reason_codes": [
         "source_id -12.0",
-        "weather_type -7.0",
         "source_id -5.3",
         "source_id -4.2",
         "source_id -3.6",
@@ -733,24 +726,26 @@
     },
     {
       "planned_date": "2026-12-21",
-      "event_id": "ncei-143477",
-      "selection_score": -13.0,
+      "event_id": "ncei-10060670",
+      "selection_score": -3.65,
       "alternatives": [
-        "ncei-1153345",
-        "ncei-484469",
-        "ncei-139184"
+        "ncei-143477",
+        "ncei-10062352",
+        "ncei-484469"
       ],
       "reason_codes": [
         "source_id -12.0",
         "source_id -7.1",
-        "region -8.5",
         "source_id -4.2",
+        "weather_type -4.8",
         "source_id -3.6",
         "source_id -3.1",
         "source_id -2.8",
         "source_id -2.5",
         "source_id -2.3",
+        "weather_type -2.6",
         "source_id -2.0",
+        "weather_type -2.5",
         "source_id -1.9",
         "source_id -1.8",
         "source_id -1.7"
@@ -762,9 +757,9 @@
       "event_id": "ncei-200377",
       "selection_score": -16.64,
       "alternatives": [
+        "ncei-1064379",
         "ncei-79034",
-        "ncei-205490",
-        "ncei-5675017"
+        "ncei-205490"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -787,14 +782,15 @@
     {
       "planned_date": "2026-12-23",
       "event_id": "ncei-610236",
-      "selection_score": 3.33,
+      "selection_score": -6.17,
       "alternatives": [
         "ncei-610235",
-        "ncei-552175",
-        "ncei-1070868"
+        "ncei-1070868",
+        "ncei-552175"
       ],
       "reason_codes": [
         "source_id -12.0",
+        "weather_type -9.5",
         "source_id -7.1",
         "source_id -5.3",
         "source_id -4.2",
@@ -815,11 +811,11 @@
     {
       "planned_date": "2026-12-24",
       "event_id": "ncei-552229",
-      "selection_score": -16.12,
+      "selection_score": -19.82,
       "alternatives": [
         "ncei-148180",
         "ncei-148178",
-        "ncei-201355"
+        "ncei-611273"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -828,6 +824,7 @@
         "source_id -4.2",
         "weather_type -4.8",
         "source_id -3.6",
+        "weather_type -3.7",
         "source_id -2.8",
         "source_id -2.5",
         "source_id -2.3",
@@ -842,17 +839,16 @@
     {
       "planned_date": "2026-12-25",
       "event_id": "ncei-727619",
-      "selection_score": -17.96,
+      "selection_score": -12.26,
       "alternatives": [
-        "ncei-148072",
         "ncei-727635",
-        "ncei-5328282"
+        "ncei-5328282",
+        "ncei-148072"
       ],
       "reason_codes": [
         "source_id -12.0",
         "source_id -7.1",
         "source_id -5.3",
-        "weather_type -5.7",
         "source_id -4.2",
         "source_id -3.6",
         "source_id -3.1",
@@ -868,11 +864,11 @@
     {
       "planned_date": "2026-12-26",
       "event_id": "ncei-606471",
-      "selection_score": 14.23,
+      "selection_score": 9.43,
       "alternatives": [
+        "ncei-615046",
         "ncei-606480",
-        "ncei-606461",
-        "ncei-615046"
+        "ncei-606347"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -880,6 +876,7 @@
         "weather_type -7.0",
         "source_id -5.3",
         "source_id -4.2",
+        "weather_type -4.8",
         "source_id -3.6",
         "region -6.3",
         "source_id -3.1",
@@ -899,8 +896,8 @@
       "event_id": "ncei-1100799",
       "selection_score": -21.19,
       "alternatives": [
-        "ncei-5580109",
         "ncei-613481",
+        "ncei-5580109",
         "ncei-1069192"
       ],
       "reason_codes": [
@@ -953,11 +950,11 @@
     {
       "planned_date": "2026-12-29",
       "event_id": "ncei-606034",
-      "selection_score": -22.36,
+      "selection_score": -24.86,
       "alternatives": [
-        "ncei-5668",
-        "ncei-352910",
-        "ncei-870174"
+        "ncei-207369",
+        "ncei-870174",
+        "ncei-352910"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -972,6 +969,7 @@
         "source_id -2.3",
         "weather_type -2.8",
         "source_id -2.1",
+        "weather_type -2.5",
         "source_id -1.9",
         "source_id -1.8",
         "source_id -1.7"
@@ -983,9 +981,9 @@
       "event_id": "ncei-992562",
       "selection_score": -12.48,
       "alternatives": [
+        "ncei-213635",
         "ncei-5321592",
-        "ncei-553293",
-        "ncei-213635"
+        "ncei-553293"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -1006,10 +1004,10 @@
     },
     {
       "planned_date": "2026-12-31",
-      "event_id": "ncei-267533",
-      "selection_score": -18.45,
+      "event_id": "ncei-267577",
+      "selection_score": -20.88,
       "alternatives": [
-        "ncei-267577",
+        "ncei-267533",
         "ncei-275090",
         "ncei-5425868"
       ],
@@ -1018,7 +1016,6 @@
         "source_id -7.1",
         "source_id -5.3",
         "source_id -4.2",
-        "region -7.2",
         "weather_type -4.8",
         "source_id -3.6",
         "source_id -3.1",
@@ -1026,8 +1023,9 @@
         "weather_type -3.4",
         "source_id -2.5",
         "source_id -2.3",
+        "region -4.3",
+        "weather_type -2.8",
         "source_id -2.1",
-        "region -4.0",
         "source_id -2.0",
         "source_id -1.9",
         "source_id -1.7"
@@ -1040,8 +1038,8 @@
       "selection_score": -21.02,
       "alternatives": [
         "ncei-675835",
-        "ncei-213636",
-        "ncei-5685203"
+        "ncei-5685203",
+        "ncei-677250"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -1067,8 +1065,8 @@
       "selection_score": 42.25,
       "alternatives": [
         "ncei-670350",
-        "ncei-494823",
-        "ncei-494841"
+        "ncei-672747",
+        "ncei-494823"
       ],
       "reason_codes": [],
       "status": "researching"
@@ -1078,9 +1076,9 @@
       "event_id": "ncei-495260",
       "selection_score": -13.74,
       "alternatives": [
+        "ncei-78998",
         "ncei-1226791",
-        "ncei-5279334",
-        "ncei-78998"
+        "ncei-5279334"
       ],
       "reason_codes": [
         "source_id -7.1",
@@ -1104,11 +1102,11 @@
     {
       "planned_date": "2027-01-04",
       "event_id": "ncei-5680154",
-      "selection_score": -14.14,
+      "selection_score": -11.94,
       "alternatives": [
         "ncei-13767",
-        "ncei-5382190",
-        "ncei-5435162"
+        "ncei-5681760",
+        "ncei-5587057"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -1125,7 +1123,6 @@
         "source_id -2.0",
         "source_id -1.9",
         "source_id -1.8",
-        "weather_type -2.2",
         "source_id -1.7"
       ],
       "status": "researching"
@@ -1137,7 +1134,7 @@
       "alternatives": [
         "ncei-74388",
         "ncei-75066",
-        "ncei-13242"
+        "ncei-9987249"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -1165,7 +1162,7 @@
       "alternatives": [
         "ncei-152629",
         "ncei-5341555",
-        "ncei-495489"
+        "ncei-5382924"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -1215,11 +1212,11 @@
     {
       "planned_date": "2027-01-08",
       "event_id": "ncei-1002223",
-      "selection_score": -21.19,
+      "selection_score": -26.19,
       "alternatives": [
+        "ncei-482663",
         "ncei-391781",
-        "ncei-210192",
-        "ncei-5614191"
+        "ncei-65417"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -1229,6 +1226,7 @@
         "weather_type -4.8",
         "source_id -3.6",
         "source_id -2.8",
+        "region -5.0",
         "source_id -2.5",
         "source_id -2.3",
         "weather_type -2.8",
@@ -1270,12 +1268,12 @@
     },
     {
       "planned_date": "2027-01-10",
-      "event_id": "ncei-75528",
-      "selection_score": -19.25,
+      "event_id": "ncei-10047381",
+      "selection_score": 5.52,
       "alternatives": [
-        "ncei-493039",
-        "ncei-5588989",
-        "ncei-493037"
+        "ncei-10047382",
+        "ncei-75528",
+        "ncei-493039"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -1328,8 +1326,8 @@
       "selection_score": -11.77,
       "alternatives": [
         "ncei-1076639",
-        "ncei-1160372",
-        "ncei-5482100"
+        "ncei-5482100",
+        "ncei-12545"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -1355,11 +1353,11 @@
     {
       "planned_date": "2027-01-13",
       "event_id": "ncei-556171",
-      "selection_score": -24.82,
+      "selection_score": -21.32,
       "alternatives": [
-        "ncei-431749",
         "ncei-12919",
-        "ncei-5436171"
+        "ncei-9977487",
+        "ncei-431749"
       ],
       "reason_codes": [
         "source_id -12.0",
@@ -1374,7 +1372,6 @@
         "source_id -2.3",
         "source_id -2.1",
         "source_id -1.9",
-        "region -3.5",
         "source_id -1.8",
         "source_id -1.7"
       ],
@@ -1485,25 +1482,25 @@
   ],
   "candidates": [
     {
-      "event_id": "ncei-213636",
-      "event_date": "2010-01-01",
-      "title": "Cold/Wind Chill — COOK, Illinois",
-      "weather_type": "temperature",
-      "region": "Midwest",
-      "location": "COOK, Illinois",
+      "event_id": "ncei-5685203",
+      "event_date": "1999-01-01",
+      "title": "Winter Storm — DAWSON, Nebraska",
+      "weather_type": "winter",
+      "region": "Great Plains",
+      "location": "DAWSON, Nebraska",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2010_c20261119.csv.gz",
-      "source_record_id": "213636",
-      "summary": "Very cold air spread across northern Illinois in early January with high temperatures in the teens and low temperatures in the single digits. The coldest low temperature was 1 degree below zero at O'Hare Airport, which was measured on the morning of January 3rd. An 87 year old female died on Prater ",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1999_c20260323.csv.gz",
+      "source_record_id": "5685203",
+      "summary": "The start of 1999 was ushered in with snow, ice, and very cold weather across central and south-central Nebraska. On New Years Day, a steady snowfall along and north of Interstate 80 dumped from 1 to 5 inches of snow. Most of the 5 inch reports were along Highway 92 from Loup City to Osceola, but al",
       "source_facts": {
-        "deaths_reported": 3,
-        "injuries_reported": 0,
-        "event_type": "COLD/WIND CHILL",
+        "deaths_reported": 2,
+        "injuries_reported": 6,
+        "event_type": "WINTER STORM",
         "tornado_rating": ""
       },
-      "base_score": 35.64,
+      "base_score": 38.02,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -1604,49 +1601,25 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-494823",
-      "event_date": "2014-01-02",
-      "title": "Heavy Snow — KENT, Delaware",
-      "weather_type": "winter",
-      "region": "Mid-Atlantic",
-      "location": "KENT, Delaware",
+      "event_id": "ncei-672747",
+      "event_date": "2017-01-02",
+      "title": "Thunderstorm Wind — LAKE TAWAKONI, Texas",
+      "weather_type": "severe_storm",
+      "region": "South Central",
+      "location": "LAKE TAWAKONI, Texas",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2014_c20260323.csv.gz",
-      "source_record_id": "494823",
-      "summary": "A winter storm dropped 4 to 8 inches of snow across Delaware from the late afternoon of the 2nd into the morning of the 3rd. This caused hazardous traveling conditions for the evening commute on the 2nd and the morning commute on the 3rd. Even after the snow ended, gusty northwest winds that continu",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2017_c20261119.csv.gz",
+      "source_record_id": "672747",
+      "summary": "The bodies of a 26 year old man and his 5 year old son were found on Lake Tawakoni a day after being reported missing. According to reports, the pair were on the lake at the time the squall line blew through the area. Their boat was thought to have capsized, leading to the drowning of the father and",
       "source_facts": {
-        "deaths_reported": 0,
-        "injuries_reported": 25,
-        "event_type": "HEAVY SNOW",
+        "deaths_reported": 2,
+        "injuries_reported": 0,
+        "event_type": "THUNDERSTORM WIND",
         "tornado_rating": ""
       },
-      "base_score": 28.77,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-5279334",
-      "event_date": "2002-01-03",
-      "title": "Dense Fog — KERN CTY MTNS, California",
-      "weather_type": "unusual",
-      "region": "West Coast",
-      "location": "KERN CTY MTNS, California",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2002_c20260323.csv.gz",
-      "source_record_id": "5279334",
-      "summary": "Dense fog conditions east through south of Bakersfield and on the northern slopes of the Tehachapi Mountains led to instances of multi-vehicle accidents. At 15 miles east-southeast of Bakersfield on Highway 58 two event centers involved a total of 78 cars and trucks with one fatality and 15 injuries",
-      "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 15,
-        "event_type": "DENSE FOG",
-        "tornado_rating": ""
-      },
-      "base_score": 35.64,
+      "base_score": 32.18,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -1700,6 +1673,30 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
+      "event_id": "ncei-78998",
+      "event_date": "2008-01-03",
+      "title": "Cold/Wind Chill — ORLEANS, Louisiana",
+      "weather_type": "temperature",
+      "region": "Gulf Coast",
+      "location": "ORLEANS, Louisiana",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2008_c20260323.csv.gz",
+      "source_record_id": "78998",
+      "summary": "Two homeless people, a man and a woman, died during the early morning hours of January 4th due to hypothermia according to the Orleans Parish Coronors Office. The 48 year old woman was found dead around 0530 CST on a bench underneath the Crescent City Connection bridge. The 54 year old man was found",
+      "source_facts": {
+        "deaths_reported": 2,
+        "injuries_reported": 0,
+        "event_type": "COLD/WIND CHILL",
+        "tornado_rating": ""
+      },
+      "base_score": 32.18,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
       "event_id": "ncei-13767",
       "event_date": "2007-01-04",
       "title": "Tornado — LYDIA, Louisiana",
@@ -1748,25 +1745,25 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-5382190",
-      "event_date": "2004-01-04",
-      "title": "Flood — JACKSON, Indiana",
-      "weather_type": "flood",
-      "region": "Midwest",
-      "location": "JACKSON, Indiana",
+      "event_id": "ncei-5681760",
+      "event_date": "1999-01-04",
+      "title": "Dense Fog — FOOTHILLS OF THE BLUE MOUNTAINS, Oregon",
+      "weather_type": "unusual",
+      "region": "West Coast",
+      "location": "FOOTHILLS OF THE BLUE MOUNTAINS, Oregon",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2004_c20260323.csv.gz",
-      "source_record_id": "5382190",
-      "summary": "The grounds were still rather saturated at the start of the New Year from the December heavy rain episodes when from the 1st to the 5th of January another 2-2.5 inches of rain fell across most locales north of Interstate 70 and as much as 5 inches of rain fell south of Interstate 70 (many locations ",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1999_c20260323.csv.gz",
+      "source_record_id": "5681760",
+      "summary": "A single-car rollover occurred just west of Pendleton on Interstate 84 in fog and icy road conditions. All four occupants of the vehicle were injured in the rollover. As one of the victims was being loaded into an ambulance a semi-truck travelling on I-84 lost control. The truck struck a patrol car,",
       "source_facts": {
-        "deaths_reported": 2,
-        "injuries_reported": 0,
-        "event_type": "FLOOD",
+        "deaths_reported": 1,
+        "injuries_reported": 4,
+        "event_type": "DENSE FOG",
         "tornado_rating": ""
       },
-      "base_score": 32.18,
+      "base_score": 32.15,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -2012,6 +2009,30 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
+      "event_id": "ncei-482663",
+      "event_date": "2014-01-08",
+      "title": "Winter Weather — GRANT, Arkansas",
+      "weather_type": "winter",
+      "region": "South Central",
+      "location": "GRANT, Arkansas",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2014_c20260323.csv.gz",
+      "source_record_id": "482663",
+      "summary": "A round of wintry precipitation moved into western Arkansas on the morning of the 8th and spread to all sections during the daylight hours of the 8th. Although some precipitation was in the form of light snow or sleet at the onset in northern Arkansas, the vast majority of the precipitation in Arkan",
+      "source_facts": {
+        "deaths_reported": 1,
+        "injuries_reported": 4,
+        "event_type": "WINTER WEATHER",
+        "tornado_rating": ""
+      },
+      "base_score": 32.15,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
       "event_id": "ncei-391781",
       "event_date": "2012-01-08",
       "title": "Winter Weather — MISSOULA / BITTERROOT VALLEYS, Montana",
@@ -2031,30 +2052,6 @@
         "tornado_rating": ""
       },
       "base_score": 28.58,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-210192",
-      "event_date": "2010-01-08",
-      "title": "Cold/Wind Chill — CALCASIEU, Louisiana",
-      "weather_type": "temperature",
-      "region": "Gulf Coast",
-      "location": "CALCASIEU, Louisiana",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2010_c20261119.csv.gz",
-      "source_record_id": "210192",
-      "summary": "Calcasieu Parish coroner's office reported a 71 year old Mossville man died of exposure to freezing temperatures on Friday, January 8. His body was not discovered until Monday, January 11, along the side of a parish road. KPLC-TV reported that Vinton and Carlyss had low water reserves in their respe",
-      "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 0,
-        "event_type": "COLD/WIND CHILL",
-        "tornado_rating": ""
-      },
-      "base_score": 27.32,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -2132,49 +2129,49 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-493039",
-      "event_date": "2014-01-10",
-      "title": "Winter Weather — CAMDEN, New Jersey",
-      "weather_type": "winter",
-      "region": "Northeast",
-      "location": "CAMDEN, New Jersey",
+      "event_id": "ncei-10047381",
+      "event_date": "1975-01-10",
+      "title": "Tornado — PIKE, Mississippi",
+      "weather_type": "tornado",
+      "region": "Gulf Coast",
+      "location": "PIKE, Mississippi",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2014_c20260323.csv.gz",
-      "source_record_id": "493039",
-      "summary": "A winter weather event dropped snow across northwest New Jersey and the Raritan Valley and a wintry mix that became predominately freezing rain across the rest of central Jersey as well as southwest New Jersey on the 10th. This caused hundreds and hundreds of accidents, a couple of which were fatal,",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1975_c20260323.csv.gz",
+      "source_record_id": "10047381",
+      "summary": "",
       "source_facts": {
-        "deaths_reported": 1,
+        "deaths_reported": 4,
         "injuries_reported": 200,
-        "event_type": "WINTER WEATHER",
-        "tornado_rating": ""
+        "event_type": "TORNADO",
+        "tornado_rating": "F4"
       },
-      "base_score": 43.23,
+      "base_score": 58.22,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-5588989",
-      "event_date": "1997-01-10",
-      "title": "Cold/Wind Chill — CUYAHOGA, Ohio",
-      "weather_type": "temperature",
-      "region": "Ohio Valley",
-      "location": "CUYAHOGA, Ohio",
+      "event_id": "ncei-10047382",
+      "event_date": "1975-01-10",
+      "title": "Tornado — LINCOLN, Mississippi",
+      "weather_type": "tornado",
+      "region": "Gulf Coast",
+      "location": "LINCOLN, Mississippi",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1997_c20260323.csv.gz",
-      "source_record_id": "5588989",
-      "summary": "Low temperatures were in the single digits or below zero across all of Northern Ohio, causing frozen and ruptured water pipes. With wind chills of 40 to 50 below zero, many schools were forced to close. On the 19th, Possum Run (Richland County), just south of Mansfield, reported a temperature of min",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1975_c20260323.csv.gz",
+      "source_record_id": "10047382",
+      "summary": "",
       "source_facts": {
-        "deaths_reported": 4,
-        "injuries_reported": 0,
-        "event_type": "COLD/WIND CHILL",
-        "tornado_rating": ""
+        "deaths_reported": 5,
+        "injuries_reported": 9,
+        "event_type": "TORNADO",
+        "tornado_rating": "F4"
       },
-      "base_score": 38.31,
+      "base_score": 51.41,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -2324,49 +2321,49 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-1160372",
-      "event_date": "2024-01-12",
-      "title": "Cold/Wind Chill — SEATTLE AND VICINITY, Washington",
-      "weather_type": "temperature",
-      "region": "West Coast",
-      "location": "SEATTLE AND VICINITY, Washington",
+      "event_id": "ncei-5482100",
+      "event_date": "2005-01-12",
+      "title": "Tornado — JUNCTION CITY, Arkansas",
+      "weather_type": "tornado",
+      "region": "South Central",
+      "location": "JUNCTION CITY, Arkansas",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2024_c20261119.csv.gz",
-      "source_record_id": "1160372",
-      "summary": "Here's an article excerpt taken from the Seattle Times 01/18/24.||At least five people have died from hypothermia in Seattle since Jan. 11, during a stretch of days that saw temperatures plummet well below freezing, according to the King County medical examiner���s office.||Authorities have not said",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz",
+      "source_record_id": "5482100",
+      "summary": "The tornado that moved through Claiborne Parish Louisiana moved northeast into Union County Arkansas. The tornado first struck the community of Junction City, Arkansas just north of the Arkansas, Louisiana state line. From the area surveyed, the tornado was on the ground continuously from touchdown ",
       "source_facts": {
-        "deaths_reported": 5,
-        "injuries_reported": 0,
-        "event_type": "COLD/WIND CHILL",
-        "tornado_rating": ""
+        "deaths_reported": 2,
+        "injuries_reported": 13,
+        "event_type": "TORNADO",
+        "tornado_rating": "F3"
       },
-      "base_score": 40.5,
+      "base_score": 47.1,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-431749",
-      "event_date": "2013-01-13",
-      "title": "Cold/Wind Chill — REYNOLDS, Missouri",
-      "weather_type": "temperature",
-      "region": "Midwest",
-      "location": "REYNOLDS, Missouri",
+      "event_id": "ncei-9977487",
+      "event_date": "1972-01-13",
+      "title": "Tornado — DALE, Alabama",
+      "weather_type": "tornado",
+      "region": "Southeast",
+      "location": "DALE, Alabama",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2013_c20260323.csv.gz",
-      "source_record_id": "431749",
-      "summary": "A father and his two young sons, as well as their 4 month old Labrador retriever, went on an approximately 16 mile round trip hike on the Ozark Trail in Mark Twain National Forest on January 12th. They were heading south to Sutton���s Bluff. The weather had been unusually warm with a high of 62 degr",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1972_c20260323.csv.gz",
+      "source_record_id": "9977487",
+      "summary": "",
       "source_facts": {
-        "deaths_reported": 3,
-        "injuries_reported": 0,
-        "event_type": "COLD/WIND CHILL",
-        "tornado_rating": ""
+        "deaths_reported": 4,
+        "injuries_reported": 88,
+        "event_type": "TORNADO",
+        "tornado_rating": "F2"
       },
-      "base_score": 35.64,
+      "base_score": 41.78,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -2729,6 +2726,30 @@
       "research_note": "Track point is not evidence of damages. Confirm exact location, local date, impact details."
     },
     {
+      "event_id": "ncei-10092386",
+      "event_date": "1973-11-19",
+      "title": "Tornado — CLEVELAND, Oklahoma",
+      "weather_type": "tornado",
+      "region": "South Central",
+      "location": "CLEVELAND, Oklahoma",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1973_c20260323.csv.gz",
+      "source_record_id": "10092386",
+      "summary": "",
+      "source_facts": {
+        "deaths_reported": 3,
+        "injuries_reported": 28,
+        "event_type": "TORNADO",
+        "tornado_rating": "F3"
+      },
+      "base_score": 42.74,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
       "event_id": "ncei-550174",
       "event_date": "2014-11-19",
       "title": "Lake-Effect Snow — NORTHERN ERIE, New York",
@@ -2753,28 +2774,25 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-5570839",
-      "event_date": "1996-11-19",
-      "title": "Heavy Snow — TACOMA AREA, Washington",
+      "event_id": "curated-2022-11-20-northern-indiana-lake-effect",
+      "event_date": "2022-11-20",
+      "title": "November 2022 northern Indiana lake-effect snow",
       "weather_type": "winter",
-      "region": "West Coast",
-      "location": "TACOMA AREA, Washington",
+      "region": "Great Lakes",
+      "location": "Northern Indiana",
       "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1996_c20260323.csv.gz",
-      "source_record_id": "5570839",
-      "summary": "The first report of heavy snow came from Yelm, in Thurston county, with 4\". Heavy snow then moved north and fell over the entire Puget Sound region. Up to twelve inches of snow fell over Western Washington. Snow fall reports: 8-12\" in Everett and Kingston, 9\" in Redmond and Auburn, 8\" in Woodenville",
+      "source_id": "nws-iwx-case-study",
+      "source_publisher": "NWS Northern Indiana",
+      "source_url": "https://www.weather.gov/iwx/November2022-LES",
+      "source_record_id": "NWS-IWX-Nov2022-LES",
+      "summary": "NWS analysis documents an extended lake-effect snow episode ending around November 20, with snow squalls, shifting bands and localized extreme totals.",
       "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 22,
-        "event_type": "HEAVY SNOW",
-        "tornado_rating": ""
+        "multi_day_event": true
       },
-      "base_score": 36.72,
-      "evidence_status": "source_record_only",
+      "base_score": 70,
+      "evidence_status": "official_case_study_needs_editor_review",
       "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+      "research_note": "Focus on the lake-effect band evolution and the local date; independently confirm any proposed measured snowfall statistic and graphic rights."
     },
     {
       "event_id": "ncei-267294",
@@ -2825,123 +2843,118 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-200250",
-      "event_date": "2009-11-20",
-      "title": "Dust Storm — WESTERN NEVADA BASIN AND RANGE, Nevada",
-      "weather_type": "unusual",
-      "region": "Great Basin",
-      "location": "WESTERN NEVADA BASIN AND RANGE, Nevada",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2009_c20261119.csv.gz",
-      "source_record_id": "200250",
-      "summary": "The Nevada Highway Patrol reported that, at 1218PST, near zero visibility caused a large accident on westbound Interstate 80 about 20 miles east of Fernley. The accident involved 4 tractor trailer rigs, 3 pickups, and an SUV and caused one fatality along with 7 injuries. Elsewhere, there were numero",
-      "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 7,
-        "event_type": "DUST STORM",
-        "tornado_rating": ""
-      },
-      "base_score": 33.56,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-5620719",
-      "event_date": "1997-11-21",
-      "title": "Tornado — COVINGTON, Louisiana",
+      "event_id": "ncei-10062523",
+      "event_date": "1992-11-21",
+      "title": "Tornado — RANKIN, Mississippi",
       "weather_type": "tornado",
       "region": "Gulf Coast",
-      "location": "COVINGTON, Louisiana",
+      "location": "RANKIN, Mississippi",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1997_c20260323.csv.gz",
-      "source_record_id": "5620719",
-      "summary": "A severe thunderstorm produced a tornado as it moved into St. Tammany Parish. The tornado was first observed by the State Police on Interstate Highway 12 west of Covington. From data collected on a ground, damage survey by the National Weather Service, the tornado moved on a path slightly north of d",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1992_c20260323.csv.gz",
+      "source_record_id": "10062523",
+      "summary": "",
+      "source_facts": {
+        "deaths_reported": 10,
+        "injuries_reported": 98,
+        "event_type": "TORNADO",
+        "tornado_rating": "F4"
+      },
+      "base_score": 65.56,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
+      "event_id": "curated-1997-11-21-northshore-tornado",
+      "event_date": "1997-11-21",
+      "title": "St. Tammany–Pearl River County tornado",
+      "weather_type": "tornado",
+      "region": "Gulf Coast",
+      "location": "St. Tammany Parish, Louisiana to Pearl River County, Mississippi",
+      "country": "USA",
+      "source_id": "nws-lix-case-study",
+      "source_publisher": "NWS New Orleans/Baton Rouge",
+      "source_url": "https://www.weather.gov/lix/fallseverewx",
+      "source_record_id": "NWS-LIX-1997-11-21",
+      "summary": "NWS fall severe-weather history identifies a strong tornado crossing St. Tammany Parish and continuing into Pearl River County on November 21, 1997.",
+      "source_facts": {
+        "cross_state_tornado": true
+      },
+      "base_score": 65,
+      "evidence_status": "official_case_study_needs_editor_review",
+      "status": "researching",
+      "research_note": "Cross-reference with NCEI track and rating; ensure individual tornado impacts, and do not duplicate a previously published event."
+    },
+    {
+      "event_id": "ncei-10153887",
+      "event_date": "1992-11-21",
+      "title": "Tornado — HARRIS, Texas",
+      "weather_type": "tornado",
+      "region": "South Central",
+      "location": "HARRIS, Texas",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1992_c20260323.csv.gz",
+      "source_record_id": "10153887",
+      "summary": "",
       "source_facts": {
         "deaths_reported": 0,
-        "injuries_reported": 43,
+        "injuries_reported": 15,
         "event_type": "TORNADO",
-        "tornado_rating": "F2"
+        "tornado_rating": "F4"
       },
-      "base_score": 30.35,
+      "base_score": 31.32,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-482834",
-      "event_date": "2013-11-21",
-      "title": "High Wind — NORTHERN WASATCH FRONT, Utah",
-      "weather_type": "severe_storm",
-      "region": "Rockies",
-      "location": "NORTHERN WASATCH FRONT, Utah",
+      "event_id": "curated-1992-11-22-indiana-tornadoes",
+      "event_date": "1992-11-22",
+      "title": "1992 Indiana late-November tornado outbreak",
+      "weather_type": "tornado",
+      "region": "Midwest",
+      "location": "Indiana",
+      "country": "USA",
+      "source_id": "nws-ind-case-study",
+      "source_publisher": "NWS Indianapolis",
+      "source_url": "https://www.weather.gov/ind/nov22_1992tor",
+      "source_record_id": "NWS-IND-1992-11-22",
+      "summary": "The NWS historical account describes 15 tornadoes in Indiana on November 22, 1992, across central and eastern portions of the state.",
+      "source_facts": {
+        "indiana_tornadoes": 15
+      },
+      "base_score": 83,
+      "evidence_status": "official_case_study_needs_editor_review",
+      "status": "researching",
+      "research_note": "Verify 15 is a statewide total, not count for any single tornado. Seek visual showing all tracks."
+    },
+    {
+      "event_id": "ncei-10010604",
+      "event_date": "1992-11-22",
+      "title": "Tornado — PUTNAM, Georgia",
+      "weather_type": "tornado",
+      "region": "Southeast",
+      "location": "PUTNAM, Georgia",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2013_c20260323.csv.gz",
-      "source_record_id": "482834",
-      "summary": "Downslope winds were strongest in the northern Wasatch Front, with a peak recorded wind gust of 85 mph at a UDOT shed in Centerville. Other sensors in Centerville and Farmington also recorded 80 mph wind gusts. The wind knocked out power to more than 10,000 residents across the area. Included in the",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1992_c20260323.csv.gz",
+      "source_record_id": "10010604",
+      "summary": "",
       "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 1,
-        "event_type": "HIGH WIND",
-        "tornado_rating": ""
+        "deaths_reported": 4,
+        "injuries_reported": 55,
+        "event_type": "TORNADO",
+        "tornado_rating": "F4"
       },
-      "base_score": 29.4,
+      "base_score": 54.39,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-485319",
-      "event_date": "2013-11-21",
-      "title": "High Wind — MOTHERLODE/CAMPTONVILLE TO GROVELAND, California",
-      "weather_type": "severe_storm",
-      "region": "West Coast",
-      "location": "MOTHERLODE/CAMPTONVILLE TO GROVELAND, California",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2013_c20260323.csv.gz",
-      "source_record_id": "485319",
-      "summary": "Strong wind gusts of 50 to 75 mph were estimated and measured over the Motherlode. Several trees were down, including trees in the American Fire area. Thousands of power outages were reported. A 52 year old female car passenger was killed by a 30 inch diameter portion of a dead tree that broke off p",
-      "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 1,
-        "event_type": "HIGH WIND",
-        "tornado_rating": ""
-      },
-      "base_score": 29.4,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "nhc-ep132011-20111122-peak_wind",
-      "event_date": "2011-11-22",
-      "title": "Kenneth — peak wind",
-      "weather_type": "tropical",
-      "region": "Pacific basin",
-      "location": "12.9N 113.4W (geography unverified)",
-      "country": "Unconfirmed",
-      "source_id": "nhc-hurdat-pacific",
-      "source_publisher": "NOAA National Hurricane Center",
-      "source_url": "https://www.nhc.noaa.gov/data/hurdat/hurdat2-nepac-1949-2025-092926.txt",
-      "source_record_id": "EP132011",
-      "summary": "Best track: 1200 UTC, 12.9N 113.4W, maximum wind 125 kt.",
-      "source_facts": {
-        "wind_kt": 125,
-        "record_marker": "",
-        "storm_status": "HU"
-      },
-      "base_score": 46,
-      "evidence_status": "track_only_needs_impact_verification",
-      "status": "researching",
-      "research_note": "Track point is not evidence of damages. Confirm exact location, local date, impact details."
     },
     {
       "event_id": "ncei-421680",
@@ -2968,28 +2981,27 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-350654",
-      "event_date": "2011-11-22",
-      "title": "High Wind — CENTRAL COAST, Washington",
-      "weather_type": "severe_storm",
-      "region": "West Coast",
-      "location": "CENTRAL COAST, Washington",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2011_c20261119.csv.gz",
-      "source_record_id": "350654",
-      "summary": "Hoquiam recorded 45 mph sustained wind. A Central Park man was killed by a falling tree when he walked out onto his open air porch. About 10,000 people in Grays Harbor county lost power. Trees were knocked down over roadways and one man was injured when a car he was driving hit a downed tree.",
+      "event_id": "nhc-al121988-19881123-landfall_marker",
+      "event_date": "1988-11-23",
+      "title": "Keith — landfall marker",
+      "weather_type": "tropical",
+      "region": "Atlantic basin",
+      "location": "27.3N 82.6W (geography unverified)",
+      "country": "Unconfirmed",
+      "source_id": "nhc-hurdat-atlantic",
+      "source_publisher": "NOAA National Hurricane Center",
+      "source_url": "https://www.nhc.noaa.gov/data/hurdat/hurdat2-1851-2025-092326.txt",
+      "source_record_id": "AL121988",
+      "summary": "Best track: 0700 UTC, 27.3N 82.6W, maximum wind 55 kt.",
       "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 1,
-        "event_type": "HIGH WIND",
-        "tornado_rating": ""
+        "wind_kt": 55,
+        "record_marker": "L",
+        "storm_status": "TS"
       },
-      "base_score": 28.4,
-      "evidence_status": "source_record_only",
+      "base_score": 39.75,
+      "evidence_status": "track_only_needs_impact_verification",
       "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+      "research_note": "Track point is not evidence of damages. Confirm exact location, local date, impact details."
     },
     {
       "event_id": "ncei-1219854",
@@ -3011,30 +3023,6 @@
         "tornado_rating": ""
       },
       "base_score": 32.18,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-1143746",
-      "event_date": "2023-11-23",
-      "title": "Winter Weather — EASTERN PONDERA AND EASTERN TETON, Montana",
-      "weather_type": "winter",
-      "region": "Northern Rockies",
-      "location": "EASTERN PONDERA AND EASTERN TETON, Montana",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2023_c20261119.csv.gz",
-      "source_record_id": "1143746",
-      "summary": "MT Highway Patrol notified the NWS of a fatal vehicle crash on Interstate 15 near Brady. MHP stated the vehicle crash was caused by slick roadways from snow and ice. NWS employee reported encountering freezing drizzle on I-15 when passing through same area, shortly after the incident. 1 Fatality, 2 ",
-      "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 2,
-        "event_type": "WINTER WEATHER",
-        "tornado_rating": ""
-      },
-      "base_score": 30.61,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -3064,30 +3052,6 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-5272625",
-      "event_date": "2001-11-24",
-      "title": "Tornado — MADISON, Mississippi",
-      "weather_type": "tornado",
-      "region": "Gulf Coast",
-      "location": "MADISON, Mississippi",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz",
-      "source_record_id": "5272625",
-      "summary": "A violent tornado touched down about six miles west-southwest of the city of Madison. The touchdown point of the tornado was just south of the Fairfield subdivision, which is a large, well built subdivision of mostly brick homes. Numerous houses were seriously damaged or destroyed as the tornado, as",
-      "source_facts": {
-        "deaths_reported": 2,
-        "injuries_reported": 21,
-        "event_type": "TORNADO",
-        "tornado_rating": "F4"
-      },
-      "base_score": 55.46,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
       "event_id": "nhc-al162016-20161124-landfall_marker",
       "event_date": "2016-11-24",
       "title": "Otto — landfall marker",
@@ -3111,73 +3075,92 @@
       "research_note": "Track point is not evidence of damages. Confirm exact location, local date, impact details."
     },
     {
-      "event_id": "ncei-5272442",
-      "event_date": "2001-11-24",
-      "title": "Tornado — WILMOT, Arkansas",
-      "weather_type": "tornado",
-      "region": "South Central",
-      "location": "WILMOT, Arkansas",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz",
-      "source_record_id": "5272442",
-      "summary": "A supercell thunderstorm produced a tornado that moved out of Morehouse Parish, Louisiana into Ashley County, Arkansas, 6 miles southwest of Wilmot. The tornado then moved to the south end of Lake Enterprise, just west of Wilmot. The tornado strengthened and widened as it approached the Wilmot area ",
+      "event_id": "nhc-ep222016-20161124-landfall_marker",
+      "event_date": "2016-11-24",
+      "title": "Otto — landfall marker",
+      "weather_type": "tropical",
+      "region": "Pacific basin",
+      "location": "11.0N 83.8W (geography unverified)",
+      "country": "Unconfirmed",
+      "source_id": "nhc-hurdat-pacific",
+      "source_publisher": "NOAA National Hurricane Center",
+      "source_url": "https://www.nhc.noaa.gov/data/hurdat/hurdat2-nepac-1949-2025-092926.txt",
+      "source_record_id": "EP222016",
+      "summary": "Best track: 1730 UTC, 11.0N 83.8W, maximum wind 100 kt.",
       "source_facts": {
-        "deaths_reported": 3,
-        "injuries_reported": 11,
-        "event_type": "TORNADO",
-        "tornado_rating": "F3"
+        "wind_kt": 100,
+        "record_marker": "L",
+        "storm_status": "HU"
       },
-      "base_score": 50.09,
-      "evidence_status": "source_record_only",
+      "base_score": 51.0,
+      "evidence_status": "track_only_needs_impact_verification",
       "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+      "research_note": "Track point is not evidence of damages. Confirm exact location, local date, impact details."
     },
     {
-      "event_id": "ncei-478583",
-      "event_date": "2013-11-25",
-      "title": "Winter Weather — IZARD, Arkansas",
-      "weather_type": "winter",
-      "region": "South Central",
-      "location": "IZARD, Arkansas",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2013_c20260323.csv.gz",
-      "source_record_id": "478583",
-      "summary": "A light mix of wintry precipitation spread into western and southwestern sections of Arkansas before dawn on the 25th, then spread to other sections during the morning and early afternoon. Most of the precipitation fell as light freezing rain and sleet, but there were some snowflakes in the northeas",
+      "event_id": "nhc-al291969-19691124-landfall_marker",
+      "event_date": "1969-11-24",
+      "title": "Martha — landfall marker",
+      "weather_type": "tropical",
+      "region": "Atlantic basin",
+      "location": "8.8N 81.1W (geography unverified)",
+      "country": "Unconfirmed",
+      "source_id": "nhc-hurdat-atlantic",
+      "source_publisher": "NOAA National Hurricane Center",
+      "source_url": "https://www.nhc.noaa.gov/data/hurdat/hurdat2-1851-2025-092326.txt",
+      "source_record_id": "AL291969",
+      "summary": "Best track: 1800 UTC, 8.8N 81.1W, maximum wind 40 kt.",
       "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 1,
-        "event_type": "WINTER WEATHER",
-        "tornado_rating": ""
+        "wind_kt": 40,
+        "record_marker": "L",
+        "storm_status": "TS"
       },
-      "base_score": 29.4,
-      "evidence_status": "source_record_only",
+      "base_score": 36.0,
+      "evidence_status": "track_only_needs_impact_verification",
       "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+      "research_note": "Track point is not evidence of damages. Confirm exact location, local date, impact details."
     },
     {
-      "event_id": "ncei-483793",
-      "event_date": "2013-11-25",
-      "title": "Winter Weather — DANE, Wisconsin",
+      "event_id": "curated-1950-11-25-great-appalachian-storm",
+      "event_date": "1950-11-25",
+      "title": "1950 Great Appalachian Storm and the Snow Bowl",
       "weather_type": "winter",
-      "region": "Great Lakes",
-      "location": "DANE, Wisconsin",
+      "region": "Appalachia",
+      "location": "Appalachia and Ohio Valley",
+      "country": "USA",
+      "source_id": "nws-jkl-case-study",
+      "source_publisher": "NWS Jackson KY",
+      "source_url": "https://www.weather.gov/jkl/appalachianstorm1950",
+      "source_record_id": "NWS-JKL-1950-11-25",
+      "summary": "Official meteorological history documents the November 24–29 Great Appalachian Storm, with severe snowfall, wind and major regional impacts.",
+      "source_facts": {
+        "multi_day_event": true
+      },
+      "base_score": 86,
+      "evidence_status": "official_case_study_needs_editor_review",
+      "status": "researching",
+      "research_note": "Use November 25 as a within-event anniversary. Verify specific amounts, local date and visual material."
+    },
+    {
+      "event_id": "ncei-10138488",
+      "event_date": "1987-11-25",
+      "title": "Thunderstorm Wind — MATAGORDA, Texas",
+      "weather_type": "severe_storm",
+      "region": "South Central",
+      "location": "MATAGORDA, Texas",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2013_c20260323.csv.gz",
-      "source_record_id": "483793",
-      "summary": "Dane County Regional Airport reported 1.5 inches of snow. There were dozens of vehicle run-offs, accidents, and a few rollovers. Two people were killed in vehicle mishaps with snow covered roads a contributing factor.",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1987_c20260323.csv.gz",
+      "source_record_id": "10138488",
+      "summary": "",
       "source_facts": {
         "deaths_reported": 2,
-        "injuries_reported": 0,
-        "event_type": "WINTER WEATHER",
+        "injuries_reported": 2,
+        "event_type": "THUNDERSTORM WIND",
         "tornado_rating": ""
       },
-      "base_score": 29.18,
+      "base_score": 25.48,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -3207,27 +3190,28 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "nhc-ep222015-20151126-peak_wind",
-      "event_date": "2015-11-26",
-      "title": "Sandra — peak wind",
-      "weather_type": "tropical",
-      "region": "Pacific basin",
-      "location": "14.1N 110.2W (geography unverified)",
-      "country": "Unconfirmed",
-      "source_id": "nhc-hurdat-pacific",
-      "source_publisher": "NOAA National Hurricane Center",
-      "source_url": "https://www.nhc.noaa.gov/data/hurdat/hurdat2-nepac-1949-2025-092926.txt",
-      "source_record_id": "EP222015",
-      "summary": "Best track: 0600 UTC, 14.1N 110.2W, maximum wind 130 kt.",
+      "event_id": "ncei-5276088",
+      "event_date": "2001-11-26",
+      "title": "Tornado — PARIS, Tennessee",
+      "weather_type": "tornado",
+      "region": "Ohio Valley",
+      "location": "PARIS, Tennessee",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz",
+      "source_record_id": "5276088",
+      "summary": "The tornado touched downed southeast of Paris and moved northeast. Ten homes and buildings were completely destroyed and 46 others were damaged. Two persons were killed when their mobile home was destroyed by the tornado. Numerous trees were knocked down.",
       "source_facts": {
-        "wind_kt": 130,
-        "record_marker": "",
-        "storm_status": "HU"
+        "deaths_reported": 2,
+        "injuries_reported": 12,
+        "event_type": "TORNADO",
+        "tornado_rating": "F3"
       },
-      "base_score": 46,
-      "evidence_status": "track_only_needs_impact_verification",
+      "base_score": 44.88,
+      "evidence_status": "source_record_only",
       "status": "researching",
-      "research_note": "Track point is not evidence of damages. Confirm exact location, local date, impact details."
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
       "event_id": "ncei-6229",
@@ -3254,49 +3238,25 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-608643",
-      "event_date": "2015-11-26",
-      "title": "Ice Storm — OLDHAM, Texas",
-      "weather_type": "winter",
-      "region": "South Central",
-      "location": "OLDHAM, Texas",
+      "event_id": "ncei-5674739",
+      "event_date": "1998-11-26",
+      "title": "Strong Wind — SOUTHERN WORCESTER, Massachusetts",
+      "weather_type": "severe_storm",
+      "region": "Northeast",
+      "location": "SOUTHERN WORCESTER, Massachusetts",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2015_c20260323.csv.gz",
-      "source_record_id": "608643",
-      "summary": "One inch of ice accumulation from freezing rain was reported at Vaga. Some sleet also occurred. At 10:00 PM on the 26th, a vehicle accident was reported on Interstate 40 near Vega resulting in three fatalities. One quarter inch of ice accumulation was reported at that time.",
-      "source_facts": {
-        "deaths_reported": 3,
-        "injuries_reported": 0,
-        "event_type": "ICE STORM",
-        "tornado_rating": ""
-      },
-      "base_score": 34.64,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-5484328",
-      "event_date": "2005-11-27",
-      "title": "Tornado — MORRILTON, Arkansas",
-      "weather_type": "tornado",
-      "region": "South Central",
-      "location": "MORRILTON, Arkansas",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz",
-      "source_record_id": "5484328",
-      "summary": "A strong tornado was spawned in southern Conway County about 2.5 miles southeast of Morrilton. The tornado tracked northeast across Interstate 40 and overturned several vehicles. In one of the vehicles, a person was killed and seven people were injured roughly 1 mile west of Plumerville. In the same",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1998_c20260323.csv.gz",
+      "source_record_id": "5674739",
+      "summary": "An intensifying low pressure system moved northeast across southern New England on Thanksgiving Day. Most of central and eastern Massachusetts was affected by strong winds. Gusty south to southeast winds occurred in advance of the approaching system, and strong west to northwest winds followed in it",
       "source_facts": {
         "deaths_reported": 1,
-        "injuries_reported": 8,
-        "event_type": "TORNADO",
-        "tornado_rating": "F3"
+        "injuries_reported": 0,
+        "event_type": "STRONG WIND",
+        "tornado_rating": ""
       },
-      "base_score": 40.91,
+      "base_score": 27.32,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -3350,6 +3310,78 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
+      "event_id": "ncei-5762",
+      "event_date": "2006-11-27",
+      "title": "Dense Fog — EDDY COUNTY PLAINS, New Mexico",
+      "weather_type": "unusual",
+      "region": "Southwest",
+      "location": "EDDY COUNTY PLAINS, New Mexico",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2006_c20261119.csv.gz",
+      "source_record_id": "5762",
+      "summary": "A radio station in Artesia reported an accident that occurred on U.S. Highway 62/180 near Carlsbad. A New Mexico State Police Officer reported that visibility at the time of the accident was around 30 feet. Two cars were involved in the accident. The occupant of one of the cars was not wearing his s",
+      "source_facts": {
+        "deaths_reported": 1,
+        "injuries_reported": 2,
+        "event_type": "DENSE FOG",
+        "tornado_rating": ""
+      },
+      "base_score": 30.61,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
+      "event_id": "ncei-10089411",
+      "event_date": "1988-11-28",
+      "title": "Tornado — WAKE, North Carolina",
+      "weather_type": "tornado",
+      "region": "Southeast",
+      "location": "WAKE, North Carolina",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1988_c20260323.csv.gz",
+      "source_record_id": "10089411",
+      "summary": "",
+      "source_facts": {
+        "deaths_reported": 2,
+        "injuries_reported": 105,
+        "event_type": "TORNADO",
+        "tornado_rating": "F4"
+      },
+      "base_score": 50.17,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
+      "event_id": "ncei-10089413",
+      "event_date": "1988-11-28",
+      "title": "Tornado — NASH, North Carolina",
+      "weather_type": "tornado",
+      "region": "Southeast",
+      "location": "NASH, North Carolina",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1988_c20260323.csv.gz",
+      "source_record_id": "10089413",
+      "summary": "",
+      "source_facts": {
+        "deaths_reported": 2,
+        "injuries_reported": 22,
+        "event_type": "TORNADO",
+        "tornado_rating": "F4"
+      },
+      "base_score": 45.59,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
       "event_id": "ncei-198348",
       "event_date": "2009-11-28",
       "title": "Dust Storm — SOUTHEAST PINAL COUNTY, Arizona",
@@ -3374,97 +3406,49 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-667508",
-      "event_date": "2016-11-28",
-      "title": "Winter Storm — UPPER SNAKE RIVER PLAIN, Idaho",
-      "weather_type": "winter",
-      "region": "Northern Rockies",
-      "location": "UPPER SNAKE RIVER PLAIN, Idaho",
+      "event_id": "ncei-10071109",
+      "event_date": "1991-11-29",
+      "title": "Tornado — GREENE, Missouri",
+      "weather_type": "tornado",
+      "region": "Midwest",
+      "location": "GREENE, Missouri",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2016_c20261119.csv.gz",
-      "source_record_id": "667508",
-      "summary": "Two to 4 inches of snow fell in the region creating extremely icy road conditions the morning of the 28th. A rollover caused one fatality on Highway 20 near Rexburg at around 8 am. Several other crashes and slideoffs were also reported. One rollover on interstate 15 near Shelley caused several to be",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1991_c20260323.csv.gz",
+      "source_record_id": "10071109",
+      "summary": "",
       "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 3,
-        "event_type": "WINTER STORM",
-        "tornado_rating": ""
+        "deaths_reported": 2,
+        "injuries_reported": 64,
+        "event_type": "TORNADO",
+        "tornado_rating": "F4"
       },
-      "base_score": 31.48,
+      "base_score": 48.71,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-5160833",
-      "event_date": "2000-11-28",
-      "title": "Dense Fog — LOWER MOBILE, Alabama",
-      "weather_type": "unusual",
-      "region": "Southeast",
-      "location": "LOWER MOBILE, Alabama",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2000_c20260323.csv.gz",
-      "source_record_id": "5160833",
-      "summary": "Dense fog, combined with smoke, contributed to a 13 vehicle pileup on Interstate 10 near Grand Bay. Light fog was locally enhanced by smoke, resulting in very low visibilities. When traffic abrubtly encountered the sharply lower visibilities, the motorists began suddenly slamming on their brakes, an",
-      "source_facts": {
-        "deaths_reported": 0,
-        "injuries_reported": 12,
-        "event_type": "DENSE FOG",
-        "tornado_rating": ""
-      },
-      "base_score": 26.69,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-5275582",
-      "event_date": "2001-11-29",
-      "title": "Winter Storm — MILLARD T X E/JUAB T X E, Utah",
+      "event_id": "ncei-5134",
+      "event_date": "2006-11-29",
+      "title": "Winter Weather — SHAWNEE, Kansas",
       "weather_type": "winter",
-      "region": "Rockies",
-      "location": "MILLARD T X E/JUAB T X E, Utah",
+      "region": "Great Plains",
+      "location": "SHAWNEE, Kansas",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz",
-      "source_record_id": "5275582",
-      "summary": "Another strong storm pounded Northern Utah, resulting in 3 fatalities. A 9-year-old girl was killed when a snowplow lost control in heavy snow and low visibilities, colliding into a school bus near Delta. Twelve other children were injured in the accident. Also, a head-on collision in heavy snow and",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2006_c20261119.csv.gz",
+      "source_record_id": "5134",
+      "summary": "Arctic air followed very mild weather. Then a storm system moved into the plains and dropped a mixture of snow, sleet, freezing rain and freezing drizzle. Numerous non-injury accidents occurred including a school bus in the Topeka area that slid off the road. One indirect fatality occurred with the ",
       "source_facts": {
         "deaths_reported": 1,
         "injuries_reported": 12,
-        "event_type": "WINTER STORM",
+        "event_type": "WINTER WEATHER",
         "tornado_rating": ""
       },
       "base_score": 35.01,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-5275588",
-      "event_date": "2001-11-29",
-      "title": "Winter Storm — W UTAH T X NW/P X E JUAB, Utah",
-      "weather_type": "winter",
-      "region": "Rockies",
-      "location": "W UTAH T X NW/P X E JUAB, Utah",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz",
-      "source_record_id": "5275588",
-      "summary": "Another strong storm pounded Northern Utah, resulting in 3 fatalities. A 9-year-old girl was killed when a snowplow lost control in heavy snow and low visibilities, colliding into a school bus near Delta. Twelve other children were injured in the accident. Also, a head-on collision in heavy snow and",
-      "source_facts": {
-        "deaths_reported": 2,
-        "injuries_reported": 1,
-        "event_type": "WINTER STORM",
-        "tornado_rating": ""
-      },
-      "base_score": 34.26,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -3566,6 +3550,27 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
+      "event_id": "curated-1970-12-01-wisconsin-tornadoes",
+      "event_date": "1970-12-01",
+      "title": "1970 early-December Wisconsin tornado outbreak",
+      "weather_type": "tornado",
+      "region": "Great Lakes",
+      "location": "East-central Wisconsin",
+      "country": "USA",
+      "source_id": "nws-grb-case-study",
+      "source_publisher": "NWS Green Bay",
+      "source_url": "https://www.weather.gov/grb/120170_tornadoes",
+      "source_record_id": "NWS-GRB-1970-12-01",
+      "summary": "An unusual surge of mild air contributed to December 1 thunderstorms and tornadoes in eastern Wisconsin, including an F3 near Medina.",
+      "source_facts": {
+        "f3_reported": true
+      },
+      "base_score": 79,
+      "evidence_status": "official_case_study_needs_editor_review",
+      "status": "researching",
+      "research_note": "Ensure the entire event timing and tornado totals are corroborated. Distinguish tornado-level from outbreak totals."
+    },
+    {
       "event_id": "nhc-al041925-19251201-landfall_marker",
       "event_date": "1925-12-01",
       "title": "AL041925 — landfall marker",
@@ -3589,49 +3594,25 @@
       "research_note": "Track point is not evidence of damages. Confirm exact location, local date, impact details."
     },
     {
-      "event_id": "ncei-70204",
-      "event_date": "2007-12-01",
-      "title": "Winter Storm — COLUMBIA, Wisconsin",
+      "event_id": "ncei-552151",
+      "event_date": "2014-12-01",
+      "title": "Winter Weather — WESTERN MAGIC VALLEY, Idaho",
       "weather_type": "winter",
-      "region": "Great Lakes",
-      "location": "COLUMBIA, Wisconsin",
+      "region": "Northern Rockies",
+      "location": "WESTERN MAGIC VALLEY, Idaho",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2007_c20261119.csv.gz",
-      "source_record_id": "70204",
-      "summary": "The first major winter storm of the 2007-08 winter season affected all of south-central and southeast Wisconsin with a mix of snow, sleet, and freezing rain. The precipitation started off as snow (occasionally moderate to heavy) in the morning with accumulations eventually reaching around 2 inches n",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2014_c20260323.csv.gz",
+      "source_record_id": "552151",
+      "summary": "Two fatalities occurred in Jerome County in two separate incidents in the early morning due to snow covered roads. The first accident occurred at 5:37 AM on Interstate 84 near mile marker 179 when the vehicle slid into the median and rolled over. The second occurred at 6:06 AM on Interstate 84 near ",
       "source_facts": {
-        "deaths_reported": 3,
+        "deaths_reported": 2,
         "injuries_reported": 0,
-        "event_type": "WINTER STORM",
+        "event_type": "WINTER WEATHER",
         "tornado_rating": ""
       },
-      "base_score": 35.64,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-5429511",
-      "event_date": "2004-12-01",
-      "title": "Strong Wind — INLAND SUSSEX, Delaware",
-      "weather_type": "severe_storm",
-      "region": "Mid-Atlantic",
-      "location": "INLAND SUSSEX, Delaware",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2004_c20260323.csv.gz",
-      "source_record_id": "5429511",
-      "summary": "The combination of a rapidly intensifying low pressure system and a strong cold frontal passage produced peak wind gusts of around 50 mph across Delaware during the second half of the morning and throughout most of the afternoon. Winds increased from the southwest preceding the cold front after 9 a.",
-      "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 1,
-        "event_type": "STRONG WIND",
-        "tornado_rating": ""
-      },
-      "base_score": 29.4,
+      "base_score": 32.18,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -3709,73 +3690,94 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-5166651",
-      "event_date": "2000-12-03",
-      "title": "Dense Fog — SAN DIEGO COUNTY COASTS, California",
-      "weather_type": "unusual",
-      "region": "West Coast",
-      "location": "SAN DIEGO COUNTY COASTS, California",
+      "event_id": "curated-1978-12-03-bossier-city-f4",
+      "event_date": "1978-12-03",
+      "title": "1978 Bossier City F4 tornado",
+      "weather_type": "tornado",
+      "region": "Gulf Coast",
+      "location": "Bossier City, Louisiana",
+      "country": "USA",
+      "source_id": "nws-shv-case-study",
+      "source_publisher": "NWS Shreveport",
+      "source_url": "https://www.weather.gov/shv/event_1978-12-03_tornado",
+      "source_record_id": "NWS-SHV-1978-12-03",
+      "summary": "The official NWS case study describes an F4 tornado crossing Bossier City with a reported eight-mile path and major damage.",
+      "source_facts": {
+        "f_rating": "F4"
+      },
+      "base_score": 81,
+      "evidence_status": "official_case_study_needs_editor_review",
+      "status": "researching",
+      "research_note": "Verify the precise F4 tornado casualty count (not entire episode), trail map license and warning timeline."
+    },
+    {
+      "event_id": "ncei-10029318",
+      "event_date": "1953-12-03",
+      "title": "Tornado — VERNON, Louisiana",
+      "weather_type": "tornado",
+      "region": "Gulf Coast",
+      "location": "VERNON, Louisiana",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2000_c20260323.csv.gz",
-      "source_record_id": "5166651",
-      "summary": "Dense fog with visibility near zero contributed to several deadly motor vehicle accidents. One man was killed when his vehicle drove into an overpass abutment. Another was thrown from the vehicle as it ran off the road and he drowned in the nearby lagoon. A pedestrian was run over and killed by a ca",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1953_c20260323.csv.gz",
+      "source_record_id": "10029318",
+      "summary": "",
       "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 3,
-        "event_type": "DENSE FOG",
-        "tornado_rating": ""
+        "deaths_reported": 7,
+        "injuries_reported": 20,
+        "event_type": "TORNADO",
+        "tornado_rating": "F4"
       },
-      "base_score": 31.48,
+      "base_score": 57.09,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-988101",
-      "event_date": "2021-12-03",
-      "title": "Dense Fog — CARUTHERS - SAN JOAQUIN - SELMA, California",
-      "weather_type": "unusual",
-      "region": "West Coast",
-      "location": "CARUTHERS - SAN JOAQUIN - SELMA, California",
+      "event_id": "ncei-10029982",
+      "event_date": "1978-12-03",
+      "title": "Tornado — BOSSIER, Louisiana",
+      "weather_type": "tornado",
+      "region": "Gulf Coast",
+      "location": "BOSSIER, Louisiana",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2021_c20261119.csv.gz",
-      "source_record_id": "988101",
-      "summary": "Several webcams showed visibility below 1000 feet. California Highway Patrol reported a two vehicle accident involving a semi-trailer and a Chevrolet Astro minivan on SR 145 between Jensen Ave. and North Ave. 3 miles south of Kerman at 658 PST. The driver of the Astro was killed in the accident and ",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1978_c20260323.csv.gz",
+      "source_record_id": "10029982",
+      "summary": "",
       "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 3,
-        "event_type": "DENSE FOG",
-        "tornado_rating": ""
+        "deaths_reported": 2,
+        "injuries_reported": 266,
+        "event_type": "TORNADO",
+        "tornado_rating": "F4"
       },
-      "base_score": 31.48,
+      "base_score": 52.95,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-1153680",
-      "event_date": "2023-12-03",
-      "title": "Dense Fog — VERNON, Wisconsin",
-      "weather_type": "unusual",
-      "region": "Great Lakes",
-      "location": "VERNON, Wisconsin",
+      "event_id": "ncei-274007",
+      "event_date": "2010-12-04",
+      "title": "Winter Weather — BAKER, Oregon",
+      "weather_type": "winter",
+      "region": "West Coast",
+      "location": "BAKER, Oregon",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2023_c20261119.csv.gz",
-      "source_record_id": "1153680",
-      "summary": "Vernon County Sherriff's Office reported a fatal automobile accident late on December 3rd on Wisconsin State Highway 56 near Viola, WI. Nearby weather observations reported mixed precipitation early on December 3rd with surface temperatures near or below freezing throughout the day. An automated wea",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2010_c20261119.csv.gz",
+      "source_record_id": "274007",
+      "summary": "Oregon State Police reported a commercial truck rollover on Interstate 84 near milepost 334 at approximately 11:22 AM MST resulting in one fatality and one injury. Multiple rollover and collision accidents as well as commercial truck jack- knife incidents were reported throughout the day.",
       "source_facts": {
         "deaths_reported": 1,
-        "injuries_reported": 0,
-        "event_type": "DENSE FOG",
+        "injuries_reported": 11,
+        "event_type": "WINTER WEATHER",
         "tornado_rating": ""
       },
-      "base_score": 27.32,
+      "base_score": 33.77,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -3829,25 +3831,46 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-729836",
-      "event_date": "2017-12-04",
-      "title": "Wildfire — VENTURA COUNTY COAST, California",
-      "weather_type": "wildfire_weather",
-      "region": "West Coast",
-      "location": "VENTURA COUNTY COAST, California",
+      "event_id": "curated-1952-12-05-london-great-smog",
+      "event_date": "1952-12-05",
+      "title": "London's Great Smog of 1952",
+      "weather_type": "unusual",
+      "region": "United Kingdom",
+      "location": "London, England",
+      "country": "United Kingdom",
+      "source_id": "metoffice-case-study",
+      "source_publisher": "UK Met Office",
+      "source_url": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog",
+      "source_record_id": "MetOffice-Great-Smog-1952",
+      "summary": "The UK Met Office describes a severe pollution episode over London spanning December 5–9, 1952, under persistent foggy conditions.",
+      "source_facts": {
+        "multi_day_event": true
+      },
+      "base_score": 88,
+      "evidence_status": "official_case_study_needs_editor_review",
+      "status": "researching",
+      "research_note": "Explain the synoptic stagnation and air pollution link without oversimplifying or claiming a single casualty estimate."
+    },
+    {
+      "event_id": "ncei-10047316",
+      "event_date": "1953-12-05",
+      "title": "Tornado — WARREN, Mississippi",
+      "weather_type": "tornado",
+      "region": "Gulf Coast",
+      "location": "WARREN, Mississippi",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2017_c20261119.csv.gz",
-      "source_record_id": "729836",
-      "summary": "The Thomas Fire ignited in early December in the coastal valleys of Ventura county, near Thomas Aquinas College. At the time of ignition, fuel conditions were at record dry levels for early December. The combination of gusty Santa Ana winds and the dry fuel conditions allowed the fire to spread quic",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1953_c20260323.csv.gz",
+      "source_record_id": "10047316",
+      "summary": "",
       "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 0,
-        "event_type": "WILDFIRE",
-        "tornado_rating": ""
+        "deaths_reported": 38,
+        "injuries_reported": 270,
+        "event_type": "TORNADO",
+        "tornado_rating": "F5"
       },
-      "base_score": 27.32,
+      "base_score": 74.81,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -3877,54 +3900,6 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-268503",
-      "event_date": "2010-12-05",
-      "title": "Cold/Wind Chill — COOK, Illinois",
-      "weather_type": "temperature",
-      "region": "Midwest",
-      "location": "COOK, Illinois",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2010_c20261119.csv.gz",
-      "source_record_id": "268503",
-      "summary": "Three people died from cold exposure in Cook County on December 5th and 6th including a 34 year old man in Chicago; a 69 year old man in Hanover Park and a 50 year old woman in Palos Park. Low temperatures ranged in the lower teens and single digits from December 5th through December 7th. A 61 year ",
-      "source_facts": {
-        "deaths_reported": 3,
-        "injuries_reported": 0,
-        "event_type": "COLD/WIND CHILL",
-        "tornado_rating": ""
-      },
-      "base_score": 35.64,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-198959",
-      "event_date": "2009-12-05",
-      "title": "Extreme Cold/Wind Chill — JACKSON COUNTY, Oregon",
-      "weather_type": "temperature",
-      "region": "West Coast",
-      "location": "JACKSON COUNTY, Oregon",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2009_c20261119.csv.gz",
-      "source_record_id": "198959",
-      "summary": "Low temperatures in this zone during this interval were generally in the teens. On the coldest nights...the 9th and the 10th, the coldest stations dipped into the single digits. |Temperatures warmed on the 11th but remained well below normal...and became more seasonable on the 12th. Numerous broken ",
-      "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 0,
-        "event_type": "EXTREME COLD/WIND CHILL",
-        "tornado_rating": ""
-      },
-      "base_score": 27.32,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
       "event_id": "nhc-al202003-20031206-landfall_marker",
       "event_date": "2003-12-06",
       "title": "Odette — landfall marker",
@@ -3948,6 +3923,30 @@
       "research_note": "Track point is not evidence of damages. Confirm exact location, local date, impact details."
     },
     {
+      "event_id": "ncei-208530",
+      "event_date": "2009-12-06",
+      "title": "Winter Weather — ELLSWORTH, Kansas",
+      "weather_type": "winter",
+      "region": "Great Plains",
+      "location": "ELLSWORTH, Kansas",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2009_c20261119.csv.gz",
+      "source_record_id": "208530",
+      "summary": "Freezing drizzle caused numerous accidents across the county. A 42 year old Wichita, Kansas woman died in one such accident along Interstate 70 near Wilson, Kansas when the vehicle she was riding in slid into the path of an oncoming semi tractor trailer. The driver was also seriously injured in the ",
+      "source_facts": {
+        "deaths_reported": 1,
+        "injuries_reported": 2,
+        "event_type": "WINTER WEATHER",
+        "tornado_rating": ""
+      },
+      "base_score": 30.61,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
       "event_id": "ncei-5582433",
       "event_date": "1996-12-06",
       "title": "Coastal Flood — NORTHERN WESTCHESTER, New York",
@@ -3967,30 +3966,6 @@
         "tornado_rating": ""
       },
       "base_score": 29.4,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-353667",
-      "event_date": "2011-12-06",
-      "title": "Cold/Wind Chill — LAS VEGAS VALLEY, Nevada",
-      "weather_type": "temperature",
-      "region": "Great Basin",
-      "location": "LAS VEGAS VALLEY, Nevada",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2011_c20261119.csv.gz",
-      "source_record_id": "353667",
-      "summary": "Two men died of hypothermia in Las Vegas during a period of cold temperatures.",
-      "source_facts": {
-        "deaths_reported": 2,
-        "injuries_reported": 0,
-        "event_type": "COLD/WIND CHILL",
-        "tornado_rating": ""
-      },
-      "base_score": 24.18,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -4044,25 +4019,25 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-426476",
-      "event_date": "2012-12-07",
-      "title": "Winter Weather — ORANGE, New York",
-      "weather_type": "winter",
-      "region": "Northeast",
-      "location": "ORANGE, New York",
+      "event_id": "ncei-734882",
+      "event_date": "2017-12-07",
+      "title": "Cold/Wind Chill — KENEDY, Texas",
+      "weather_type": "temperature",
+      "region": "South Central",
+      "location": "KENEDY, Texas",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2012_c20261119.csv.gz",
-      "source_record_id": "426476",
-      "summary": "Matthew Alston, 56, of Middletown, NY, was operating a 1997 Toyota SUV eastbound on State Route 17M when he lost control of the vehicle on an icy patch of pavement at about 9:42 AM. The SUV spun sideways and into the westbound lane of travel, where it was struck by a 2000 Freightliner tractor traile",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2017_c20261119.csv.gz",
+      "source_record_id": "734882",
+      "summary": "US Border Patrol reported the death of two undocumented immigrants on the King Ranch in Kenedy County, TX, during the afternoon of December 7, due to hypothermia, as indicated by medical staff who discovered the bodies. One death was to a 28 year old man who literally gave the clothes off his back t",
       "source_facts": {
         "deaths_reported": 1,
-        "injuries_reported": 1,
-        "event_type": "WINTER WEATHER",
+        "injuries_reported": 2,
+        "event_type": "COLD/WIND CHILL",
         "tornado_rating": ""
       },
-      "base_score": 29.4,
+      "base_score": 30.61,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -4116,25 +4091,25 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-545210",
-      "event_date": "2014-12-08",
-      "title": "Dense Fog — CHAVES COUNTY PLAINS, New Mexico",
-      "weather_type": "unusual",
-      "region": "Southwest",
-      "location": "CHAVES COUNTY PLAINS, New Mexico",
+      "event_id": "ncei-204506",
+      "event_date": "2009-12-08",
+      "title": "Blizzard — PLYMOUTH, Iowa",
+      "weather_type": "winter",
+      "region": "Upper Midwest",
+      "location": "PLYMOUTH, Iowa",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2014_c20260323.csv.gz",
-      "source_record_id": "545210",
-      "summary": "Media reports indicated a 28 year old man from Roswell was killed when his car crashed into a semi-truck on Highway 380, near mile post 196 (approximately 6 miles west of Caprock, or 41 miles east of Roswell), in dense fog. Three other passengers in the vehicle were taken to the hospital. The accide",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2009_c20261119.csv.gz",
+      "source_record_id": "204506",
+      "summary": "New snowfall of 5 to 7 inches was accompanied by north to northwest winds sustained at 30 to 40 mph, with gusts up to 50 mph. These strong winds produced widespread blizzard conditions beginning a little after midnight on December 9th. Schools and many businesses were closed on December 9th, as the ",
       "source_facts": {
         "deaths_reported": 1,
-        "injuries_reported": 3,
-        "event_type": "DENSE FOG",
+        "injuries_reported": 1,
+        "event_type": "BLIZZARD",
         "tornado_rating": ""
       },
-      "base_score": 31.48,
+      "base_score": 29.4,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -4260,25 +4235,25 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-996014",
-      "event_date": "2021-12-10",
-      "title": "Tornado — EARLES, Kentucky",
-      "weather_type": "tornado",
-      "region": "Ohio Valley",
-      "location": "EARLES, Kentucky",
+      "event_id": "ncei-5168460",
+      "event_date": "2000-12-10",
+      "title": "Extreme Cold/Wind Chill — MORTON, North Dakota",
+      "weather_type": "temperature",
+      "region": "Great Plains",
+      "location": "MORTON, North Dakota",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2021_c20261119.csv.gz",
-      "source_record_id": "996014",
-      "summary": "This historic EF-4 tornado was associated with a very long-track supercell that originally formed over eastern Arkansas. The supercell produced a nearly continuous tornado damage path from northeast Arkansas across western Tennessee and western Kentucky. The starting point of this particular tornado",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2000_c20260323.csv.gz",
+      "source_record_id": "5168460",
+      "summary": "A frigid airmass covered the northern plains over an extended time period with subzero temperatures and dangerous wind chills.In western Morton county, in the city of Hebron, a women died due to exposure while walking home early sunday morning.Early morning temperature was 18 below zero with wind ch",
       "source_facts": {
-        "deaths_reported": 11,
-        "injuries_reported": 25,
-        "event_type": "TORNADO",
-        "tornado_rating": "EF4"
+        "deaths_reported": 1,
+        "injuries_reported": 0,
+        "event_type": "EXTREME COLD/WIND CHILL",
+        "tornado_rating": ""
       },
-      "base_score": 72.59,
+      "base_score": 27.32,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -4379,6 +4354,30 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
+      "event_id": "ncei-1062629",
+      "event_date": "2022-12-12",
+      "title": "Blizzard — MELLETTE, South Dakota",
+      "weather_type": "winter",
+      "region": "Great Plains",
+      "location": "MELLETTE, South Dakota",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2022_c20261119.csv.gz",
+      "source_record_id": "1062629",
+      "summary": "A powerful winter storm moved slowly across the central and northern Plains to the upper Midwest; bringing heavy snow, some mixed precipitation, strong winds, and periods of blizzard or near blizzard conditions across the plains for a multi-day period. Snowfall was heaviest from northwestern to sout",
+      "source_facts": {
+        "deaths_reported": 1,
+        "injuries_reported": 0,
+        "event_type": "BLIZZARD",
+        "tornado_rating": ""
+      },
+      "base_score": 27.32,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
       "event_id": "ncei-5166009",
       "event_date": "2000-12-12",
       "title": "High Wind — BERKS, Pennsylvania",
@@ -4391,30 +4390,6 @@
       "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2000_c20260323.csv.gz",
       "source_record_id": "5166009",
       "summary": "A rapidly intensifying low pressure system and its associated cold front produced high winds across Eastern Pennsylvania during the morning of the 12th. Peak wind gusts ranged between 50 and 60 mph. A 50-year-old man was killed in Alsace Township (Berks County) when a tree fell onto his pickup truck",
-      "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 0,
-        "event_type": "HIGH WIND",
-        "tornado_rating": ""
-      },
-      "base_score": 27.32,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-5169464",
-      "event_date": "2000-12-12",
-      "title": "High Wind — NORTHERN WESTCHESTER, New York",
-      "weather_type": "severe_storm",
-      "region": "Northeast",
-      "location": "NORTHERN WESTCHESTER, New York",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2000_c20260323.csv.gz",
-      "source_record_id": "5169464",
-      "summary": "High winds developed rapidly in an unstable air mass following the passage of a strong cold front across the area. Several measured peak wind gusts were at least 58 mph. They were responsible for causing 1 death and at least 6 injuries, as follows: At 9:05 am, a tree fell through a car wind shield a",
       "source_facts": {
         "deaths_reported": 1,
         "injuries_reported": 0,
@@ -4451,30 +4426,6 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-1061294",
-      "event_date": "2022-12-13",
-      "title": "Tornado — FOUR FORKS, Louisiana",
-      "weather_type": "tornado",
-      "region": "Gulf Coast",
-      "location": "FOUR FORKS, Louisiana",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2022_c20261119.csv.gz",
-      "source_record_id": "1061294",
-      "summary": "An EF-2 tornado with estimated maximum winds near 130 mph touched down in extreme Southwest Caddo Parish near the Four Forks community, where it initially produced minor tree damage along Johns Road just to the south of Keatchie Marshall Road. As the tornado crossed Keatchie Marshall Road, it quickl",
-      "source_facts": {
-        "deaths_reported": 2,
-        "injuries_reported": 2,
-        "event_type": "TORNADO",
-        "tornado_rating": "EF2"
-      },
-      "base_score": 35.48,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
       "event_id": "ncei-1073379",
       "event_date": "2022-12-13",
       "title": "Cold/Wind Chill — SANTA CLARA VALLEY INCLUDING SAN JOSE, California",
@@ -4494,6 +4445,30 @@
         "tornado_rating": ""
       },
       "base_score": 34.31,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
+      "event_id": "ncei-351619",
+      "event_date": "2011-12-13",
+      "title": "Dense Fog — HALE, Texas",
+      "weather_type": "unusual",
+      "region": "South Central",
+      "location": "HALE, Texas",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2011_c20261119.csv.gz",
+      "source_record_id": "351619",
+      "summary": "Fog developed during the afternoon hours across the region and became dense across Hale County. A woman traveling northbound on Interstate 27 in Hale County crossed the median and was struck by a vehicle traveling southbound. The woman in the northbound vehicle was killed while the driver of the oth",
+      "source_facts": {
+        "deaths_reported": 1,
+        "injuries_reported": 1,
+        "event_type": "DENSE FOG",
+        "tornado_rating": ""
+      },
+      "base_score": 29.4,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -4523,6 +4498,30 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
+      "event_id": "ncei-9989654",
+      "event_date": "1987-12-14",
+      "title": "Tornado — CRITTENDEN, Arkansas",
+      "weather_type": "tornado",
+      "region": "South Central",
+      "location": "CRITTENDEN, Arkansas",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1987_c20260323.csv.gz",
+      "source_record_id": "9989654",
+      "summary": "",
+      "source_facts": {
+        "deaths_reported": 6,
+        "injuries_reported": 100,
+        "event_type": "TORNADO",
+        "tornado_rating": "F3"
+      },
+      "base_score": 53.2,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
       "event_id": "ncei-7248",
       "event_date": "2006-12-14",
       "title": "High Wind — TACOMA AREA, Washington",
@@ -4542,30 +4541,6 @@
         "tornado_rating": ""
       },
       "base_score": 41.61,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-1071358",
-      "event_date": "2022-12-14",
-      "title": "Tornado — KILLONA, Louisiana",
-      "weather_type": "tornado",
-      "region": "Gulf Coast",
-      "location": "KILLONA, Louisiana",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2022_c20261119.csv.gz",
-      "source_record_id": "1071358",
-      "summary": "NWS Storm Survey found damage consistent with an EF-2 tornado with max winds of 120 mph and a max width of 75 yards in Killona/Montz, LA in St Charles Parish. The tornado touched down near the St Charles Sheriff s Office and Nelson Coleman Correctional Facility at 2:21PM, where it tore off some of t",
-      "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 8,
-        "event_type": "TORNADO",
-        "tornado_rating": "EF2"
-      },
-      "base_score": 33.91,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -4691,25 +4666,25 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-869482",
-      "event_date": "2019-12-16",
-      "title": "Tornado — ROSEPINE, Louisiana",
-      "weather_type": "tornado",
-      "region": "Gulf Coast",
-      "location": "ROSEPINE, Louisiana",
+      "event_id": "ncei-669638",
+      "event_date": "2016-12-16",
+      "title": "Winter Weather — MARION, Indiana",
+      "weather_type": "winter",
+      "region": "Midwest",
+      "location": "MARION, Indiana",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2019_c20261119.csv.gz",
-      "source_record_id": "869482",
-      "summary": "The tornado began in Beauregard Parish and moved into Vernon Parish near the intersection of John Brewer and Borel Roads as an EF3 with winds estimated at 152 MPH. A fatality occurred on Borel Road as the tornado passed around 11:18 am CST. Extensive damage occurred to well built homes as well as mo",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2016_c20261119.csv.gz",
+      "source_record_id": "669638",
+      "summary": "Freezing rain and ice made for a dangerous weekend on Indianapolis roadways, leaving three dead and more than 30 others injured.||Indiana State Police officers answered 1,091 emergency calls in the Indianapolis district between 8 p.m. Friday and 11 a.m. Sunday, according to a news release. That dist",
       "source_facts": {
-        "deaths_reported": 1,
+        "deaths_reported": 3,
         "injuries_reported": 0,
-        "event_type": "TORNADO",
-        "tornado_rating": "EF3"
+        "event_type": "WINTER WEATHER",
+        "tornado_rating": ""
       },
-      "base_score": 34.32,
+      "base_score": 35.64,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -4787,6 +4762,30 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
+      "event_id": "ncei-10008665",
+      "event_date": "1957-12-18",
+      "title": "Tornado — JACKSON, Illinois",
+      "weather_type": "tornado",
+      "region": "Midwest",
+      "location": "JACKSON, Illinois",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1957_c20260323.csv.gz",
+      "source_record_id": "10008665",
+      "summary": "",
+      "source_facts": {
+        "deaths_reported": 11,
+        "injuries_reported": 180,
+        "event_type": "TORNADO",
+        "tornado_rating": "F4"
+      },
+      "base_score": 68.41,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
       "event_id": "nhc-cp051997-19971218-peak_wind",
       "event_date": "1997-12-18",
       "title": "Paka — peak wind",
@@ -4834,25 +4833,25 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-670462",
-      "event_date": "2016-12-18",
-      "title": "Cold/Wind Chill — DOUGLAS, Wisconsin",
-      "weather_type": "temperature",
-      "region": "Great Lakes",
-      "location": "DOUGLAS, Wisconsin",
+      "event_id": "ncei-9980864",
+      "event_date": "1957-12-19",
+      "title": "Tornado — COLUMBIA, Arkansas",
+      "weather_type": "tornado",
+      "region": "South Central",
+      "location": "COLUMBIA, Arkansas",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2016_c20261119.csv.gz",
-      "source_record_id": "670462",
-      "summary": "An elderly couple were found dead from exposure to the cold weather in a remote part of Superior, Wisconsin. A utility worker found Richard Ellison, 82, and Shirley Johnson, 70, on their deck around 10:30 am on Wednesday December 21st. They were last seen running errands the previous Sunday, Decembe",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1957_c20260323.csv.gz",
+      "source_record_id": "9980864",
+      "summary": "",
       "source_facts": {
         "deaths_reported": 2,
-        "injuries_reported": 0,
-        "event_type": "COLD/WIND CHILL",
-        "tornado_rating": ""
+        "injuries_reported": 9,
+        "event_type": "TORNADO",
+        "tornado_rating": "F4"
       },
-      "base_score": 32.18,
+      "base_score": 43.09,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -4906,54 +4905,6 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-794225",
-      "event_date": "2018-12-19",
-      "title": "Winter Weather — LOWER CLARK FORK REGION, Montana",
-      "weather_type": "winter",
-      "region": "Northern Rockies",
-      "location": "LOWER CLARK FORK REGION, Montana",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2018_c20261119.csv.gz",
-      "source_record_id": "794225",
-      "summary": "A little bit before 4 am MDT, five semi-tractor trailers and one SUV crashed into each other at the bridge near the Quartz Flat Campground on Interstate 90 due to icy road conditions. As a result, two men in their 30s passed away while three other men were injured. The road conditions were labeled a",
-      "source_facts": {
-        "deaths_reported": 2,
-        "injuries_reported": 3,
-        "event_type": "WINTER WEATHER",
-        "tornado_rating": ""
-      },
-      "base_score": 36.34,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-417152",
-      "event_date": "2012-12-20",
-      "title": "Blizzard — WRIGHT, Iowa",
-      "weather_type": "winter",
-      "region": "Upper Midwest",
-      "location": "WRIGHT, Iowa",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2012_c20261119.csv.gz",
-      "source_record_id": "417152",
-      "summary": "Part 2 of 2: The seasons first major winter storm moved into Iowa during the late afternoon and evening of the 19th and continued into the day on the 20th and became a blizzard for much of the Des Moines CWA. A strong low pressure developed over southeast Colorado and pushed east across southern Kan",
-      "source_facts": {
-        "deaths_reported": 2,
-        "injuries_reported": 7,
-        "event_type": "BLIZZARD",
-        "tornado_rating": ""
-      },
-      "base_score": 38.42,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
       "event_id": "ncei-5626885",
       "event_date": "1997-12-20",
       "title": "Flash Flood — KILLEEN, Texas",
@@ -5002,6 +4953,54 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
+      "event_id": "ncei-5577849",
+      "event_date": "1996-12-20",
+      "title": "High Wind — N DOUGLAS COUNTY BELOW 6000 FEET / DENVER / W ADAMS & ARAPAHOE COUNTIES / E BROOMFIELD COUNTY, Colorado",
+      "weather_type": "severe_storm",
+      "region": "Rockies",
+      "location": "N DOUGLAS COUNTY BELOW 6000 FEET / DENVER / W ADAMS & ARAPAHOE COUNTIES / E BROOMFIELD COUNTY, Colorado",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1996_c20260323.csv.gz",
+      "source_record_id": "5577849",
+      "summary": "Five construction workers were injured, 2 seriously, when a sudden wind gust blew over a 30-ft high retaining wall they were working on in western Lakewood. The scaffolding they were standing on collapsed and some were pinned under the rubble for at least 15 minutes. The peak gusts reported during t",
+      "source_facts": {
+        "deaths_reported": 0,
+        "injuries_reported": 5,
+        "event_type": "HIGH WIND",
+        "tornado_rating": ""
+      },
+      "base_score": 24.38,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
+      "event_id": "ncei-10060670",
+      "event_date": "1967-12-21",
+      "title": "Tornado — WASHINGTON, Missouri",
+      "weather_type": "tornado",
+      "region": "Midwest",
+      "location": "WASHINGTON, Missouri",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1967_c20260323.csv.gz",
+      "source_record_id": "10060670",
+      "summary": "",
+      "source_facts": {
+        "deaths_reported": 3,
+        "injuries_reported": 47,
+        "event_type": "TORNADO",
+        "tornado_rating": "F4"
+      },
+      "base_score": 51.25,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
       "event_id": "ncei-143477",
       "event_date": "2008-12-21",
       "title": "Cold/Wind Chill — COOK, Illinois",
@@ -5026,49 +5025,25 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-484469",
-      "event_date": "2013-12-21",
-      "title": "Tornado — RENA LARA, Mississippi",
+      "event_id": "ncei-10062352",
+      "event_date": "1990-12-21",
+      "title": "Tornado — CARROLL, Mississippi",
       "weather_type": "tornado",
       "region": "Gulf Coast",
-      "location": "RENA LARA, Mississippi",
+      "location": "CARROLL, Mississippi",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2013_c20260323.csv.gz",
-      "source_record_id": "484469",
-      "summary": "A tornado touched down in Rena Lara and tracked northeast. There was major damage to a mobile home where the fatality occurred. Two large garage sheds were completely destroyed. Two football light poles were bent and destroyed at the Cohoma County High School. There was roof and window damage to the",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1990_c20260323.csv.gz",
+      "source_record_id": "10062352",
+      "summary": "",
       "source_facts": {
         "deaths_reported": 1,
-        "injuries_reported": 2,
+        "injuries_reported": 15,
         "event_type": "TORNADO",
-        "tornado_rating": "EF2"
+        "tornado_rating": "F3"
       },
-      "base_score": 30.61,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-1153345",
-      "event_date": "2023-12-21",
-      "title": "Dense Fog — FILLMORE, Minnesota",
-      "weather_type": "unusual",
-      "region": "Upper Midwest",
-      "location": "FILLMORE, Minnesota",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2023_c20261119.csv.gz",
-      "source_record_id": "1153345",
-      "summary": "A fatal automobile accident from a vehicle leaving the roadway occurred in Sumner Township along Fillmore County Road 4 near the intersection with Fillmore County Road 38 late on Thursday, December 21st. Nearby weather observation stations reported visibilities as low as 3/4 statute miles and severa",
-      "source_facts": {
-        "deaths_reported": 1,
-        "injuries_reported": 0,
-        "event_type": "DENSE FOG",
-        "tornado_rating": ""
-      },
-      "base_score": 27.32,
+      "base_score": 32.64,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -5098,30 +5073,6 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-205490",
-      "event_date": "2009-12-22",
-      "title": "Winter Weather — THOMAS, Kansas",
-      "weather_type": "winter",
-      "region": "Great Plains",
-      "location": "THOMAS, Kansas",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2009_c20261119.csv.gz",
-      "source_record_id": "205490",
-      "summary": "Freezing drizzle and fog resulted in slick roads and numerous traffic accidents and slide offs on Interstate 70. Two fatalities and three injuries occurred in two of the more severe accidents occurring between 2100 and 2200 CST. Property damage noted is related only to the fatality/injury accidents.",
-      "source_facts": {
-        "deaths_reported": 2,
-        "injuries_reported": 3,
-        "event_type": "WINTER WEATHER",
-        "tornado_rating": ""
-      },
-      "base_score": 36.34,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
       "event_id": "ncei-79034",
       "event_date": "2007-12-22",
       "title": "Dense Fog — E CENTRAL S.J. VALLEY, California",
@@ -5141,6 +5092,30 @@
         "tornado_rating": ""
       },
       "base_score": 30.61,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
+      "event_id": "ncei-1064379",
+      "event_date": "2022-12-22",
+      "title": "Extreme Cold/Wind Chill — SCOTT, Minnesota",
+      "weather_type": "temperature",
+      "region": "Upper Midwest",
+      "location": "SCOTT, Minnesota",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2022_c20261119.csv.gz",
+      "source_record_id": "1064379",
+      "summary": "Airfield ASOS stations in neighboring counties recorded wind-chill temperatures below -35�� for numerous hours. Strongest winds occurred in the late morning at 30-35 mph.||One direct fatality was reported on broadcast media. A 34-year-old male was found deceased due to exposure near the northbound r",
+      "source_facts": {
+        "deaths_reported": 1,
+        "injuries_reported": 0,
+        "event_type": "EXTREME COLD/WIND CHILL",
+        "tornado_rating": ""
+      },
+      "base_score": 27.32,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -5194,25 +5169,25 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-552175",
-      "event_date": "2014-12-23",
-      "title": "Tornado — COLUMBIA, Mississippi",
-      "weather_type": "tornado",
-      "region": "Gulf Coast",
-      "location": "COLUMBIA, Mississippi",
+      "event_id": "ncei-1070868",
+      "event_date": "2022-12-23",
+      "title": "Blizzard — NORTHERN ERIE, New York",
+      "weather_type": "winter",
+      "region": "Northeast",
+      "location": "NORTHERN ERIE, New York",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2014_c20260323.csv.gz",
-      "source_record_id": "552175",
-      "summary": "This tornado first touched down just east of the Pearl River just south of Columbia. It quickly became strong and moved northeast impacting the southeast side of Columbia. The tornado remained on the ground through Marion County before lifting as it approached the Lamar County line. Numerous busines",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2022_c20261119.csv.gz",
+      "source_record_id": "1070868",
+      "summary": "A historic lake effect blizzard occurred northeast of Lake Erie and Lake Ontario during the Christmas holiday weekend. The combination of high winds in excess of 70 mph and heavy lake effect snow resulted in devastating impacts across western New York and also east of Lake Ontario from December 23 t",
       "source_facts": {
-        "deaths_reported": 3,
-        "injuries_reported": 50,
-        "event_type": "TORNADO",
-        "tornado_rating": "EF3"
+        "deaths_reported": 40,
+        "injuries_reported": 0,
+        "event_type": "BLIZZARD",
+        "tornado_rating": ""
       },
-      "base_score": 54.43,
+      "base_score": 54.0,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -5290,6 +5265,30 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
+      "event_id": "ncei-5328282",
+      "event_date": "2003-12-25",
+      "title": "Flash Flood — DEVORE, California",
+      "weather_type": "flood",
+      "region": "West Coast",
+      "location": "DEVORE, California",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2003_c20260323.csv.gz",
+      "source_record_id": "5328282",
+      "summary": "Steady light to moderate rain began falling over the burned areas of the San Bernardino Mountains on 0600 PST 12/24/03. Approximately 24 hours later, mud, rock, and debris flows were being reported along highways and roads leading into the mountain resort communities. By 0800 PST on Christmas Day, m",
+      "source_facts": {
+        "deaths_reported": 2,
+        "injuries_reported": 5,
+        "event_type": "FLASH FLOOD",
+        "tornado_rating": ""
+      },
+      "base_score": 37.56,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
       "event_id": "ncei-727619",
       "event_date": "2017-12-25",
       "title": "Cold/Wind Chill — DANE, Wisconsin",
@@ -5309,30 +5308,6 @@
         "tornado_rating": ""
       },
       "base_score": 35.64,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-148072",
-      "event_date": "2008-12-25",
-      "title": "Strong Wind — ESSEX, New Jersey",
-      "weather_type": "severe_storm",
-      "region": "Northeast",
-      "location": "ESSEX, New Jersey",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2008_c20260323.csv.gz",
-      "source_record_id": "148072",
-      "summary": "A strong cold front moved across the Northeast during the early morning hours of December 25. Gusty northwest winds of 40 to 50 mph behind the front toppled a 40 foot tree onto a car traveling on the Garden State Parkway in Bloomfield, New Jersey, at approximately 0110EST. A 42-year-old man and 70-y",
-      "source_facts": {
-        "deaths_reported": 2,
-        "injuries_reported": 2,
-        "event_type": "STRONG WIND",
-        "tornado_rating": ""
-      },
-      "base_score": 35.48,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -5410,25 +5385,25 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-606461",
+      "event_id": "ncei-615046",
       "event_date": "2015-12-26",
-      "title": "Tornado — SARDIS, Texas",
-      "weather_type": "tornado",
-      "region": "South Central",
-      "location": "SARDIS, Texas",
+      "title": "Flash Flood — VERNON, Illinois",
+      "weather_type": "flood",
+      "region": "Midwest",
+      "location": "VERNON, Illinois",
       "country": "USA",
       "source_id": "ncei-storm-events",
       "source_publisher": "NOAA NCEI Storm Events",
       "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2015_c20260323.csv.gz",
-      "source_record_id": "606461",
-      "summary": "This tornado produced a long and narrow damage path from just northeast of the Mid-Way Regional airport near Midlothian to the Ellis County line. The tornado then continued into Dallas County. Sixty-seven single family homes were affected, with 23 of these being completely destroyed. The strongest p",
+      "source_record_id": "615046",
+      "summary": "Automated gauges in the area only measured about an inch of rain between 3 pm and 8 pm. However, this was enough for Louse Creek to rise, covering Farthing Road at a low water crossing, about half a mile north of intersection with Britt Road. A family of 5 was traveling from Kentucky to Minnesota an",
       "source_facts": {
-        "deaths_reported": 0,
-        "injuries_reported": 46,
-        "event_type": "TORNADO",
-        "tornado_rating": "EF3"
+        "deaths_reported": 5,
+        "injuries_reported": 0,
+        "event_type": "FLASH FLOOD",
+        "tornado_rating": ""
       },
-      "base_score": 37.55,
+      "base_score": 40.5,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -5578,54 +5553,6 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-352910",
-      "event_date": "2011-12-29",
-      "title": "Dense Fog — ORLEANS, Louisiana",
-      "weather_type": "unusual",
-      "region": "Gulf Coast",
-      "location": "ORLEANS, Louisiana",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2011_c20261119.csv.gz",
-      "source_record_id": "352910",
-      "summary": "A multiple vehicle accident with several fatalities, numerous injuries and a large societal impact occurred in the pre-dawn hours along a stretch of Interstate Highway 10 in a marshy area in New Orleans East around 430 am CST. Patchy radiational fog was developing, with smoke from a local ongoing pe",
-      "source_facts": {
-        "deaths_reported": 2,
-        "injuries_reported": 62,
-        "event_type": "DENSE FOG",
-        "tornado_rating": ""
-      },
-      "base_score": 44.61,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
-      "event_id": "ncei-5668",
-      "event_date": "2006-12-29",
-      "title": "Ice Storm — RANDALL, Texas",
-      "weather_type": "winter",
-      "region": "South Central",
-      "location": "RANDALL, Texas",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2006_c20261119.csv.gz",
-      "source_record_id": "5668",
-      "summary": "Thirty-eight hundreds of an inch of ice from freezing rain and freezing drizzle was measured seven miles west southwest of Amarillo on tree limbs.",
-      "source_facts": {
-        "deaths_reported": 5,
-        "injuries_reported": 5,
-        "event_type": "ICE STORM",
-        "tornado_rating": ""
-      },
-      "base_score": 39.88,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
       "event_id": "ncei-606034",
       "event_date": "2015-12-29",
       "title": "Winter Weather — EASTERN RUTLAND, Vermont",
@@ -5645,6 +5572,54 @@
         "tornado_rating": ""
       },
       "base_score": 35.64,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
+      "event_id": "ncei-207369",
+      "event_date": "2009-12-29",
+      "title": "Cold/Wind Chill — COOK, Illinois",
+      "weather_type": "temperature",
+      "region": "Midwest",
+      "location": "COOK, Illinois",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2009_c20261119.csv.gz",
+      "source_record_id": "207369",
+      "summary": "A 55 year old woman died due to cold exposure on Kolmar Street in Chicago on December 29th. Low temperatures were in the single digits. A 58 year old man died from cold exposure in Mount Vernon Park on Aberdeen Street in Chicago on December 31st. Low temperatures were in the single digits. A 19 year",
+      "source_facts": {
+        "deaths_reported": 2,
+        "injuries_reported": 0,
+        "event_type": "COLD/WIND CHILL",
+        "tornado_rating": ""
+      },
+      "base_score": 32.18,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
+      "event_id": "ncei-870174",
+      "event_date": "2019-12-29",
+      "title": "Flash Flood — ANDERSON, Alabama",
+      "weather_type": "flood",
+      "region": "Southeast",
+      "location": "ANDERSON, Alabama",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2019_c20261119.csv.gz",
+      "source_record_id": "870174",
+      "summary": "Three vehicles were swept by flash flooding on Anderson Creek along CR 50 and CR 52. A 20 year old woman was killed in the vehicle. Two others including the victim's mother in the other vehicles were rescued. Time of occurrence from Times Daily news article.",
+      "source_facts": {
+        "deaths_reported": 1,
+        "injuries_reported": 2,
+        "event_type": "FLASH FLOOD",
+        "tornado_rating": ""
+      },
+      "base_score": 28.61,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
@@ -5674,30 +5649,6 @@
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
     },
     {
-      "event_id": "ncei-553293",
-      "event_date": "2014-12-30",
-      "title": "Strong Wind — CATALINA ISLAND, California",
-      "weather_type": "severe_storm",
-      "region": "West Coast",
-      "location": "CATALINA ISLAND, California",
-      "country": "USA",
-      "source_id": "ncei-storm-events",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2014_c20260323.csv.gz",
-      "source_record_id": "553293",
-      "summary": "Strong northeast winds developed across Avalon Harbor on Catalina Island. Sustained winds of 36 MPH with gusts to 43 MPH generated very steep and rough waves (4 to 8 feet). The combination of the wind and waves broke the moorings off of several boats and caused other damage. A harbor patrolman was c",
-      "source_facts": {
-        "deaths_reported": 2,
-        "injuries_reported": 0,
-        "event_type": "STRONG WIND",
-        "tornado_rating": ""
-      },
-      "base_score": 32.18,
-      "evidence_status": "source_record_only",
-      "status": "researching",
-      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
-    },
-    {
       "event_id": "ncei-5321592",
       "event_date": "2002-12-30",
       "title": "Thunderstorm Wind — HOMER, Louisiana",
@@ -5717,6 +5668,30 @@
         "tornado_rating": ""
       },
       "base_score": 27.4,
+      "evidence_status": "source_record_only",
+      "status": "researching",
+      "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
+    },
+    {
+      "event_id": "ncei-213635",
+      "event_date": "2009-12-30",
+      "title": "Cold/Wind Chill — WILL, Illinois",
+      "weather_type": "temperature",
+      "region": "Midwest",
+      "location": "WILL, Illinois",
+      "country": "USA",
+      "source_id": "ncei-storm-events",
+      "source_publisher": "NOAA NCEI Storm Events",
+      "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2009_c20261119.csv.gz",
+      "source_record_id": "213635",
+      "summary": "A 55 year old woman died due to cold exposure on Kolmar Street in Chicago on December 29th. Low temperatures were in the single digits. A 58 year old man died from cold exposure in Mount Vernon Park on Aberdeen Street in Chicago on December 31st. Low temperatures were in the single digits. A 19 year",
+      "source_facts": {
+        "deaths_reported": 1,
+        "injuries_reported": 0,
+        "event_type": "COLD/WIND CHILL",
+        "tornado_rating": ""
+      },
+      "base_score": 27.32,
       "evidence_status": "source_record_only",
       "status": "researching",
       "research_note": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights."
