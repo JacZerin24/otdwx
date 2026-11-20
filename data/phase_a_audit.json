@@ -309,15 +309,15 @@
       "wmo-daniel": 1
     },
     "editorial_tiers": {
-      "Tier 1 — Flagship": 198,
-      "Tier 2 — Strong": 168
+      "Tier 1 — Flagship": 209,
+      "Tier 2 — Strong": 157
     },
-    "consecutive_same_hazard": 58,
-    "consecutive_same_region": 21,
-    "consecutive_same_state_or_country": 3,
-    "consecutive_same_source_family": 117,
+    "consecutive_same_hazard": 57,
+    "consecutive_same_region": 20,
+    "consecutive_same_state_or_country": 4,
+    "consecutive_same_source_family": 101,
     "weak_primary_dates": [],
-    "high_risk_source_gaps": 95,
+    "high_risk_source_gaps": 84,
     "pass2_alternate_screened_days": 15,
     "pass2_alternate_screened_leads": 30,
     "pass2_alternates_independently_corroborated": 0,
