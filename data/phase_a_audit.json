@@ -257,8 +257,8 @@
       "phasea-pass2-national-records-of-scotland": 1
     },
     "editorial_tiers": {
-      "Tier 2 — Strong": 222,
-      "Tier 1 — Flagship": 144
+      "Tier 1 — Flagship": 153,
+      "Tier 2 — Strong": 213
     },
     "consecutive_same_hazard": 58,
     "consecutive_same_region": 19,
@@ -269,8 +269,7 @@
     "pass2_alternate_screened_days": 15,
     "pass2_alternate_screened_leads": 30,
     "pass2_alternates_independently_corroborated": 0,
-    "adjacent_repeated_story_warnings": [],
-    "tier_1_flagship": 153
+    "adjacent_repeated_story_warnings": []
   },
   "limitations": [
     "All 366 dates have provisional primary/alternate IDs, not publication-ready vetted stories.",
