@@ -301,6 +301,13 @@ def main(argv=None) -> int:
     path=Path("data/discovery_candidates.json")
     path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     export_csv(result,Path("exports"))
+    # Keep a small handoff to read into Sheets without fetching the full catalog.
+    chosen={q["event_id"] for q in result["plan"] if q["event_id"]}
+    chosen.update(alt for q in result["plan"] for alt in q["alternatives"][:2])
+    handoff={"metadata":result["metadata"],"plan":result["plan"],
+             "candidates":[c for c in result["candidates"] if c["event_id"] in chosen]}
+    Path("data/editorial_handoff.json").write_text(
+        json.dumps(handoff,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(result["metadata"],indent=2))
     return 0
 

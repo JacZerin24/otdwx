@@ -1,6 +1,15 @@
 name: Phase 2 discovery (research only)
 on:
   workflow_dispatch:
+    inputs:
+      start_year:
+        description: Earliest NCEI source year
+        required: true
+        default: '1996'
+      end_year:
+        description: Latest complete NCEI source year
+        required: true
+        default: '2025'
   schedule:
     - cron: "17 10 1 * *"
   push:
@@ -28,7 +37,10 @@ jobs:
       - name: Tests
         run: python -m unittest discover -s tests -v
       - name: Download public archives and make unverified research leads
-        run: python -m otdwx.pipeline --start-year 1996 --end-year 2025 --days 60
+        run: python -m otdwx.pipeline --start-year "${START_YEAR}" --end-year "${END_YEAR}" --days 60
+        env:
+          START_YEAR: ${{ inputs.start_year || '1996' }}
+          END_YEAR: ${{ inputs.end_year || '2025' }}
       - name: Save CSV review exports
         uses: actions/upload-artifact@v4
         with:
@@ -37,13 +49,15 @@ jobs:
             exports/discovery_feed.csv
             exports/daily_suggestions.csv
             data/discovery_candidates.json
+            data/editorial_handoff.json
           retention-days: 60
       - name: Save machine-readable candidate catalog
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/discovery_candidates.json
+          git add data/discovery_candidates.json data/editorial_handoff.json
           if ! git diff --cached --quiet; then
             git commit -m "chore(data): update unverified candidate research catalog [skip ci]"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
