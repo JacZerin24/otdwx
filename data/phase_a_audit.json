@@ -231,8 +231,8 @@
       "phasea-pass2-national-records-of-scotland": 1
     },
     "editorial_tiers": {
-      "Tier 2 — Strong": 275,
-      "Tier 1 — Flagship": 91
+      "Tier 1 — Flagship": 99,
+      "Tier 2 — Strong": 267
     },
     "consecutive_same_hazard": 63,
     "consecutive_same_region": 21,
