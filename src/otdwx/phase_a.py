@@ -22,6 +22,7 @@ CATALOG = ROOT / "data/discovery_candidates.json"
 CURATED = ROOT / "data/curated_candidates.json"
 ANCHORS = ROOT / "data/phase_a_sourced_anchors.json"
 PUBLICATION = ROOT / "data/publishing_log.json"
+CLAIM_LEDGER = ROOT / "data/phase_a_pass10_research.json"
 ALLOWED = {"tornado", "severe_storm", "tropical", "flood", "winter",
            "temperature", "drought", "wildfire_weather", "unusual", "other"}
 GRADES = {"Tier 1 — Flagship", "Tier 2 — Strong", "Tier 3 — Niche"}
@@ -78,6 +79,50 @@ def adjacent_repeated_event_warnings(rows: list[dict]) -> list[str]:
                 f"{previous.get('calendar_date')} and {current.get('calendar_date')}: "
                 "likely repeated same historical event on adjacent days")
     return warnings
+
+
+def validate_claim_checks(ledger: dict, calendar_rows: list[dict]) -> list[str]:
+    """Check claim-ledger structure and event linkage, NOT truth of its source claims."""
+    problems: list[str] = []
+    checks = ledger.get("claim_checks", [])
+    if not isinstance(checks, list):
+        return ["claim_checks must be a list"]
+    expected_count = ledger.get("metadata", {}).get("claim_ledger_entries")
+    if expected_count != len(checks):
+        problems.append("claim-ledger metadata count mismatch")
+    current_by_date = {row.get("calendar_date"): row for row in calendar_rows}
+    seen = set()
+    for item in checks:
+        if not isinstance(item, dict):
+            problems.append("claim check must be an object")
+            continue
+        cid = item.get("claim_id", "")
+        if not cid or cid in seen:
+            problems.append(f"claim ID missing or duplicated: {cid}")
+        seen.add(cid)
+        date_str = item.get("date", "")
+        current = current_by_date.get(date_str)
+        if current is None:
+            problems.append(f"{cid}: claim has unrecognized anniversary")
+            continue
+        if item.get("primary_event_id") != current.get("primary_event_id"):
+            problems.append(f"{cid}: claim references stale or wrong primary event ID")
+        if not item.get("claim") or not item.get("evidence") or not item.get("status"):
+            problems.append(f"{cid}: missing substantive claim or evidence")
+        if not source_is_url(item.get("url", "")):
+            problems.append(f"{cid}: claim source must be an HTTPS URL")
+        status = item.get("status", "")
+        if (status.endswith("do_not_use") or status == "conflicting_source_counts") and (
+                "exclude" not in item.get("use", "").lower()
+                and "do not" not in item.get("use", "").lower()):
+            problems.append(f"{cid}: unresolved assertion lacks explicit do-not-publish guidance")
+        if item.get("publication_approval") == "approved":
+            if (current.get("human_approval_status") != "approved"
+                    or item.get("full_human_fact_check_status") != "completed"
+                    or item.get("media_rights") not in
+                    {"verified_public_domain", "licensed", "permission_granted"}):
+                problems.append(f"{cid}: claim approval lacks full editorial and rights gate")
+    return problems
 
 
 def validate_calendar(calendar: dict, catalog: dict[str, dict],
@@ -279,8 +324,13 @@ def main(argv: list[str] | None = None) -> int:
     calendar = read(CALENDAR)
     inventory = candidates()
     problems = validate_calendar(calendar, inventory, read(PUBLICATION))
+    ledger = read(CLAIM_LEDGER) if CLAIM_LEDGER.exists() else None
+    if ledger is not None:
+        problems.extend(validate_claim_checks(ledger, calendar["days"]))
     if args.audit:
         report = summarize(calendar["days"])
+        if ledger is not None:
+            report["claim_ledger_checks"] = len(ledger.get("claim_checks", []))
         print(json.dumps({"structural_validation": {
             "valid": not problems, "problems": problems}, "metrics": report}, indent=2))
         return 0 if not problems else 1

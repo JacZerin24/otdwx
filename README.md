@@ -15,6 +15,7 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 - [Pass 8: five source-reviewed January primaries and two historic alternates](data/phase_a_pass8_research.json)
 - [Pass 9: 14 new core reviews, five final replacements and repetition repairs](data/phase_a_pass9_research.json)
 - [Pass 10: 13 event corroborations and 15 statement-level evidence checks](data/phase_a_pass10_research.json)
+- [Claim-level editorial evidence ledger in Google Sheets](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit#gid=1700201026); 15 research assertions tracked, none fully approved.
 - [Google Sheets Phase A Calendar, source-gap triage (180 remaining), and review queue](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit)
 
 Local read-only audit and exploratory candidate comparison:
@@ -22,7 +23,7 @@ Local read-only audit and exploratory candidate comparison:
     python -m otdwx.phase_a --audit
     python -m otdwx.phase_a --suggest 02-29
 
-The CI quality workflow rejects broken anniversaries, duplicated or mismatched event IDs, absent evidence URLs, and unsupported editorial approval statuses. It does **not** declare linked evidence verified or clear image rights. Six earlier drafted posts, the seven curated case-study leads, canonical event library, and publishing history were preserved. Do not publish or autoapprove records from the provisional calendar.
+The CI quality workflow rejects broken anniversaries, duplicated or mismatched event IDs, absent evidence URLs, stale claim-ledger event references, and unsupported editorial approval statuses. It does **not** declare linked evidence verified or clear image rights. Six earlier drafted posts, the seven curated case-study leads, canonical event library, and publishing history were preserved. Do not publish or autoapprove records from the provisional calendar.
 
 ## Editorial promise
 

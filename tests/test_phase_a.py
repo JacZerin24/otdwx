@@ -4,7 +4,7 @@ from datetime import date
 import unittest
 
 from otdwx.phase_a import (
-    anniversary_days, source_is_url, validate_calendar, summarize, suggest
+    anniversary_days, source_is_url, validate_calendar, validate_claim_checks, summarize, suggest
 )
 
 
@@ -141,6 +141,40 @@ class PhaseAEditorialTests(unittest.TestCase):
         self.assertEqual(len(summarize(cal["days"])["adjacent_repeated_event_warnings"]), 1)
         second["title"] = "Thunderstorm winds strike the Gulf Coast"
         self.assertEqual(validate_calendar(cal, cat), [])
+
+
+    def test_claim_ledger_requires_same_current_event_and_clear_unverified_guidance(self):
+        cal, _ = self.fixture()
+        row = cal["days"][62]
+        good = {
+            "claim_id": "test-001",
+            "date": row["calendar_date"],
+            "primary_event_id": row["primary_event_id"],
+            "claim": "An observed weather event happened",
+            "evidence": "Archived dated observation",
+            "status": "source_cross_checked",
+            "url": "https://example.com/source",
+            "full_human_fact_check_status": "pending",
+            "publication_approval": "not_approved",
+            "media_rights": "not_reviewed",
+            "use": "Research only"
+        }
+        ledger = {"metadata": {"claim_ledger_entries": 1},
+                  "claim_checks": [good]}
+        self.assertEqual(validate_claim_checks(ledger, cal["days"]), [])
+        bad = copy.deepcopy(ledger)
+        bad["claim_checks"][0]["primary_event_id"] = "replaced-event"
+        self.assertTrue(any("stale or wrong primary" in e
+                            for e in validate_claim_checks(bad, cal["days"])))
+        bad = copy.deepcopy(ledger)
+        bad["claim_checks"][0]["status"] = "unsupported_do_not_use"
+        self.assertTrue(any("do-not-publish" in e
+                            for e in validate_claim_checks(bad, cal["days"])))
+        bad["claim_checks"][0]["use"] = "Exclude from published posts"
+        self.assertEqual(validate_claim_checks(bad, cal["days"]), [])
+        bad["claim_checks"][0]["publication_approval"] = "approved"
+        self.assertTrue(any("approval lacks" in e
+                            for e in validate_claim_checks(bad, cal["days"])))
 
     def test_links_are_https(self):
         self.assertFalse(source_is_url(""))
