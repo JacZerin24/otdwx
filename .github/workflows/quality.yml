@@ -21,3 +21,5 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Check event and publication JSON
         run: python -m otdwx validate-data
+      - name: Audit Phase A anniversary and evidence integrity
+        run: python -m otdwx.phase_a --audit
