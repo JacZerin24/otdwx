@@ -1,2 +1,57 @@
-# otdwx
-On the day weather disasters
+# OTDwx — On This Day Weather Disasters
+
+A meteorologist-led editorial workflow for original, accurately sourced, single-post weather-history content on X.
+
+**Status:** Phase 1 foundation. No automated collection, scheduling, or posting is enabled.
+
+## Editorial promise
+
+- One standalone standard X post (280 weighted characters maximum), not a thread.
+- House format: #OTDwx: Month Day, Year: / optional impact statistics / concise event narrative / Source: Publisher.
+- Prioritize verified facts, distinctive meteorological angles, and natural language.
+- Research from multiple archives and check every image's rights individually.
+- Rotate location, weather hazard, era, source, and visual format without suppressing important anniversaries.
+- No auto-generated event claims, invented quotes, or unsupervised publishing.
+
+## Repository layout
+
+- docs/EDITORIAL_GUIDE.md — the post format, voice, and editorial gate.
+- docs/WORKFLOW.md — how the repository and editorial Google Sheet relate.
+- docs/DATA_MODEL.md — event, provenance, and posting data contracts.
+- data/schema/event.schema.json — JSON Schema for researched events.
+- data/events.json — curated historical-event library (currently empty intentionally).
+- data/publishing_log.json — publication history (currently empty).
+- data/source_registry.json — initial research source directory.
+- src/otdwx/ — post formatting, weighted length estimates, data checks, diversity warnings.
+- tests/ — self-contained unit tests.
+- .github/workflows/quality.yml — validation on commits and pull requests only.
+
+## Run locally
+
+Requires Python 3.11 or later, without third-party runtime dependencies.
+
+    python -m pip install -e .
+    python -m unittest discover -s tests -v
+    python -m otdwx validate-data
+    python -m otdwx post-check --file path/to/post.txt
+    python -m otdwx diversity-check --event-id EVENT_ID
+
+The post checker uses the standard 280-character budget, 23-character URL weighting, and conservative Unicode estimates. For unusual emoji sequences and links, verify the final count in the X composer as well.
+
+## Spreadsheet
+
+The companion **OTDwx Editorial Desk** Google Sheet is the human-facing queue. It is a separate editorial workspace, not yet synchronized with this repository. Its plain LEN formula is labeled an estimate; the command-line validator is the better preflight. Phase 2 can add a one-way export/import mechanism after the field schema is stabilized.
+
+## Safety gates
+
+No X API credentials, access tokens, image assets without documented rights, or private personnel information belong in this public repository. A candidate must have evidence and human approval before scheduling is considered. Never commit local .env files.
+
+## Roadmap
+
+- **Phase 1 (foundation):** standards, database schema, empty history, source registry, post checker, diversity warnings, editorial dashboard, CI.
+- **Phase 2:** archived data ingestion, verified candidate generation, deterministic source deduplication, score/rank and Google Sheet synchronization.
+- **Phase 3:** rights-cleared maps/graphics and editorial review packages.
+- **Phase 4:** opt-in X API publishing for human-approved items, idempotent logging and monitoring.
+- **Phase 5:** coverage and engagement analysis.
+
+This repository is independent of NOAA and the National Weather Service. Credit original sources and distinguish public-domain data from third-party photographs.

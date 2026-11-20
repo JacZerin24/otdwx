@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JacZerin24/otdwx/blob/main/data/schema/event.schema.json",
+  "title": "OTDwx curated historical event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "event_date",
+    "title",
+    "summary",
+    "weather_type",
+    "location",
+    "region",
+    "country",
+    "sources",
+    "status"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9._-]{3,79}$"
+    },
+    "event_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 5
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 10
+    },
+    "weather_type": {
+      "enum": [
+        "tornado",
+        "severe_storm",
+        "tropical",
+        "flood",
+        "winter",
+        "temperature",
+        "drought",
+        "wildfire_weather",
+        "unusual",
+        "other"
+      ]
+    },
+    "location": {
+      "type": "string",
+      "minLength": 2
+    },
+    "region": {
+      "type": "string",
+      "minLength": 2
+    },
+    "country": {
+      "type": "string",
+      "minLength": 2
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_id",
+          "publisher",
+          "url"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "minLength": 2
+          },
+          "publisher": {
+            "type": "string",
+            "minLength": 2
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "retrieved_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "evidence_note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "researching",
+        "drafted",
+        "fact_checked",
+        "approved",
+        "published",
+        "rejected"
+      ]
+    },
+    "fact_checked_by": {
+      "type": "string"
+    },
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "uri",
+          "credit",
+          "rights_status",
+          "alt_text"
+        ],
+        "properties": {
+          "uri": {
+            "type": "string"
+          },
+          "credit": {
+            "type": "string"
+          },
+          "rights_status": {
+            "enum": [
+              "unverified",
+              "verified_public_domain",
+              "licensed",
+              "permission_granted"
+            ]
+          },
+          "alt_text": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
