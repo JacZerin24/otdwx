@@ -12,6 +12,7 @@ import argparse
 from collections import Counter, defaultdict
 from datetime import date, timedelta
 import json
+import re
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -48,6 +49,35 @@ def candidates(root: Path = ROOT) -> dict[str, dict]:
     curated = read(root / "data/curated_candidates.json")
     anchors = read(root / "data/phase_a_sourced_anchors.json")
     return {x["event_id"]: x for x in [*discovery, *curated, *anchors]}
+
+
+def adjacent_repeated_event_warnings(rows: list[dict]) -> list[str]:
+    """Flag likely duplicate stories on neighboring anniversaries, not shared hazards.
+
+    This narrow headline heuristic intentionally avoids using source URL alone:
+    NCEI year-level CSV URLs can legitimately cover many unrelated events.
+    """
+    common = {"the", "a", "an", "of", "as", "in", "on", "into", "to", "near",
+              "over", "across", "from", "through", "and", "after", "before",
+              "during", "begins", "brings", "strikes", "reaches", "with",
+              "while", "its", "at", "for", "recorded", "historic"}
+
+    def words(title):
+        return {w for w in re.findall(r"[a-z0-9]+", str(title).lower())
+                if len(w) > 2 and w not in common}
+
+    warnings = []
+    for previous, current in zip(rows, rows[1:]):
+        if previous.get("historical_year") != current.get("historical_year"):
+            continue
+        left = words(previous.get("title", ""))
+        right = words(current.get("title", ""))
+        shared = len(left & right)
+        if shared >= 3 and shared / max(1, min(len(left), len(right))) >= 0.8:
+            warnings.append(
+                f"{previous.get('calendar_date')} and {current.get('calendar_date')}: "
+                "likely repeated same historical event on adjacent days")
+    return warnings
 
 
 def validate_calendar(calendar: dict, catalog: dict[str, dict],
@@ -137,6 +167,7 @@ def validate_calendar(calendar: dict, catalog: dict[str, dict],
             pass
     if set(valid_days) != existing:
         problems.append("missing or unrecognized anniversary days")
+    problems.extend(adjacent_repeated_event_warnings(rows))
     return problems
 
 
@@ -186,6 +217,7 @@ def summarize(rows: list[dict]) -> dict:
         "consecutive_same_geography": adjacent("geography_key"),
         "consecutive_same_source_family": adjacent("primary_source_family"),
         "weak_tier3_dates": problems,
+        "adjacent_repeated_event_warnings": adjacent_repeated_event_warnings(rows),
         "days_lacking_second_source": [
             x["calendar_date"] for x in rows
             if not source_is_url(x.get("secondary_source_url", ""))

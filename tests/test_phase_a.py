@@ -130,6 +130,18 @@ class PhaseAEditorialTests(unittest.TestCase):
         self.assertTrue(any("lacks trustworthy core-only evidence" in e
                             for e in validate_calendar(cal, cat)))
 
+
+    def test_adjacent_same_historical_storm_blocked(self):
+        cal, cat = self.fixture()
+        first, second = cal["days"][40:42]
+        first["title"] = "The Great Blizzard of 1888"
+        second["title"] = "The Great Blizzard of 1888 begins across New York"
+        self.assertTrue(any("likely repeated same historical event" in e
+                            for e in validate_calendar(cal, cat)))
+        self.assertEqual(len(summarize(cal["days"])["adjacent_repeated_event_warnings"]), 1)
+        second["title"] = "Thunderstorm winds strike the Gulf Coast"
+        self.assertEqual(validate_calendar(cal, cat), [])
+
     def test_links_are_https(self):
         self.assertFalse(source_is_url(""))
         self.assertFalse(source_is_url("http://example.org"))

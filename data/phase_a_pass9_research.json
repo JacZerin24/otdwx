@@ -3,7 +3,7 @@
     "phase": "A",
     "research_pass": 9,
     "as_of": "2026-11-20",
-    "primary_replacements": 3,
+    "primary_replacements": 5,
     "existing_primary_reviews": 11,
     "newly_core_corroborated_primary_dates": 14,
     "prior_core": 159,
@@ -11,14 +11,17 @@
     "prior_source_gaps": 207,
     "now_source_gaps": 193,
     "prior_international_or_mixed": 46,
-    "now_international_or_mixed": 47,
+    "now_international_or_mixed": 48,
     "prior_pre1950": 26,
-    "now_pre1950": 29,
-    "registered_source_anchor_total": 119,
+    "now_pre1950": 27,
+    "registered_source_anchor_total": 122,
     "fully_fact_checked": 0,
     "approved": 0,
     "media_rights_cleared": 0,
-    "method": "Dated original records with second-publisher review; source independence and storm segment denominators noted; no automated editorial approval."
+    "method": "Dated original records with second-publisher review; source independence and storm segment denominators noted; no automated editorial approval.",
+    "reviewed_calendar_dates": 16,
+    "duplicate_adjacent_stories_corrected": 3,
+    "editorial_qc_note": "Initial March 11 1888 Blizzard candidate withdrawn because March 12 already covers the same blizzard. Also replaced Feb13 1899 outbreak and Mar15 Idai repetition with distinct dated events; all superseded selections retained for historical audit."
   },
   "reviews": [
     {
@@ -47,25 +50,26 @@
     {
       "kind": "replacement",
       "calendar_date": "03-11",
-      "historical_event_date": "1888-03-11",
-      "event_id": "phasea-pass9-1888-03-11-great-blizzard-onset",
+      "historical_event_date": "2015-03-11",
+      "event_id": "phasea-pass9-2015-03-11-cyclone-pam",
       "original_primary_id": "ncei-579251",
       "original_title": "Tropical Storm — MARSHALL ISLANDS, Guam",
-      "title_after": "The Great Blizzard of 1888 begins as rain turns to snow across the Northeast",
-      "location_after": "Eastern New York and the northeastern United States",
-      "primary_source_url": "https://www.weather.gov/aly/PastEvents",
-      "second_source_url": "https://guides.loc.gov/chronicling-america-great-blizzard-1888",
-      "second_source_publisher": "U.S. Library of Congress",
-      "evidence_independence": "NWS station-history chronology and Library of Congress contemporary newspaper holdings are distinct research pathways, but snow measurements trace back to 1888 Weather Bureau observers",
-      "corroborated_core_claim": "The Great Blizzard of 1888 developed on March 11, with snowfall beginning that day in the Albany area; the most disruptive blizzard conditions across the Northeast occurred March 12–14.",
-      "unverified_cautions": "March 11 marks storm development/onset, not the maximum blizzard. The LOC historic overview's broad fatality estimate requires independent geographic attribution and should not be posted before archival verification. Original newspaper images require item-level rights review.",
-      "graphic_concept": "An original four-day March 11–14 synoptic evolution and dated station snowfall timeline, separating early onset from March 12–13 peaks",
-      "additional_source_url": "https://www.loc.gov/resource/sn83030273/?sp=1",
+      "title_after": "Cyclone Pam strengthens as Vanuatu prepares for a dangerous Pacific storm",
+      "location_after": "Between the Solomon Islands, Vanuatu and Fiji, South Pacific",
+      "primary_source_url": "https://www.abc.net.au/news/2015-03-11/cyclone-pam-strengthens-as-pacific-states-remain-on-alert/6300910",
+      "second_source_url": "https://www.sprep.org/news/severe-tropical-cyclone-pam-post-disaster-needs-assessment",
+      "second_source_publisher": "Secretariat of the Pacific Regional Environment Programme",
+      "evidence_independence": "Dated independent March 11 media reporting cites tropical forecasting agencies; regional intergovernmental disaster chronology independently documents subsequent Vanuatu impacts but both depend on agency cyclone intensity analysis",
+      "corroborated_core_claim": "On March 11, 2015, contemporaneous reporting documented Tropical Cyclone Pam intensifying to Category 3 near waters between Vanuatu and Fiji, with warnings for Vanuatu ahead of its later March 13–14 impacts.",
+      "unverified_cautions": "Do NOT claim Pam struck Vanuatu on March 11. The March 11 contemporaneous Category 3 description uses its reporting agency's scale and date; Pam's Category 5 strength and Vanuatu passage occurred later. Distinguish Fiji/Solomon Islands warnings from eventual Vanuatu impacts, and review regional wind-averaging conventions.",
+      "graphic_concept": "Original March 9–14 Pam intensity and forecast-cone timeline with March 11 warning status and later Vanuatu crossing dated separately",
+      "additional_source_url": "https://gpm.nasa.gov/mission-updates/trmm-news/cyclone-pam-departs-vanuatu",
       "review_scope": "core event/date/location only",
       "media_rights": "not_reviewed",
       "fact_check": "pending",
       "approval": "not_approved",
-      "review_date": "2026-11-20"
+      "review_date": "2026-11-20",
+      "editorial_reason": "Replaces adjacent duplicate historic storm with distinct event without changing any fact check or publishing gate."
     },
     {
       "kind": "existing_primary",
@@ -342,6 +346,83 @@
       "fact_check": "pending",
       "approval": "not_approved",
       "review_date": "2026-11-20"
+    },
+    {
+      "kind": "replacement",
+      "calendar_date": "02-13",
+      "historical_event_date": "2023-02-13",
+      "event_id": "phasea-pass9-2023-02-13-cyclone-gabrielle",
+      "original_primary_id": "phasea-verified-1899-02-13-02",
+      "original_title": "The Great Arctic Outbreak of February 1899",
+      "title_after": "Ex-Tropical Cyclone Gabrielle lashes New Zealand's northern North Island",
+      "location_after": "Northland, Auckland and the northern North Island of New Zealand",
+      "primary_source_url": "https://about.metservice.com/learning/tropical-cyclone-gabrielle",
+      "second_source_url": "https://niwa.co.nz/climate-and-weather/monthly/climate-summary-february-2023",
+      "second_source_publisher": "Earth Sciences New Zealand / NIWA",
+      "evidence_independence": "MetService's operational track and NIWA's retrospective use overlapping meteorological observations, but NIWA separately describes regional impacts and rainfall; two institutional URLs are not independent coastal anemometer readings",
+      "corroborated_core_claim": "Ex-Tropical Cyclone Gabrielle was passing close to New Zealand's northern North Island on February 13, 2023, producing dangerous wind and rain; severe impacts continued February 14.",
+      "unverified_cautions": "Gabrielle was an ex-tropical cyclone near New Zealand, not a Category 5 tropical cyclone at Auckland. Local emergency declarations occurred February 13; the national state of emergency was not declared until February 14. Do not move peak rainfall or the February 14 national declaration backward a day.",
+      "graphic_concept": "Original Feb 13 storm-track versus North Island rainfall/wind warning timeline with the Feb 14 national emergency distinguished",
+      "additional_source_url": "https://www.civildefence.govt.nz/emergency-events/previous-emergencies/declared-states-of-emergency",
+      "review_scope": "core event/date/location only",
+      "media_rights": "not_reviewed",
+      "fact_check": "pending",
+      "approval": "not_approved",
+      "review_date": "2026-11-20",
+      "editorial_reason": "Replaces adjacent duplicate historic storm with distinct event without changing any fact check or publishing gate."
+    },
+    {
+      "kind": "replacement",
+      "calendar_date": "03-15",
+      "historical_event_date": "2019-03-15",
+      "event_id": "phasea-pass9-2019-03-15-nebraska-floods",
+      "original_primary_id": "phasea-pass5-2019-03-15-idai",
+      "original_title": "Tornado — KIOTO, Mississippi",
+      "title_after": "Rapid snowmelt and rain drive historic Nebraska river flooding",
+      "location_after": "Platte, Elkhorn and Loup River basins, central and eastern Nebraska",
+      "primary_source_url": "https://www.weather.gov/gid/march2019flood",
+      "second_source_url": "https://goes-r.noaa.gov/featureStories/RecordFloodingInTheMidwest.html",
+      "second_source_publisher": "NOAA GOES-R satellite program",
+      "evidence_independence": "NWS Hastings regional flood chronology and NOAA GOES-R satellite imagery are different observational products but share NOAA institutional origin; satellite flood extent does not independently validate specific river gauge crests",
+      "corroborated_core_claim": "On March 15, 2019, historic flooding spread across Nebraska river basins after heavy rain and rapid snowmelt over frozen ground; NOAA GOES imagery captured extensive inundation that day.",
+      "unverified_cautions": "The flooding developed March 13–17, and many specific river gauge peaks occurred on later dates. Do not assign the entire multiday disaster, record crest at Nebraska City or annual economic toll to March 15. Distinguish satellite water footprint from river gauge stages and ice-jam effects.",
+      "graphic_concept": "Original March 15 GOES flood extent and river network graphic, separating dated discharge crest times from satellite scene time",
+      "additional_source_url": "https://www.usgs.gov/centers/eros/missouri-river-flooding",
+      "review_scope": "core event/date/location only",
+      "media_rights": "not_reviewed",
+      "fact_check": "pending",
+      "approval": "not_approved",
+      "review_date": "2026-11-20",
+      "editorial_reason": "Replaces adjacent duplicate historic storm with distinct event without changing any fact check or publishing gate."
+    }
+  ],
+  "editorial_repetition_fixes": [
+    {
+      "pair": [
+        "02-12",
+        "02-13"
+      ],
+      "kept": "02-12",
+      "new_date": "02-13",
+      "new_event_id": "phasea-pass9-2023-02-13-cyclone-gabrielle"
+    },
+    {
+      "pair": [
+        "03-11",
+        "03-12"
+      ],
+      "kept": "03-12",
+      "new_date": "03-11",
+      "new_event_id": "phasea-pass9-2015-03-11-cyclone-pam"
+    },
+    {
+      "pair": [
+        "03-14",
+        "03-15"
+      ],
+      "kept": "03-14",
+      "new_date": "03-15",
+      "new_event_id": "phasea-pass9-2019-03-15-nebraska-floods"
     }
   ]
 }
