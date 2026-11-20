@@ -9,18 +9,19 @@
     "selection_status": "PROVISIONAL RESEARCH — NOT EDITORIALLY APPROVED",
     "notes": "These 366 provisional research selections are not 366 verified stories. Source-led discovery and editor approval are separate. No published copy or unpublished graphics included.",
     "manual_editorial_override_count": 81,
-    "pass2_manual_upgrades": 64
+    "pass2_manual_upgrades": 64,
+    "summary": "Pass 4: 10 additional core source reviews, 118 corroborated and 248 secondary-source gaps. No claim-level publication clearance."
   },
   "metrics": {
     "calendar_rows": 366,
     "unique_primary_event_ids": 366,
     "dates_with_two_alternates": 366,
     "dates_with_two_corroborated_alternates": 0,
-    "authoritative_core_corroborated": 108,
+    "authoritative_core_corroborated": 118,
     "complete_fact_checked": 0,
     "human_approved": 0,
     "primary_with_source_url": 366,
-    "with_secondary_source_url": 108,
+    "with_secondary_source_url": 118,
     "graphic_concepts_assigned": 366,
     "imagery_rights_cleared": 0,
     "geography_international": 36,

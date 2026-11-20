@@ -131,3 +131,12 @@ Fifteen previously single-source Tier 1 stories gained date/location corroborati
 The previous May 27–29 three-day tornado primary streak was broken by replacing the May 28 2019 Linwood tornado with historic Arkansas River flooding near Fort Smith, where the prior stage record was passed on May 28 ahead of the final later crest. The old Linwood research case and all 2-day alternate research IDs remain intact.
 
 Source-gaps queue: **273 → 258**; core-identity corroborated **93 → 108**; original NCEI-source family primaries **267 → 267**. Google Sheets Phase A Calendar, Audit, Source Gaps, and Pass 3 Evidence tabs must be synchronized explicitly. The 15 reviewed events are mostly tornadoes, with shared NWS survey ancestry in many source pairs, so URLs alone do **not** imply 15 independent observations or publication readiness.
+
+
+## Pass 4 focused verification — 20 November 2026
+
+Expanded **core date/location source reviews** from **108 to 118** and reduced missing secondary links from **258 to 248**. The ten reviewed anniversaries are January 1, 2, 4, 7, 8, 9, 11, and 12 plus May 27 and May 29. Individual evidence records: [Pass 4 corroboration file](../data/phase_a_pass4_corroboration.json).
+
+Priority date corrections: Jan 2 Rehobeth damage was **straight-line wind**, south of a separate tornado; Jan 7 California record concerns the **Eaton Fire**, not the Palisades Fire; Jan 12 Portland is the **start** of a Jan 12–17 weather emergency; May 27 Jarrell retains its historical **F5** rating and should not be conflated with the outbreak-wide casualty count; May 29 Great Barrington retains the historical **F4** rating, and exact EST/EDT convention needs reconciliation. January 8 Rochester rain totals refer to the Jan 7–9 observing window, not January 8 alone. June-style chart creation, historical images and publishing copy remain out of scope.
+
+Some second documents repeat the same NWS/NOAA survey and are not independent field observations; source-family dependency is labeled per story. Core corroboration is NOT full claim-by-claim verification. **0 fully fact-checked, 0 approved, 0 archival image rights cleared, 0 independently verified alternates**. The 366-date calendar, primary IDs, two original alternates per date, and the six existing unpublished post drafts remain preserved. Research queue is **248** single-source stories; next prioritize evidence quality, international/early-history diversity, and independently sourced alternative stories.
