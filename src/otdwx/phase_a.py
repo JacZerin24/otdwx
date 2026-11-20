@@ -22,8 +22,12 @@ CATALOG = ROOT / "data/discovery_candidates.json"
 CURATED = ROOT / "data/curated_candidates.json"
 ANCHORS = ROOT / "data/phase_a_sourced_anchors.json"
 PUBLICATION = ROOT / "data/publishing_log.json"
-CLAIM_LEDGERS = [ROOT / "data/phase_a_pass10_research.json",
-                 ROOT / "data/phase_a_pass11_research.json"]
+# Read all statement-level research ledgers from Pass 10 onward, including future passes.
+CLAIM_LEDGERS = sorted(
+    p for p in (ROOT / "data").glob("phase_a_pass*_research.json")
+    if (match := re.fullmatch(r"phase_a_pass(\d+)_research\.json", p.name))
+    and int(match.group(1)) >= 10
+)
 ALLOWED = {"tornado", "severe_storm", "tropical", "flood", "winter",
            "temperature", "drought", "wildfire_weather", "unusual", "other"}
 GRADES = {"Tier 1 — Flagship", "Tier 2 — Strong", "Tier 3 — Niche"}
