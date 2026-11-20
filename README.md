@@ -6,7 +6,7 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 
 ## Phase A provisional editorial library (updated Nov 20, 2026)
 
-**Research coverage is not publication readiness.** We now maintain a 366-day provisional research calendar (including leap day), two alternate *leads* per day, visual concepts, verified-versus-unverified fact boundaries, and a recorded diversity audit. Full editorial verification is incomplete. **Pass 14: 246/366 primary anniversary stories core corroborated, 120 source gaps remain, with zero full approvals or media-rights clearances. Three adjacent same-storm primary story conflicts were corrected and an automated near-duplicate guard added.**
+**Research coverage is not publication readiness.** We now maintain a 366-day provisional research calendar (including leap day), two alternate *leads* per day, visual concepts, verified-versus-unverified fact boundaries, and a recorded diversity audit. Full editorial verification is incomplete. **Pass 15: 258/366 primary anniversary stories core corroborated, 108 source gaps remain, with zero full approvals or media-rights clearances. Three adjacent same-storm primary story conflicts were corrected and an automated near-duplicate guard added.**
 
 - [Phase A research status, limitations, and handoff](docs/PHASE_A_PROGRESS.md)
 - [366-day research calendar](data/phase_a_calendar.json) and [quality/diversity audit](data/phase_a_audit.json)
@@ -19,8 +19,9 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 - [Pass 12: 15 retained-ID corroboration reviews and 19 claim-level checks](data/phase_a_pass12_research.json)
 - [Pass 13: 9 source-led replacements, 6 retained-ID reviews, 24 claim checks](data/phase_a_pass13_research.json)
 - [Pass 14: 3 source-led replacements, 12 retained-ID core reviews, 27 scoped claim checks](data/phase_a_pass14_research.json)
-- [Claim-level editorial evidence ledger in Google Sheets](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit#gid=1700201026); 102 research assertions tracked, none fully approved.
-- [Google Sheets Phase A Calendar, source-gap triage (120 remaining), and review queue](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit)
+- [Pass 15: 10 global/history-driven replacements, 2 retained-ID reviews and 24 claim checks](data/phase_a_pass15_research.json)
+- [Claim-level editorial evidence ledger in Google Sheets](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit#gid=1700201026); 126 research assertions tracked, none fully approved.
+- [Google Sheets Phase A Calendar, source-gap triage (108 remaining), and review queue](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit)
 
 Local read-only audit and exploratory candidate comparison:
 
