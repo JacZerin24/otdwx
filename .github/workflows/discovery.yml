@@ -1,0 +1,49 @@
+name: Phase 2 discovery (research only)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 10 1 * *"
+  push:
+    branches: [main]
+    paths:
+      - "src/otdwx/pipeline.py"
+      - "tests/test_pipeline.py"
+      - ".github/workflows/discovery.yml"
+permissions:
+  contents: write
+concurrency:
+  group: otdwx-discovery
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: python -m pip install -e .
+      - name: Tests
+        run: python -m unittest discover -s tests -v
+      - name: Download public archives and make unverified research leads
+        run: python -m otdwx.pipeline --start-year 1996 --end-year 2025 --days 60
+      - name: Save CSV review exports
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-candidates
+          path: |
+            exports/discovery_feed.csv
+            exports/daily_suggestions.csv
+            data/discovery_candidates.json
+          retention-days: 60
+      - name: Save machine-readable candidate catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/discovery_candidates.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(data): update unverified candidate research catalog [skip ci]"
+            git push
+          fi
