@@ -12,7 +12,7 @@ The public GitHub repository remains the provenance and machine-audit workspace.
 ## Actual deliverables
 
 - data/phase_a_calendar.json: exactly 366 calendar-day rows, including February 29. Each row has a unique provisional primary and two *research leads* as alternates; event dates, location, category, provisional tier, two editorial angles, original source URL, corroboration and discovery statuses, graphic concept and data source, rights status and research gaps. **Not 366 completed articles.**
-- data/phase_a_sourced_anchors.json: 53 documented authority-led cases spanning international events and early history. Identified core facts are corroborated by two reference URLs, but not every detailed impact claim or graphic reuse right is verified.
+- data/phase_a_sourced_anchors.json: 64 documented authority-led cases spanning international events and early history. Identified core facts are corroborated by two reference URLs, but not every detailed impact claim or graphic reuse right is verified.
 - data/phase_a_audit.json: measured coverage/diversity/verification weaknesses at the time of initial selection.
 - src/otdwx/phase_a.py: read-only calendar validator, audit summary, and on-demand candidate comparison. Its --suggest output is triage, not editorial approval.
 - tests/test_phase_a.py: tests for leap-year coverage, duplicate IDs, historic-date agreement, source status and fact-check/rights approval gates.
@@ -26,13 +26,13 @@ February 29's initial provisional choice was an ordinary winter-weather road inc
 
 The 366 primary IDs are distinct; all dates have two alternate *IDs*. A count of two alternates is not a claim of two verified alternatives.
 
-- **55 / 366** have corroboration for core date/location/broad event identity (only 12.0%, *not* full fact-checks).
+- **66 / 366** have corroboration for core date/location/broad event identity (only 12.0%, *not* full fact-checks).
 - **0** have completed human fact checks or approvals in Phase A, and **0** have a formally cleared historical image in this library.
-- **55 / 366** have a secondary corroborating URL; **311** still need one.
+- **66 / 366** have a secondary corroborating URL; **300** still need one.
 - **366 / 366** have a proposed visualization type, but observed data and license feasibility are mostly *not established*.
-- **21 / 366** primary selections are international (5.7%); **16 / 366** predate 1950 (4.4%).
-- **305 / 366** primaries are NCEI Storm Events leads (83.3%).
-- Provisional editorial tiers: **65 Tier 1**, **263 Tier 2**, **38 Tier 3**. All 38 Tier 3 cases lacking core corroboration appear in the Google Sheet Phase A Review Queue.
+- **24 / 366** primary selections are international (6.6%); **16 / 366** predate 1950 (4.4%).
+- **294 / 366** primaries are NCEI Storm Events leads (80.3%).
+- Provisional editorial tiers: **73 Tier 1**, **266 Tier 2**, **27 Tier 3**. All 27 Tier 3 cases lacking core corroboration appear in the Google Sheet Phase A Review Queue.
 - 1950–1979 is thin and global 1800s coverage is nearly absent. Tropical track-only records were penalized; no offshore position is treated as a verified landfall community.
 - NCEI event segments are often county-level slices of a broader episode. Do not summarize county/zone casualties as outbreak totals; never mix local- and UTC-date boundaries.
 
@@ -89,3 +89,14 @@ For Jan 20 Paris, anniversary marks navigation halt, **not** Jan 28 flood crest.
 The older January 28 giant-snowflake account remains documented as a held alternative, not chosen as the primary. The previous pairs of alternate IDs have been carried forward and remain **unverified**. This pass did not inflate the earlier count of 30 screened leads.
 
 Current totals: **55** primaries core-corroborated, **38** weak Tier 3 primaries, **311** without secondary source, **21** international, **17** pre-1950, **305** sourced primarily from NCEI Storm Events, and **0** publication approvals or cleared image assets. Update Google Sheet and verify its mirrored Audit and Review Queue separately.
+
+
+## Further Pass 2 review batch — 20 November 2026
+
+Upgraded 11 remaining weak dates: **Apr 4 (1977 Flight 242 rain/hail aviation disaster), May 8 (2009 super derecho), May 13 (1980 Kalamazoo tornado), Jul 7 (2012 Krymsk flood, Russia), Sep 30 (2019 Montana September snow), Oct 2 (2020 Alex Alpine flooding, France), Oct 19 (2005 Wilma peak intensity), Oct 20 (1991 Oakland Hills firestorm), Dec 7 (1703 Great Storm of Britain, Gregorian equivalent of Nov 26 Old Style), Dec 17 (2020 Binghamton snowband), Dec 20 (2006 Denver blizzard)**.
+
+These are candidate primary *core-identity corroborations*, **not completed claim-level fact checks**. FAA/NTSB cite the same original accident investigation; NHC/WPC both NOAA; NASA and regional reporting often share observing networks. Detailed provenance/source dependency, dangerous date or scope ambiguities, and individual graphics/licensing research priorities are stored separately in the Pass 2 research file. **No new alternates were independently screened.**
+
+Flagged weather-type clustering around May 8, October 20–21 and December 17–20 for later editorial rebalancing. Great Storm of 1703 must be labeled as Gregorian-anniversary calendar normalization, NEVER backdated as a contemporary English 7 Dec document. The historical Montana imagery is from October 1, not Sep 30. The Wilma 882 mb timing differs between best-track 6-hour points and spot aircraft observations. Photography and archival text rights remain **not reviewed**.
+
+Updated: **66** core occurrence/date corroborations; **27** weak primaries; **300** missing secondary sources; **26** international; **18** pre-1950; **294** NCEI-primary; no approval or checked archive media. Review remaining weak primaries, then all 300 unsupported second-source gaps and 366-day alternative quality.
