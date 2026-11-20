@@ -176,6 +176,12 @@ class PhaseAEditorialTests(unittest.TestCase):
         self.assertTrue(any("approval lacks" in e
                             for e in validate_claim_checks(bad, cal["days"])))
 
+    def test_claim_ledger_discovers_recent_research_passes(self):
+        from otdwx.phase_a import CLAIM_LEDGERS
+        included = {p.name for p in CLAIM_LEDGERS}
+        for number in range(10, 15):
+            self.assertIn(f"phase_a_pass{number}_research.json", included)
+
     def test_links_are_https(self):
         self.assertFalse(source_is_url(""))
         self.assertFalse(source_is_url("http://example.org"))
