@@ -1,6 +1,6 @@
 # OTDwx — Phase A research calendar: status and editorial handoff
 
-**Last populated:** 2026-11-19
+**Last populated:** 2026-11-20
 **Status:** Provisional research library, NOT a fully researched, fact-checked, editorially approved publication calendar.
 
 ## What was preserved
@@ -12,7 +12,7 @@ The public GitHub repository remains the provenance and machine-audit workspace.
 ## Actual deliverables
 
 - data/phase_a_calendar.json: exactly 366 calendar-day rows, including February 29. Each row has a unique provisional primary and two *research leads* as alternates; event dates, location, category, provisional tier, two editorial angles, original source URL, corroboration and discovery statuses, graphic concept and data source, rights status and research gaps. **Not 366 completed articles.**
-- data/phase_a_sourced_anchors.json: 27 additional independently sourced cases spanning international events and early history. Identified core facts are corroborated by two reference URLs, but not every detailed impact claim or graphic reuse right is verified.
+- data/phase_a_sourced_anchors.json: 42 documented authority-led cases spanning international events and early history. Identified core facts are corroborated by two reference URLs, but not every detailed impact claim or graphic reuse right is verified.
 - data/phase_a_audit.json: measured coverage/diversity/verification weaknesses at the time of initial selection.
 - src/otdwx/phase_a.py: read-only calendar validator, audit summary, and on-demand candidate comparison. Its --suggest output is triage, not editorial approval.
 - tests/test_phase_a.py: tests for leap-year coverage, duplicate IDs, historic-date agreement, source status and fact-check/rights approval gates.
@@ -26,13 +26,13 @@ February 29's initial provisional choice was an ordinary winter-weather road inc
 
 The 366 primary IDs are distinct; all dates have two alternate *IDs*. A count of two alternates is not a claim of two verified alternatives.
 
-- **29 / 366** have corroboration for core date/location/broad event identity (only 7.9%, *not* full fact-checks).
+- **44 / 366** have corroboration for core date/location/broad event identity (only 12.0%, *not* full fact-checks).
 - **0** have completed human fact checks or approvals in Phase A, and **0** have a formally cleared historical image in this library.
-- **29 / 366** have a secondary corroborating URL; **337** still need one.
+- **44 / 366** have a secondary corroborating URL; **322** still need one.
 - **366 / 366** have a proposed visualization type, but observed data and license feasibility are mostly *not established*.
-- **11 / 366** primary selections are international (3.0%); **10 / 366** predate 1950 (2.7%).
-- **331 / 366** primaries are single-source NCEI Storm Events leads (90.4%).
-- Provisional editorial tiers: **44 Tier 1**, **258 Tier 2**, **64 Tier 3**. All 64 Tier 3 cases lacking core corroboration appear in the Google Sheet Phase A Review Queue.
+- **16 / 366** primary selections are international (4.4%); **16 / 366** predate 1950 (4.4%).
+- **316 / 366** primaries are NCEI Storm Events leads (86.3%).
+- Provisional editorial tiers: **57 Tier 1**, **260 Tier 2**, **49 Tier 3**. All 49 Tier 3 cases lacking core corroboration appear in the Google Sheet Phase A Review Queue.
 - 1950–1979 is thin and global 1800s coverage is nearly absent. Tropical track-only records were penalized; no offshore position is treated as a verified landfall community.
 - NCEI event segments are often county-level slices of a broader episode. Do not summarize county/zone casualties as outbreak totals; never mix local- and UTC-date boundaries.
 
@@ -49,9 +49,20 @@ From a checked-out repository with Python >= 3.11:
 
 The audit fails CI on missing dates, missing/mismatched IDs, missing research URLs, duplicate selections, bad tiers, mislabelled core source verification or unsupported human approval. It does not treat presence of a link as proof its exact facts were checked, nor does it clear media rights. New suggestions are not written into phase_a_calendar.json automatically.
 
+
+## Pass 2 source and editorial review (2026-11-20)
+
+- Added 15 further story-focused historical research records into the source-anchor registry (42 total), with separate, traceable case reviews in [Pass 2 research file](../data/phase_a_pass2_research.json).
+- Replaced 15 weak Tier 3 primary anniversaries: Jan 26 (1978 blizzard), Feb 19 (1884 Enigma tornadoes), Apr 6 (1936 Gainesville tornado), May 11 (1953 Waco tornado), Jun 6 (1944 D-Day forecasting), Jul 14 (2000 Pine Lake tornado, Canada), Jul 30 (2016 Ellicott City flood), Aug 29 (2005 Katrina landfall), Sep 18 (1926 Miami hurricane), Sep 29 (1927 St. Louis tornado), Oct 12 (1962 Pacific Northwest windstorm), Oct 26 (2010 Bigfork deep low), Nov 4 (1966 Florence flood), Nov 19 (1977 Andhra Pradesh cyclone), Dec 28 (1879 Tay Bridge gale).
+- Retained displaced event IDs and previous alternate IDs in individual calendar research notes, avoiding silent loss of editorial decisions. Chose two distinct-date-matched **unverified discovery leads** for each upgraded date (30 source-record-level alternates screened; none independently corroborated).
+- Explicitly assessed whether the two named primary sources were from separate institutions. Two NWS/NOAA offices do NOT count as institutionally independent. Two organizations may cite the same underlying original primary report, so separate hostnames do not guarantee factual independence.
+- Critical unresolved numerical conflicts: the 1927 St. Louis tornado deaths (72/78/79 in different accounts), 1966 Florence flood deaths (35 vs 39), 2000 Pine Lake injury counts (>100 vs >140), 1879 Tay Bridge confirmed/estimated persons (59 vs about 74–75), 1977 Andhra Pradesh cyclone landfall location, and 2010 Bigfork low-pressure "record" scope. These are NOT cleared for publication.
+- Graphic rights remain unreviewed even when a source suggests plausible archive maps, original photographs or station charts. The historic Finley map has an explicit public-domain declaration for that *specific* asset, not blanket clearance for a graphic product.
+- Calendar and Google Sheets Audit/Review Queue were synchronized for all 15 upgrades. The 366-day core remains provisional and unapproved. **Next review: 49 weak Tier 3 dates and 322 missing secondary corroboration links.**
+
 ## Editorial action before Phase B
 
-1. Start with the 67 weak-primary stories in Phase A Review Queue, then all other cases. A Tier 3 story must be genuinely interesting, not a casualty report chosen because it scored well.
+1. Start with the 49 weak-primary stories in Phase A Review Queue, then all other cases. A Tier 3 story must be genuinely interesting, not a casualty report chosen because it scored well.
 2. Search beyond the original NCEI/NHC inputs for more nineteenth-century, early twentieth-century and international events, including USGS, WMO, UK Met Office, environment ministries, historical observatories, academic archives and press archives with traceable primary records.
 3. For *every* primary, open the original dated document and determine the occurrence/anniversary date, exact geography, individual-event versus multiday scope, factual headline, claim-level notes and measurement caveats.
 4. Add at least one independent corroborating URL where possible; record disagreements explicitly. Do not use a record's existence alone as the verified-facts field.
