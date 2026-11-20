@@ -12,7 +12,7 @@ The public GitHub repository remains the provenance and machine-audit workspace.
 ## Actual deliverables
 
 - data/phase_a_calendar.json: exactly 366 calendar-day rows, including February 29. Each row has a unique provisional primary and two *research leads* as alternates; event dates, location, category, provisional tier, two editorial angles, original source URL, corroboration and discovery statuses, graphic concept and data source, rights status and research gaps. **Not 366 completed articles.**
-- data/phase_a_sourced_anchors.json: 12 additional independently sourced cases spanning international events and early history. Identified core facts are corroborated by two reference URLs, but not every detailed impact claim or graphic reuse right is verified.
+- data/phase_a_sourced_anchors.json: 27 additional independently sourced cases spanning international events and early history. Identified core facts are corroborated by two reference URLs, but not every detailed impact claim or graphic reuse right is verified.
 - data/phase_a_audit.json: measured coverage/diversity/verification weaknesses at the time of initial selection.
 - src/otdwx/phase_a.py: read-only calendar validator, audit summary, and on-demand candidate comparison. Its --suggest output is triage, not editorial approval.
 - tests/test_phase_a.py: tests for leap-year coverage, duplicate IDs, historic-date agreement, source status and fact-check/rights approval gates.
@@ -26,13 +26,13 @@ February 29's initial provisional choice was an ordinary winter-weather road inc
 
 The 366 primary IDs are distinct; all dates have two alternate *IDs*. A count of two alternates is not a claim of two verified alternatives.
 
-- **14 / 366** have corroboration for core date/location/broad event identity (only 3.8%, *not* full fact-checks).
+- **29 / 366** have corroboration for core date/location/broad event identity (only 7.9%, *not* full fact-checks).
 - **0** have completed human fact checks or approvals in Phase A, and **0** have a formally cleared historical image in this library.
-- **14 / 366** have a secondary corroborating URL; **352** still need one.
+- **29 / 366** have a secondary corroborating URL; **337** still need one.
 - **366 / 366** have a proposed visualization type, but observed data and license feasibility are mostly *not established*.
-- **8 / 366** primary selections are international (2.2%); **4 / 366** predate 1950 (1.1%).
-- **346 / 366** primaries are single-source NCEI Storm Events leads (94.5%).
-- Provisional editorial tiers: **29 Tier 1**, **270 Tier 2**, **67 Tier 3**. All 67 Tier 3 cases lacking core corroboration appear in the Google Sheet Phase A Review Queue.
+- **11 / 366** primary selections are international (3.0%); **10 / 366** predate 1950 (2.7%).
+- **331 / 366** primaries are single-source NCEI Storm Events leads (90.4%).
+- Provisional editorial tiers: **44 Tier 1**, **258 Tier 2**, **64 Tier 3**. All 64 Tier 3 cases lacking core corroboration appear in the Google Sheet Phase A Review Queue.
 - 1950–1979 is thin and global 1800s coverage is nearly absent. Tropical track-only records were penalized; no offshore position is treated as a verified landfall community.
 - NCEI event segments are often county-level slices of a broader episode. Do not summarize county/zone casualties as outbreak totals; never mix local- and UTC-date boundaries.
 
