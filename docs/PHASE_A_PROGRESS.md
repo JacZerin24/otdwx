@@ -24,19 +24,19 @@ February 29's initial provisional choice was an ordinary winter-weather road inc
 
 ## Current audit and weaknesses
 
-The 366 primary IDs are distinct; all dates have two alternate *IDs*. A count of two alternates is not a claim of two verified alternatives.
+The 366 provisional primary IDs remain distinct with two alternate research IDs per date. Presence of these alternate IDs **is not** verification. Updated after the latest Pass 2 research batch on 2026-11-20:
 
-- **66 / 366** have corroboration for core date/location/broad event identity (18.0%, *not* full fact-checks).
-- **0** have completed human fact checks or approvals in Phase A, and **0** have a formally cleared historical image in this library.
-- **66 / 366** have a secondary corroborating URL; **300** still need one.
-- **366 / 366** have a proposed visualization type, but observed data and license feasibility are mostly *not established*.
-- **26 / 366** primary selections have non-USA, mixed-country or offshore geography tags (7.1%); **18 / 366** predate 1950 (4.9%). The geographic audit's `country != USA` rule includes shared/offshore areas, so it is not a count of exclusively foreign landfalls.
-- **294 / 366** primaries are NCEI Storm Events leads (80.3%).
-- Provisional editorial tiers: **73 Tier 1**, **266 Tier 2**, **27 Tier 3**. All 27 Tier 3 cases lacking core corroboration appear in the Google Sheet Phase A Review Queue.
-- 1950–1979 is thin and global 1800s coverage is nearly absent. Tropical track-only records were penalized; no offshore position is treated as a verified landfall community.
-- NCEI event segments are often county-level slices of a broader episode. Do not summarize county/zone casualties as outbreak totals; never mix local- and UTC-date boundaries.
+- **76 / 366** (20.8%) have corroborated *core event occurrence, calendar date and broad geography*, **not full claim-by-claim fact checks**.
+- **0** fully fact-checked or human-approved Phase A primaries; **0** item-level historical graphics cleared.
+- **76 / 366** have a second reference URL; **290** still lack one; some two-source cases share an institution or original observations.
+- **366 / 366** include graphic concepts, but underlying data, historical image licensing and plot feasibility are not confirmed.
+- **27 / 366** (7.4%) have non-USA, mixed-country or offshore country tags, including shared categories; not all are exclusively foreign landfall stories. **19 / 366** (5.2%) predate 1950.
+- **284 / 366** (77.6%) still use NCEI Storm Events leads as their primary source family.
+- Provisional editorial tiers: **79 Tier 1**, **270 Tier 2**, **17 Tier 3**; all **17** weak Tier 3 stories remain in the Google Sheet review queue.
+- Tropical and winter clusters, largely U.S.-focused recent stories, and unverified alternate quality require deliberate editorial attention.
+- NCEI county/zone record segments and multi-day episode timing must not be silently equated with outbreak-wide totals or one-day figures.
 
-The statistics above are *snapshot* values. For current counts after edits, use the audit command below; do not assume the snapshot remains current.
+These counts are a snapshot. Run the local audit command for the live report. The calendar and audit do not approve publication.
 
 ## Reproduce the audit
 
@@ -100,3 +100,12 @@ These are candidate primary *core-identity corroborations*, **not completed clai
 Flagged weather-type clustering around May 8, October 20–21 and December 17–20 for later editorial rebalancing. Great Storm of 1703 must be labeled as Gregorian-anniversary calendar normalization, NEVER backdated as a contemporary English 7 Dec document. The historical Montana imagery is from October 1, not Sep 30. The Wilma 882 mb timing differs between best-track 6-hour points and spot aircraft observations. Photography and archival text rights remain **not reviewed**.
 
 Updated: **66** core occurrence/date corroborations; **27** weak primaries; **300** missing secondary sources; **26** international; **18** pre-1950; **294** NCEI-primary; no approval or checked archive media. Review remaining weak primaries, then all 300 unsupported second-source gaps and 366-day alternative quality.
+
+
+## Pass 2 research continuation — 20 November 2026 (ten more dates)
+
+Upgraded 10 weak primaries with date-specific source pairs: **Feb 26 (2024 Smokehouse Creek Fire), Jul 29 (2022 eastern Kentucky flood response), Aug 25 (2017 Hurricane Harvey Texas landfall), Sep 17 (1928 Lake Okeechobee overnight wind setup and levee flooding), Sep 23 (2023 Tropical Storm Ophelia), Oct 7 (2017 Hurricane Nate first Mississippi River mouth landfall), Oct 28 (2020 Hurricane Zeta Louisiana landfall), Nov 29 (1988 Bangladesh cyclone), Dec 6 (2017 Skirball Fire), and Dec 12 (2014 California atmospheric river river-crest response)**.
+
+The date hook is not always a one-day event: Kentucky's intense rain largely occurred Jul 27–28, Okeechobee coastal landfall was Sep 16, and California's heaviest frontal rain reached northern California Dec 11. The linked date records note exactly which later action occurred on the selected day. Source independence is not assumed from two hostnames; NOAA NHC/NWS sources are same institution, while external agencies may reuse NOAA's original intensity estimates. Image rights remain not reviewed. Former primary candidates and 20 existing alternate IDs remain available; none of those alternates received independent corroboration in this batch.
+
+Current snapshot: **76** core corroborated, **17** weak Tier 3, **290** missing second-source URLs, **27** non-USA/mixed/offshore tags, **19** pre-1950 and **284** NCEI-primary. All 366 dates remain provisional; the actual editorial/approval and media rights gates remain unchanged.
