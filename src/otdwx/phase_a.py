@@ -22,7 +22,8 @@ CATALOG = ROOT / "data/discovery_candidates.json"
 CURATED = ROOT / "data/curated_candidates.json"
 ANCHORS = ROOT / "data/phase_a_sourced_anchors.json"
 PUBLICATION = ROOT / "data/publishing_log.json"
-CLAIM_LEDGER = ROOT / "data/phase_a_pass10_research.json"
+CLAIM_LEDGERS = [ROOT / "data/phase_a_pass10_research.json",
+                 ROOT / "data/phase_a_pass11_research.json"]
 ALLOWED = {"tornado", "severe_storm", "tropical", "flood", "winter",
            "temperature", "drought", "wildfire_weather", "unusual", "other"}
 GRADES = {"Tier 1 — Flagship", "Tier 2 — Strong", "Tier 3 — Niche"}
@@ -324,13 +325,18 @@ def main(argv: list[str] | None = None) -> int:
     calendar = read(CALENDAR)
     inventory = candidates()
     problems = validate_calendar(calendar, inventory, read(PUBLICATION))
-    ledger = read(CLAIM_LEDGER) if CLAIM_LEDGER.exists() else None
-    if ledger is not None:
+    ledgers = [read(path) for path in CLAIM_LEDGERS if path.exists()]
+    for ledger in ledgers:
         problems.extend(validate_claim_checks(ledger, calendar["days"]))
+    all_claim_ids = [claim["claim_id"] for ledger in ledgers
+                     for claim in ledger.get("claim_checks", []) if isinstance(claim, dict)]
+    if len(all_claim_ids) != len(set(all_claim_ids)):
+        problems.append("duplicate claim IDs across research passes")
     if args.audit:
         report = summarize(calendar["days"])
-        if ledger is not None:
-            report["claim_ledger_checks"] = len(ledger.get("claim_checks", []))
+        if ledgers:
+            report["claim_ledger_checks"] = sum(len(ledger.get("claim_checks", []))
+                                                for ledger in ledgers)
         print(json.dumps({"structural_validation": {
             "valid": not problems, "problems": problems}, "metrics": report}, indent=2))
         return 0 if not problems else 1
