@@ -30,7 +30,9 @@
       "claim_fact_check_status": "pending",
       "publication_approval_status": "not_approved",
       "review_scope": "core event/date/location only",
-      "review_date": "2026-11-20"
+      "review_date": "2026-11-20",
+      "original_report_location": "BUPREE, Alabama",
+      "story_display_location": "Beauregard and Smiths Station, Macon–Lee counties, Alabama"
     },
     {
       "calendar_date": "03-24",
@@ -50,7 +52,9 @@
       "claim_fact_check_status": "pending",
       "publication_approval_status": "not_approved",
       "review_scope": "core event/date/location only",
-      "review_date": "2026-11-20"
+      "review_date": "2026-11-20",
+      "original_report_location": "EGREMONT, Mississippi",
+      "story_display_location": "Rolling Fork and Silver City, Mississippi Delta"
     },
     {
       "calendar_date": "03-27",
@@ -70,7 +74,9 @@
       "claim_fact_check_status": "pending",
       "publication_approval_status": "not_approved",
       "review_scope": "core event/date/location only",
-      "review_date": "2026-11-20"
+      "review_date": "2026-11-20",
+      "original_report_location": "Ragland to 5 NE Rock, Alabama",
+      "story_display_location": "Ragland–Piedmont/Goshen, northeast Alabama"
     },
     {
       "calendar_date": "04-08",
@@ -90,7 +96,9 @@
       "claim_fact_check_status": "pending",
       "publication_approval_status": "not_approved",
       "review_scope": "core event/date/location only",
-      "review_date": "2026-11-20"
+      "review_date": "2026-11-20",
+      "original_report_location": "OAK GROVE, Alabama",
+      "story_display_location": "Oak Grove, western Jefferson County, Alabama"
     },
     {
       "calendar_date": "04-27",
@@ -110,7 +118,9 @@
       "claim_fact_check_status": "pending",
       "publication_approval_status": "not_approved",
       "review_scope": "core event/date/location only",
-      "review_date": "2026-11-20"
+      "review_date": "2026-11-20",
+      "original_report_location": "RALPH, Alabama",
+      "story_display_location": "Greene–Tuscaloosa–Jefferson county corridor, Alabama"
     },
     {
       "calendar_date": "05-10",
@@ -130,7 +140,9 @@
       "claim_fact_check_status": "pending",
       "publication_approval_status": "not_approved",
       "review_scope": "core event/date/location only",
-      "review_date": "2026-11-20"
+      "review_date": "2026-11-20",
+      "original_report_location": "HORNET, Missouri",
+      "story_display_location": "Picher, Oklahoma to Neosho and Newton County, Missouri"
     },
     {
       "calendar_date": "05-20",
@@ -150,7 +162,9 @@
       "claim_fact_check_status": "pending",
       "publication_approval_status": "not_approved",
       "review_scope": "core event/date/location only",
-      "review_date": "2026-11-20"
+      "review_date": "2026-11-20",
+      "original_report_location": "MOORE, Oklahoma",
+      "story_display_location": "Newcastle–Moore and south Oklahoma City, Oklahoma"
     },
     {
       "calendar_date": "05-22",
@@ -170,7 +184,9 @@
       "claim_fact_check_status": "pending",
       "publication_approval_status": "not_approved",
       "review_scope": "core event/date/location only",
-      "review_date": "2026-11-20"
+      "review_date": "2026-11-20",
+      "original_report_location": "CENTRAL CITY, Missouri",
+      "story_display_location": "Joplin and surrounding southwest Missouri"
     },
     {
       "calendar_date": "11-22",
@@ -230,7 +246,9 @@
       "claim_fact_check_status": "pending",
       "publication_approval_status": "not_approved",
       "review_scope": "core event/date/location only",
-      "review_date": "2026-11-20"
+      "review_date": "2026-11-20",
+      "original_report_location": "East-central Wisconsin",
+      "story_display_location": "Medina–Outagamie–Shawano county corridor, Wisconsin"
     },
     {
       "calendar_date": "12-03",
@@ -270,7 +288,9 @@
       "claim_fact_check_status": "pending",
       "publication_approval_status": "not_approved",
       "review_scope": "core event/date/location only",
-      "review_date": "2026-11-20"
+      "review_date": "2026-11-20",
+      "original_report_location": "BALTIMORE, Kentucky",
+      "story_display_location": "Mayfield–Dawson Springs and western Kentucky"
     },
     {
       "calendar_date": "12-16",
@@ -290,7 +310,9 @@
       "claim_fact_check_status": "pending",
       "publication_approval_status": "not_approved",
       "review_scope": "core event/date/location only",
-      "review_date": "2026-11-20"
+      "review_date": "2026-11-20",
+      "original_report_location": "HULL, Alabama",
+      "story_display_location": "Tuscaloosa and adjacent Tuscaloosa County, Alabama"
     },
     {
       "calendar_date": "12-26",
@@ -310,7 +332,9 @@
       "claim_fact_check_status": "pending",
       "publication_approval_status": "not_approved",
       "review_scope": "core event/date/location only",
-      "review_date": "2026-11-20"
+      "review_date": "2026-11-20",
+      "original_report_location": "NEW HOPE, Texas",
+      "story_display_location": "Sunnyvale–Garland–Rowlett, north Texas"
     }
   ],
   "primary_replacements": [

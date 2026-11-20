@@ -3057,7 +3057,7 @@
       "historical_event_date": "2019-03-03",
       "historical_year": 2019,
       "title": "Beauregard–Smiths Station EF4 tornado strikes Alabama",
-      "location": "BUPREE, Alabama",
+      "location": "Beauregard and Smiths Station, Macon–Lee counties, Alabama",
       "region": "Southeast",
       "country": "USA",
       "weather_category": "tornado",
@@ -3093,7 +3093,7 @@
         "same source family as previous day",
         "three consecutive days same hazard"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NCEI Bupree is a Lee County segment of the Beauregard–Smiths Station tornado. NWS verifies March 3 and EF4 identity. Caveat: Do not sum Bupree county-level casualties with the entire tornado. Rating and 170 mph are survey-based estimates, not measured 10 m gusts. Second source: NWS Birmingham https://www.weather.gov/bmx/event_03032019beauregard. Additional context: https://nationalstorms.com/tornadoes/library/beauregard-2019/. Original county/location title retained: Tornado — BUPREE, Alabama.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NCEI Bupree is a Lee County segment of the Beauregard–Smiths Station tornado. NWS verifies March 3 and EF4 identity. Caveat: Do not sum Bupree county-level casualties with the entire tornado. Rating and 170 mph are survey-based estimates, not measured 10 m gusts. Second source: NWS Birmingham https://www.weather.gov/bmx/event_03032019beauregard. Additional context: https://nationalstorms.com/tornadoes/library/beauregard-2019/. Original county/location title retained: Tornado — BUPREE, Alabama.\nPass 3 location normalization: original NCEI or curated location was BUPREE, Alabama; broad display location is Beauregard and Smiths Station, Macon–Lee counties, Alabama. Original exact segment is preserved in original_report_location.",
       "event_source_excerpt": "National Weather Service meteorologists surveyed damage in far southern Lee County and determined that it was consistent with an EF4 tornado, with maximum sustained winds near 170 mph.||This track is a continuation of a track that began in Macon County. The tornado crossed into Lee County near Lee R",
       "input_research_score": 81.53,
       "editorial_selection_score": 63.53,
@@ -3102,7 +3102,8 @@
       "research_priority": "Confirm claimed track and rating per original survey, warning timing, and event-versus-county counts; review source independence and media rights.",
       "post_readiness": "NOT READY",
       "secondary_source_publisher": "NWS Birmingham",
-      "source_independence_assessment": "same_survey_NOAA_NCEI_NWS"
+      "source_independence_assessment": "same_survey_NOAA_NCEI_NWS",
+      "original_report_location": "BUPREE, Alabama"
     },
     {
       "calendar_date": "03-04",
@@ -4082,7 +4083,7 @@
       "historical_event_date": "2023-03-24",
       "historical_year": 2023,
       "title": "Rolling Fork–Silver City EF4 tornado crosses the Mississippi Delta",
-      "location": "EGREMONT, Mississippi",
+      "location": "Rolling Fork and Silver City, Mississippi Delta",
       "region": "Gulf Coast",
       "country": "USA",
       "weather_category": "tornado",
@@ -4117,7 +4118,7 @@
         "same hazard as previous day",
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NCEI Egremont segment is part of the March 24 Rolling Fork–Silver City tornado; MEMA independently documents community impacts and date. Caveat: The NCEI event begins near Egremont; this is not an independent second storm. Separate first reports, final 195 mph rating and final casualty scope. Second source: Mississippi Emergency Management Agency https://www.msema.org/news/march-24-2023-severe-weather-update-5. Additional context: https://mesonet.agron.iastate.edu/wx/afos/p.php?e=202306062206&pil=PNSJAN. Original county/location title retained: Tornado — EGREMONT, Mississippi.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NCEI Egremont segment is part of the March 24 Rolling Fork–Silver City tornado; MEMA independently documents community impacts and date. Caveat: The NCEI event begins near Egremont; this is not an independent second storm. Separate first reports, final 195 mph rating and final casualty scope. Second source: Mississippi Emergency Management Agency https://www.msema.org/news/march-24-2023-severe-weather-update-5. Additional context: https://mesonet.agron.iastate.edu/wx/afos/p.php?e=202306062206&pil=PNSJAN. Original county/location title retained: Tornado — EGREMONT, Mississippi.\nPass 3 location normalization: original NCEI or curated location was EGREMONT, Mississippi; broad display location is Rolling Fork and Silver City, Mississippi Delta. Original exact segment is preserved in original_report_location.",
       "event_source_excerpt": "This long track, violent tornado began over northern |Issaquena County near Grant Rd, downing multiple trees and damaging |two older outbuildings. It tracked northeastward, producing tree |damage as it crossed the Steele Bayou Canal before crossing into |Sharkey County. At this point, the tornado be",
       "input_research_score": 80.55,
       "editorial_selection_score": 70.15,
@@ -4126,7 +4127,8 @@
       "research_priority": "Confirm claimed track and rating per original survey, warning timing, and event-versus-county counts; review source independence and media rights.",
       "post_readiness": "NOT READY",
       "secondary_source_publisher": "Mississippi Emergency Management Agency",
-      "source_independence_assessment": "cross_agency_response_report_uses_NWS_tornado_rating"
+      "source_independence_assessment": "cross_agency_response_report_uses_NWS_tornado_rating",
+      "original_report_location": "EGREMONT, Mississippi"
     },
     {
       "calendar_date": "03-25",
@@ -4228,7 +4230,7 @@
       "historical_event_date": "1994-03-27",
       "historical_year": 1994,
       "title": "The 1994 Palm Sunday tornado destroys Goshen United Methodist Church",
-      "location": "Ragland to 5 NE Rock, Alabama",
+      "location": "Ragland–Piedmont/Goshen, northeast Alabama",
       "region": "Southeast",
       "country": "USA",
       "weather_category": "tornado",
@@ -4262,7 +4264,7 @@
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): The 1994 F4 tornado began near Ragland and reached the Goshen church north of Piedmont during Palm Sunday worship; CDC independently documents casualties. Caveat: Published contemporary casualty counts were updated; CDC 20 church fatalities refers to the church, not automatically the whole tornado or outbreak. Distinct from 1965 Palm Sunday outbreak on Apr 11. Second source: CDC Morbidity and Mortality Weekly Report https://www.cdc.gov/MMWR/preview/mmwrhtml/00030985.htm. Additional context: https://www.weather.gov/bmx/event_03271994_stormdata. Original county/location title retained: Tornado — Ragland to 5 NE Rock, Alabama.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): The 1994 F4 tornado began near Ragland and reached the Goshen church north of Piedmont during Palm Sunday worship; CDC independently documents casualties. Caveat: Published contemporary casualty counts were updated; CDC 20 church fatalities refers to the church, not automatically the whole tornado or outbreak. Distinct from 1965 Palm Sunday outbreak on Apr 11. Second source: CDC Morbidity and Mortality Weekly Report https://www.cdc.gov/MMWR/preview/mmwrhtml/00030985.htm. Additional context: https://www.weather.gov/bmx/event_03271994_stormdata. Original county/location title retained: Tornado — Ragland to 5 NE Rock, Alabama.\nPass 3 location normalization: original NCEI or curated location was Ragland to 5 NE Rock, Alabama; broad display location is Ragland–Piedmont/Goshen, northeast Alabama. Original exact segment is preserved in original_report_location.",
       "event_source_excerpt": "A tornado began about one mile south-southwest of Ragland in St. Clair County at 1055 CST and traveled northeast at between 45 and 55 miles an hour crossing the Alabama/Georgia border about five miles northeast of Rock Run in Cherokee County. The tornado moved across County Highway 144 just south-so",
       "input_research_score": 83.05,
       "editorial_selection_score": 71.4,
@@ -4271,7 +4273,8 @@
       "research_priority": "Confirm claimed track and rating per original survey, warning timing, and event-versus-county counts; review source independence and media rights.",
       "post_readiness": "NOT READY",
       "secondary_source_publisher": "CDC Morbidity and Mortality Weekly Report",
-      "source_independence_assessment": "cross_agency_original_public_health_investigation"
+      "source_independence_assessment": "cross_agency_original_public_health_investigation",
+      "original_report_location": "Ragland to 5 NE Rock, Alabama"
     },
     {
       "calendar_date": "03-28",
@@ -4822,7 +4825,7 @@
       "historical_event_date": "1998-04-08",
       "historical_year": 1998,
       "title": "The April 8, 1998 Oak Grove F5 tornado hits central Alabama",
-      "location": "OAK GROVE, Alabama",
+      "location": "Oak Grove, western Jefferson County, Alabama",
       "region": "Southeast",
       "country": "USA",
       "weather_category": "tornado",
@@ -4858,7 +4861,7 @@
         "same source family as previous day",
         "three consecutive days same hazard"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NWS documents an F5 tornado affecting Oak Grove and western Jefferson County on April 8, 1998; NCEI's Oak Grove record is a location segment. Caveat: An F5 is the pre-2007 Fujita rating, NOT EF5. Multiple tornadoes occurred that day; distinguish this path from other members of the outbreak. Second source: NWS Birmingham https://www.weather.gov/bmx/event_04081998. Additional context: https://www.weather.gov/bmx/climo_top10. Original county/location title retained: Tornado — OAK GROVE, Alabama.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NWS documents an F5 tornado affecting Oak Grove and western Jefferson County on April 8, 1998; NCEI's Oak Grove record is a location segment. Caveat: An F5 is the pre-2007 Fujita rating, NOT EF5. Multiple tornadoes occurred that day; distinguish this path from other members of the outbreak. Second source: NWS Birmingham https://www.weather.gov/bmx/event_04081998. Additional context: https://www.weather.gov/bmx/climo_top10. Original county/location title retained: Tornado — OAK GROVE, Alabama.\nPass 3 location normalization: original NCEI or curated location was OAK GROVE, Alabama; broad display location is Oak Grove, western Jefferson County, Alabama. Original exact segment is preserved in original_report_location.",
       "event_source_excerpt": "A tornado, the second spawned from the same supercell, began in rural sections of eastern Tuscaloosa County 1.5 miles east of the Warrior River. The tornado moved through primarily rural and unpopulated areas of eastern Tuscaloosa County before crossing into extreme southwestern Jefferson County. Th",
       "input_research_score": 84.67,
       "editorial_selection_score": 70.32,
@@ -4867,7 +4870,8 @@
       "research_priority": "Confirm claimed track and rating per original survey, warning timing, and event-versus-county counts; review source independence and media rights.",
       "post_readiness": "NOT READY",
       "secondary_source_publisher": "NWS Birmingham",
-      "source_independence_assessment": "same_survey_NOAA_NCEI_NWS"
+      "source_independence_assessment": "same_survey_NOAA_NCEI_NWS",
+      "original_report_location": "OAK GROVE, Alabama"
     },
     {
       "calendar_date": "04-09",
@@ -5761,7 +5765,7 @@
       "historical_event_date": "2011-04-27",
       "historical_year": 2011,
       "title": "The Tuscaloosa–Birmingham EF4 tornado devastates Alabama",
-      "location": "RALPH, Alabama",
+      "location": "Greene–Tuscaloosa–Jefferson county corridor, Alabama",
       "region": "Southeast",
       "country": "USA",
       "weather_category": "tornado",
@@ -5797,7 +5801,7 @@
         "same source family as previous day",
         "three consecutive days same hazard"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NCEI Ralph, Alabama describes the long-track EF4 across Greene, Tuscaloosa and Jefferson Counties on April 27, 2011. Caveat: Do not conflate one EF4 with the entire 2011 Super Outbreak. Published fatalities and wind estimates may use county segment versus total track denominators. Second source: NWS Birmingham https://www.weather.gov/bmx/event_04272011tuscbirm. Additional context: https://www.nesdis.noaa.gov/news/the-tuscaloosa-birmingham-ef-4-tornado. Original county/location title retained: Tornado — RALPH, Alabama.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NCEI Ralph, Alabama describes the long-track EF4 across Greene, Tuscaloosa and Jefferson Counties on April 27, 2011. Caveat: Do not conflate one EF4 with the entire 2011 Super Outbreak. Published fatalities and wind estimates may use county segment versus total track denominators. Second source: NWS Birmingham https://www.weather.gov/bmx/event_04272011tuscbirm. Additional context: https://www.nesdis.noaa.gov/news/the-tuscaloosa-birmingham-ef-4-tornado. Original county/location title retained: Tornado — RALPH, Alabama.\nPass 3 location normalization: original NCEI or curated location was RALPH, Alabama; broad display location is Greene–Tuscaloosa–Jefferson county corridor, Alabama. Original exact segment is preserved in original_report_location.",
       "event_source_excerpt": "This tornado initially touched down in rural northern Greene County and moved northeast through southern Tuscaloosa and western Jefferson Counties, causing devastating damage consistent with a violent EF4 rating to portions of the city of Tuscaloosa and western suburbs of Birmingham, before it lifte",
       "input_research_score": 88,
       "editorial_selection_score": 70,
@@ -5806,7 +5810,8 @@
       "research_priority": "Confirm claimed track and rating per original survey, warning timing, and event-versus-county counts; review source independence and media rights.",
       "post_readiness": "NOT READY",
       "secondary_source_publisher": "NWS Birmingham",
-      "source_independence_assessment": "same_survey_NOAA_NCEI_NWS"
+      "source_independence_assessment": "same_survey_NOAA_NCEI_NWS",
+      "original_report_location": "RALPH, Alabama"
     },
     {
       "calendar_date": "04-28",
@@ -6398,7 +6403,7 @@
       "historical_event_date": "2008-05-10",
       "historical_year": 2008,
       "title": "Picher–Neosho EF4 tornado crosses Oklahoma into Missouri",
-      "location": "HORNET, Missouri",
+      "location": "Picher, Oklahoma to Neosho and Newton County, Missouri",
       "region": "Midwest",
       "country": "USA",
       "weather_category": "tornado",
@@ -6433,7 +6438,7 @@
         "same hazard as previous day",
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NCEI Hornet, Missouri is a downstream segment of the May 10, 2008 Picher–Neosho EF4 tornado; NWS Springfield follows the cross-state track. Caveat: May 10 is a local date on both sides of state line; do not sum Missouri fatalities with Picher Oklahoma counts without separate scopes. EF4 survey estimates not measured winds. Second source: NWS Springfield https://www.weather.gov/sgf/events_2008may10. Additional context: https://www.weather.gov/tsa/weather-event_may10_2008pichertornado. Original county/location title retained: Tornado — HORNET, Missouri.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NCEI Hornet, Missouri is a downstream segment of the May 10, 2008 Picher–Neosho EF4 tornado; NWS Springfield follows the cross-state track. Caveat: May 10 is a local date on both sides of state line; do not sum Missouri fatalities with Picher Oklahoma counts without separate scopes. EF4 survey estimates not measured winds. Second source: NWS Springfield https://www.weather.gov/sgf/events_2008may10. Additional context: https://www.weather.gov/tsa/weather-event_may10_2008pichertornado. Original county/location title retained: Tornado — HORNET, Missouri.\nPass 3 location normalization: original NCEI or curated location was HORNET, Missouri; broad display location is Picher, Oklahoma to Neosho and Newton County, Missouri. Original exact segment is preserved in original_report_location.",
       "event_source_excerpt": "This tornado is an extension of the Ottawa County, Oklahoma tornado. A National Weather Service storm survey revealed that an EF-4 tornado crossed into Missouri just north of Iris Road, and tracked east southeast all the way across Newton County to just north of Fairview. Several people were killed",
       "input_research_score": 81.41,
       "editorial_selection_score": 67.03,
@@ -6442,7 +6447,8 @@
       "research_priority": "Confirm claimed track and rating per original survey, warning timing, and event-versus-county counts; review source independence and media rights.",
       "post_readiness": "NOT READY",
       "secondary_source_publisher": "NWS Springfield",
-      "source_independence_assessment": "same_survey_NOAA_NCEI_NWS_cross_office"
+      "source_independence_assessment": "same_survey_NOAA_NCEI_NWS_cross_office",
+      "original_report_location": "HORNET, Missouri"
     },
     {
       "calendar_date": "05-11",
@@ -6893,7 +6899,7 @@
       "historical_event_date": "2013-05-20",
       "historical_year": 2013,
       "title": "The Newcastle–Moore EF5 tornado devastates central Oklahoma",
-      "location": "MOORE, Oklahoma",
+      "location": "Newcastle–Moore and south Oklahoma City, Oklahoma",
       "region": "South Central",
       "country": "USA",
       "weather_category": "tornado",
@@ -6927,7 +6933,7 @@
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NIST conducted independent post-storm building and life-safety reconnaissance of the May 20, 2013 Newcastle–Moore EF5 tornado. Caveat: NIST documents facilities and communications, not an independently measured EF5 wind speed. NCEI Moore is a county segment crossing from McClain to Cleveland. Second source: National Institute of Standards and Technology https://www.nist.gov/el/moore-oklahoma-tornado-2013. Additional context: https://www.weather.gov/oun/events-20130520. Original county/location title retained: Tornado — MOORE, Oklahoma.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NIST conducted independent post-storm building and life-safety reconnaissance of the May 20, 2013 Newcastle–Moore EF5 tornado. Caveat: NIST documents facilities and communications, not an independently measured EF5 wind speed. NCEI Moore is a county segment crossing from McClain to Cleveland. Second source: National Institute of Standards and Technology https://www.nist.gov/el/moore-oklahoma-tornado-2013. Additional context: https://www.weather.gov/oun/events-20130520. Original county/location title retained: Tornado — MOORE, Oklahoma.\nPass 3 location normalization: original NCEI or curated location was MOORE, Oklahoma; broad display location is Newcastle–Moore and south Oklahoma City, Oklahoma. Original exact segment is preserved in original_report_location.",
       "event_source_excerpt": "The violent Newcastle-Moore tornado moved into Cleveland County from McClain County as it moved northeast across the Canadian River near Interstate 44. The tornado then turned more east and then east-northeast after crossing Interstate 44. Violent EF4 damage was again observed as it began to move in",
       "input_research_score": 84.01,
       "editorial_selection_score": 82.01,
@@ -6936,7 +6942,8 @@
       "research_priority": "Confirm claimed track and rating per original survey, warning timing, and event-versus-county counts; review source independence and media rights.",
       "post_readiness": "NOT READY",
       "secondary_source_publisher": "National Institute of Standards and Technology",
-      "source_independence_assessment": "cross_agency_independent_building_reconnaissance_reuses_weather_observations"
+      "source_independence_assessment": "cross_agency_independent_building_reconnaissance_reuses_weather_observations",
+      "original_report_location": "MOORE, Oklahoma"
     },
     {
       "calendar_date": "05-21",
@@ -6994,7 +7001,7 @@
       "historical_event_date": "2011-05-22",
       "historical_year": 2011,
       "title": "The Joplin EF5 tornado strikes southwestern Missouri",
-      "location": "CENTRAL CITY, Missouri",
+      "location": "Joplin and surrounding southwest Missouri",
       "region": "Midwest",
       "country": "USA",
       "weather_category": "tornado",
@@ -7030,7 +7037,7 @@
         "same source family as previous day",
         "three consecutive days same hazard"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NCEI Central City record documents a segment of the May 22, 2011 Joplin EF5, while NIST conducted independent engineering, warning and human-response investigations. Caveat: Different fatality counts reflect differing cutoffs and inclusion of subsequent deaths. Do not treat a Central City segment narrative as citywide impact statistics. Second source: National Institute of Standards and Technology https://www.nist.gov/disaster-failure-studies/joplin-tornado. Additional context: https://www.mshp.dps.missouri.gov/MSHPWeb/Root/JoplinTornadoStory.html. Original county/location title retained: Tornado — CENTRAL CITY, Missouri.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NCEI Central City record documents a segment of the May 22, 2011 Joplin EF5, while NIST conducted independent engineering, warning and human-response investigations. Caveat: Different fatality counts reflect differing cutoffs and inclusion of subsequent deaths. Do not treat a Central City segment narrative as citywide impact statistics. Second source: National Institute of Standards and Technology https://www.nist.gov/disaster-failure-studies/joplin-tornado. Additional context: https://www.mshp.dps.missouri.gov/MSHPWeb/Root/JoplinTornadoStory.html. Original county/location title retained: Tornado — CENTRAL CITY, Missouri.\nPass 3 location normalization: original NCEI or curated location was CENTRAL CITY, Missouri; broad display location is Joplin and surrounding southwest Missouri. Original exact segment is preserved in original_report_location.",
       "event_source_excerpt": "National Weather Service survey teams rated the tornado that tracked across the southwest through east central portion of Joplin, Missouri, as an EF5 tornado. Maximum winds were estimated to have exceeded 200 miles per hour. The tornado had a maximum width of one mile and an overall path length of n",
       "input_research_score": 88,
       "editorial_selection_score": 70,
@@ -7039,7 +7046,8 @@
       "research_priority": "Confirm claimed track and rating per original survey, warning timing, and event-versus-county counts; review source independence and media rights.",
       "post_readiness": "NOT READY",
       "secondary_source_publisher": "National Institute of Standards and Technology",
-      "source_independence_assessment": "cross_agency_independent_engineering_study_with_shared_tornado_survey"
+      "source_independence_assessment": "cross_agency_independent_engineering_study_with_shared_tornado_survey",
+      "original_report_location": "CENTRAL CITY, Missouri"
     },
     {
       "calendar_date": "05-23",
@@ -16443,7 +16451,7 @@
       "historical_event_date": "1970-12-01",
       "historical_year": 1970,
       "title": "Unusual December tornadoes hit east-central Wisconsin in 1970",
-      "location": "East-central Wisconsin",
+      "location": "Medina–Outagamie–Shawano county corridor, Wisconsin",
       "region": "Great Lakes",
       "country": "USA",
       "weather_category": "tornado",
@@ -16475,7 +16483,7 @@
       "second_alternate_title": "Winter Weather — WESTERN MAGIC VALLEY, Idaho",
       "alternates_verification_status": "research_leads_unverified",
       "diversity_repetition_warnings": [],
-      "research_notes": "Ensure the entire event timing and tornado totals are corroborated. Distinguish tornado-level from outbreak totals. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): County emergency management independently lists a December 1, 1970 Medina-area F3 tornado, supporting the broader NWS Green Bay outbreak date. Caveat: Outagamie County uses the modern 'EF-3' notation for an event rated in the original Fujita scale; public copy should say F3 (retrospective source terminology) after record check. County count not the statewide count. Second source: Outagamie County Emergency Management https://www.outagamie.gov/County-Services/Emergency-Management/Hazards. Additional context: https://www.weather.gov/grb/120170_tornadoes. Original county/location title retained: 1970 early-December Wisconsin tornado outbreak.",
+      "research_notes": "Ensure the entire event timing and tornado totals are corroborated. Distinguish tornado-level from outbreak totals. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): County emergency management independently lists a December 1, 1970 Medina-area F3 tornado, supporting the broader NWS Green Bay outbreak date. Caveat: Outagamie County uses the modern 'EF-3' notation for an event rated in the original Fujita scale; public copy should say F3 (retrospective source terminology) after record check. County count not the statewide count. Second source: Outagamie County Emergency Management https://www.outagamie.gov/County-Services/Emergency-Management/Hazards. Additional context: https://www.weather.gov/grb/120170_tornadoes. Original county/location title retained: 1970 early-December Wisconsin tornado outbreak.\nPass 3 location normalization: original NCEI or curated location was East-central Wisconsin; broad display location is Medina–Outagamie–Shawano county corridor, Wisconsin. Original exact segment is preserved in original_report_location.",
       "event_source_excerpt": "An unusual surge of mild air contributed to December 1 thunderstorms and tornadoes in eastern Wisconsin, including an F3 near Medina.",
       "input_research_score": 79,
       "editorial_selection_score": 94.43,
@@ -16484,7 +16492,8 @@
       "research_priority": "Confirm claimed track and rating per original survey, warning timing, and event-versus-county counts; review source independence and media rights.",
       "post_readiness": "NOT READY",
       "secondary_source_publisher": "Outagamie County Emergency Management",
-      "source_independence_assessment": "cross_institution_county_compiles_NWS_tornado_data"
+      "source_independence_assessment": "cross_institution_county_compiles_NWS_tornado_data",
+      "original_report_location": "East-central Wisconsin"
     },
     {
       "calendar_date": "12-02",
@@ -16878,7 +16887,7 @@
       "historical_event_date": "2021-12-10",
       "historical_year": 2021,
       "title": "The December 2021 western Kentucky EF4 tornado crosses Mayfield",
-      "location": "BALTIMORE, Kentucky",
+      "location": "Mayfield–Dawson Springs and western Kentucky",
       "region": "Ohio Valley",
       "country": "USA",
       "weather_category": "tornado",
@@ -16914,7 +16923,7 @@
         "same region as previous day",
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): The NCEI Baltimore, Kentucky segment belongs to the long-track western Kentucky EF4 of December 10–11, 2021, including Mayfield. Caveat: Separate local December 10 evening from December 11 early hours and distinguish continuous EF4 track from separate tornadoes spawned by the supercell; track-specific casualty totals unverified. Second source: NWS Paducah https://www.weather.gov/pah/December-10th-11th-2021-Tornado. Additional context: https://www.weather.gov/lmk/December112021Tornadoes. Original county/location title retained: Tornado — BALTIMORE, Kentucky.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): The NCEI Baltimore, Kentucky segment belongs to the long-track western Kentucky EF4 of December 10–11, 2021, including Mayfield. Caveat: Separate local December 10 evening from December 11 early hours and distinguish continuous EF4 track from separate tornadoes spawned by the supercell; track-specific casualty totals unverified. Second source: NWS Paducah https://www.weather.gov/pah/December-10th-11th-2021-Tornado. Additional context: https://www.weather.gov/lmk/December112021Tornadoes. Original county/location title retained: Tornado — BALTIMORE, Kentucky.\nPass 3 location normalization: original NCEI or curated location was BALTIMORE, Kentucky; broad display location is Mayfield–Dawson Springs and western Kentucky. Original exact segment is preserved in original_report_location.",
       "event_source_excerpt": "This historic EF-4 tornado was associated with a very long-track supercell that originally formed over eastern Arkansas. The supercell produced a nearly continuous tornado damage path from northeast Arkansas across western Tennessee and western Kentucky. The starting point of this particular tornado",
       "input_research_score": 84.06,
       "editorial_selection_score": 61.06,
@@ -16923,7 +16932,8 @@
       "research_priority": "Confirm claimed track and rating per original survey, warning timing, and event-versus-county counts; review source independence and media rights.",
       "post_readiness": "NOT READY",
       "secondary_source_publisher": "NWS Paducah",
-      "source_independence_assessment": "same_survey_NOAA_NCEI_NWS"
+      "source_independence_assessment": "same_survey_NOAA_NCEI_NWS",
+      "original_report_location": "BALTIMORE, Kentucky"
     },
     {
       "calendar_date": "12-11",
@@ -17178,7 +17188,7 @@
       "historical_event_date": "2000-12-16",
       "historical_year": 2000,
       "title": "The December 16, 2000 Tuscaloosa F4 tornado crosses Alabama",
-      "location": "HULL, Alabama",
+      "location": "Tuscaloosa and adjacent Tuscaloosa County, Alabama",
       "region": "Southeast",
       "country": "USA",
       "weather_category": "tornado",
@@ -17212,7 +17222,7 @@
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NCEI Hull, Alabama is a location segment of the December 16, 2000 Tuscaloosa F4 tornado, independently retold in dated Alabama weather coverage. Caveat: Use F4 (pre-2007 scale), not EF4. Fatality and path totals must be scoped to the whole tornado and verified rather than copied from this one county record. Second source: NWS Birmingham https://www.weather.gov/bmx/event_12162000tuscaloosa. Additional context: https://alabamaweathernetwork.com/on-this-date-in-2000/. Original county/location title retained: Tornado — HULL, Alabama.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): NCEI Hull, Alabama is a location segment of the December 16, 2000 Tuscaloosa F4 tornado, independently retold in dated Alabama weather coverage. Caveat: Use F4 (pre-2007 scale), not EF4. Fatality and path totals must be scoped to the whole tornado and verified rather than copied from this one county record. Second source: NWS Birmingham https://www.weather.gov/bmx/event_12162000tuscaloosa. Additional context: https://alabamaweathernetwork.com/on-this-date-in-2000/. Original county/location title retained: Tornado — HULL, Alabama.\nPass 3 location normalization: original NCEI or curated location was HULL, Alabama; broad display location is Tuscaloosa and adjacent Tuscaloosa County, Alabama. Original exact segment is preserved in original_report_location.",
       "event_source_excerpt": "The tornado began in southwestern Tuscaloosa County on the west side of the Black Warrior River. Traveling in a northeasterly direction the tornado moved from a rural, unpopulated area of the Black Warrior River into an area of homes south of Shelton State Community College. The tornado crossed SR 6",
       "input_research_score": 77.75,
       "editorial_selection_score": 85.75,
@@ -17221,7 +17231,8 @@
       "research_priority": "Confirm claimed track and rating per original survey, warning timing, and event-versus-county counts; review source independence and media rights.",
       "post_readiness": "NOT READY",
       "secondary_source_publisher": "NWS Birmingham",
-      "source_independence_assessment": "same_survey_NOAA_NCEI_NWS"
+      "source_independence_assessment": "same_survey_NOAA_NCEI_NWS",
+      "original_report_location": "HULL, Alabama"
     },
     {
       "calendar_date": "12-17",
@@ -17672,7 +17683,7 @@
       "historical_event_date": "2015-12-26",
       "historical_year": 2015,
       "title": "A violent EF4 tornado tears through Garland and Rowlett, Texas",
-      "location": "NEW HOPE, Texas",
+      "location": "Sunnyvale–Garland–Rowlett, north Texas",
       "region": "South Central",
       "country": "USA",
       "weather_category": "tornado",
@@ -17706,7 +17717,7 @@
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): An industry engineering team conducted independent building-damage assessments following the December 26, 2015 Sunnyvale–Garland–Rowlett EF4; NCEI New Hope is a reporting segment. Caveat: Do not equate observed EF4 damage at Garland with EF4 damage along all 13 miles. APA's building observations are not an independent radar wind field; fatality totals differ by entire outbreak versus this tornado. Second source: APA – The Engineered Wood Association https://www.apawood.org/guides-tools-training/technical-document-library/technical-guides/texas-tornado-damage-assessment-report/. Additional context: https://www.weather.gov/fwd/dec26tornadoes. Original county/location title retained: Tornado — NEW HOPE, Texas.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 3 priority source review (2026-11-20): An industry engineering team conducted independent building-damage assessments following the December 26, 2015 Sunnyvale–Garland–Rowlett EF4; NCEI New Hope is a reporting segment. Caveat: Do not equate observed EF4 damage at Garland with EF4 damage along all 13 miles. APA's building observations are not an independent radar wind field; fatality totals differ by entire outbreak versus this tornado. Second source: APA – The Engineered Wood Association https://www.apawood.org/guides-tools-training/technical-document-library/technical-guides/texas-tornado-damage-assessment-report/. Additional context: https://www.weather.gov/fwd/dec26tornadoes. Original county/location title retained: Tornado — NEW HOPE, Texas.\nPass 3 location normalization: original NCEI or curated location was NEW HOPE, Texas; broad display location is Sunnyvale–Garland–Rowlett, north Texas. Original exact segment is preserved in original_report_location.",
       "event_source_excerpt": "The Garland and Rowlett tornado began in Sunnyvale, where several mobile homes were destroyed along a wide and long path. The full tornado length was a little over 13 miles, with nearly ten miles within Dallas County. Nine people lost their lives in vehicles as the tornado crossed Interstate 30 at t",
       "input_research_score": 80.23,
       "editorial_selection_score": 87.03,
@@ -17715,7 +17726,8 @@
       "research_priority": "Confirm claimed track and rating per original survey, warning timing, and event-versus-county counts; review source independence and media rights.",
       "post_readiness": "NOT READY",
       "secondary_source_publisher": "APA – The Engineered Wood Association",
-      "source_independence_assessment": "cross_institution_independent_construction_damage_assessment"
+      "source_independence_assessment": "cross_institution_independent_construction_damage_assessment",
+      "original_report_location": "NEW HOPE, Texas"
     },
     {
       "calendar_date": "12-27",
