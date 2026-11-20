@@ -10,7 +10,7 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 
 - [Phase A research status, limitations, and handoff](docs/PHASE_A_PROGRESS.md)
 - [366-day research calendar](data/phase_a_calendar.json) and [quality/diversity audit](data/phase_a_audit.json)
-- [12 external-authority historical research anchors](data/phase_a_sourced_anchors.json)
+- [27 authoritative historical research anchors](data/phase_a_sourced_anchors.json)
 - [Google Sheets Phase A Calendar and review queue](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit)
 
 Local read-only audit and exploratory candidate comparison:
