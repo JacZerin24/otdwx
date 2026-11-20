@@ -5,7 +5,7 @@ on:
       start_year:
         description: Earliest NCEI source year
         required: true
-        default: '1996'
+        default: '1950'
       end_year:
         description: Latest complete NCEI source year
         required: true
@@ -16,6 +16,7 @@ on:
     branches: [main]
     paths:
       - "src/otdwx/pipeline.py"
+      - "data/curated_candidates.json"
       - "tests/test_pipeline.py"
       - ".github/workflows/discovery.yml"
 permissions:
@@ -39,7 +40,7 @@ jobs:
       - name: Download public archives and make unverified research leads
         run: python -m otdwx.pipeline --start-year "${START_YEAR}" --end-year "${END_YEAR}" --days 60
         env:
-          START_YEAR: ${{ inputs.start_year || '1996' }}
+          START_YEAR: ${{ inputs.start_year || '1950' }}
           END_YEAR: ${{ inputs.end_year || '2025' }}
       - name: Save CSV review exports
         uses: actions/upload-artifact@v4

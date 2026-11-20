@@ -188,6 +188,8 @@ def rated(candidate:dict,history:list[dict]) -> tuple[float,list[str]]:
     if any(candidate["event_id"]==x.get("event_id") for x in history):
         return -9999,["already_used"]
     score=float(candidate["base_score"]);notes=[]
+    if candidate["event_id"].endswith("-peak_wind"):
+        score-=26;notes.append("offshore_peak_without_impact_corroboration -26")
     for i,old in enumerate(reversed(history[-14:]),1):
         for key,cost in (("region",24),("weather_type",16),("source_id",12)):
             if candidate.get(key) and candidate.get(key)==old.get(key):
@@ -237,6 +239,15 @@ def build(first:int,last:int,start:date,days:int) -> dict:
                 raw+=found;source_stats[f"nhc_{basin}"]=len(found)
             except Exception as exc:errors.append(f"NHC {basin}: {exc}")
     except Exception as exc:errors.append(f"NHC index: {exc}")
+    # Human-selected case studies use original agency links and stay research-only.
+    curated_path=Path("data/curated_candidates.json")
+    if curated_path.exists():
+        curated=json.loads(curated_path.read_text(encoding="utf-8"))
+        for item in curated:
+            if item.get("status")!="researching" or not str(item.get("source_url","")).startswith("https://"):
+                raise ValueError("Invalid curated lead; expected researching status and official HTTPS URL")
+        raw+=curated
+        source_stats["curated_official_cases"]=len(curated)
     if not raw:raise RuntimeError("No records parsed from archives; preserved previous catalog")
     unique={c["event_id"]:c for c in raw}
     selected=candidates_by_day(list(unique.values()))

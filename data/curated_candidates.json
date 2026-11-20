@@ -1,0 +1,149 @@
+[
+  {
+    "event_id": "curated-2022-11-20-northern-indiana-lake-effect",
+    "event_date": "2022-11-20",
+    "title": "November 2022 northern Indiana lake-effect snow",
+    "weather_type": "winter",
+    "region": "Great Lakes",
+    "location": "Northern Indiana",
+    "country": "USA",
+    "source_id": "nws-iwx-case-study",
+    "source_publisher": "NWS Northern Indiana",
+    "source_url": "https://www.weather.gov/iwx/November2022-LES",
+    "source_record_id": "NWS-IWX-Nov2022-LES",
+    "summary": "NWS analysis documents an extended lake-effect snow episode ending around November 20, with snow squalls, shifting bands and localized extreme totals.",
+    "source_facts": {
+      "multi_day_event": true
+    },
+    "base_score": 70,
+    "evidence_status": "official_case_study_needs_editor_review",
+    "status": "researching",
+    "research_note": "Focus on the lake-effect band evolution and the local date; independently confirm any proposed measured snowfall statistic and graphic rights."
+  },
+  {
+    "event_id": "curated-1997-11-21-northshore-tornado",
+    "event_date": "1997-11-21",
+    "title": "St. Tammany–Pearl River County tornado",
+    "weather_type": "tornado",
+    "region": "Gulf Coast",
+    "location": "St. Tammany Parish, Louisiana to Pearl River County, Mississippi",
+    "country": "USA",
+    "source_id": "nws-lix-case-study",
+    "source_publisher": "NWS New Orleans/Baton Rouge",
+    "source_url": "https://www.weather.gov/lix/fallseverewx",
+    "source_record_id": "NWS-LIX-1997-11-21",
+    "summary": "NWS fall severe-weather history identifies a strong tornado crossing St. Tammany Parish and continuing into Pearl River County on November 21, 1997.",
+    "source_facts": {
+      "cross_state_tornado": true
+    },
+    "base_score": 65,
+    "evidence_status": "official_case_study_needs_editor_review",
+    "status": "researching",
+    "research_note": "Cross-reference with NCEI track and rating; ensure individual tornado impacts, and do not duplicate a previously published event."
+  },
+  {
+    "event_id": "curated-1992-11-22-indiana-tornadoes",
+    "event_date": "1992-11-22",
+    "title": "1992 Indiana late-November tornado outbreak",
+    "weather_type": "tornado",
+    "region": "Midwest",
+    "location": "Indiana",
+    "country": "USA",
+    "source_id": "nws-ind-case-study",
+    "source_publisher": "NWS Indianapolis",
+    "source_url": "https://www.weather.gov/ind/nov22_1992tor",
+    "source_record_id": "NWS-IND-1992-11-22",
+    "summary": "The NWS historical account describes 15 tornadoes in Indiana on November 22, 1992, across central and eastern portions of the state.",
+    "source_facts": {
+      "indiana_tornadoes": 15
+    },
+    "base_score": 83,
+    "evidence_status": "official_case_study_needs_editor_review",
+    "status": "researching",
+    "research_note": "Verify 15 is a statewide total, not count for any single tornado. Seek visual showing all tracks."
+  },
+  {
+    "event_id": "curated-1950-11-25-great-appalachian-storm",
+    "event_date": "1950-11-25",
+    "title": "1950 Great Appalachian Storm and the Snow Bowl",
+    "weather_type": "winter",
+    "region": "Appalachia",
+    "location": "Appalachia and Ohio Valley",
+    "country": "USA",
+    "source_id": "nws-jkl-case-study",
+    "source_publisher": "NWS Jackson KY",
+    "source_url": "https://www.weather.gov/jkl/appalachianstorm1950",
+    "source_record_id": "NWS-JKL-1950-11-25",
+    "summary": "Official meteorological history documents the November 24–29 Great Appalachian Storm, with severe snowfall, wind and major regional impacts.",
+    "source_facts": {
+      "multi_day_event": true
+    },
+    "base_score": 86,
+    "evidence_status": "official_case_study_needs_editor_review",
+    "status": "researching",
+    "research_note": "Use November 25 as a within-event anniversary. Verify specific amounts, local date and visual material."
+  },
+  {
+    "event_id": "curated-1970-12-01-wisconsin-tornadoes",
+    "event_date": "1970-12-01",
+    "title": "1970 early-December Wisconsin tornado outbreak",
+    "weather_type": "tornado",
+    "region": "Great Lakes",
+    "location": "East-central Wisconsin",
+    "country": "USA",
+    "source_id": "nws-grb-case-study",
+    "source_publisher": "NWS Green Bay",
+    "source_url": "https://www.weather.gov/grb/120170_tornadoes",
+    "source_record_id": "NWS-GRB-1970-12-01",
+    "summary": "An unusual surge of mild air contributed to December 1 thunderstorms and tornadoes in eastern Wisconsin, including an F3 near Medina.",
+    "source_facts": {
+      "f3_reported": true
+    },
+    "base_score": 79,
+    "evidence_status": "official_case_study_needs_editor_review",
+    "status": "researching",
+    "research_note": "Ensure the entire event timing and tornado totals are corroborated. Distinguish tornado-level from outbreak totals."
+  },
+  {
+    "event_id": "curated-1978-12-03-bossier-city-f4",
+    "event_date": "1978-12-03",
+    "title": "1978 Bossier City F4 tornado",
+    "weather_type": "tornado",
+    "region": "Gulf Coast",
+    "location": "Bossier City, Louisiana",
+    "country": "USA",
+    "source_id": "nws-shv-case-study",
+    "source_publisher": "NWS Shreveport",
+    "source_url": "https://www.weather.gov/shv/event_1978-12-03_tornado",
+    "source_record_id": "NWS-SHV-1978-12-03",
+    "summary": "The official NWS case study describes an F4 tornado crossing Bossier City with a reported eight-mile path and major damage.",
+    "source_facts": {
+      "f_rating": "F4"
+    },
+    "base_score": 81,
+    "evidence_status": "official_case_study_needs_editor_review",
+    "status": "researching",
+    "research_note": "Verify the precise F4 tornado casualty count (not entire episode), trail map license and warning timeline."
+  },
+  {
+    "event_id": "curated-1952-12-05-london-great-smog",
+    "event_date": "1952-12-05",
+    "title": "London's Great Smog of 1952",
+    "weather_type": "unusual",
+    "region": "United Kingdom",
+    "location": "London, England",
+    "country": "United Kingdom",
+    "source_id": "metoffice-case-study",
+    "source_publisher": "UK Met Office",
+    "source_url": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog",
+    "source_record_id": "MetOffice-Great-Smog-1952",
+    "summary": "The UK Met Office describes a severe pollution episode over London spanning December 5–9, 1952, under persistent foggy conditions.",
+    "source_facts": {
+      "multi_day_event": true
+    },
+    "base_score": 88,
+    "evidence_status": "official_case_study_needs_editor_review",
+    "status": "researching",
+    "research_note": "Explain the synoptic stagnation and air pollution link without oversimplifying or claiming a single casualty estimate."
+  }
+]
