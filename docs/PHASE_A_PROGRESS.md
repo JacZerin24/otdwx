@@ -24,19 +24,18 @@ February 29's initial provisional choice was an ordinary winter-weather road inc
 
 ## Current audit and weaknesses
 
-The 366 provisional primary IDs remain distinct with two alternate research IDs per date. Presence of these alternate IDs **is not** verification. Updated after the latest Pass 2 research batch on 2026-11-20:
+The 366 provisional primary IDs remain distinct with two alternate *research leads* per date, including February 29. After completing the first weak-primary replacement pass on 2026-11-20:
 
-- **76 / 366** (20.8%) have corroborated *core event occurrence, calendar date and broad geography*, **not full claim-by-claim fact checks**.
-- **0** fully fact-checked or human-approved Phase A primaries; **0** item-level historical graphics cleared.
-- **76 / 366** have a second reference URL; **290** still lack one; some two-source cases share an institution or original observations.
-- **366 / 366** include graphic concepts, but underlying data, historical image licensing and plot feasibility are not confirmed.
-- **27 / 366** (7.4%) have non-USA, mixed-country or offshore country tags, including shared categories; not all are exclusively foreign landfall stories. **19 / 366** (5.2%) predate 1950.
-- **284 / 366** (77.6%) still use NCEI Storm Events leads as their primary source family.
-- Provisional editorial tiers: **79 Tier 1**, **270 Tier 2**, **17 Tier 3**; all **17** weak Tier 3 stories remain in the Google Sheet review queue.
-- Tropical and winter clusters, largely U.S.-focused recent stories, and unverified alternate quality require deliberate editorial attention.
-- NCEI county/zone record segments and multi-day episode timing must not be silently equated with outbreak-wide totals or one-day figures.
+- **93 / 366** (25.4%) have documentation of core event occurrence, anniversary date and general location. This is **NOT** an individual-claim fact check.
+- **0** primaries fully human fact-checked or approved, **0** archival graphic assets licensed at item level and **0** alternates independently corroborated for every date.
+- **93 / 366** have a second source URL; **273** still lack one. Multiple links can share NOAA, a common original report or a primary measurement.
+- **366 / 366** have proposed visualization concepts; observation extraction, data mapping and graphic reuse rights remain outstanding.
+- **36 / 366** (9.8%) have a non-USA, mixed-country or offshore geography tag, not necessarily all foreign landfalls; **19 / 366** (5.2%) are pre-1950.
+- **267 / 366** (73.0%) still depend primarily on NCEI county/zone Storm Events records.
+- Provisional editorial tiers: **91 Tier 1**, **275 Tier 2** and **undefined Tier 3**. The weak Tier 3 replacement queue is empty, but an empty queue is NOT a launch-readiness signal.
+- Significant editorial backlog remains: source corroboration, two independent alternative stories/day, claim-level review, cross-day repetition, archived source/observation checks and permitted media.
 
-These counts are a snapshot. Run the local audit command for the live report. The calendar and audit do not approve publication.
+Counts are a snapshot. Local audit still tests structural integrity, not completeness of meteorological claim-level verification.
 
 ## Reproduce the audit
 
@@ -109,3 +108,12 @@ Upgraded 10 weak primaries with date-specific source pairs: **Feb 26 (2024 Smoke
 The date hook is not always a one-day event: Kentucky's intense rain largely occurred Jul 27–28, Okeechobee coastal landfall was Sep 16, and California's heaviest frontal rain reached northern California Dec 11. The linked date records note exactly which later action occurred on the selected day. Source independence is not assumed from two hostnames; NOAA NHC/NWS sources are same institution, while external agencies may reuse NOAA's original intensity estimates. Image rights remain not reviewed. Former primary candidates and 20 existing alternate IDs remain available; none of those alternates received independent corroboration in this batch.
 
 Current snapshot: **76** core corroborated, **17** weak Tier 3, **290** missing second-source URLs, **27** non-USA/mixed/offshore tags, **19** pre-1950 and **284** NCEI-primary. All 366 dates remain provisional; the actual editorial/approval and media rights gates remain unchanged.
+
+
+## Pass 2 final weak-primary replacement batch — 20 November 2026
+
+Replaced the **17 remaining Tier 3 weak primaries** on Jan 31 (2019 Rockford Arctic cold record), Mar 30 (2010 Rhode Island floods), Apr 18 (2013 Chicago floods), Apr 23 (2019 KwaZulu-Natal floods), May 14 (2023 Cyclone Mocha), May 28 (2019 Linwood EF4), Jun 19 (1972 Agnes landfall), Aug 9 (2022 Seoul flood response), Aug 15 (2023 Yellowknife evacuation alert), Aug 22 (2022 Dallas flash flood), Sep 19 (2019 Imelda floods), Oct 14 (2022 Tasmania rain), Oct 22 (2012 Sandy genesis), Oct 27 (2003 California smoke observations), Nov 3 (2007 post-tropical Noel), Nov 5 (2020 Eta flood in Honduras), Nov 23 (2024 Storm Bert in Ireland).
+
+**Precise anniversary safeguards:** late-March Rhode Island flood crests occurred March 31 after March 30 impacts; the Korean storm's heaviest single-day KMA report is August 8 while August 9 is the flood aftermath; Yellowknife alerts initially covered only part of the city August 15, with broader evacuation the following day; Sandy October 22 is *formation*, not the later U.S. landfall; Noel November 3 is transition, not November 4 Nova Scotia landfall. The October 21 Witch Creek lead and October 22 continuation are not both selected. Mark all source dependence and permissions as unresolved; two dated Yonhap reports do not constitute two independent institutions.
+
+**Updated measured backlog:** 93 source-paired core event/date leads; 0 Tier 3 weak leads; 273 remaining missing secondary URLs; 36 non-USA/mixed/offshore selections; 19 pre-1950; 267 NCEI-primary; 0 published, fully checked or approved from Phase A. **Next work is not to declare Phase A done**: research more compelling high-quality alternatives, vet second sources for remaining dates, resolve danger of May 27–29 triple tornado feature, check all 732 alternate leads, inspect plotted observations and secure graphic licensing. Original displaced candidate IDs remain recorded in the case research notes.
