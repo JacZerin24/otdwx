@@ -122,3 +122,12 @@ Replaced the **17 remaining Tier 3 weak primaries** on Jan 31 (2019 Rockford Arc
 ## Source-gap triage queue
 
 The Google Sheet also contains a filterable **Phase A Source Gaps** tab with 273 primaries lacking a corroborating reference, alongside the now-empty former Tier 3 review queue. It is a manual research snapshot, not unattended two-way repository synchronization.
+
+
+## Pass 3 — flagship source review and May 28 diversity fix (November 20, 2026)
+
+Fifteen previously single-source Tier 1 stories gained date/location corroborating URLs, improved names where NCEI county labels obscured famous multisegment tornado events, source-independence caveats and distinct graphic concepts. The new evidence registry is `data/phase_a_pass3_corroboration.json`. These events are **not** fully claim-fact-checked and have **no** historical image reuse clearances. 
+
+The previous May 27–29 three-day tornado primary streak was broken by replacing the May 28 2019 Linwood tornado with historic Arkansas River flooding near Fort Smith, where the prior stage record was passed on May 28 ahead of the final later crest. The old Linwood research case and all 2-day alternate research IDs remain intact.
+
+Source-gaps queue: **273 → 258**; core-identity corroborated **93 → 108**; original NCEI-source family primaries **267 → 267**. Google Sheets Phase A Calendar, Audit, Source Gaps, and Pass 3 Evidence tabs must be synchronized explicitly. The 15 reviewed events are mostly tornadoes, with shared NWS survey ancestry in many source pairs, so URLs alone do **not** imply 15 independent observations or publication readiness.

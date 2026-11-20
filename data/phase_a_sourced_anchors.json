@@ -2366,5 +2366,30 @@
     "research_note": "The UK Met Office retrospective describes UK storm impacts and overlaps the same cyclone, but does not independently verify an individual Irish station report. Met Éireann's later review gives 57.4 mm at Knock Airport Nov23; a recorded station total is not all-Ireland precipitation. Storm Bert continued through Nov25. Displaced primary preserved: ncei-1219854. Previously selected alternate IDs retained, not independently researched: ncei-1143746, ncei-143311.",
     "base_score": 93,
     "evidence_status": "two_identified_sources_core_identity_only"
+  },
+  {
+    "event_id": "phasea-pass3-2019-05-28-arkansas-flood",
+    "event_date": "2019-05-28",
+    "title": "Arkansas River flooding breaks the previous stage record near Fort Smith",
+    "weather_type": "flood",
+    "location": "Fort Smith and Van Buren, Arkansas River valley",
+    "region": "South Central",
+    "country": "USA",
+    "source_id": "phasea-pass3-nasa-arkansas-river",
+    "source_publisher": "NASA Earth Observatory",
+    "source_url": "https://science.nasa.gov/earth/earth-observatory/flooding-along-the-arkansas-river-145108/",
+    "secondary_source_url": "https://www.usgs.gov/publications/peak-streamflow-and-stages-selected-streamgages-arkansas-river-oklahoma-and-arkansas",
+    "primary_angle": "Trace how runoff moving downstream drove the Fort Smith gauge above its old stage record on May 28, before the river reached a higher later crest.",
+    "alternate_angle": "Compare NASA's May 27/28 satellite-acquisition dates with the multi-day Arkansas River flood hydrograph and USGS finalized stage data.",
+    "verified_core_fact": "NASA documents Arkansas River stage reaching 40.26 feet near Fort Smith on May 28, 2019, exceeding a prior 38.10-foot record; record flooding continued into June.",
+    "graphic_type": "Original dated river-stage hydrograph and satellite comparison",
+    "graphic_data_source": "https://science.nasa.gov/earth/earth-observatory/flooding-along-the-arkansas-river-145108/",
+    "source_verification_status": "core_date_location_corroborated",
+    "source_independence_assessment": "NASA_satellite_analysis_and_USGS_hydrology_shared_underlying_USGS_measurements",
+    "editorial_review_status": "researching",
+    "image_rights_status": "not_reviewed",
+    "research_note": "May28 reached above previous flood record, but was NOT the final flood crest (later May30-31). NASA images dated May 27 and May 28 explicitly; do not mislabel those satellite dates or reuse without per-asset rights. NASA stage figure derives from hydrometric source, not a second independent gauge. Replaces 2019 Linwood EF4 tornado as primary to avoid May27-29 triple-tornado sequence; previous primary preserved: phasea-pass2-2019-05-28.",
+    "base_score": 95,
+    "evidence_status": "two_identified_sources_core_identity_only"
   }
 ]

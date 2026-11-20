@@ -80,3 +80,9 @@ No X API credentials, access tokens, image assets without documented rights, or 
 This repository is independent of NOAA and the National Weather Service. Credit original sources and distinguish public-domain data from third-party photographs.
 
 **Unpublished editorial assets are private:** Never commit unpublished captions or images to this public GitHub repo. See docs/PHASE3_PRODUCTION.md for the private Drive workflow.
+
+## Pass 3 source and diversity improvements (November 20, 2026)
+
+- [Flagship corroboration registry](data/phase_a_pass3_corroboration.json): 15 prioritized source checks with institution/observation-dependency notes, exact event scope, and human review gates.
+- May 28 now features the 2019 Arkansas River flood record milestone rather than a third consecutive tornado feature. The original Linwood tornado case remains preserved in Pass 2 research records.
+- Research-only baseline: 108/366 core-identity corroborations; 258 need additional source research. No fully fact-checked or approved posts, no cleared archival imagery.
