@@ -2,7 +2,23 @@
 
 A meteorologist-led editorial workflow for original, accurately sourced, single-post weather-history content on X.
 
-**Status:** Phase 2 historical discovery implemented. Automated archive collection/ranking is enabled through GitHub Actions; X publishing is NOT enabled.
+**Status:** Phase A provisional 366-day research calendar and read-only audit added. Phase 2 historical discovery remains enabled; evidence verification and human editorial approval are outstanding. X publishing is NOT enabled.
+
+## Phase A provisional editorial library (Nov 19, 2026)
+
+**Research coverage is not publication readiness.** We now maintain a 366-day provisional research calendar (including leap day), two alternate *leads* per day, visual concepts, verified-versus-unverified fact boundaries, and a recorded diversity audit. Full editorial verification is incomplete.
+
+- [Phase A research status, limitations, and handoff](docs/PHASE_A_PROGRESS.md)
+- [366-day research calendar](data/phase_a_calendar.json) and [quality/diversity audit](data/phase_a_audit.json)
+- [12 external-authority historical research anchors](data/phase_a_sourced_anchors.json)
+- [Google Sheets Phase A Calendar and review queue](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit)
+
+Local read-only audit and exploratory candidate comparison:
+
+    python -m otdwx.phase_a --audit
+    python -m otdwx.phase_a --suggest 02-29
+
+The CI quality workflow rejects broken anniversaries, duplicated or mismatched event IDs, absent evidence URLs, and unsupported editorial approval statuses. It does **not** declare linked evidence verified or clear image rights. Six earlier drafted posts, the seven curated case-study leads, canonical event library, and publishing history were preserved. Do not publish or autoapprove records from the provisional calendar.
 
 ## Editorial promise
 
