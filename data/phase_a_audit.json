@@ -10,18 +10,18 @@
     "notes": "These 366 provisional research selections are not 366 verified stories. Source-led discovery and editor approval are separate. No published copy or unpublished graphics included.",
     "manual_editorial_override_count": 101,
     "pass2_manual_upgrades": 64,
-    "summary": "Pass 9 final: 14 new core source reviews, 5 final distinctive replacements, 3 consecutive same-event duplications resolved, 173 core, 193 gaps, no approvals/rights."
+    "summary": "Pass 10: 13 event-level reviews, 15 assertion-level evidence ledger checks (none full human fact checks), 186/366 core, 180 gaps, 0 approved or rights cleared."
   },
   "metrics": {
     "calendar_rows": 366,
     "unique_primary_event_ids": 366,
     "dates_with_two_alternates": 366,
     "dates_with_two_corroborated_alternates": 3,
-    "authoritative_core_corroborated": 173,
+    "authoritative_core_corroborated": 186,
     "complete_fact_checked": 0,
     "human_approved": 0,
     "primary_with_source_url": 366,
-    "with_secondary_source_url": 173,
+    "with_secondary_source_url": 186,
     "graphic_concepts_assigned": 366,
     "imagery_rights_cleared": 0,
     "geography_international": 48,
@@ -249,15 +249,15 @@
       "phasea-pass2-national-records-of-scotland": 1
     },
     "editorial_tiers": {
-      "Tier 2 — Strong": 242,
-      "Tier 1 — Flagship": 124
+      "Tier 2 — Strong": 234,
+      "Tier 1 — Flagship": 132
     },
     "consecutive_same_hazard": 61,
     "consecutive_same_region": 20,
     "consecutive_same_state_or_country": 2,
     "consecutive_same_source_family": 165,
     "weak_primary_dates": [],
-    "high_risk_source_gaps": 193,
+    "high_risk_source_gaps": 180,
     "pass2_alternate_screened_days": 15,
     "pass2_alternate_screened_leads": 30,
     "pass2_alternates_independently_corroborated": 0,

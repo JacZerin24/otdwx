@@ -6,7 +6,7 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 
 ## Phase A provisional editorial library (updated Nov 20, 2026)
 
-**Research coverage is not publication readiness.** We now maintain a 366-day provisional research calendar (including leap day), two alternate *leads* per day, visual concepts, verified-versus-unverified fact boundaries, and a recorded diversity audit. Full editorial verification is incomplete. **Pass 9: 173/366 primary anniversary stories core corroborated, 193 source gaps remain, with zero full approvals or media-rights clearances. Three adjacent same-storm primary story conflicts were corrected and an automated near-duplicate guard added.**
+**Research coverage is not publication readiness.** We now maintain a 366-day provisional research calendar (including leap day), two alternate *leads* per day, visual concepts, verified-versus-unverified fact boundaries, and a recorded diversity audit. Full editorial verification is incomplete. **Pass 10: 186/366 primary anniversary stories core corroborated, 180 source gaps remain, with zero full approvals or media-rights clearances. Three adjacent same-storm primary story conflicts were corrected and an automated near-duplicate guard added.**
 
 - [Phase A research status, limitations, and handoff](docs/PHASE_A_PROGRESS.md)
 - [366-day research calendar](data/phase_a_calendar.json) and [quality/diversity audit](data/phase_a_audit.json)
@@ -14,7 +14,8 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 - [Pass 2: 64 source-checked research upgrades with caveats](data/phase_a_pass2_research.json)
 - [Pass 8: five source-reviewed January primaries and two historic alternates](data/phase_a_pass8_research.json)
 - [Pass 9: 14 new core reviews, five final replacements and repetition repairs](data/phase_a_pass9_research.json)
-- [Google Sheets Phase A Calendar, source-gap triage (193 remaining), and review queue](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit)
+- [Pass 10: 13 event corroborations and 15 statement-level evidence checks](data/phase_a_pass10_research.json)
+- [Google Sheets Phase A Calendar, source-gap triage (180 remaining), and review queue](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit)
 
 Local read-only audit and exploratory candidate comparison:
 
