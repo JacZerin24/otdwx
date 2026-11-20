@@ -107,6 +107,29 @@ class PhaseAEditorialTests(unittest.TestCase):
         self.assertFalse(match["current_primary"])
         self.assertTrue(match["research_signal_not_verification"] < 100)
 
+    def test_dual_alternates_need_two_explicit_evidence_records(self):
+        cal, cat = self.fixture()
+        row = cal["days"][60]
+        row["alternates_verification_status"] = "two_alternates_core_corroborated"
+        self.assertTrue(any("two matching evidence records" in e
+                            for e in validate_calendar(cal, cat)))
+        row["alternate_corroboration"] = [
+            {"event_id": row[k],
+             "event_date": row["historical_event_date"],
+             "source_url": "https://example.org/source",
+             "secondary_source_url": "https://example.com/review",
+             "verified_core_fact": "Occurrence and date corroborated",
+             "source_independence_assessment": "original source reused",
+             "review_scope": "core event/date/location only",
+             "publication_approval_status": "not_approved"}
+            for k in ("first_alternate_event_id", "second_alternate_event_id")
+        ]
+        self.assertEqual(validate_calendar(cal, cat), [])
+        self.assertEqual(summarize(cal["days"])["dates_with_two_corroborated_alternates"], 1)
+        row["alternate_corroboration"][0]["secondary_source_url"] = ""
+        self.assertTrue(any("lacks trustworthy core-only evidence" in e
+                            for e in validate_calendar(cal, cat)))
+
     def test_links_are_https(self):
         self.assertFalse(source_is_url(""))
         self.assertFalse(source_is_url("http://example.org"))

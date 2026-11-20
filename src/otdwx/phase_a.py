@@ -115,6 +115,22 @@ def validate_calendar(calendar: dict, catalog: dict[str, dict],
                 or row.get("image_rights_status") not in
                 {"verified_public_domain", "licensed", "permission_granted"}):
             problems.append(f"{day}: approval requires completed fact check and image rights")
+        if row.get("alternates_verification_status") == "two_alternates_core_corroborated":
+            evidence = row.get("alternate_corroboration", [])
+            if (not isinstance(evidence, list) or len(evidence) != 2
+                    or {item.get("event_id") for item in evidence
+                        if isinstance(item, dict)} != set(alternates)):
+                problems.append(f"{day}: two corroborated alternates require two matching evidence records")
+            else:
+                for item in evidence:
+                    if (item.get("event_date", "")[5:] != day
+                            or item.get("review_scope") != "core event/date/location only"
+                            or not source_is_url(item.get("source_url", ""))
+                            or not source_is_url(item.get("secondary_source_url", ""))
+                            or not item.get("verified_core_fact")
+                            or not item.get("source_independence_assessment")
+                            or item.get("publication_approval_status") != "not_approved"):
+                        problems.append(f"{day}: alternate {item.get('event_id')} lacks trustworthy core-only evidence")
         if primary in published_ids and row.get("human_approval_status") == "not_approved":
             # Only an indicator: publishing history takes precedence over a research calendar.
             # A manual status sync must not silently rewrite the historical publishing log.
@@ -141,6 +157,8 @@ def summarize(rows: list[dict]) -> dict:
     return {
         "calendar_rows": len(rows),
         "distinct_primary_event_ids": len({x.get("primary_event_id") for x in rows}),
+        "dates_with_two_corroborated_alternates": count(
+            lambda x: x.get("alternates_verification_status") == "two_alternates_core_corroborated"),
         "days_with_two_alternate_leads": count(
             lambda x: bool(x.get("first_alternate_event_id")
                            and x.get("second_alternate_event_id"))),
