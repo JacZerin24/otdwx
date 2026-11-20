@@ -117,3 +117,8 @@ Replaced the **17 remaining Tier 3 weak primaries** on Jan 31 (2019 Rockford Arc
 **Precise anniversary safeguards:** late-March Rhode Island flood crests occurred March 31 after March 30 impacts; the Korean storm's heaviest single-day KMA report is August 8 while August 9 is the flood aftermath; Yellowknife alerts initially covered only part of the city August 15, with broader evacuation the following day; Sandy October 22 is *formation*, not the later U.S. landfall; Noel November 3 is transition, not November 4 Nova Scotia landfall. The October 21 Witch Creek lead and October 22 continuation are not both selected. Mark all source dependence and permissions as unresolved; two dated Yonhap reports do not constitute two independent institutions.
 
 **Updated measured backlog:** 93 source-paired core event/date leads; 0 Tier 3 weak leads; 273 remaining missing secondary URLs; 36 non-USA/mixed/offshore selections; 19 pre-1950; 267 NCEI-primary; 0 published, fully checked or approved from Phase A. **Next work is not to declare Phase A done**: research more compelling high-quality alternatives, vet second sources for remaining dates, resolve danger of May 27–29 triple tornado feature, check all 732 alternate leads, inspect plotted observations and secure graphic licensing. Original displaced candidate IDs remain recorded in the case research notes.
+
+
+## Source-gap triage queue
+
+The Google Sheet also contains a filterable **Phase A Source Gaps** tab with 273 primaries lacking a corroborating reference, alongside the now-empty former Tier 3 review queue. It is a manual research snapshot, not unattended two-way repository synchronization.

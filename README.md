@@ -12,7 +12,7 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 - [366-day research calendar](data/phase_a_calendar.json) and [quality/diversity audit](data/phase_a_audit.json)
 - [91 authoritative historical research anchors](data/phase_a_sourced_anchors.json)
 - [Pass 2: 64 source-checked research upgrades with caveats](data/phase_a_pass2_research.json)
-- [Google Sheets Phase A Calendar and review queue](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit)
+- [Google Sheets Phase A Calendar, source-gap triage (273), and review queue](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit)
 
 Local read-only audit and exploratory candidate comparison:
 

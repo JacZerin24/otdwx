@@ -1718,7 +1718,8 @@
         "ncei-867918",
         "ncei-615345"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Original station minimum-temperature comparison"
     },
     {
       "event_id": "phasea-pass2-2010-03-30",
@@ -1755,7 +1756,8 @@
         "ncei-159842",
         "ncei-621930"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "River-stage hydrograph and rainfall chronology"
     },
     {
       "event_id": "phasea-pass2-2013-04-18",
@@ -1792,7 +1794,8 @@
         "ncei-5292030",
         "ncei-825300"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Original rainfall and urban river-network map"
     },
     {
       "event_id": "phasea-pass2-2019-04-23",
@@ -1829,7 +1832,8 @@
         "ncei-5497063",
         "ncei-1011588"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Topographic rainfall and flood/landslide context map"
     },
     {
       "event_id": "phasea-pass2-2023-05-14",
@@ -1866,7 +1870,8 @@
         "ncei-10324725",
         "ncei-10316827"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Best-track cyclone center and coastal hazard map"
     },
     {
       "event_id": "phasea-pass2-2019-05-28",
@@ -1903,7 +1908,8 @@
         "ncei-237216",
         "ncei-898115"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Original tornado-path map plus documented structural damage intensity"
     },
     {
       "event_id": "phasea-pass2-1972-06-19",
@@ -1940,7 +1946,8 @@
         "ncei-43944",
         "ncei-1176670"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Track and time-stamped rainfall/synoptic transition"
     },
     {
       "event_id": "phasea-pass2-2022-08-09",
@@ -1977,7 +1984,8 @@
         "ncei-10331334",
         "ncei-1290166"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Seoul basin rainfall and subway disruption schematic"
     },
     {
       "event_id": "phasea-pass2-2023-08-15",
@@ -2014,7 +2022,8 @@
         "ncei-1053665",
         "ncei-1136321"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Dated fire perimeter and alert zone map"
     },
     {
       "event_id": "phasea-pass2-2022-08-22",
@@ -2051,7 +2060,8 @@
         "ncei-243588",
         "ncei-328830"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Hourly rainfall and watershed runoff map"
     },
     {
       "event_id": "phasea-pass2-2019-09-19",
@@ -2088,7 +2098,8 @@
         "ncei-406779",
         "ncei-858116"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Observed QPE maxima map and flash-flood warning timeline"
     },
     {
       "event_id": "phasea-pass2-2022-10-14",
@@ -2125,7 +2136,8 @@
         "ncei-5716956",
         "ncei-980123"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "24-hour station rainfall and catchment flood-response map"
     },
     {
       "event_id": "phasea-pass2-2012-10-22",
@@ -2162,7 +2174,8 @@
         "ncei-5670346",
         "ncei-200122"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Official best-track evolution with geoposition and day annotations"
     },
     {
       "event_id": "phasea-pass2-2003-10-27",
@@ -2199,7 +2212,8 @@
         "ncei-855017",
         "ncei-480568"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Original GOES/MODIS acquisition-time and air quality station comparison"
     },
     {
       "event_id": "phasea-pass2-2007-11-03",
@@ -2236,7 +2250,8 @@
         "ncei-346665",
         "ncei-67789"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Extratropical transition and expanding wind-field timeline"
     },
     {
       "event_id": "phasea-pass2-2020-11-05",
@@ -2273,7 +2288,8 @@
         "ncei-1148655",
         "ncei-727471"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Terrain, remnant center track and rainfall/landslide-hazard context"
     },
     {
       "event_id": "phasea-pass2-2024-11-23",
@@ -2310,7 +2326,8 @@
         "ncei-1143746",
         "ncei-143311"
       ],
-      "alternate_screening_status": "not_rescreened_carried_forward"
+      "alternate_screening_status": "not_rescreened_carried_forward",
+      "graphic_type": "Original station wind/rain map and surface-low evolution"
     }
   ],
   "held_candidates": [

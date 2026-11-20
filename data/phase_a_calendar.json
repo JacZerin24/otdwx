@@ -1527,7 +1527,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_institution_shared_official_station_data"
+      "source_independence_assessment": "cross_institution_shared_official_station_data",
+      "graphic_type": "Original station minimum-temperature comparison"
     },
     {
       "calendar_date": "02-01",
@@ -4410,7 +4411,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_agency_with_common_USGS_river_data"
+      "source_independence_assessment": "cross_agency_with_common_USGS_river_data",
+      "graphic_type": "River-stage hydrograph and rainfall chronology"
     },
     {
       "calendar_date": "03-31",
@@ -5347,7 +5349,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_institution_press_reuses_NWS_estimates"
+      "source_independence_assessment": "cross_institution_press_reuses_NWS_estimates",
+      "graphic_type": "Original rainfall and urban river-network map"
     },
     {
       "calendar_date": "04-19",
@@ -5591,7 +5594,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_institution_government_response_and_weather_service_reporting"
+      "source_independence_assessment": "cross_institution_government_response_and_weather_service_reporting",
+      "graphic_type": "Topographic rainfall and flood/landslide context map"
     },
     {
       "calendar_date": "04-24",
@@ -6622,7 +6626,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "distinct_UN_agencies_weather_and_humanitarian_relying_on_RSMC"
+      "source_independence_assessment": "distinct_UN_agencies_weather_and_humanitarian_relying_on_RSMC",
+      "graphic_type": "Best-track cyclone center and coastal hazard map"
     },
     {
       "calendar_date": "05-15",
@@ -7315,7 +7320,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_institution_independent_field_reconnaissance"
+      "source_independence_assessment": "cross_institution_independent_field_reconnaissance",
+      "graphic_type": "Original tornado-path map plus documented structural damage intensity"
     },
     {
       "calendar_date": "05-29",
@@ -8391,7 +8397,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_federal_agency_distinct_hydrologic_and_tropical_analysis"
+      "source_independence_assessment": "cross_federal_agency_distinct_hydrologic_and_tropical_analysis",
+      "graphic_type": "Track and time-stamped rainfall/synoptic transition"
     },
     {
       "calendar_date": "06-20",
@@ -10887,7 +10894,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "same_publisher_two_dated_accounts_KMA_primary_observation"
+      "source_independence_assessment": "same_publisher_two_dated_accounts_KMA_primary_observation",
+      "graphic_type": "Seoul basin rainfall and subway disruption schematic"
     },
     {
       "calendar_date": "08-10",
@@ -11176,7 +11184,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_institution_government_alert_and_local_reporting"
+      "source_independence_assessment": "cross_institution_government_alert_and_local_reporting",
+      "graphic_type": "Dated fire perimeter and alert zone map"
     },
     {
       "calendar_date": "08-16",
@@ -11517,7 +11526,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_institution_journalistic_corroboration_uses_NWS_rain_totals"
+      "source_independence_assessment": "cross_institution_journalistic_corroboration_uses_NWS_rain_totals",
+      "graphic_type": "Hourly rainfall and watershed runoff map"
     },
     {
       "calendar_date": "08-23",
@@ -12887,7 +12897,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_institution_shared_NOAA_observations_with_independent_analysis"
+      "source_independence_assessment": "cross_institution_shared_NOAA_observations_with_independent_analysis",
+      "graphic_type": "Observed QPE maxima map and flash-flood warning timeline"
     },
     {
       "calendar_date": "09-20",
@@ -14110,7 +14121,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_institution_BOM_measurements_and_Tasmania_SES_impacts"
+      "source_independence_assessment": "cross_institution_BOM_measurements_and_Tasmania_SES_impacts",
+      "graphic_type": "24-hour station rainfall and catchment flood-response map"
     },
     {
       "calendar_date": "10-15",
@@ -14503,7 +14515,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_country_agencies_rely_on_NHC_best_track"
+      "source_independence_assessment": "cross_country_agencies_rely_on_NHC_best_track",
+      "graphic_type": "Official best-track evolution with geoposition and day annotations"
     },
     {
       "calendar_date": "10-23",
@@ -14747,7 +14760,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_institution_NASA_remote_sensing_and_peer_review_air_quality_network"
+      "source_independence_assessment": "cross_institution_NASA_remote_sensing_and_peer_review_air_quality_network",
+      "graphic_type": "Original GOES/MODIS acquisition-time and air quality station comparison"
     },
     {
       "calendar_date": "10-28",
@@ -15091,7 +15105,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_country_operational_agencies_shared_track_data"
+      "source_independence_assessment": "cross_country_operational_agencies_shared_track_data",
+      "graphic_type": "Extratropical transition and expanding wind-field timeline"
     },
     {
       "calendar_date": "11-04",
@@ -15190,7 +15205,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_institution_UN_humanitarian_reporting_uses_NOAA_meteorology"
+      "source_independence_assessment": "cross_institution_UN_humanitarian_reporting_uses_NOAA_meteorology",
+      "graphic_type": "Terrain, remnant center track and rainfall/landslide-hazard context"
     },
     {
       "calendar_date": "11-06",
@@ -16061,7 +16077,8 @@
       "research_priority": "Complete claim-level fact checking, source independence audit, raw observational-data availability, asset-specific graphic rights and character limit",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_national_meteorological_agencies_independent_station_networks"
+      "source_independence_assessment": "cross_national_meteorological_agencies_independent_station_networks",
+      "graphic_type": "Original station wind/rain map and surface-low evolution"
     },
     {
       "calendar_date": "11-24",
