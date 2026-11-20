@@ -7,28 +7,29 @@
     "additional_authoritative_anchors": 12,
     "manual_curated_seeds": 7,
     "selection_status": "PROVISIONAL RESEARCH — NOT EDITORIALLY APPROVED",
-    "notes": "These 366 provisional research selections are not 366 verified stories. Source-led discovery and editor approval are separate. No published copy or unpublished graphics included."
+    "notes": "These 366 provisional research selections are not 366 verified stories. Source-led discovery and editor approval are separate. No published copy or unpublished graphics included.",
+    "manual_editorial_override_count": 1
   },
   "metrics": {
     "calendar_rows": 366,
     "unique_primary_event_ids": 366,
     "dates_with_two_alternates": 366,
     "dates_with_two_corroborated_alternates": 0,
-    "authoritative_core_corroborated": 13,
+    "authoritative_core_corroborated": 14,
     "complete_fact_checked": 0,
     "human_approved": 0,
     "primary_with_source_url": 366,
-    "with_secondary_source_url": 13,
+    "with_secondary_source_url": 14,
     "graphic_concepts_assigned": 366,
     "imagery_rights_cleared": 0,
     "geography_international": 8,
     "pre_1950": 4,
     "hazard_categories": {
-      "tornado": 102,
+      "tornado": 103,
       "flood": 53,
       "temperature": 52,
       "severe_storm": 43,
-      "winter": 38,
+      "winter": 37,
       "unusual": 32,
       "tropical": 23,
       "wildfire_weather": 22,
@@ -38,8 +39,8 @@
       "Southeast": 45,
       "South Central": 44,
       "West Coast": 40,
-      "Midwest": 35,
-      "Northeast": 34,
+      "Midwest": 36,
+      "Northeast": 33,
       "Southwest": 27,
       "Ohio Valley": 24,
       "Gulf Coast": 21,
@@ -80,8 +81,9 @@
       "1800s": 1
     },
     "source_families": {
-      "ncei-storm-events": 347,
+      "ncei-storm-events": 346,
       "phasea-authoritative-anchor": 12,
+      "nws-pah-case-study": 1,
       "nws-iwx-case-study": 1,
       "nws-lix-case-study": 1,
       "nws-ind-case-study": 1,
@@ -92,13 +94,13 @@
     },
     "editorial_tiers": {
       "Tier 2 — Strong": 270,
-      "Tier 3 — Niche": 68,
-      "Tier 1 — Flagship": 28
+      "Tier 3 — Niche": 67,
+      "Tier 1 — Flagship": 29
     },
-    "consecutive_same_hazard": 28,
-    "consecutive_same_region": 6,
-    "consecutive_same_state_or_country": 1,
-    "consecutive_same_source_family": 329,
+    "consecutive_same_hazard": 30,
+    "consecutive_same_region": 7,
+    "consecutive_same_state_or_country": 2,
+    "consecutive_same_source_family": 327,
     "weak_primary_dates": [
       "01-05",
       "01-20",
@@ -110,7 +112,6 @@
       "02-16",
       "02-19",
       "02-26",
-      "02-29",
       "03-19",
       "03-30",
       "04-04",
@@ -169,7 +170,7 @@
       "12-20",
       "12-28"
     ],
-    "high_risk_source_gaps": 353
+    "high_risk_source_gaps": 352
   },
   "limitations": [
     "All 366 dates have provisional primary/alternate IDs, not publication-ready vetted stories.",
