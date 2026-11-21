@@ -455,3 +455,31 @@ Synchronized Google Sheets tabs: **Phase A Calendar** (affected research notes a
 **Unresolved:** All 366 planned primaries and 732 alternates still require editorially relevant claim-level numerical checks; full human publication approval, visual data construction and asset-specific licensing are not completed. No draft or image should be automatically published.
 
 **Next work:** replace six same-episode backups with entirely separate dated meteorological stories; continue remaining P0 review, then P1/P2 in balanced month/category/geography batches; reconcile disputed source claims, and verify concrete graphics/data rights before moving any record into the canonical approved library.
+
+
+## Pass 29 — November 21, 2026: six overlapping backups replaced and P0 queue screened
+
+**What changed:** All six backups flagged as same episode (or insufficiently independent incident) in Pass 28 were replaced with distinct, dated weather-history stories, with new event IDs, two research source URLs, explicit source/measurement limitations, and graphic concepts. Six further generic or repetitive P0 candidate records were replaced with higher-quality stories. The original event IDs, existing research and review history were retained in the backlog as `replaced_event_id`, with the previous URL and risk flags captured separately. This is **not** a human fact-check or publication approval.
+
+| Anniversary | New independent alternate | Editorial timing and provenance warning |
+|---|---|---|
+| March 6 | 1908 unusual March Atlantic tropical storm | Tropical storm appears March 6, hurricane intensity reached March 7; historical reconstruction only |
+| May 3 | 2013 May snowfall in the Missouri Ozarks | Snow accumulated May 3–4, not all within the May 3 daily window; replaces same-outbreak 1999 Kansas tornado |
+| August 15 | 2023 California Smith River Complex starts | CAL FIRE incident start Aug 15; lightning cause described in federal incident reporting while CAL FIRE says under investigation; completely separate from Yellowknife |
+| September 13 | 1988 Hurricane Gilbert's 888-hPa aircraft observation | Aircraft flight Sept 13, not identical to 00Z Sept 14 best-track marker; multiple documents share flight measurement |
+| September 19 | 2022 Hurricane Fiona makes Dominican Republic landfall | Local/UTC same Sep 19 but Puerto Rico's crossing was Sep 18; unrelated to 2019 Imelda |
+| September 24 | 2005 Hurricane Rita landfall in southwestern Louisiana | Landfall weaker than earlier Gulf peak; distinct from 2001 College Park tornado |
+| October 4 | 1995 Hurricane Opal reaches Florida's Panhandle | Rapid intensification offshore before Category 3 landfall; not 2015 South Carolina flood |
+| October 17 | 1984 Salt Lake City early-season snow begins | 18.4-inch total spans Oct 17–18; not a single-day Oct17 snowfall |
+| November 6 | 1977 Kelly Barnes Dam flood near Toccoa Falls | Dam failure early Nov6 after multiday rain; not an Evansville tornado segment |
+| November 20 | 1900 Tennessee tornado outbreak | Historical tornado paths and death counts have uncertain boundaries; distinctly unlike 2022 Indiana lake-effect snow |
+| December 11 | 1992 Northeast nor'easter coastal flooding | Separate storm from December 2008 ice; CDC sampled fatalities are not a full storm total |
+| December 22 | 1989 Arctic outbreak in the Carolinas | December 22 cold-air setup preceded main Christmas coastal snow on Dec23–24; not the 2013 Toronto ice storm |
+
+**Remaining P0 screening:** Eighteen P0 candidates remain uncorroborated. Each now has a Pass 29 risk/disposition note in the GitHub backlog and Google Sheet. Flags emphasize triple same-hazard days (e.g. February 17 fog, May 13 tornadoes, July 17 floods), source-only county records, weather-system overlap and whether a genuinely new story can be produced. These notes **do not promote or fact-check** any of the 18. The 222 P1 and 450 P2 source gaps also remain.
+
+**Verified inventory readback:** 366 primary cores source-paired; **42 alternate cores source-paired on 31 anniversaries** (11 dates with two, 20 dates with one, 335 dates with zero); **690 unverified alternate cores**; 18 remaining P0 / 222 P1 / 450 P2; 269 registered authority-based anchors; 342 claim-level cautions carried forward. The 707-row research backlog retains 17 reviewed rows for auditability (not 707 outstanding); 0 human approvals, 0 completed full fact checks, 0 media rights cleared.
+
+**Synchronized surfaces:** `data/phase_a_calendar.json`, `data/phase_a_sourced_anchors.json`, `data/phase_a_pass29_research.json`, `data/phase_a_alternate_research_backlog.json`, `data/phase_a_audit.json`; plus Google Sheets **Phase A Calendar**, **Phase A Alternate Reviews**, **Phase A Alternate Backlog** and **Phase A Audit**. Existing Post Studio drafts, event library, and publishing history were left intact. The read-only structural audit passed in GitHub Actions. Presence of links and passing CI never prove detailed weather values or media permissions.
+
+**Next Pass 30:** source-led replacements/reviews for the 18 P0 entries before P1 and P2, favoring diverse hazards, countries and historical eras over generic local Storm Events segments. Prefer primary meteorological measurements, civil-defense/incident documentation, original period reporting and dated observations. Explicitly reconcile any source disputes, check visuals and rights, then request human approval separately.
