@@ -270,9 +270,16 @@ def export_media(item: dict, output: Path, asset_root: Path | None, slug: str,
         filename = f"{slug}.asset-{index+1}{src.suffix.lower()}"
         shutil.copy2(src, output / filename)
         prepared.append({"file": filename, "kind": asset["kind"], "credit": asset["credit"],
-                         "rights_status": asset["rights_status"], "rights_basis_url": asset["rights_basis_url"],
+                         "creator": asset["creator"], "rights_status": asset["rights_status"],
+                         "rights_basis_url": asset["rights_basis_url"],
+                         "license_url": asset.get("license_url", ""),
+                         "license_scope": asset.get("license_scope", ""),
                          "source_url": asset["source_url"], "alt_text": asset["alt_text"],
-                         "caption": asset["caption"], "event_relation": asset.get("event_relation")})
+                         "caption": asset["caption"], "event_relation": asset.get("event_relation"),
+                         "context_disclosure": asset.get("context_disclosure", ""),
+                         "changes_disclosed": asset.get("changes_disclosed", False),
+                         "rights_reviewed_by": asset["rights_reviewed_by"],
+                         "rights_reviewed_on": asset["rights_reviewed_on"]})
     if item.get("photo_layout") == "editorial_split":
         photo_path = _private_file(item["photo"], asset_root)
         svg = render_photo_card(item, photo_path)
@@ -295,4 +302,25 @@ def export_media(item: dict, output: Path, asset_root: Path | None, slug: str,
                "note": "Source licensing and image use must be rechecked by a human in X before posting."}
     (output / (slug + ".media.json")).write_text(json.dumps(package, indent=2)+"\n",
                                                     encoding="utf-8")
+    credit_lines = []
+    for asset in prepared:
+        if not asset.get("source_url"):
+            continue
+        credit_lines += [
+            "Asset: " + asset["file"],
+            "Creator: " + asset["creator"],
+            "Credit: " + asset["credit"],
+            "Source: " + asset["source_url"],
+            "Rights basis: " + asset["rights_basis_url"],
+            "License URL: " + asset.get("license_url", ""),
+            "License scope: " + asset.get("license_scope", ""),
+            "Caption: " + asset["caption"],
+            "Alt text: " + asset["alt_text"],
+            "Event relation: " + str(asset.get("event_relation", "")),
+            "Changes disclosed: " + str(asset.get("changes_disclosed", False)),
+            "Verify the full attribution/change notices on X before publication.",
+            "",
+        ]
+    (output / (slug + ".credits.txt")).write_text(
+        "\n".join(credit_lines) + "\n", encoding="utf-8")
     return package
