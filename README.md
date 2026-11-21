@@ -2,7 +2,7 @@
 
 A meteorologist-led editorial workflow for original, accurately sourced, single-post weather-history content on X.
 
-**Status:** Phase A provisional 366-day research calendar and read-only audit added. Phase 2 historical discovery remains enabled; evidence verification and human editorial approval are outstanding. X publishing is NOT enabled.
+**Status:** Phase A provisional 366-day primary research calendar source-paired. Alternate event sourcing, full factual verification and human approval remain pending. Phase 2 historical discovery remains enabled; evidence verification and human editorial approval are outstanding. X publishing is NOT enabled.
 
 ## Phase A provisional editorial library (updated Nov 20, 2026)
 
@@ -10,7 +10,7 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 
 - [Phase A research status, limitations, and handoff](docs/PHASE_A_PROGRESS.md)
 - [366-day research calendar](data/phase_a_calendar.json) and [quality/diversity audit](data/phase_a_audit.json)
-- [248 registered sourced research anchors](data/phase_a_sourced_anchors.json)
+- [256 registered sourced research anchors](data/phase_a_sourced_anchors.json)
 - [Pass 2: 64 source-checked research upgrades with caveats](data/phase_a_pass2_research.json)
 - [Pass 8: five source-reviewed January primaries and two historic alternates](data/phase_a_pass8_research.json)
 - [Pass 9: 14 new core reviews, five final replacements and repetition repairs](data/phase_a_pass9_research.json)
@@ -21,6 +21,7 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 - [Pass 14: 3 source-led replacements, 12 retained-ID core reviews, 27 scoped claim checks](data/phase_a_pass14_research.json)
 - [Pass 15: 10 global/history-driven replacements, 2 retained-ID reviews and 24 claim checks](data/phase_a_pass15_research.json)
 - [Pass 16: 9 source-led primary upgrades (one alternate promotion), 4 retained-ID reviews, 4 alternate screens and 26 claim checks](data/phase_a_pass16_research.json)
+- [Pass27: nine alternate event evidence reviews and an integrity repair](data/phase_a_pass27_research.json)
 - [Pass26: all eight final primary gap closures and sixteen claim cautions](data/phase_a_pass26_research.json)
 - [Pass25: eight source-supported cores, three story upgrades, sixteen caution checks](data/phase_a_pass25_research.json)
 - [Pass24: twelve source-supported anniversary cores, 24 claim checks and explicit measurement caveats](data/phase_a_pass24_research.json)
