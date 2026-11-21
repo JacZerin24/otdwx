@@ -209,12 +209,15 @@ def render_svg(item: dict, *, asset_root: Path | None = None) -> str:
 
 
 def generate(packages: list[dict],output: Path,make_png: bool = False,
-             asset_root: Path | None = None) -> list[dict]:
+             asset_root: Path | None = None,
+             require_evidence: bool = False) -> list[dict]:
     """Write review-only post text, original SVGs, alt text and a manifest."""
     all_issues = []
     seen=set()
     for item in packages:
         errors=validate_package(item)
+        if require_evidence and item.get("type") not in EVIDENCE_TYPES:
+            errors.append("evidence-first production requires archive_panel or geo_track; decorative stat cards rejected")
         if item.get("event_id") in seen:errors.append("duplicate event_id")
         seen.add(item.get("event_id"))
         if errors:all_issues.append(str(item.get("event_id","UNKNOWN")) + ": " + "; ".join(errors))
@@ -261,11 +264,14 @@ def main(argv=None) -> int:
     parser.add_argument("--png",action="store_true",help="also render PNG with optional CairoSVG")
     parser.add_argument("--asset-root",type=Path,default=None,
                         help="private directory for rights-cleared local photos/maps/loops")
+    parser.add_argument("--require-evidence",action="store_true",
+                        help="reject old decorative charts; require genuine archival raster or sourced track")
     args=parser.parse_args(argv)
     payload=json.loads(args.input.read_text(encoding="utf-8"))
     if not isinstance(payload,list):
         parser.error("input JSON must be an array of post packages")
-    rows=generate(payload,args.output,args.png,asset_root=args.asset_root)
+    rows=generate(payload,args.output,args.png,asset_root=args.asset_root,
+                  require_evidence=args.require_evidence)
     print(f"Created {len(rows)} editor-review-only original graphics and text packages in {args.output}")
     return 0
 
