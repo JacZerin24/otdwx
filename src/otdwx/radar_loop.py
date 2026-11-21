@@ -12,6 +12,8 @@ import json
 from pathlib import Path
 from urllib.parse import urlparse
 
+from .themed_graphics import THEMES, ALIASES
+
 
 def validate_manifest(manifest: dict) -> list[str]:
     problems=[]
@@ -19,6 +21,9 @@ def validate_manifest(manifest: dict) -> list[str]:
     for key in ('title','source_name','source_url','radar_site','product','frames'):
         if not manifest.get(key):problems.append('missing '+key)
     if problems:return problems
+    key=manifest.get('weather_category','other')
+    if ALIASES.get(key,key) not in THEMES:
+        problems.append('Unknown radar weather_category theme')
     url=urlparse(manifest['source_url'])
     if url.scheme!='https' or not url.netloc:problems.append('HTTPS source URL required')
     frames=manifest['frames']
@@ -55,6 +60,8 @@ def render_gif(manifest: dict, output: str|Path, *, root: str|Path='.', frame_ms
     except ImportError as exc:
         raise RuntimeError('Pillow is required: pip install Pillow') from exc
     canvas=(1600,900)
+    key=manifest.get('weather_category','other')
+    theme=THEMES[ALIASES.get(key,key)]
     def font(size,bold=False):
         paths=['/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'] if bold else ['/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf']
         paths+=['/Library/Fonts/Arial.ttf','C:/Windows/Fonts/arial.ttf']
@@ -71,20 +78,20 @@ def render_gif(manifest: dict, output: str|Path, *, root: str|Path='.', frame_ms
         with Image.open(p) as im:
             raw=im.convert('RGB')
             fitted=ImageOps.contain(raw,(1480,645),Image.Resampling.LANCZOS)
-        page=Image.new('RGB',canvas,'#f4f1ea');draw=ImageDraw.Draw(page)
-        draw.rectangle((70,44,80,95),fill='#126987')
-        draw.text((100,43),'OTDwx',font=strong,fill='#1a2c34')
-        draw.text((350,65),'RADAR ARCHIVE   /   OBSERVED FRAMES',font=small,fill='#60747b')
-        draw.line((70,130,1530,130),fill='#1a2c34',width=3)
-        draw.text((72,150),manifest['title'][:75],font=medium,fill='#1a2c34')
+        page=Image.new('RGB',canvas,theme.paper);draw=ImageDraw.Draw(page)
+        draw.rectangle((70,44,80,95),fill=theme.accent)
+        draw.text((100,43),'OTDwx',font=strong,fill=theme.ink)
+        draw.text((350,65),'RADAR ARCHIVE   /   OBSERVED FRAMES',font=small,fill=theme.muted)
+        draw.line((70,130,1530,130),fill=theme.ink,width=3)
+        draw.text((72,150),manifest['title'][:75],font=medium,fill=theme.ink)
         x=60+(1480-fitted.width)//2; y=212+(645-fitted.height)//2
         page.paste(fitted,(x,y))
-        draw.line((70,865,1530,865),fill='#1a2c34',width=3)
+        draw.line((70,865,1530,865),fill=theme.ink,width=3)
         stamp=datetime.fromisoformat(f['timestamp_utc'].replace('Z','+00:00'))
-        draw.text((72,872),stamp.strftime('%Y-%m-%d  %H:%M UTC'),font=small,fill='#126987')
+        draw.text((72,872),stamp.strftime('%Y-%m-%d  %H:%M UTC'),font=small,fill=theme.accent)
         right=f"{manifest['radar_site']} / {manifest['product']}  •  {manifest['source_name']}"
         length=draw.textbbox((0,0),right,font=small)[2]
-        draw.text((1530-length,872),right,font=small,fill='#60747b')
+        draw.text((1530-length,872),right,font=small,fill=theme.muted)
         out.append(page)
     output=Path(output)
     output.parent.mkdir(parents=True,exist_ok=True)
