@@ -3,38 +3,39 @@
     "phase": "A",
     "as_of": "2026-11-21",
     "status": "RESEARCH TRIAGE ONLY — do not promote to corroborated, fact-checked, approved or graphics-cleared",
-    "base_calendar_blob_sha": "9c8810c4589c120b7e8f12f3bf555067c2dc8429",
+    "base_calendar_blob_sha": "879509b7d68f39be396eb13bd4243a59f830f72e",
     "source_catalog_sha": "4dfc2387034a9c8c19f0a23cb06af794bb743056",
     "total_calendar_days": 366,
     "expected_alt_leads": 732,
-    "source_supported_alternates": 60,
-    "unverified_alternates": 672,
+    "source_supported_alternates": 72,
+    "unverified_alternates": 660,
     "days_with_two_corroborated_alternates": 25,
-    "days_with_one_corroborated_alternate": 10,
-    "days_with_no_corroborated_alternates": 331,
+    "days_with_one_corroborated_alternate": 22,
+    "days_with_no_corroborated_alternates": 319,
     "missing_catalog_records": 0,
     "date_mismatch_records": 0,
     "priority_counts": {
-      "Reviewed — Core source paired": 35,
-      "P1 — High review": 222,
+      "Reviewed — Core source paired": 47,
+      "P1 — High review": 210,
       "P2 — Standard review": 450
     },
     "flag_counts": {
-      "NCEI_SEGMENT_ONLY": 672,
-      "BOTH_ALTERNATES_SAME_HAZARD": 154,
-      "GENERIC_EVENT_LABEL": 672,
-      "SAME_REGION_AS_PRIMARY": 33,
+      "NCEI_SEGMENT_ONLY": 660,
+      "BOTH_ALTERNATES_SAME_HAZARD": 131,
+      "GENERIC_EVENT_LABEL": 660,
+      "SAME_REGION_AS_PRIMARY": 29,
       "SAME_HAZARD_AS_PRIMARY": 68
     },
     "ranking_notes": "All 35 original P0 high-risk alternate leads have been source-screened/replaced during Pass 28-30; they remain in historical backlog with their replacement IDs. P1 (222) and P2 (450) still require source research; publisher-independent reports may rely on the same original observations.",
     "duplicate_episode_candidates_flagged": 0,
-    "reviewed_rows_retained_in_backlog": 35,
-    "notes": "Pass28: Five formerly P0 alternate leads now source-paired for core date/event/location only; six other high-risk leads quarantined as same-event/episode alternatives. 707 historic backlog rows retained; 702 still unverified. Priority counts include five reviewed rows.",
+    "reviewed_rows_retained_in_backlog": 47,
+    "notes": "Pass31: twelve higher-priority generic NCEI leads replaced with month-balanced, dated event cores. Previous IDs, sources and risk flags retained on reviewed rows. 660 P1/P2 leads still pending; publication gates closed.",
     "pass29_replacements": 12,
     "pass29_p0_remaining": 18,
     "pass29_p0_preliminarily_screened": 18,
     "pass30_replacements": 18,
-    "pass30_p0_remaining": 0
+    "pass30_p0_remaining": 0,
+    "pass31_replacements": 12
   },
   "next_24_balanced_review_targets": [
     {
@@ -51,9 +52,9 @@
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
     {
-      "anniversary": "01-06",
-      "alternate_rank": 1,
-      "event_id": "ncei-5341554",
+      "anniversary": "01-01",
+      "alternate_rank": 2,
+      "event_id": "ncei-675835",
       "priority": "P1 — High review",
       "priority_score": 10,
       "risk_flags": [
@@ -65,13 +66,12 @@
     },
     {
       "anniversary": "02-01",
-      "alternate_rank": 1,
-      "event_id": "ncei-18540",
+      "alternate_rank": 2,
+      "event_id": "ncei-5541879",
       "priority": "P1 — High review",
       "priority_score": 10,
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
@@ -91,13 +91,12 @@
     },
     {
       "anniversary": "03-05",
-      "alternate_rank": 1,
-      "event_id": "ncei-5136030",
+      "alternate_rank": 2,
+      "event_id": "ncei-16138",
       "priority": "P1 — High review",
       "priority_score": 10,
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
@@ -117,13 +116,12 @@
     },
     {
       "anniversary": "04-01",
-      "alternate_rank": 1,
-      "event_id": "ncei-5241953",
+      "alternate_rank": 2,
+      "event_id": "ncei-1095873",
       "priority": "P1 — High review",
       "priority_score": 10,
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
@@ -143,13 +141,12 @@
     },
     {
       "anniversary": "05-01",
-      "alternate_rank": 1,
-      "event_id": "ncei-5697130",
+      "alternate_rank": 2,
+      "event_id": "ncei-952438",
       "priority": "P1 — High review",
       "priority_score": 10,
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
@@ -168,23 +165,22 @@
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
     {
-      "anniversary": "06-07",
+      "anniversary": "06-02",
       "alternate_rank": 1,
-      "event_id": "ncei-5703510",
+      "event_id": "ncei-990627",
       "priority": "P1 — High review",
-      "priority_score": 11,
+      "priority_score": 10,
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
-        "GENERIC_EVENT_LABEL",
-        "SAME_REGION_AS_PRIMARY"
+        "GENERIC_EVENT_LABEL"
       ],
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
     {
       "anniversary": "06-02",
-      "alternate_rank": 1,
-      "event_id": "ncei-990627",
+      "alternate_rank": 2,
+      "event_id": "ncei-240600",
       "priority": "P1 — High review",
       "priority_score": 10,
       "risk_flags": [
@@ -208,29 +204,15 @@
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
     {
-      "anniversary": "07-03",
-      "alternate_rank": 1,
-      "event_id": "ncei-5457546",
+      "anniversary": "07-01",
+      "alternate_rank": 2,
+      "event_id": "ncei-5660937",
       "priority": "P1 — High review",
       "priority_score": 10,
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
-      ],
-      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
-    },
-    {
-      "anniversary": "08-07",
-      "alternate_rank": 2,
-      "event_id": "ncei-5266980",
-      "priority": "P1 — High review",
-      "priority_score": 11,
-      "risk_flags": [
-        "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
-        "GENERIC_EVENT_LABEL",
-        "SAME_REGION_AS_PRIMARY"
       ],
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
@@ -245,6 +227,19 @@
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
+      ],
+      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
+    },
+    {
+      "anniversary": "08-02",
+      "alternate_rank": 1,
+      "event_id": "ncei-1212643",
+      "priority": "P1 — High review",
+      "priority_score": 10,
+      "risk_flags": [
+        "NCEI_SEGMENT_ONLY",
+        "BOTH_ALTERNATES_SAME_HAZARD",
+        "GENERIC_EVENT_LABEL"
       ],
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
@@ -264,28 +259,13 @@
     },
     {
       "anniversary": "09-02",
-      "alternate_rank": 1,
-      "event_id": "ncei-197338",
+      "alternate_rank": 2,
+      "event_id": "ncei-5535195",
       "priority": "P1 — High review",
       "priority_score": 10,
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
-      ],
-      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
-    },
-    {
-      "anniversary": "10-09",
-      "alternate_rank": 1,
-      "event_id": "ncei-663369",
-      "priority": "P1 — High review",
-      "priority_score": 11,
-      "risk_flags": [
-        "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
-        "GENERIC_EVENT_LABEL",
-        "SAME_REGION_AS_PRIMARY"
       ],
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
@@ -303,14 +283,26 @@
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
     {
-      "anniversary": "11-11",
-      "alternate_rank": 1,
-      "event_id": "ncei-866592",
+      "anniversary": "10-01",
+      "alternate_rank": 2,
+      "event_id": "ncei-264461",
       "priority": "P1 — High review",
       "priority_score": 10,
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
+        "GENERIC_EVENT_LABEL"
+      ],
+      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
+    },
+    {
+      "anniversary": "11-11",
+      "alternate_rank": 2,
+      "event_id": "ncei-724302",
+      "priority": "P1 — High review",
+      "priority_score": 10,
+      "risk_flags": [
+        "NCEI_SEGMENT_ONLY",
         "GENERIC_EVENT_LABEL"
       ],
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
@@ -329,9 +321,9 @@
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
     {
-      "anniversary": "12-01",
-      "alternate_rank": 1,
-      "event_id": "ncei-70204",
+      "anniversary": "12-15",
+      "alternate_rank": 2,
+      "event_id": "ncei-994020",
       "priority": "P1 — High review",
       "priority_score": 11,
       "risk_flags": [
@@ -343,16 +335,15 @@
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
     {
-      "anniversary": "12-15",
+      "anniversary": "12-01",
       "alternate_rank": 2,
-      "event_id": "ncei-994020",
+      "event_id": "ncei-552151",
       "priority": "P1 — High review",
-      "priority_score": 11,
+      "priority_score": 10,
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
-        "GENERIC_EVENT_LABEL",
-        "SAME_REGION_AS_PRIMARY"
+        "GENERIC_EVENT_LABEL"
       ],
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     }
@@ -385,8 +376,8 @@
     },
     {
       "anniversary": "01-06",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "01-07",
@@ -515,8 +506,8 @@
     },
     {
       "anniversary": "02-01",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "02-02",
@@ -680,8 +671,8 @@
     },
     {
       "anniversary": "03-05",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "03-06",
@@ -815,8 +806,8 @@
     },
     {
       "anniversary": "04-01",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "04-02",
@@ -965,8 +956,8 @@
     },
     {
       "anniversary": "05-01",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "05-02",
@@ -1150,8 +1141,8 @@
     },
     {
       "anniversary": "06-07",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "06-08",
@@ -1280,8 +1271,8 @@
     },
     {
       "anniversary": "07-03",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "07-04",
@@ -1455,8 +1446,8 @@
     },
     {
       "anniversary": "08-07",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "08-08",
@@ -1585,8 +1576,8 @@
     },
     {
       "anniversary": "09-02",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "09-03",
@@ -1770,8 +1761,8 @@
     },
     {
       "anniversary": "10-09",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "10-10",
@@ -1935,8 +1926,8 @@
     },
     {
       "anniversary": "11-11",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "11-12",
@@ -2035,8 +2026,8 @@
     },
     {
       "anniversary": "12-01",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "12-02",
@@ -3498,58 +3489,74 @@
     {
       "anniversary": "06-07",
       "alternate_rank": 1,
-      "event_id": "ncei-5703510",
-      "historical_event_date": "1999-06-07",
-      "candidate_title": "Heat — MONTGOMERY, Pennsylvania",
-      "candidate_hazard": "temperature",
-      "candidate_location": "MONTGOMERY, Pennsylvania",
-      "candidate_country": "USA",
+      "event_id": "phasea-pass31-2017-06-07-cape-town-winter-cold-front",
+      "historical_event_date": "2017-06-07",
+      "candidate_title": "A powerful winter cold front batters Cape Town",
+      "candidate_hazard": "severe_storm",
+      "candidate_location": "Cape Town and Western Cape, South Africa",
+      "candidate_country": "South Africa",
       "primary_title": "Canadian wildfire smoke turns New York City's skies orange",
       "primary_hazard": "wildfire_weather",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1999_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "South African Weather Service",
+      "source_family": "source_led_authoritative_pass31",
+      "original_source_url": "https://www.weathersa.co.za/Documents/Corporate/WeatherSmart_News_201708_03042025081507.pdf",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and asset rights: System crossed June 6–8. Do not conflate forecast wind ranges, measured gusts and offshore wave heights; the simultaneous Knysna fires have distinct causes/locations.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-5703510",
+      "original_source_url_before_pass31": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1999_c20260323.csv.gz",
+      "original_priority_group": "P1 — High review",
+      "original_priority_score": 11,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "priority_score": 11,
-      "priority_group": "P1 — High review",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.news24.com/update-gale-force-winds-of-80-120km/h-cape-storms-biggest-threat-20170607",
+      "evidence_independence": "South African Weather Service supplied observing/forecast information; contemporaneous reporting repeats some forecasts and supplements with observed impacts.",
+      "pass31_disposition": "source_led_alternate_replacement"
     },
     {
       "anniversary": "08-07",
       "alternate_rank": 2,
-      "event_id": "ncei-5266980",
-      "historical_event_date": "2001-08-07",
-      "candidate_title": "Flash Flood — THE GAP, Arizona",
-      "candidate_hazard": "flood",
-      "candidate_location": "THE GAP, Arizona",
+      "event_id": "phasea-pass31-2023-08-07-fort-walker-giant-hail",
+      "historical_event_date": "2023-08-07",
+      "candidate_title": "Giant hailstones fall near Fort Walker, Virginia",
+      "candidate_hazard": "severe_storm",
+      "candidate_location": "Fort Walker area, Caroline County, Virginia",
       "candidate_country": "USA",
       "primary_title": "Tucson logs its 53rd consecutive 100°F day",
       "primary_hazard": "temperature",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "National Weather Service Wakefield",
+      "source_family": "source_led_authoritative_pass31",
+      "original_source_url": "https://www.weather.gov/akq/Aug072023_GiantHail_and_FlashFlooding",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and asset rights: The maximum hail size is local to documented stones, not the whole storm track; verify specific verification procedure and any state-record superlatives, and do not reuse chaser photographs without license.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-5266980",
+      "original_source_url_before_pass31": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz",
+      "original_priority_group": "P1 — High review",
+      "original_priority_score": 11,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "priority_score": 11,
-      "priority_group": "P1 — High review",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.washingtonpost.com/weather/2023/08/08/east-coast-severe-thunderstorm-damage-tornado/",
+      "evidence_independence": "NWS hail summary includes chaser-recovered measurements; media reporting may repeat those observations, not an independent instrument network.",
+      "pass31_disposition": "source_led_alternate_replacement"
     },
     {
       "anniversary": "08-12",
@@ -3610,58 +3617,74 @@
     {
       "anniversary": "10-09",
       "alternate_rank": 1,
-      "event_id": "ncei-663369",
-      "historical_event_date": "2016-10-09",
-      "candidate_title": "Flood — DRUG STORE, North Carolina",
-      "candidate_hazard": "flood",
-      "candidate_location": "DRUG STORE, North Carolina",
+      "event_id": "phasea-pass31-2017-10-09-north-bay-fire-windspread",
+      "historical_event_date": "2017-10-09",
+      "candidate_title": "Diablo winds drive the North Bay wildfires into Santa Rosa",
+      "candidate_hazard": "wildfire_weather",
+      "candidate_location": "Santa Rosa, Sonoma and Napa Counties, California",
       "candidate_country": "USA",
       "primary_title": "Milton's rainbands spawn an EF3 tornado near Fort Pierce",
       "primary_hazard": "tornado",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2016_c20261119.csv.gz",
-      "risk_flags": [
+      "source_publisher": "National Weather Service San Francisco Bay Area",
+      "source_family": "source_led_authoritative_pass31",
+      "original_source_url": "https://www.weather.gov/mtr/NorthBayFires2017",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and asset rights: Do not imply the fires first ignited on October 9: major ignitions began Sunday October 8 evening. Separate Tubbs/Nuns/Atlas/Pocket events and distinguish gust observations from inferred dynamics.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-663369",
+      "original_source_url_before_pass31": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2016_c20261119.csv.gz",
+      "original_priority_group": "P1 — High review",
+      "original_priority_score": 11,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "priority_score": 11,
-      "priority_group": "P1 — High review",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://journals.ametsoc.org/view/journals/bams/100/2/bams-d-18-0037.1.xml",
+      "evidence_independence": "Peer-reviewed meteorological analysis uses RAWS/METAR observations and model diagnosis; NWS retrospective uses many of the same station records.",
+      "pass31_disposition": "source_led_alternate_replacement"
     },
     {
       "anniversary": "12-01",
       "alternate_rank": 1,
-      "event_id": "ncei-70204",
-      "historical_event_date": "2007-12-01",
-      "candidate_title": "Winter Storm — COLUMBIA, Wisconsin",
+      "event_id": "phasea-pass31-2006-12-01-missouri-ice-snowstorm",
+      "historical_event_date": "2006-12-01",
+      "candidate_title": "A powerful early-December ice and snowstorm paralyzes Missouri",
       "candidate_hazard": "winter",
-      "candidate_location": "COLUMBIA, Wisconsin",
+      "candidate_location": "Missouri and adjacent Midwest states",
       "candidate_country": "USA",
       "primary_title": "Unusual December tornadoes hit east-central Wisconsin in 1970",
       "primary_hazard": "tornado",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2007_c20261119.csv.gz",
-      "risk_flags": [
+      "source_publisher": "National Weather Service St. Louis",
+      "source_family": "source_led_authoritative_pass31",
+      "original_source_url": "https://www.weather.gov/media/lsx/Events/11_30_2006.pdf",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and asset rights: Rain/ice began November 30 and impacts persisted into December. Separate freezing-rain glaze and sleet/snow zones; avoid treating a regional 2-day total as a Dec 1 station total.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-70204",
+      "original_source_url_before_pass31": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2007_c20261119.csv.gz",
+      "original_priority_group": "P1 — High review",
+      "original_priority_score": 11,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "priority_score": 11,
-      "priority_group": "P1 — High review",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://sema.dps.mo.gov/maps_and_disasters/disasters/1673.php",
+      "evidence_independence": "NWS storm reconstruction uses instrument/surface observations; Missouri emergency managers document response impacts but some impact statements draw on NWS forecasts.",
+      "pass31_disposition": "source_led_alternate_replacement"
     },
     {
       "anniversary": "12-15",
@@ -3748,29 +3771,37 @@
     {
       "anniversary": "01-06",
       "alternate_rank": 1,
-      "event_id": "ncei-5341554",
-      "historical_event_date": "2003-01-06",
-      "candidate_title": "Dust Storm — COCHISE COUNTY, Arizona",
-      "candidate_hazard": "unusual",
-      "candidate_location": "COCHISE COUNTY, Arizona",
+      "event_id": "phasea-pass31-2014-01-06-chicago-arctic-cold",
+      "historical_event_date": "2014-01-06",
+      "candidate_title": "Chicago plunges to −16°F during the January 2014 Arctic outbreak",
+      "candidate_hazard": "temperature",
+      "candidate_location": "Chicago, Illinois",
       "candidate_country": "USA",
       "primary_title": "Ireland's Night of the Big Wind begins",
       "primary_hazard": "severe_storm",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2003_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "National Weather Service Chicago",
+      "source_family": "source_led_authoritative_pass31",
+      "original_source_url": "https://www.weather.gov/lot/2014Jan5-7_cold",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and asset rights: The -16°F is actual air temperature, not wind chill; distinguish the morning record from the daytime high, and January 6 from the Jan 5–7 outbreak.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-5341554",
+      "original_source_url_before_pass31": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2003_c20260323.csv.gz",
+      "original_priority_group": "P1 — High review",
+      "original_priority_score": 10,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 10,
-      "priority_group": "P1 — High review",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.weather.gov/lot/201314_3rd_coldest",
+      "evidence_independence": "Two NWS Chicago narratives reference the same official observing network; this is cross-document chronology, not independent thermometry.",
+      "pass31_disposition": "source_led_alternate_replacement"
     },
     {
       "anniversary": "01-06",
@@ -3788,7 +3819,6 @@
       "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2024_c20261119.csv.gz",
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "priority_score": 10,
@@ -3797,7 +3827,8 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass31_cross_alternate_hazard_risk_refreshed": true
     },
     {
       "anniversary": "01-20",
@@ -4018,29 +4049,37 @@
     {
       "anniversary": "02-01",
       "alternate_rank": 1,
-      "event_id": "ncei-18540",
-      "historical_event_date": "2007-02-01",
-      "candidate_title": "Extreme Cold/Wind Chill — COOK, Illinois",
-      "candidate_hazard": "temperature",
-      "candidate_location": "COOK, Illinois",
+      "event_id": "phasea-pass31-2011-02-01-groundhog-blizzard-chicago",
+      "historical_event_date": "2011-02-01",
+      "candidate_title": "The Groundhog Day blizzard slams Chicago with thundersnow",
+      "candidate_hazard": "winter",
+      "candidate_location": "Chicago metropolitan area, Illinois",
       "candidate_country": "USA",
       "primary_title": "1953 North Sea Flood",
       "primary_hazard": "flood",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2007_c20261119.csv.gz",
-      "risk_flags": [
+      "source_publisher": "National Weather Service Chicago",
+      "source_family": "source_led_authoritative_pass31",
+      "original_source_url": "https://www.weather.gov/lot/2011blizzard",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and asset rights: Storm-total accumulations include Jan 31–Feb 2; do not label the full 21.2-inch historical total as Feb 1 alone or imply a Feb 1 final snowfall record without corrections.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-18540",
+      "original_source_url_before_pass31": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2007_c20261119.csv.gz",
+      "original_priority_group": "P1 — High review",
+      "original_priority_score": 10,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 10,
-      "priority_group": "P1 — High review",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.mprnews.org/story/2011/02/02/chicago-snowzilla-update-civil-emergency-groundhog-day-cancelled",
+      "evidence_independence": "NWS reconstructs radar and official snowfall; contemporary reporting documents local disruption, but repeats NWS storm figures.",
+      "pass31_disposition": "source_led_alternate_replacement"
     },
     {
       "anniversary": "02-01",
@@ -4058,7 +4097,6 @@
       "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1996_c20260323.csv.gz",
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "priority_score": 10,
@@ -4067,7 +4105,8 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass31_cross_alternate_hazard_risk_refreshed": true
     },
     {
       "anniversary": "02-04",
@@ -4504,29 +4543,37 @@
     {
       "anniversary": "03-05",
       "alternate_rank": 1,
-      "event_id": "ncei-5136030",
-      "historical_event_date": "2000-03-05",
-      "candidate_title": "Winter Storm — SAN DIEGO COUNTY MOUNTAINS, California",
-      "candidate_hazard": "winter",
-      "candidate_location": "SAN DIEGO COUNTY MOUNTAINS, California",
-      "candidate_country": "USA",
+      "event_id": "phasea-pass31-1966-03-05-mt-fuji-mountain-wave-flight911",
+      "historical_event_date": "1966-03-05",
+      "candidate_title": "Severe Mount Fuji lee-wave turbulence destroys BOAC Flight 911",
+      "candidate_hazard": "unusual",
+      "candidate_location": "Mount Fuji and Gotemba, Honshu, Japan",
+      "candidate_country": "Japan",
       "primary_title": "An EF4 tornado tears across Iowa near Winterset during the March 2022 outbreak",
       "primary_hazard": "tornado",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2000_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "Flight Safety Foundation",
+      "source_family": "source_led_authoritative_pass31",
+      "original_source_url": "https://flightsafety.org/asw-article/bumpy-ride-ahead/",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and asset rights: An aviation accident, not a weather-station measurement. Confirm 14:15 Japan local timestamp and exact investigator wording before specifying winds, load factors or causal chain.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-5136030",
+      "original_source_url_before_pass31": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2000_c20260323.csv.gz",
+      "original_priority_group": "P1 — High review",
+      "original_priority_score": 10,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 10,
-      "priority_group": "P1 — High review",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.baaa-acro.com/zone/chubu",
+      "evidence_independence": "Retrospective aviation-safety summaries ultimately draw on the same Japanese accident investigation; not independent meteorological instruments.",
+      "pass31_disposition": "source_led_alternate_replacement"
     },
     {
       "anniversary": "03-05",
@@ -4544,7 +4591,6 @@
       "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2007_c20261119.csv.gz",
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "priority_score": 10,
@@ -4553,7 +4599,8 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass31_cross_alternate_hazard_risk_refreshed": true
     },
     {
       "anniversary": "03-22",
@@ -4774,29 +4821,37 @@
     {
       "anniversary": "04-01",
       "alternate_rank": 1,
-      "event_id": "ncei-5241953",
-      "historical_event_date": "2001-04-01",
-      "candidate_title": "Flood — ANOKA, Minnesota",
-      "candidate_hazard": "flood",
-      "candidate_location": "ANOKA, Minnesota",
+      "event_id": "phasea-pass31-1997-04-01-april-fools-blizzard-boston",
+      "historical_event_date": "1997-04-01",
+      "candidate_title": "An April Fools’ blizzard buries eastern Massachusetts",
+      "candidate_hazard": "winter",
+      "candidate_location": "Boston and Blue Hill, eastern Massachusetts",
       "candidate_country": "USA",
       "primary_title": "TIROS-1 launches the era of weather observation from orbit",
       "primary_hazard": "unusual",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "Blue Hill Observatory",
+      "source_family": "source_led_authoritative_pass31",
+      "original_source_url": "https://bluehill.org/april-fools-snowstorm-of-march-31-april-1-1997/",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and asset rights: Do not assign the storm's entire accumulation to April 1. Separate Boston and Blue Hill station values and historic record rankings as of the reporting year.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-5241953",
+      "original_source_url_before_pass31": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz",
+      "original_priority_group": "P1 — High review",
+      "original_priority_score": 10,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 10,
-      "priority_group": "P1 — High review",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://news.cornell.edu/stories/1997/05/april-fools-day-snow-preceded-month-cool-temperatures",
+      "evidence_independence": "Blue Hill supplies station-specific historical records; Cornell independently discusses the regional meteorology but repeats official weather observations.",
+      "pass31_disposition": "source_led_alternate_replacement"
     },
     {
       "anniversary": "04-01",
@@ -4814,7 +4869,6 @@
       "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2023_c20261119.csv.gz",
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "priority_score": 10,
@@ -4823,7 +4877,8 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass31_cross_alternate_hazard_risk_refreshed": true
     },
     {
       "anniversary": "04-07",
@@ -5044,29 +5099,37 @@
     {
       "anniversary": "05-01",
       "alternate_rank": 1,
-      "event_id": "ncei-5697130",
-      "historical_event_date": "1999-05-01",
-      "candidate_title": "High Wind — GUADALUPE MOUNTAINS OF CHAVES COUNTY / X SW CHAVES, New Mexico",
-      "candidate_hazard": "severe_storm",
-      "candidate_location": "GUADALUPE MOUNTAINS OF CHAVES COUNTY / X SW CHAVES, New Mexico",
+      "event_id": "phasea-pass31-2010-05-01-nashville-flood-rain-begins",
+      "historical_event_date": "2010-05-01",
+      "candidate_title": "Record-breaking rainfall begins Nashville's historic May flood",
+      "candidate_hazard": "flood",
+      "candidate_location": "Nashville and Middle Tennessee",
       "candidate_country": "USA",
       "primary_title": "Farm-field dust blinds drivers along Illinois's Interstate 55",
       "primary_hazard": "unusual",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1999_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "National Weather Service Nashville",
+      "source_family": "source_led_authoritative_pass31",
+      "original_source_url": "https://www.weather.gov/ohx/May2010Flood",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and asset rights: Many impacts occurred May 2–3; avoid assigning 48-hour rainfall, Cumberland River crest or regional death totals solely to May 1.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-5697130",
+      "original_source_url_before_pass31": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1999_c20260323.csv.gz",
+      "original_priority_group": "P1 — High review",
+      "original_priority_score": 10,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 10,
-      "priority_group": "P1 — High review",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.weather.gov/lmk/flood_050210_how_it_happened",
+      "evidence_independence": "Different NWS offices describe nearby portions of a common synoptic event; underlying radar, gauges and impacts overlap.",
+      "pass31_disposition": "source_led_alternate_replacement"
     },
     {
       "anniversary": "05-01",
@@ -5084,7 +5147,6 @@
       "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2021_c20261119.csv.gz",
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "priority_score": 10,
@@ -5093,7 +5155,8 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass31_cross_alternate_hazard_risk_refreshed": true
     },
     {
       "anniversary": "05-08",
@@ -5543,7 +5606,6 @@
       "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2017_c20261119.csv.gz",
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "priority_score": 10,
@@ -5552,7 +5614,8 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass31_cross_alternate_hazard_risk_refreshed": true
     },
     {
       "anniversary": "06-09",
@@ -5773,29 +5836,37 @@
     {
       "anniversary": "07-03",
       "alternate_rank": 1,
-      "event_id": "ncei-5457546",
-      "historical_event_date": "2005-07-03",
-      "candidate_title": "Thunderstorm Wind — PRETTY PRAIRIE, Kansas",
-      "candidate_hazard": "severe_storm",
-      "candidate_location": "PRETTY PRAIRIE, Kansas",
-      "candidate_country": "USA",
+      "event_id": "phasea-pass31-2000-07-03-vanguard-saskatchewan-torrential-flood",
+      "historical_event_date": "2000-07-03",
+      "candidate_title": "A stalled thunderstorm floods Vanguard, Saskatchewan",
+      "candidate_hazard": "flood",
+      "candidate_location": "Vanguard, southern Saskatchewan, Canada",
+      "candidate_country": "Canada",
       "primary_title": "Hurricane Arthur makes a late-night Category 2 landfall on North Carolina's coast",
       "primary_hazard": "tropical",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "Government of Saskatchewan",
+      "source_family": "source_led_authoritative_pass31",
+      "original_source_url": "https://www.saskatchewan.ca/government/news-and-media/2005/september/16/government-of-canada-delivers-12-million-to-saskatchewan-under-disaster-financial-assistance",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and asset rights: Government reporting says 333 mm in under 10 hours near Vanguard; a research study reports up to 375 mm in eight hours for its analyzed footprint. These need observation-site and period reconciliation. Rain continued into early July 4.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-5457546",
+      "original_source_url_before_pass31": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz",
+      "original_priority_group": "P1 — High review",
+      "original_priority_score": 10,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 10,
-      "priority_group": "P1 — High review",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://cdd.publicsafety.gc.ca/dtpg-eng.aspx?cultureCode=en-Ca&dynamic=false&eventId=331&normalizedCostYear=1&provinces=12",
+      "evidence_independence": "Provincial and Canadian federal records date the flood; a hydrometeorological research paper analyzes storm rainfall but may use some same gauges/reconstructions.",
+      "pass31_disposition": "source_led_alternate_replacement"
     },
     {
       "anniversary": "07-03",
@@ -5813,7 +5884,6 @@
       "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2024_c20261119.csv.gz",
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "priority_score": 10,
@@ -5822,7 +5892,8 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass31_cross_alternate_hazard_risk_refreshed": true
     },
     {
       "anniversary": "07-07",
@@ -6164,7 +6235,6 @@
       "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2000_c20260323.csv.gz",
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "priority_score": 10,
@@ -6173,7 +6243,8 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass31_cross_alternate_hazard_risk_refreshed": true
     },
     {
       "anniversary": "08-12",
@@ -6367,29 +6438,37 @@
     {
       "anniversary": "09-02",
       "alternate_rank": 1,
-      "event_id": "ncei-197338",
-      "historical_event_date": "2009-09-02",
-      "candidate_title": "Flood — BORGER, Texas",
-      "candidate_hazard": "flood",
-      "candidate_location": "BORGER, Texas",
+      "event_id": "phasea-pass31-1935-09-02-labor-day-hurricane-florida-keys",
+      "historical_event_date": "1935-09-02",
+      "candidate_title": "The 1935 Labor Day Hurricane strikes the Florida Keys",
+      "candidate_hazard": "tropical",
+      "candidate_location": "Upper and Middle Florida Keys, Florida",
       "candidate_country": "USA",
       "primary_title": "The 1859 geomagnetic storm lights low-latitude skies and disrupts telegraphs",
       "primary_hazard": "unusual",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2009_c20261119.csv.gz",
-      "risk_flags": [
+      "source_publisher": "NOAA National Hurricane Center",
+      "source_family": "source_led_authoritative_pass31",
+      "original_source_url": "https://www.nhc.noaa.gov/outreach/history/",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and asset rights: Confirm time-zone and vessel-based pressure measurement metadata before quoting 892 hPa or precise landfall center. Fatality counts vary by scope and original archives.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-197338",
+      "original_source_url_before_pass31": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2009_c20261119.csv.gz",
+      "original_priority_group": "P1 — High review",
+      "original_priority_score": 10,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 10,
-      "priority_group": "P1 — High review",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.aoml.noaa.gov/hurricane_blog/80th-anniversary-of-the-labor-day-hurricane-and-first-hurricane-reconnaissance/",
+      "evidence_independence": "NHC and AOML institutional histories rely on the same 1935 observations/reconstruction; two NOAA pages are not two independent pressure readings.",
+      "pass31_disposition": "source_led_alternate_replacement"
     },
     {
       "anniversary": "09-02",
@@ -6407,7 +6486,6 @@
       "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2006_c20261119.csv.gz",
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "priority_score": 10,
@@ -6416,7 +6494,8 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass31_cross_alternate_hazard_risk_refreshed": true
     },
     {
       "anniversary": "09-03",
@@ -6785,7 +6864,6 @@
       "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz",
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "priority_score": 10,
@@ -6794,7 +6872,8 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass31_cross_alternate_hazard_risk_refreshed": true
     },
     {
       "anniversary": "10-13",
@@ -7015,29 +7094,37 @@
     {
       "anniversary": "11-11",
       "alternate_rank": 1,
-      "event_id": "ncei-866592",
-      "historical_event_date": "2019-11-11",
-      "candidate_title": "Lake-Effect Snow — SUMMIT, Ohio",
-      "candidate_hazard": "winter",
-      "candidate_location": "SUMMIT, Ohio",
-      "candidate_country": "USA",
+      "event_id": "phasea-pass31-2020-11-11-vamco-philippines-landfalls",
+      "historical_event_date": "2020-11-11",
+      "candidate_title": "Typhoon Vamco makes multiple landfalls in the Philippines",
+      "candidate_hazard": "tropical",
+      "candidate_location": "Polillo Islands and Quezon Province, Luzon, Philippines",
+      "candidate_country": "Philippines",
       "primary_title": "The Great Blue Norther sends temperatures plunging on 11/11/11",
       "primary_hazard": "temperature",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2019_c20261119.csv.gz",
-      "risk_flags": [
+      "source_publisher": "PAGASA (Philippine Atmospheric, Geophysical and Astronomical Services Administration)",
+      "source_family": "source_led_authoritative_pass31",
+      "original_source_url": "https://pubfiles.pagasa.dost.gov.ph/pagasaweb/files/tamss/weather/tcsummary/PAGASA_ARTC_2020.pdf",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and asset rights: Multiple local landfalls and precise UTC/Philippine time distinctions matter; do not assign all later November 12 Manila flooding to the landfall instant, or mix preliminary and final wind estimates.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-866592",
+      "original_source_url_before_pass31": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2019_c20261119.csv.gz",
+      "original_priority_group": "P1 — High review",
+      "original_priority_score": 10,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 10,
-      "priority_group": "P1 — High review",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://science.nasa.gov/earth/earth-observatory/vamco-thrashes-the-philippines-147525/",
+      "evidence_independence": "PAGASA reconstructs the operational track and local landfalls, while NASA independently supplies satellite image context and can repeat PAGASA impact data.",
+      "pass31_disposition": "source_led_alternate_replacement"
     },
     {
       "anniversary": "11-11",
@@ -7055,7 +7142,6 @@
       "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2017_c20261119.csv.gz",
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
       "priority_score": 10,
@@ -7064,7 +7150,8 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass31_cross_alternate_hazard_risk_refreshed": true
     },
     {
       "anniversary": "11-12",
