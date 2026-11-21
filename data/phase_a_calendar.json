@@ -4,18 +4,20 @@
     "as_of": "2026-11-21",
     "source_catalog_sha": "4dfc2387034a9c8c19f0a23cb06af794bb743056",
     "source_candidates": 4323,
-    "additional_authoritative_anchors": 257,
+    "additional_authoritative_anchors": 269,
     "manual_curated_seeds": 7,
     "selection_status": "PROVISIONAL RESEARCH — NOT EDITORIALLY APPROVED",
     "notes": "These 366 provisional research selections are not 366 verified stories. Source-led discovery and editor approval are separate. No published copy or unpublished graphics included.",
     "manual_editorial_override_count": 206,
-    "summary": "Pass28: all 366 primary source-paired cores; 30 evidence-backed alternate cores on 19 dates (11 with both); 702 alternate cores remain unverified. Six same-episode alternate leads quarantined. No human approvals, fully checked posts or media rights.",
+    "summary": "Pass29: 366 source-paired primary date/location cores; 42/732 alternate source-paired cores on 31 dates (11 fully paired), 690 outstanding, 12 high-risk replacements completed and remaining 18 P0 screened, 0 full approvals or media rights.",
     "pass2_manual_upgrades": 64,
-    "alternate_screened_date_count": 26,
+    "alternate_screened_date_count": 38,
     "alternate_core_corroborated_days": 11,
-    "alternate_core_corroborated_leads": 30,
+    "alternate_core_corroborated_leads": 42,
     "pass28_reviewed_alternates": 5,
-    "pass28_duplicate_leads_flagged": 6
+    "pass28_duplicate_leads_flagged": 6,
+    "pass29_replacements": 12,
+    "pass29_p0_remaining": 18
   },
   "days": [
     {
@@ -3531,22 +3533,34 @@
       "graphic_feasibility_status": "needs_observational_or_GIS_data",
       "historical_imagery_available": "not_assessed",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-687309",
-      "first_alternate_title": "Wildfire — GRAY, Texas",
+      "first_alternate_event_id": "phasea-pass29-1908-03-06-atlantic-march-tropical-storm",
+      "first_alternate_title": "An extraordinarily rare March Atlantic tropical storm develops",
       "second_alternate_event_id": "ncei-5546526",
       "second_alternate_title": "Tornado — MARION JCT, Alabama",
-      "alternates_verification_status": "research_leads_unverified",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass26 final primary-gap closure (2026-11-21): VIIRS on Suomi NPP captured fires raging along the Kansas–Oklahoma border on March 6, 2017; dry fuels, low humidity and strong winds contributed to destructive regional wildfire spread. The March 6 VIIRS acquisition was at 19:24 UTC (early afternoon Central time). Distinguish separately named Starbuck, Perryton and other fires: acreage totals differ by agency, burn complex, date and mapping method. A satellite hot spot is not a precise ignition timestamp. Third-party photography is not automatically public domain. Source interdependence: NASA satellite detections document March 6 burning directly, while NWS Amarillo supplies dated ground fire-weather and response information. Their meteorological analyses share regional NOAA observing infrastructure, but visual and response observations differ. Displaced primary ncei-5610916 retained in source record; existing distinct-date-matched alternates ncei-687309 and ncei-5546526 remain unverified research leads. No media cleared or human approval.\nPass28 alternate 1 integrity alert: Gray County Texas wildfire is part of the same regional March 6, 2017 Plains wildfire outbreak as the primary; distinct ignition has not been verified, so this is not a defensible independent backup. https://www.weather.gov/ama/2017_Wildfires_Feb_Mar. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass26 final primary-gap closure (2026-11-21): VIIRS on Suomi NPP captured fires raging along the Kansas–Oklahoma border on March 6, 2017; dry fuels, low humidity and strong winds contributed to destructive regional wildfire spread. The March 6 VIIRS acquisition was at 19:24 UTC (early afternoon Central time). Distinguish separately named Starbuck, Perryton and other fires: acreage totals differ by agency, burn complex, date and mapping method. A satellite hot spot is not a precise ignition timestamp. Third-party photography is not automatically public domain. Source interdependence: NASA satellite detections document March 6 burning directly, while NWS Amarillo supplies dated ground fire-weather and response information. Their meteorological analyses share regional NOAA observing infrastructure, but visual and response observations differ. Displaced primary ncei-5610916 retained in source record; existing distinct-date-matched alternates ncei-687309 and ncei-5546526 remain unverified research leads. No media cleared or human approval.\nPass28 alternate 1 integrity alert: Gray County Texas wildfire is part of the same regional March 6, 2017 Plains wildfire outbreak as the primary; distinct ignition has not been verified, so this is not a defensible independent backup. https://www.weather.gov/ama/2017_Wildfires_Feb_Mar. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.\nPass29 (2026-11-21), alternate 1: Replaced ncei-687309 with distinct event phasea-pass29-1908-03-06-atlantic-march-tropical-storm — An extraordinarily rare March Atlantic tropical storm develops. Scope: A tropical storm was present northeast of the Leeward Islands on March 6, 1908, and moved southwest before briefly achieving hurricane intensity during the following days. Evidence: https://www.aoml.noaa.gov/hurricane_blog/2013-hurricane-related-anniversaries/; https://weather.com/news/weather/news/2026-03-06-otd-march-1908-hurricane-atlantic-caribbean. Dependence: NOAA AOML explicitly dates the origin to March 6; Weather.com reconstructs the track using the same historical best-track and archival reanalysis, not an independent 1908 in situ observation. Cautions: Do not call the system a hurricane on March 6: NHC places earliest March hurricane intensity on March 7. The 1908 track and intensity are retrospective and poorly observed; exact formation location is uncertain. Concept: Original historical track reconstruction with March 6 marked and the March 7 hurricane threshold separately annotated. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
       "event_source_excerpt": "As a large and intense low pressure system moved from Kentucky east-northeast just north of New York City and across Eastern Massachusetts, it caused high winds. Winds gusted over 60 MPH at many locations. They knocked down trees and power lines on houses and streets.In Laurelton of Queens, a 75 foo",
       "input_research_score": 44.15,
       "editorial_selection_score": 56.95,
       "historical_era": "2000–2025",
       "geography_key": "USA|Great Plains",
       "research_priority": "Human observation, chronology, source-independence, and image-license verification",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass29-1908-03-06-atlantic-march-tropical-storm",
+          "event_date": "1908-03-06",
+          "source_url": "https://www.aoml.noaa.gov/hurricane_blog/2013-hurricane-related-anniversaries/",
+          "secondary_source_url": "https://weather.com/news/weather/news/2026-03-06-otd-march-1908-hurricane-atlantic-caribbean",
+          "verified_core_fact": "A tropical storm was present northeast of the Leeward Islands on March 6, 1908, and moved southwest before briefly achieving hurricane intensity during the following days.",
+          "source_independence_assessment": "NOAA AOML explicitly dates the origin to March 6; Weather.com reconstructs the track using the same historical best-track and archival reanalysis, not an independent 1908 in situ observation.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "03-07",
@@ -6501,18 +6515,30 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-1170224",
       "first_alternate_title": "Excessive Heat — RICHLAND, South Carolina",
-      "second_alternate_event_id": "ncei-5690169",
-      "second_alternate_title": "Tornado — PECK, Kansas",
-      "alternates_verification_status": "prior provisional options retained as research leads; not independently verified",
+      "second_alternate_event_id": "phasea-pass29-2013-05-03-ozarks-may-snow",
+      "second_alternate_title": "An extraordinary May snowstorm brings measurable snow to the Ozarks",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Phase A researched anchor: source chronology and geography corroborated, but full claim-by-claim fact check and all graphics rights remain pending. Multiday/individual impacts need scope-specific review. Superseded lead still available as alternate ncei-5690169. Multi-day date anchors must not be represented as single-day full-storm totals.",
+      "research_notes": "Phase A researched anchor: source chronology and geography corroborated, but full claim-by-claim fact check and all graphics rights remain pending. Multiday/individual impacts need scope-specific review. Superseded lead still available as alternate ncei-5690169. Multi-day date anchors must not be represented as single-day full-storm totals.\nPass29 (2026-11-21), alternate 2: Replaced ncei-5690169 with distinct event phasea-pass29-2013-05-03-ozarks-may-snow — An extraordinary May snowstorm brings measurable snow to the Ozarks. Scope: Unusually late measurable snow fell across southwest Missouri and southeast Kansas on May 3, 2013 during a slow-moving upper-level low; the storm continued into May 4. Evidence: https://www.weather.gov/sgf/events_2013may3; https://www.weather.gov/dmx/maysnow. Dependence: NWS Springfield directly documents May 3 snowfall and site totals; NWS Des Moines separately documents the May 1–3 broader spring snow pattern, sharing the same federal observing network. Cautions: The May 3–4 two-day snow totals are not calendar-day May 3 measurements. Springfield's 1.4 inches was a latest measurable snow date, not the biggest May snowfall in its record. Do not link this to 1999 tornadoes. Concept: Original May 3 station and 500-hPa low map with May 4 continuation hatched. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
       "event_source_excerpt": "NWS documents an F5 tornado crossing Bridge Creek, Oklahoma City and Moore on May 3, 1999; this was an F5, not an EF5.",
       "input_research_score": 90,
       "editorial_selection_score": null,
       "historical_era": "1980–1999",
       "geography_key": "Oklahoma",
       "research_priority": "Confirm full claim-level statistics, dating convention, impact boundaries and visual rights",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass29-2013-05-03-ozarks-may-snow",
+          "event_date": "2013-05-03",
+          "source_url": "https://www.weather.gov/sgf/events_2013may3",
+          "secondary_source_url": "https://www.weather.gov/dmx/maysnow",
+          "verified_core_fact": "Unusually late measurable snow fell across southwest Missouri and southeast Kansas on May 3, 2013 during a slow-moving upper-level low; the storm continued into May 4.",
+          "source_independence_assessment": "NWS Springfield directly documents May 3 snowfall and site totals; NWS Des Moines separately documents the May 1–3 broader spring snow pattern, sharing the same federal observing network.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "05-04",
@@ -11717,11 +11743,11 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-1053665",
       "first_alternate_title": "Thunderstorm Wind — CHUUK, Guam",
-      "second_alternate_event_id": "ncei-1136321",
-      "second_alternate_title": "Wildfire — DEL NORTE INTERIOR, California",
-      "alternates_verification_status": "Carried-forward alternate IDs, no independent corroboration or screening",
+      "second_alternate_event_id": "phasea-pass29-2023-08-15-smith-river-fire",
+      "second_alternate_title": "Smith River Complex wildfire begins amid a Northern California lightning outbreak",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Do NOT say all Yellowknife was ordered evacuated on August 15: citywide evacuation order followed on August 16. The GNWT public bulletin did not render fully in browser, but its search excerpt and contemporary Cabin Radio account identify specific neighborhoods. Full primary alert text must be manually rechecked. Displaced primary preserved: ncei-643399. Previously selected alternate IDs retained, not independently researched: ncei-1053665, ncei-1136321.",
+      "research_notes": "Do NOT say all Yellowknife was ordered evacuated on August 15: citywide evacuation order followed on August 16. The GNWT public bulletin did not render fully in browser, but its search excerpt and contemporary Cabin Radio account identify specific neighborhoods. Full primary alert text must be manually rechecked. Displaced primary preserved: ncei-643399. Previously selected alternate IDs retained, not independently researched: ncei-1053665, ncei-1136321.\nPass29 (2026-11-21), alternate 2: Replaced ncei-1136321 with distinct event phasea-pass29-2023-08-15-smith-river-fire — Smith River Complex wildfire begins amid a Northern California lightning outbreak. Scope: The Smith River Complex in far northern California is recorded as beginning August 15, 2023 during a regional convective lightning episode, independently of the Yellowknife fires in Canada. Evidence: https://www.fire.ca.gov/incidents/2023/8/15/smith-river-complex; https://nwccinfo.blogspot.com/2023/08/08252023-smith-river-complex-north.html. Dependence: CAL FIRE lists the August 15 start date while federal interagency fire updates independently identify August 15 as start; incident descriptions are both sourced from fire-response reporting, not independent satellite ignition measurements. Cautions: CAL FIRE lists cause 'under investigation' while federal updates classify lightning; keep cause attribution provisional. Lightning began August 14 in some areas. Later acreage and smoke footprints cannot be attributed to August 15 alone. Concept: Original August 14–15 lightning-timing and point-of-origin research map with future burn perimeter shown separately. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
       "event_source_excerpt": "On August 15, 2023, parts of western Yellowknife were placed under wildfire evacuation alert as the Northwest Territories emergency intensified.",
       "input_research_score": 89,
       "editorial_selection_score": null,
@@ -11731,7 +11757,19 @@
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
       "source_independence_assessment": "cross_institution_government_alert_and_local_reporting",
-      "graphic_type": "Dated fire perimeter and alert zone map"
+      "graphic_type": "Dated fire perimeter and alert zone map",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass29-2023-08-15-smith-river-fire",
+          "event_date": "2023-08-15",
+          "source_url": "https://www.fire.ca.gov/incidents/2023/8/15/smith-river-complex",
+          "secondary_source_url": "https://nwccinfo.blogspot.com/2023/08/08252023-smith-river-complex-north.html",
+          "verified_core_fact": "The Smith River Complex in far northern California is recorded as beginning August 15, 2023 during a regional convective lightning episode, independently of the Yellowknife fires in Canada.",
+          "source_independence_assessment": "CAL FIRE lists the August 15 start date while federal interagency fire updates independently identify August 15 as start; incident descriptions are both sourced from fire-response reporting, not independent satellite ignition measurements.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "08-16",
@@ -13174,11 +13212,11 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-135506",
       "first_alternate_title": "Flash Flood — BRYN MAWR, Illinois",
-      "second_alternate_event_id": "ncei-476956",
-      "second_alternate_title": "Flash Flood — (TCS)TRUTH/CONSQNCES, New Mexico",
-      "alternates_verification_status": "Original alternates preserved; date matched in prior pipeline; NOT independently corroborated or re-screened this pass",
+      "second_alternate_event_id": "phasea-pass29-1988-09-13-gilbert-aircraft-888mb",
+      "second_alternate_title": "Hurricane Gilbert produces an extraordinary 888-mb aircraft pressure observation",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "USGS flood-peak timing is mostly Sep 12–13, not all Sep 13; City of Boulder dates broader event Sep 11–15. Do not describe September 13 as the single onset or storm-total precipitation day. Separate USGS inferred values from measured stage; retain station identifiers, rating-curve limitations and gauge period of record. Original primary retained for later assessment: ncei-543844. Retained pre-upgrade alternates: ncei-135506, ncei-476956.",
+      "research_notes": "USGS flood-peak timing is mostly Sep 12–13, not all Sep 13; City of Boulder dates broader event Sep 11–15. Do not describe September 13 as the single onset or storm-total precipitation day. Separate USGS inferred values from measured stage; retain station identifiers, rating-curve limitations and gauge period of record. Original primary retained for later assessment: ncei-543844. Retained pre-upgrade alternates: ncei-135506, ncei-476956.\nPass29 (2026-11-21), alternate 2: Replaced ncei-476956 with distinct event phasea-pass29-1988-09-13-gilbert-aircraft-888mb — Hurricane Gilbert produces an extraordinary 888-mb aircraft pressure observation. Scope: On September 13, 1988, NOAA reconnaissance aircraft sampled Hurricane Gilbert at extraordinarily low pressure near 888 hPa in the northwest Caribbean, then an Atlantic basin record. Evidence: https://www.aoml.noaa.gov/hurricane_blog/25th-anniversary-of-hurricane-gilberts-record-low-pressure/; https://journals.ametsoc.org/view/journals/mwre/117/12/1520-0493_1989_117_2824_armslp_2_0_co_2.xml. Dependence: NOAA describes the contemporaneous aircraft flight, while peer-reviewed pressure corrections analyze the same flight data; two institutional publications are not independent measurements. Cautions: The 888 hPa measurement is a September 13 aircraft event, while 00 UTC September 14 best-track positions may also assign 888 hPa. Avoid implying two different records or that this is still the standing Atlantic record (Wilma 2005). Research estimated 888 ±2 hPa, not a station barometer. Concept: Original aircraft fixes and corrected pressure observations across September 13–14 UTC; explicitly separate instantaneous aircraft dropsonde/flight observation from 6-hour best track. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
       "event_source_excerpt": "Major flooding affected Colorado's northern Front Range in September 2013, with the U.S. Geological Survey documenting many flood-peak streamflows on 12 or 13 September.",
       "input_research_score": 93,
       "editorial_selection_score": null,
@@ -13187,7 +13225,19 @@
       "research_priority": "Claim-level fact check; verify underlying dates/times, original observation data, corroboration independence and asset-level reuse rights",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_institution_local_government"
+      "source_independence_assessment": "cross_institution_local_government",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass29-1988-09-13-gilbert-aircraft-888mb",
+          "event_date": "1988-09-13",
+          "source_url": "https://www.aoml.noaa.gov/hurricane_blog/25th-anniversary-of-hurricane-gilberts-record-low-pressure/",
+          "secondary_source_url": "https://journals.ametsoc.org/view/journals/mwre/117/12/1520-0493_1989_117_2824_armslp_2_0_co_2.xml",
+          "verified_core_fact": "On September 13, 1988, NOAA reconnaissance aircraft sampled Hurricane Gilbert at extraordinarily low pressure near 888 hPa in the northwest Caribbean, then an Atlantic basin record.",
+          "source_independence_assessment": "NOAA describes the contemporaneous aircraft flight, while peer-reviewed pressure corrections analyze the same flight data; two institutional publications are not independent measurements.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "09-14",
@@ -13469,11 +13519,11 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-406779",
       "first_alternate_title": "Flood — NANCY LAKE, Alaska",
-      "second_alternate_event_id": "ncei-858116",
-      "second_alternate_title": "Flash Flood — (IAH)HOUSTON INTL AR, Texas",
-      "alternates_verification_status": "Carried-forward alternate IDs, no independent corroboration or screening",
+      "second_alternate_event_id": "phasea-pass29-2022-09-19-fiona-dominican-landfall",
+      "second_alternate_title": "Hurricane Fiona makes landfall in the Dominican Republic",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Imelda made landfall on September 17, NOT September 19. WWA examines September 19–20 rainfall with independent attribution modeling but relies partly on NOAA rain data. Early fatality/property estimates not cleared; 1-in-1200 year station statistical probability is NOT a universal literal return interval. Displaced primary preserved: ncei-262703. Previously selected alternate IDs retained, not independently researched: ncei-406779, ncei-858116.\nPass28 alternate 2 integrity alert: Houston airport flash flooding is within the same September 19, 2019 Tropical Storm Imelda episode as the primary. https://www.weather.gov/hgx/imelda2019. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.",
+      "research_notes": "Imelda made landfall on September 17, NOT September 19. WWA examines September 19–20 rainfall with independent attribution modeling but relies partly on NOAA rain data. Early fatality/property estimates not cleared; 1-in-1200 year station statistical probability is NOT a universal literal return interval. Displaced primary preserved: ncei-262703. Previously selected alternate IDs retained, not independently researched: ncei-406779, ncei-858116.\nPass28 alternate 2 integrity alert: Houston airport flash flooding is within the same September 19, 2019 Tropical Storm Imelda episode as the primary. https://www.weather.gov/hgx/imelda2019. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.\nPass29 (2026-11-21), alternate 2: Replaced ncei-858116 with distinct event phasea-pass29-2022-09-19-fiona-dominican-landfall — Hurricane Fiona makes landfall in the Dominican Republic. Scope: Hurricane Fiona made landfall near Boca de Yuma in the southeastern Dominican Republic early September 19, 2022 local time, following its passage across Puerto Rico. Evidence: https://www.nhc.noaa.gov/archive/2022/al07/al072022.update.09190735.shtml; https://www.cbsnews.com/news/hurricane-fiona-nears-dominican-republic-puerto-rico-catastrophic-damage-historic-flooding/. Dependence: NHC's contemporaneous landfall announcement and independently published news dispatch confirm the same dated center crossing, though both draw from the NHC radar-based landfall estimate. Cautions: Fiona crossed Puerto Rico September 18 and the Dominican Republic September 19. Do not transfer September 18 Puerto Rico rainfall or power impacts into a September 19 Dominican calendar-day claim. NHC timing is 0730 UTC, 0330 AST. Concept: Original Fiona landfall center fixes and timestamped rainfall on Hispaniola, with a Puerto Rico date-boundary inset. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
       "event_source_excerpt": "Remnants of Tropical Storm Imelda produced destructive flash flooding across southeast Texas on September 19, 2019.",
       "input_research_score": 94,
       "editorial_selection_score": null,
@@ -13483,7 +13533,19 @@
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
       "source_independence_assessment": "cross_institution_shared_NOAA_observations_with_independent_analysis",
-      "graphic_type": "Observed QPE maxima map and flash-flood warning timeline"
+      "graphic_type": "Observed QPE maxima map and flash-flood warning timeline",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass29-2022-09-19-fiona-dominican-landfall",
+          "event_date": "2022-09-19",
+          "source_url": "https://www.nhc.noaa.gov/archive/2022/al07/al072022.update.09190735.shtml",
+          "secondary_source_url": "https://www.cbsnews.com/news/hurricane-fiona-nears-dominican-republic-puerto-rico-catastrophic-damage-historic-flooding/",
+          "verified_core_fact": "Hurricane Fiona made landfall near Boca de Yuma in the southeastern Dominican Republic early September 19, 2022 local time, following its passage across Puerto Rico.",
+          "source_independence_assessment": "NHC's contemporaneous landfall announcement and independently published news dispatch confirm the same dated center crossing, though both draw from the NHC radar-based landfall estimate.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "09-20",
@@ -13709,22 +13771,34 @@
       "graphic_feasibility_status": "Original visual identified; data retrieval, exact measurement validation and asset-rights clearance not completed",
       "historical_imagery_available": "not_assessed",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-5478316",
-      "first_alternate_title": "Tornado — ISOLA, Mississippi",
+      "first_alternate_event_id": "phasea-pass29-2005-09-24-rita-landfall",
+      "first_alternate_title": "Hurricane Rita makes a predawn Louisiana–Texas border landfall",
       "second_alternate_event_id": "ncei-848531",
       "second_alternate_title": "Tornado — ALBERTVILLE, Wisconsin",
-      "alternates_verification_status": "research_leads_unverified",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 9 (2026-11-20): An F3 tornado tracked through the College Park area of Maryland on September 24, 2001; the NCEI Hyattsville entry marks an initial portion of the longer tornado. Cautions: This is an F3 (pre-2007 Fujita scale), not EF3. The journal identifies the College Park tornado as one of three tornadoes from the broader supercell; do not conflate its track with earlier separate tornadoes. The article's CC BY paper license does not automatically clear every embedded third-party figure. Primary NOAA NCEI Storm Events: https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz. Second Geosciences academic journal (Pryor et al., 2019): https://www.mdpi.com/2076-3263/9/10/452. Extra https://repository.library.noaa.gov/view/noaa/64588. Evidence dependence: Peer-reviewed satellite/radar environmental analysis distinct from original NCEI county survey, though tornado path and damage ratings still use prior NOAA/NWS observational sources. Original source segment ID retained and not counted as another tornado/storm. NOT approved for publication; no graphics rights cleared.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 9 (2026-11-20): An F3 tornado tracked through the College Park area of Maryland on September 24, 2001; the NCEI Hyattsville entry marks an initial portion of the longer tornado. Cautions: This is an F3 (pre-2007 Fujita scale), not EF3. The journal identifies the College Park tornado as one of three tornadoes from the broader supercell; do not conflate its track with earlier separate tornadoes. The article's CC BY paper license does not automatically clear every embedded third-party figure. Primary NOAA NCEI Storm Events: https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz. Second Geosciences academic journal (Pryor et al., 2019): https://www.mdpi.com/2076-3263/9/10/452. Extra https://repository.library.noaa.gov/view/noaa/64588. Evidence dependence: Peer-reviewed satellite/radar environmental analysis distinct from original NCEI county survey, though tornado path and damage ratings still use prior NOAA/NWS observational sources. Original source segment ID retained and not counted as another tornado/storm. NOT approved for publication; no graphics rights cleared.\nPass29 (2026-11-21), alternate 1: Replaced ncei-5478316 with distinct event phasea-pass29-2005-09-24-rita-landfall — Hurricane Rita makes a predawn Louisiana–Texas border landfall. Scope: Category 3 Hurricane Rita made landfall in western Cameron Parish, Louisiana near the Texas border around 2:40 a.m. CDT on September 24, 2005. Evidence: https://www.weather.gov/lch/rita_main; https://ready.nola.gov/hazard-mitigation/hazards/tropical-cyclones/. Dependence: NWS Lake Charles archived cyclone/ground observation review and New Orleans emergency preparedness hazard history separately date landfall; both derive intensity from NHC best track. Cautions: Peak Gulf intensity on September 21–22 is not landfall strength on September 24. Different historical sources round maximum landfall winds to 115 or 120 mph. Do not import Katrina surge or 2005 evacuation indirect losses without event-specific source. Concept: Original landfall track and pressure/swath with 2:40 a.m. CDT September 24 label; compare eyewall and surge evidence without reusing third-party photographs. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
       "event_source_excerpt": "A large multi-vortex tornado touched down near Hyattsville, tracked along the Route 1 cooridor from College Park to Laurel, then crossed into Howard County. The tornado killed 2 students at the University of Maryland, injured 54 others countywide, and caused 100 million dollars in damage.",
       "input_research_score": 50.26,
       "editorial_selection_score": 59.09,
       "historical_era": "2000–2025",
       "geography_key": "Maryland",
       "research_priority": "confirm measurements and event boundaries, independent source lineage, time zone and graphic rights",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass29-2005-09-24-rita-landfall",
+          "event_date": "2005-09-24",
+          "source_url": "https://www.weather.gov/lch/rita_main",
+          "secondary_source_url": "https://ready.nola.gov/hazard-mitigation/hazards/tropical-cyclones/",
+          "verified_core_fact": "Category 3 Hurricane Rita made landfall in western Cameron Parish, Louisiana near the Texas border around 2:40 a.m. CDT on September 24, 2005.",
+          "source_independence_assessment": "NWS Lake Charles archived cyclone/ground observation review and New Orleans emergency preparedness hazard history separately date landfall; both derive intensity from NHC best track.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "09-25",
@@ -14211,20 +14285,32 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-351970",
       "first_alternate_title": "Dust Storm — SOUTH CENTRAL PINAL COUNTY, Arizona",
-      "second_alternate_event_id": "ncei-601429",
-      "second_alternate_title": "Flash Flood — WOODLAND TERRACE, South Carolina",
-      "alternates_verification_status": "research_leads_unverified",
+      "second_alternate_event_id": "phasea-pass29-1995-10-04-opal-landfall",
+      "second_alternate_title": "Rapidly intensifying Hurricane Opal strikes Florida's western Panhandle",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass17 on 2026-11-20: Torrential rainfall and severe flooding occurred around Columbia on October 4, 2015, with a USGS Congaree River crest that day. Caution: KCAE 6.71 inches is Oct4 daily rainfall; 10.28 inches is Oct3–4 total. River peak flow/stage is distinct from rainfall or a universal statewide maximum. Evidence: https://www.weather.gov/cae/historicfloodingoct2015.html; https://www.usgs.gov/news/national-news-release/floods-south-carolina-set-17-usgs-streamgage-records; https://www.weather.gov/cae/historicfloodingoct2015.html. Independence: NWS meteorological reports and USGS independent streamgage observations measure different parts of the same event. Displaced ncei-5673318 (Flash Flood — KANSAS CITY, Missouri; https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1998_c20260323.csv.gz) retained in Pass17 ledger. Two original alternate IDs remain. No human approval or rights clearance.\nPass28 alternate 2 integrity alert: Woodland Terrace flash flooding is within the same October 4, 2015 South Carolina flood episode as the primary. https://www.weather.gov/cae/HistoricFloodingOct2015.html. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass17 on 2026-11-20: Torrential rainfall and severe flooding occurred around Columbia on October 4, 2015, with a USGS Congaree River crest that day. Caution: KCAE 6.71 inches is Oct4 daily rainfall; 10.28 inches is Oct3–4 total. River peak flow/stage is distinct from rainfall or a universal statewide maximum. Evidence: https://www.weather.gov/cae/historicfloodingoct2015.html; https://www.usgs.gov/news/national-news-release/floods-south-carolina-set-17-usgs-streamgage-records; https://www.weather.gov/cae/historicfloodingoct2015.html. Independence: NWS meteorological reports and USGS independent streamgage observations measure different parts of the same event. Displaced ncei-5673318 (Flash Flood — KANSAS CITY, Missouri; https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1998_c20260323.csv.gz) retained in Pass17 ledger. Two original alternate IDs remain. No human approval or rights clearance.\nPass28 alternate 2 integrity alert: Woodland Terrace flash flooding is within the same October 4, 2015 South Carolina flood episode as the primary. https://www.weather.gov/cae/HistoricFloodingOct2015.html. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.\nPass29 (2026-11-21), alternate 2: Replaced ncei-601429 with distinct event phasea-pass29-1995-10-04-opal-landfall — Rapidly intensifying Hurricane Opal strikes Florida's western Panhandle. Scope: Hurricane Opal rapidly intensified early October 4, 1995, then made Category 3 landfall near Pensacola Beach, Florida in the late afternoon local time. Evidence: https://www.weather.gov/mob/opal; https://www.weather.gov/bmx/event_opal1995. Dependence: NWS Mobile dated landfall and high-resolution meteorological review, with NWS Birmingham separately documenting inland effects; both reference the same NHC intensity and local observations. Cautions: Peak early-October-4 Category 4 intensity was offshore; at landfall Opal was Category 3. Avoid confusing 916-mb peak pressure with landfall pressure or treating multiday rainfall as October 4 daily rainfall. Concept: Original October 4 rapid-intensification/weakening timeline and landfall map with coastal pressure, surge and storm track. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
       "event_source_excerpt": "",
       "input_research_score": 90,
       "editorial_selection_score": 90,
       "historical_era": "2000–2025",
       "geography_key": "Columbia and the central South Carolina Midlands",
       "research_priority": "Primary station/observational cross-check, exact time and image rights before publication",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass29-1995-10-04-opal-landfall",
+          "event_date": "1995-10-04",
+          "source_url": "https://www.weather.gov/mob/opal",
+          "secondary_source_url": "https://www.weather.gov/bmx/event_opal1995",
+          "verified_core_fact": "Hurricane Opal rapidly intensified early October 4, 1995, then made Category 3 landfall near Pensacola Beach, Florida in the late afternoon local time.",
+          "source_independence_assessment": "NWS Mobile dated landfall and high-resolution meteorological review, with NWS Birmingham separately documenting inland effects; both reference the same NHC intensity and local observations.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "10-05",
@@ -14918,18 +15004,30 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-63960",
       "first_alternate_title": "Tornado — GRANVILLE, Missouri",
-      "second_alternate_event_id": "ncei-5672495",
-      "second_alternate_title": "Flash Flood — COUNTYWIDE, Texas",
-      "alternates_verification_status": "research_leads_unverified",
+      "second_alternate_event_id": "phasea-pass29-1984-10-17-salt-lake-snow",
+      "second_alternate_title": "A remarkably early snowstorm begins burying Salt Lake City",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 12 research (2026-11-20): A major rainstorm October 17–18, 1998 caused severe floods in the Guadalupe and San Antonio river basins in south-central Texas. Caveat: The NCEI source may be one county flash-flood segment of a multi-day basin-wide event. Basin flood crests occurred across October 17–20; rainfall-day, storm total, stage, fatality and damage counts need explicit separate provenance. Source dependence: cross_agency_USGS_hydrometric_fieldwork_and_CDC_mortality_analysis; corroboration https://pubs.usgs.gov/fs/FS-147-99/; supplemental https://www.cdc.gov/Mmwr/preview/mmwrhtml/mm4907a1.htm. Numerical assertions, wording and media rights remain unapproved.\nPass28 alternate 2 integrity alert: A countywide Texas flash-flood entry is a segment of the same October 17, 1998 Central Texas flood primary. https://www.weather.gov/ewx/wxevent-1998flood. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 12 research (2026-11-20): A major rainstorm October 17–18, 1998 caused severe floods in the Guadalupe and San Antonio river basins in south-central Texas. Caveat: The NCEI source may be one county flash-flood segment of a multi-day basin-wide event. Basin flood crests occurred across October 17–20; rainfall-day, storm total, stage, fatality and damage counts need explicit separate provenance. Source dependence: cross_agency_USGS_hydrometric_fieldwork_and_CDC_mortality_analysis; corroboration https://pubs.usgs.gov/fs/FS-147-99/; supplemental https://www.cdc.gov/Mmwr/preview/mmwrhtml/mm4907a1.htm. Numerical assertions, wording and media rights remain unapproved.\nPass28 alternate 2 integrity alert: A countywide Texas flash-flood entry is a segment of the same October 17, 1998 Central Texas flood primary. https://www.weather.gov/ewx/wxevent-1998flood. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.\nPass29 (2026-11-21), alternate 2: Replaced ncei-5672495 with distinct event phasea-pass29-1984-10-17-salt-lake-snow — A remarkably early snowstorm begins burying Salt Lake City. Scope: An extraordinary autumn snowstorm struck Salt Lake City on October 17, 1984 and continued through October 18, producing significant early-season accumulation. Evidence: https://www.weather.gov/abr/This_Day_in_Weather_History_Oct_17; https://www.deseret.com/utah/2024/10/19/deseret-news-archives-remember-big-snowstorm-on-this-day-in-1984/. Dependence: NWS historical summary records an October 17 onset; contemporary regional newspaper archives separately document the October 17–18 storm and city impacts, though airport snowfall values originate from federal station records. Cautions: The often-quoted 18.4-inch airport figure measures a 24-hour October 17–18 interval, not calendar-day October 17. Some sources casually round to 18 inches; don't claim that exact value fell only on the 17th. Lake-effect dynamics need analysis before assigning mechanism. Concept: Original hourly airport snow/rain timing and elevation gradient for October 17–18 with an explicitly bounded 24-hour total. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
       "event_source_excerpt": "The Great October FloodIn advance of a very slow-moving upper level trough of low pressure over West Texas, a cold front drifted slowly southeastward into West Central Texas during the evening of Friday, October 16th. Deep moisture was in place across South Central Texas as the two systems approache",
       "input_research_score": 68.01,
       "editorial_selection_score": 82.41,
       "historical_era": "1980–1999",
       "geography_key": "Texas",
       "research_priority": "Claim-specific observations and timing, single-event track scoping, original graphic asset rights",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass29-1984-10-17-salt-lake-snow",
+          "event_date": "1984-10-17",
+          "source_url": "https://www.weather.gov/abr/This_Day_in_Weather_History_Oct_17",
+          "secondary_source_url": "https://www.deseret.com/utah/2024/10/19/deseret-news-archives-remember-big-snowstorm-on-this-day-in-1984/",
+          "verified_core_fact": "An extraordinary autumn snowstorm struck Salt Lake City on October 17, 1984 and continued through October 18, producing significant early-season accumulation.",
+          "source_independence_assessment": "NWS historical summary records an October 17 onset; contemporary regional newspaper archives separately document the October 17–18 storm and city impacts, though airport snowfall values originate from federal station records.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "10-18",
@@ -15937,22 +16035,34 @@
       "graphic_feasibility_status": "Data/archival sources identified; original plot construction and media rights review pending",
       "historical_imagery_available": "not_assessed",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-5480598",
-      "first_alternate_title": "Tornado — NEWBURGH, Indiana",
+      "first_alternate_event_id": "phasea-pass29-1977-11-06-kelly-barnes-dam",
+      "first_alternate_title": "Rain-swollen Kelly Barnes Dam fails above Toccoa Falls, Georgia",
       "second_alternate_event_id": "ncei-794526",
       "second_alternate_title": "Tornado — NEWTOWN, Tennessee",
-      "alternates_verification_status": "research_leads_unverified",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass11 2026-11-20: A long-track F3 tornado crossed northwest Kentucky and southern Indiana near Evansville before dawn on November 6, 2005. Cautions: Use F3, not EF3 (pre-2007 scale). The specific NCEI Evansville segment is not a different tornado from the larger multistate path. Fatality and injury counts depend on direct versus indirect and affected-county definitions. Publisher NOAA NCEI, original https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz; corroboration NWS Paducah https://www.weather.gov/pah/2005evansvilletornado; context https://www.weather.gov/abr/This_Day_in_Weather_History_Nov_06. Independence NCEI Evansville local segment and NWS Paducah full-track survey share the same NOAA tornado reports; adding a second page does not independently measure 41-mile tornado path.. Original NOAA NCEI local segment ID preserved. NOT approved; rights and numerical claims remain pending.\nPass28 alternate 1 integrity alert: Newburgh, Indiana is a downstream segment of the same November 6, 2005 Evansville-area F3 tornado featured as primary. https://www.weather.gov/pah/2005evansvilletornado. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass11 2026-11-20: A long-track F3 tornado crossed northwest Kentucky and southern Indiana near Evansville before dawn on November 6, 2005. Cautions: Use F3, not EF3 (pre-2007 scale). The specific NCEI Evansville segment is not a different tornado from the larger multistate path. Fatality and injury counts depend on direct versus indirect and affected-county definitions. Publisher NOAA NCEI, original https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz; corroboration NWS Paducah https://www.weather.gov/pah/2005evansvilletornado; context https://www.weather.gov/abr/This_Day_in_Weather_History_Nov_06. Independence NCEI Evansville local segment and NWS Paducah full-track survey share the same NOAA tornado reports; adding a second page does not independently measure 41-mile tornado path.. Original NOAA NCEI local segment ID preserved. NOT approved; rights and numerical claims remain pending.\nPass28 alternate 1 integrity alert: Newburgh, Indiana is a downstream segment of the same November 6, 2005 Evansville-area F3 tornado featured as primary. https://www.weather.gov/pah/2005evansvilletornado. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.\nPass29 (2026-11-21), alternate 1: Replaced ncei-5480598 with distinct event phasea-pass29-1977-11-06-kelly-barnes-dam — Rain-swollen Kelly Barnes Dam fails above Toccoa Falls, Georgia. Scope: Following several days of rain and intense precipitation, Kelly Barnes Dam failed shortly after 1 a.m. local time on November 6, 1977, causing catastrophic downstream flooding near Toccoa Falls, Georgia. Evidence: https://pubs.usgs.gov/ha/ha613/; https://damsafety.org/content/reconnaissance-report-failure-kelly-barnes-lake-dam-toccoa-falls-georgia. Dependence: USGS reconstructed rainfall and peak flow; an independent National Research Council reconnaissance report assesses failure mechanism and post-failure impacts; both reconstruct the same incident through shared field/investigative records. Cautions: Dam structural failure, storage, and antecedent rain all mattered; do not assert rainfall alone caused the failure. The height and 38-death figure need case-specific scope review if later used. November 5 rainfall is not the failure date. Concept: Original 1977 rain-to-runoff timeline with dam cross-section, river profile and failure time clearly attributed to engineering survey. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
       "event_source_excerpt": "The tornado crossed into Vanderburgh County from Henderson County, KY a second time near Ellis Park, a horse-racing facility off U.S. Highway 41. The tornado moved rapidly east-northeast at close to 60 MPH, staying a mile or less south of Interstate 164 and the southern city limit of Evansville. Twe",
       "input_research_score": 76.91,
       "editorial_selection_score": 84.91,
       "historical_era": "2000–2025",
       "geography_key": "Indiana",
       "research_priority": "verify claim-level observations, original archive/track geography, source independence, historic rights and exact local/UTC date",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass29-1977-11-06-kelly-barnes-dam",
+          "event_date": "1977-11-06",
+          "source_url": "https://pubs.usgs.gov/ha/ha613/",
+          "secondary_source_url": "https://damsafety.org/content/reconnaissance-report-failure-kelly-barnes-lake-dam-toccoa-falls-georgia",
+          "verified_core_fact": "Following several days of rain and intense precipitation, Kelly Barnes Dam failed shortly after 1 a.m. local time on November 6, 1977, causing catastrophic downstream flooding near Toccoa Falls, Georgia.",
+          "source_independence_assessment": "USGS reconstructed rainfall and peak flow; an independent National Research Council reconnaissance report assesses failure mechanism and post-failure impacts; both reconstruct the same incident through shared field/investigative records.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "11-07",
@@ -16653,20 +16763,32 @@
       "graphic_feasibility_status": "needs_observational_or_GIS_data",
       "historical_imagery_available": "not_assessed",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-267294",
-      "first_alternate_title": "Winter Weather — YORK, Nebraska",
+      "first_alternate_event_id": "phasea-pass29-1900-11-20-tennessee-tornado-outbreak",
+      "first_alternate_title": "A rare November tornado outbreak tears across Tennessee",
       "second_alternate_event_id": "ncei-5621703",
       "second_alternate_title": "Winter Weather — MC KENZIE, North Dakota",
-      "alternates_verification_status": "research_leads_unverified",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Focus on the lake-effect band evolution and the local date; independently confirm any proposed measured snowfall statistic and graphic rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass14 (2026-11-20): A prolonged November 15–20, 2022 lake-effect event brought snow bands and squalls to northern Indiana. Caveat: NWS South Bend's 30.2 inches is cumulative from November 1–20, not just Nov20; some snow squalls occurred Nov19. Do not assign entire episode to one anniversary. Source dependence: Curated lead and NWS analysis use same agency observations, not independent snow measurement. Reviewed secondary https://www.weather.gov/iwx/November2022-LES; additional https://www.weather.gov/iwx/events. No editorial approval or image-rights clearance. ",
+      "research_notes": "Focus on the lake-effect band evolution and the local date; independently confirm any proposed measured snowfall statistic and graphic rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass14 (2026-11-20): A prolonged November 15–20, 2022 lake-effect event brought snow bands and squalls to northern Indiana. Caveat: NWS South Bend's 30.2 inches is cumulative from November 1–20, not just Nov20; some snow squalls occurred Nov19. Do not assign entire episode to one anniversary. Source dependence: Curated lead and NWS analysis use same agency observations, not independent snow measurement. Reviewed secondary https://www.weather.gov/iwx/November2022-LES; additional https://www.weather.gov/iwx/events. No editorial approval or image-rights clearance. \nPass29 (2026-11-21), alternate 1: Replaced ncei-267294 with distinct event phasea-pass29-1900-11-20-tennessee-tornado-outbreak — A rare November tornado outbreak tears across Tennessee. Scope: Numerous destructive tornadoes moved across Tennessee during the afternoon and evening of November 20, 1900, amid a wider Lower Mississippi Valley outbreak. Evidence: https://www.weather.gov/ohx/19001120; https://www.weather.gov/ohx/nunntornadoesintennessee. Dependence: NWS Nashville compiles eyewitness newspapers and tornado catalogs; a historical Weather Bureau narrative independently describes four Tennessee tornadoes, but both are presented on NWS-hosted pages and may share source reports. Cautions: The 73 fatalities often quoted refer to the multi-state outbreak and vary with contemporary versus later accounting. Pre-modern F4 path and rating are retrospective; do not present exact path, damage counts or chronology as directly instrumented. Concept: Original time-resolved November 20 Tennessee tornado-track reconstruction using archived eyewitness accounts with uncertain track corridors. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
       "event_source_excerpt": "NWS analysis documents an extended lake-effect snow episode ending around November 20, with snow squalls, shifting bands and localized extreme totals.",
       "input_research_score": 70,
       "editorial_selection_score": 76,
       "historical_era": "2000–2025",
       "geography_key": "Indiana",
       "research_priority": "Primary observations, date/segment review and graphic asset rights",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass29-1900-11-20-tennessee-tornado-outbreak",
+          "event_date": "1900-11-20",
+          "source_url": "https://www.weather.gov/ohx/19001120",
+          "secondary_source_url": "https://www.weather.gov/ohx/nunntornadoesintennessee",
+          "verified_core_fact": "Numerous destructive tornadoes moved across Tennessee during the afternoon and evening of November 20, 1900, amid a wider Lower Mississippi Valley outbreak.",
+          "source_independence_assessment": "NWS Nashville compiles eyewitness newspapers and tornado catalogs; a historical Weather Bureau narrative independently describes four Tennessee tornadoes, but both are presented on NWS-hosted pages and may share source reports.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "11-21",
@@ -17718,18 +17840,30 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-1080206",
       "first_alternate_title": "Strong Wind — NORTHERN SALINAS VALLEY / HOLLISTER VALLEY / CARMEL VALLEY, California",
-      "second_alternate_event_id": "ncei-141840",
-      "second_alternate_title": "Ice Storm — EASTERN SCHENECTADY, New York",
-      "alternates_verification_status": "research_leads_unverified",
+      "second_alternate_event_id": "phasea-pass29-1992-12-11-noreaster-coastal-flood",
+      "second_alternate_title": "A fierce nor'easter floods New York Harbor on December 11",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Pass23 (2026-11-21): A major freezing-rain and sleet storm started December 11, 2008 across parts of New York and New England, causing extensive tree and power-line damage through December 12. Source independence: NWS Albany provides the dated precipitation type, soundings and event chronology; NASA Terra imagery independently documents the storm's regional aftermath but its outage count is from contemporary news reports. Scientific and publication cautions: This is a December 11–12 event; do not imply all ice accumulated December 11 or that NASA's post-storm December 13 image is a real-time scene. Regional outage counts are preliminary and have varying restoration dates. Additional source: https://digital.library.unt.edu/ark:/67531/metadc2639364/m1/4/.\nPass28 alternate 2 integrity alert: Schenectady ice is part of the same December 11–12, 2008 Northeastern ice storm as the primary. https://www.weather.gov/aly/IceStormDec2008. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.",
+      "research_notes": "Pass23 (2026-11-21): A major freezing-rain and sleet storm started December 11, 2008 across parts of New York and New England, causing extensive tree and power-line damage through December 12. Source independence: NWS Albany provides the dated precipitation type, soundings and event chronology; NASA Terra imagery independently documents the storm's regional aftermath but its outage count is from contemporary news reports. Scientific and publication cautions: This is a December 11–12 event; do not imply all ice accumulated December 11 or that NASA's post-storm December 13 image is a real-time scene. Regional outage counts are preliminary and have varying restoration dates. Additional source: https://digital.library.unt.edu/ark:/67531/metadc2639364/m1/4/.\nPass28 alternate 2 integrity alert: Schenectady ice is part of the same December 11–12, 2008 Northeastern ice storm as the primary. https://www.weather.gov/aly/IceStormDec2008. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.\nPass29 (2026-11-21), alternate 2: Replaced ncei-141840 with distinct event phasea-pass29-1992-12-11-noreaster-coastal-flood — A fierce nor'easter floods New York Harbor on December 11. Scope: A powerful December 10–13, 1992 nor'easter brought destructive coastal flooding, damaging winds and heavy snow to the U.S. Northeast; December 11 was a major coastal flood and impact date. Evidence: https://www.weather.gov/aly/majorwinterstorms; https://www.cdc.gov/Mmwr/preview/mmwrhtml/00018780.htm. Dependence: NWS Albany provides meteorological chronology; CDC independently reviewed December 11 human impacts through medical examiners. Both cite some regional weather and impact reports; NOAA tide records can supply separate gauge evidence. Cautions: Do not confuse 1992 coastal flooding with the primary's 2008 freezing-rain episode. CDC's three December 11 deaths represent its selected medical-examiner jurisdictions, not a total storm fatality tally. Multiday snow totals must not be dated December 11 alone. Concept: Original December 11 tide-gauge stage versus astronomical tide with a snow-rain terrain transect and event timeline. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
       "event_source_excerpt": "Original unverified NCEI segment ncei-5624156 remains in research ledger; not supporting new primary.",
       "input_research_score": 92,
       "editorial_selection_score": 92,
       "historical_era": "2000–2025",
       "geography_key": "New York",
       "research_priority": "human quantification review; publication selection; media rights and visual data reproducibility",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass29-1992-12-11-noreaster-coastal-flood",
+          "event_date": "1992-12-11",
+          "source_url": "https://www.weather.gov/aly/majorwinterstorms",
+          "secondary_source_url": "https://www.cdc.gov/Mmwr/preview/mmwrhtml/00018780.htm",
+          "verified_core_fact": "A powerful December 10–13, 1992 nor'easter brought destructive coastal flooding, damaging winds and heavy snow to the U.S. Northeast; December 11 was a major coastal flood and impact date.",
+          "source_independence_assessment": "NWS Albany provides meteorological chronology; CDC independently reviewed December 11 human impacts through medical examiners. Both cite some regional weather and impact reports; NOAA tide records can supply separate gauge evidence.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "12-12",
@@ -18256,20 +18390,32 @@
       "graphic_feasibility_status": "requires_original_timeseries_or_reanalysis_data",
       "historical_imagery_available": "not_assessed",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-5675017",
-      "first_alternate_title": "Ice Storm — MCLENNAN, Texas",
+      "first_alternate_event_id": "phasea-pass29-1989-12-22-arctic-carolinas",
+      "first_alternate_title": "Arctic air grips the Carolinas ahead of a remarkable Christmas coastal snowstorm",
       "second_alternate_event_id": "ncei-68362",
       "second_alternate_title": "Winter Weather — POTTER, Texas",
-      "alternates_verification_status": "research_leads_unverified",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass15 (2026-11-20): Freezing rain on December 21–22, 2013 coated Toronto and southern Ontario in ice, causing widespread damage and significant power disruptions on December 22. Boundaries: The storm began December 21 and outages continued for days. Ice accretion varied by gauge and neighborhood; outage customer counts differ between initial December 22 and later restoration estimates. '30 mm' refers an upper regional ice estimate, not citywide uniform glaze. Independence: City of Toronto municipal recovery records and Public Safety Canada's national disaster registry have separate custodians; both cite ECCC's meteorological history and Toronto Hydro outage records. Secondary: https://bdc.securitepublique.gc.ca/dtpg-eng.aspx?cultureCode=en-Ca&eventId=1075&eventStartDate=%2719820101%27%2C%2720161231%27&eventTypes=%27EP%27%2C%27IN%27%2C%27PA%27%2C%27AV%27%2C%27CE%27%2C%27DR%27%2C%27FL%27%2C%27GS%27%2C%27HE%27%2C%27HU%27%2C%27SO%27%2C%27SS%27%2C%27ST%27%2C%27TO%27%2C%27WF%27%2C%27SW%27%2C%27EQ%27%2C%27LS%27%2C%27TS%27%2C%27VO%27&lang=fra&normalizedCostYear=1&provinces=1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13&totalCost=100000000%2C1000000000. Further reading: https://toronto.citynews.ca/2013/12/22/ice-storm-causes-travel-chaos-power-outages-in-gta/. Replaced primary ncei-200377 retained in pass15 registry. Research-only, no publication clearance.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass15 (2026-11-20): Freezing rain on December 21–22, 2013 coated Toronto and southern Ontario in ice, causing widespread damage and significant power disruptions on December 22. Boundaries: The storm began December 21 and outages continued for days. Ice accretion varied by gauge and neighborhood; outage customer counts differ between initial December 22 and later restoration estimates. '30 mm' refers an upper regional ice estimate, not citywide uniform glaze. Independence: City of Toronto municipal recovery records and Public Safety Canada's national disaster registry have separate custodians; both cite ECCC's meteorological history and Toronto Hydro outage records. Secondary: https://bdc.securitepublique.gc.ca/dtpg-eng.aspx?cultureCode=en-Ca&eventId=1075&eventStartDate=%2719820101%27%2C%2720161231%27&eventTypes=%27EP%27%2C%27IN%27%2C%27PA%27%2C%27AV%27%2C%27CE%27%2C%27DR%27%2C%27FL%27%2C%27GS%27%2C%27HE%27%2C%27HU%27%2C%27SO%27%2C%27SS%27%2C%27ST%27%2C%27TO%27%2C%27WF%27%2C%27SW%27%2C%27EQ%27%2C%27LS%27%2C%27TS%27%2C%27VO%27&lang=fra&normalizedCostYear=1&provinces=1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13&totalCost=100000000%2C1000000000. Further reading: https://toronto.citynews.ca/2013/12/22/ice-storm-causes-travel-chaos-power-outages-in-gta/. Replaced primary ncei-200377 retained in pass15 registry. Research-only, no publication clearance.\nPass29 (2026-11-21), alternate 1: Replaced ncei-5675017 with distinct event phasea-pass29-1989-12-22-arctic-carolinas — Arctic air grips the Carolinas ahead of a remarkable Christmas coastal snowstorm. Scope: By December 22, 1989, a deep Arctic air mass had entered the Carolinas ahead of the December 23–24 historic coastal snowstorm; surface observations document the cold air and approaching frontal boundary. Evidence: https://www.weather.gov/ilm/ChristmasSnow1989; https://www.weather.gov/mhx/Dec231989EventReview. Dependence: NWS Wilmington supplies detailed December 22 surface analysis; a separate NWS North Carolina regional retrospective documents the ensuing December 23 coastal cyclone. Both use historical NOAA observing networks and synoptic maps. Cautions: December 22 is the antecedent cold-air setup, NOT the date of the main December 23–24 coastal snowfall. The strongest later snow totals, coastal cyclogenesis and all poststorm impacts must not be called December 22 observations. Concept: Original December 22 12Z surface cold-air and high-pressure map with December 23 coastal development shown as an ensuing phase. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
       "event_source_excerpt": "",
       "input_research_score": 90,
       "editorial_selection_score": 90,
       "historical_era": "2000–2025",
       "geography_key": "Toronto",
       "research_priority": "Validate full observations, chronology, public domain/archival image permissions",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass29-1989-12-22-arctic-carolinas",
+          "event_date": "1989-12-22",
+          "source_url": "https://www.weather.gov/ilm/ChristmasSnow1989",
+          "secondary_source_url": "https://www.weather.gov/mhx/Dec231989EventReview",
+          "verified_core_fact": "By December 22, 1989, a deep Arctic air mass had entered the Carolinas ahead of the December 23–24 historic coastal snowstorm; surface observations document the cold air and approaching frontal boundary.",
+          "source_independence_assessment": "NWS Wilmington supplies detailed December 22 surface analysis; a separate NWS North Carolina regional retrospective documents the ensuing December 23 coastal cyclone. Both use historical NOAA observing networks and synoptic maps.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "12-23",

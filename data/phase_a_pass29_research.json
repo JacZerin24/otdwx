@@ -1,0 +1,531 @@
+{
+  "metadata": {
+    "phase": "A",
+    "research_pass": 29,
+    "as_of": "2026-11-21",
+    "focus": "Six duplicate-event replacements and systematic P0 review plus additional source-led alternatives",
+    "previous_evidence_cores": 30,
+    "new_evidence_cores": 12,
+    "total_evidence_cores": 42,
+    "remaining_unverified_cores": 690,
+    "source_anchor_count": 269,
+    "source_checked_dates": 31,
+    "dates_with_both_backups": 11,
+    "p0_prior": 30,
+    "p0_closed": 12,
+    "p0_remaining": 18,
+    "p0_remaining_preliminarily_screened": 18,
+    "claim_ledger_entries": 0,
+    "claim_checks_total_to_date": 342,
+    "fully_fact_checked": 0,
+    "approved": 0,
+    "media_rights_cleared": 0,
+    "notes": "Twelve upgrades replace all six already-confirmed same-episode leads and six other P0 weak/generic leads. All source-supported status limited to occurrence, exact calendar date and location; source dependence and claims not independently remeasured. Eighteen remaining P0 initial screen notes only, not independent source corroboration."
+  },
+  "reviews": [],
+  "alternate_reviews": [
+    {
+      "date": "03-06",
+      "alternate_rank": 1,
+      "historical_event_date": "1908-03-06",
+      "event_id": "phasea-pass29-1908-03-06-atlantic-march-tropical-storm",
+      "previous_event_id": "ncei-687309",
+      "title": "An extraordinarily rare March Atlantic tropical storm develops",
+      "weather_type": "tropical",
+      "region": "Caribbean / Western Atlantic",
+      "country": "Atlantic Ocean",
+      "location": "Open Atlantic northeast of the Leeward Islands",
+      "primary_publisher": "NOAA Atlantic Oceanographic and Meteorological Laboratory",
+      "source_url": "https://www.aoml.noaa.gov/hurricane_blog/2013-hurricane-related-anniversaries/",
+      "secondary_source_url": "https://weather.com/news/weather/news/2026-03-06-otd-march-1908-hurricane-atlantic-caribbean",
+      "secondary_publisher": "Weather.com historical analysis",
+      "verified_core_fact": "A tropical storm was present northeast of the Leeward Islands on March 6, 1908, and moved southwest before briefly achieving hurricane intensity during the following days.",
+      "source_independence_assessment": "NOAA AOML explicitly dates the origin to March 6; Weather.com reconstructs the track using the same historical best-track and archival reanalysis, not an independent 1908 in situ observation.",
+      "unverified_claims": "Do not call the system a hurricane on March 6: NHC places earliest March hurricane intensity on March 7. The 1908 track and intensity are retrospective and poorly observed; exact formation location is uncertain.",
+      "graphic_concept": "Original historical track reconstruction with March 6 marked and the March 7 hurricane threshold separately annotated.",
+      "review_scope": "core event/date/location only",
+      "full_human_fact_check_status": "pending",
+      "publication_approval_status": "not_approved",
+      "image_rights_status": "not_reviewed",
+      "change": "source_led_alternate_replacement"
+    },
+    {
+      "date": "05-03",
+      "alternate_rank": 2,
+      "historical_event_date": "2013-05-03",
+      "event_id": "phasea-pass29-2013-05-03-ozarks-may-snow",
+      "previous_event_id": "ncei-5690169",
+      "title": "An extraordinary May snowstorm brings measurable snow to the Ozarks",
+      "weather_type": "winter",
+      "region": "Ozarks",
+      "country": "USA",
+      "location": "Springfield and Missouri Ozarks; southeast Kansas",
+      "primary_publisher": "NWS Springfield",
+      "source_url": "https://www.weather.gov/sgf/events_2013may3",
+      "secondary_source_url": "https://www.weather.gov/dmx/maysnow",
+      "secondary_publisher": "NWS Des Moines separate regional case study",
+      "verified_core_fact": "Unusually late measurable snow fell across southwest Missouri and southeast Kansas on May 3, 2013 during a slow-moving upper-level low; the storm continued into May 4.",
+      "source_independence_assessment": "NWS Springfield directly documents May 3 snowfall and site totals; NWS Des Moines separately documents the May 1–3 broader spring snow pattern, sharing the same federal observing network.",
+      "unverified_claims": "The May 3–4 two-day snow totals are not calendar-day May 3 measurements. Springfield's 1.4 inches was a latest measurable snow date, not the biggest May snowfall in its record. Do not link this to 1999 tornadoes.",
+      "graphic_concept": "Original May 3 station and 500-hPa low map with May 4 continuation hatched.",
+      "review_scope": "core event/date/location only",
+      "full_human_fact_check_status": "pending",
+      "publication_approval_status": "not_approved",
+      "image_rights_status": "not_reviewed",
+      "change": "source_led_alternate_replacement"
+    },
+    {
+      "date": "08-15",
+      "alternate_rank": 2,
+      "historical_event_date": "2023-08-15",
+      "event_id": "phasea-pass29-2023-08-15-smith-river-fire",
+      "previous_event_id": "ncei-1136321",
+      "title": "Smith River Complex wildfire begins amid a Northern California lightning outbreak",
+      "weather_type": "wildfire_weather",
+      "region": "West Coast",
+      "country": "USA",
+      "location": "Six Rivers National Forest, Del Norte County, California",
+      "primary_publisher": "CAL FIRE incident registry",
+      "source_url": "https://www.fire.ca.gov/incidents/2023/8/15/smith-river-complex",
+      "secondary_source_url": "https://nwccinfo.blogspot.com/2023/08/08252023-smith-river-complex-north.html",
+      "secondary_publisher": "Northwest Interagency Coordination Center / USFS incident update",
+      "verified_core_fact": "The Smith River Complex in far northern California is recorded as beginning August 15, 2023 during a regional convective lightning episode, independently of the Yellowknife fires in Canada.",
+      "source_independence_assessment": "CAL FIRE lists the August 15 start date while federal interagency fire updates independently identify August 15 as start; incident descriptions are both sourced from fire-response reporting, not independent satellite ignition measurements.",
+      "unverified_claims": "CAL FIRE lists cause 'under investigation' while federal updates classify lightning; keep cause attribution provisional. Lightning began August 14 in some areas. Later acreage and smoke footprints cannot be attributed to August 15 alone.",
+      "graphic_concept": "Original August 14–15 lightning-timing and point-of-origin research map with future burn perimeter shown separately.",
+      "review_scope": "core event/date/location only",
+      "full_human_fact_check_status": "pending",
+      "publication_approval_status": "not_approved",
+      "image_rights_status": "not_reviewed",
+      "change": "source_led_alternate_replacement"
+    },
+    {
+      "date": "09-13",
+      "alternate_rank": 2,
+      "historical_event_date": "1988-09-13",
+      "event_id": "phasea-pass29-1988-09-13-gilbert-aircraft-888mb",
+      "previous_event_id": "ncei-476956",
+      "title": "Hurricane Gilbert produces an extraordinary 888-mb aircraft pressure observation",
+      "weather_type": "tropical",
+      "region": "Caribbean",
+      "country": "Caribbean Sea",
+      "location": "Northwestern Caribbean Sea, south of Cuba",
+      "primary_publisher": "NOAA AOML Hurricane Research Division",
+      "source_url": "https://www.aoml.noaa.gov/hurricane_blog/25th-anniversary-of-hurricane-gilberts-record-low-pressure/",
+      "secondary_source_url": "https://journals.ametsoc.org/view/journals/mwre/117/12/1520-0493_1989_117_2824_armslp_2_0_co_2.xml",
+      "secondary_publisher": "Monthly Weather Review research analysis",
+      "verified_core_fact": "On September 13, 1988, NOAA reconnaissance aircraft sampled Hurricane Gilbert at extraordinarily low pressure near 888 hPa in the northwest Caribbean, then an Atlantic basin record.",
+      "source_independence_assessment": "NOAA describes the contemporaneous aircraft flight, while peer-reviewed pressure corrections analyze the same flight data; two institutional publications are not independent measurements.",
+      "unverified_claims": "The 888 hPa measurement is a September 13 aircraft event, while 00 UTC September 14 best-track positions may also assign 888 hPa. Avoid implying two different records or that this is still the standing Atlantic record (Wilma 2005). Research estimated 888 ±2 hPa, not a station barometer.",
+      "graphic_concept": "Original aircraft fixes and corrected pressure observations across September 13–14 UTC; explicitly separate instantaneous aircraft dropsonde/flight observation from 6-hour best track.",
+      "review_scope": "core event/date/location only",
+      "full_human_fact_check_status": "pending",
+      "publication_approval_status": "not_approved",
+      "image_rights_status": "not_reviewed",
+      "change": "source_led_alternate_replacement"
+    },
+    {
+      "date": "09-19",
+      "alternate_rank": 2,
+      "historical_event_date": "2022-09-19",
+      "event_id": "phasea-pass29-2022-09-19-fiona-dominican-landfall",
+      "previous_event_id": "ncei-858116",
+      "title": "Hurricane Fiona makes landfall in the Dominican Republic",
+      "weather_type": "tropical",
+      "region": "Caribbean",
+      "country": "Dominican Republic",
+      "location": "Boca de Yuma area, southeastern Dominican Republic",
+      "primary_publisher": "National Hurricane Center",
+      "source_url": "https://www.nhc.noaa.gov/archive/2022/al07/al072022.update.09190735.shtml",
+      "secondary_source_url": "https://www.cbsnews.com/news/hurricane-fiona-nears-dominican-republic-puerto-rico-catastrophic-damage-historic-flooding/",
+      "secondary_publisher": "CBS News contemporaneous impact reporting",
+      "verified_core_fact": "Hurricane Fiona made landfall near Boca de Yuma in the southeastern Dominican Republic early September 19, 2022 local time, following its passage across Puerto Rico.",
+      "source_independence_assessment": "NHC's contemporaneous landfall announcement and independently published news dispatch confirm the same dated center crossing, though both draw from the NHC radar-based landfall estimate.",
+      "unverified_claims": "Fiona crossed Puerto Rico September 18 and the Dominican Republic September 19. Do not transfer September 18 Puerto Rico rainfall or power impacts into a September 19 Dominican calendar-day claim. NHC timing is 0730 UTC, 0330 AST.",
+      "graphic_concept": "Original Fiona landfall center fixes and timestamped rainfall on Hispaniola, with a Puerto Rico date-boundary inset.",
+      "review_scope": "core event/date/location only",
+      "full_human_fact_check_status": "pending",
+      "publication_approval_status": "not_approved",
+      "image_rights_status": "not_reviewed",
+      "change": "source_led_alternate_replacement"
+    },
+    {
+      "date": "09-24",
+      "alternate_rank": 1,
+      "historical_event_date": "2005-09-24",
+      "event_id": "phasea-pass29-2005-09-24-rita-landfall",
+      "previous_event_id": "ncei-5478316",
+      "title": "Hurricane Rita makes a predawn Louisiana–Texas border landfall",
+      "weather_type": "tropical",
+      "region": "Gulf Coast",
+      "country": "USA",
+      "location": "Western Cameron Parish near Johnson Bayou, Louisiana",
+      "primary_publisher": "NWS Lake Charles",
+      "source_url": "https://www.weather.gov/lch/rita_main",
+      "secondary_source_url": "https://ready.nola.gov/hazard-mitigation/hazards/tropical-cyclones/",
+      "secondary_publisher": "City of New Orleans NOLA Ready hazard history",
+      "verified_core_fact": "Category 3 Hurricane Rita made landfall in western Cameron Parish, Louisiana near the Texas border around 2:40 a.m. CDT on September 24, 2005.",
+      "source_independence_assessment": "NWS Lake Charles archived cyclone/ground observation review and New Orleans emergency preparedness hazard history separately date landfall; both derive intensity from NHC best track.",
+      "unverified_claims": "Peak Gulf intensity on September 21–22 is not landfall strength on September 24. Different historical sources round maximum landfall winds to 115 or 120 mph. Do not import Katrina surge or 2005 evacuation indirect losses without event-specific source.",
+      "graphic_concept": "Original landfall track and pressure/swath with 2:40 a.m. CDT September 24 label; compare eyewall and surge evidence without reusing third-party photographs.",
+      "review_scope": "core event/date/location only",
+      "full_human_fact_check_status": "pending",
+      "publication_approval_status": "not_approved",
+      "image_rights_status": "not_reviewed",
+      "change": "source_led_alternate_replacement"
+    },
+    {
+      "date": "10-04",
+      "alternate_rank": 2,
+      "historical_event_date": "1995-10-04",
+      "event_id": "phasea-pass29-1995-10-04-opal-landfall",
+      "previous_event_id": "ncei-601429",
+      "title": "Rapidly intensifying Hurricane Opal strikes Florida's western Panhandle",
+      "weather_type": "tropical",
+      "region": "Gulf Coast",
+      "country": "USA",
+      "location": "Pensacola Beach and western Florida Panhandle",
+      "primary_publisher": "NWS Mobile",
+      "source_url": "https://www.weather.gov/mob/opal",
+      "secondary_source_url": "https://www.weather.gov/bmx/event_opal1995",
+      "secondary_publisher": "NWS Birmingham archived Alabama impacts",
+      "verified_core_fact": "Hurricane Opal rapidly intensified early October 4, 1995, then made Category 3 landfall near Pensacola Beach, Florida in the late afternoon local time.",
+      "source_independence_assessment": "NWS Mobile dated landfall and high-resolution meteorological review, with NWS Birmingham separately documenting inland effects; both reference the same NHC intensity and local observations.",
+      "unverified_claims": "Peak early-October-4 Category 4 intensity was offshore; at landfall Opal was Category 3. Avoid confusing 916-mb peak pressure with landfall pressure or treating multiday rainfall as October 4 daily rainfall.",
+      "graphic_concept": "Original October 4 rapid-intensification/weakening timeline and landfall map with coastal pressure, surge and storm track.",
+      "review_scope": "core event/date/location only",
+      "full_human_fact_check_status": "pending",
+      "publication_approval_status": "not_approved",
+      "image_rights_status": "not_reviewed",
+      "change": "source_led_alternate_replacement"
+    },
+    {
+      "date": "10-17",
+      "alternate_rank": 2,
+      "historical_event_date": "1984-10-17",
+      "event_id": "phasea-pass29-1984-10-17-salt-lake-snow",
+      "previous_event_id": "ncei-5672495",
+      "title": "A remarkably early snowstorm begins burying Salt Lake City",
+      "weather_type": "winter",
+      "region": "Rockies",
+      "country": "USA",
+      "location": "Salt Lake City and the Wasatch Front, Utah",
+      "primary_publisher": "NWS Aberdeen daily weather-history archive",
+      "source_url": "https://www.weather.gov/abr/This_Day_in_Weather_History_Oct_17",
+      "secondary_source_url": "https://www.deseret.com/utah/2024/10/19/deseret-news-archives-remember-big-snowstorm-on-this-day-in-1984/",
+      "secondary_publisher": "Deseret News historical newspaper reporting",
+      "verified_core_fact": "An extraordinary autumn snowstorm struck Salt Lake City on October 17, 1984 and continued through October 18, producing significant early-season accumulation.",
+      "source_independence_assessment": "NWS historical summary records an October 17 onset; contemporary regional newspaper archives separately document the October 17–18 storm and city impacts, though airport snowfall values originate from federal station records.",
+      "unverified_claims": "The often-quoted 18.4-inch airport figure measures a 24-hour October 17–18 interval, not calendar-day October 17. Some sources casually round to 18 inches; don't claim that exact value fell only on the 17th. Lake-effect dynamics need analysis before assigning mechanism.",
+      "graphic_concept": "Original hourly airport snow/rain timing and elevation gradient for October 17–18 with an explicitly bounded 24-hour total.",
+      "review_scope": "core event/date/location only",
+      "full_human_fact_check_status": "pending",
+      "publication_approval_status": "not_approved",
+      "image_rights_status": "not_reviewed",
+      "change": "source_led_alternate_replacement"
+    },
+    {
+      "date": "11-06",
+      "alternate_rank": 1,
+      "historical_event_date": "1977-11-06",
+      "event_id": "phasea-pass29-1977-11-06-kelly-barnes-dam",
+      "previous_event_id": "ncei-5480598",
+      "title": "Rain-swollen Kelly Barnes Dam fails above Toccoa Falls, Georgia",
+      "weather_type": "flood",
+      "region": "Southeast",
+      "country": "USA",
+      "location": "Toccoa Falls, Stephens County, Georgia",
+      "primary_publisher": "U.S. Geological Survey",
+      "source_url": "https://pubs.usgs.gov/ha/ha613/",
+      "secondary_source_url": "https://damsafety.org/content/reconnaissance-report-failure-kelly-barnes-lake-dam-toccoa-falls-georgia",
+      "secondary_publisher": "Association of State Dam Safety Officials sharing National Research Council field survey",
+      "verified_core_fact": "Following several days of rain and intense precipitation, Kelly Barnes Dam failed shortly after 1 a.m. local time on November 6, 1977, causing catastrophic downstream flooding near Toccoa Falls, Georgia.",
+      "source_independence_assessment": "USGS reconstructed rainfall and peak flow; an independent National Research Council reconnaissance report assesses failure mechanism and post-failure impacts; both reconstruct the same incident through shared field/investigative records.",
+      "unverified_claims": "Dam structural failure, storage, and antecedent rain all mattered; do not assert rainfall alone caused the failure. The height and 38-death figure need case-specific scope review if later used. November 5 rainfall is not the failure date.",
+      "graphic_concept": "Original 1977 rain-to-runoff timeline with dam cross-section, river profile and failure time clearly attributed to engineering survey.",
+      "review_scope": "core event/date/location only",
+      "full_human_fact_check_status": "pending",
+      "publication_approval_status": "not_approved",
+      "image_rights_status": "not_reviewed",
+      "change": "source_led_alternate_replacement"
+    },
+    {
+      "date": "11-20",
+      "alternate_rank": 1,
+      "historical_event_date": "1900-11-20",
+      "event_id": "phasea-pass29-1900-11-20-tennessee-tornado-outbreak",
+      "previous_event_id": "ncei-267294",
+      "title": "A rare November tornado outbreak tears across Tennessee",
+      "weather_type": "tornado",
+      "region": "Ohio Valley",
+      "country": "USA",
+      "location": "Middle and West Tennessee",
+      "primary_publisher": "NWS Nashville archival tornado history",
+      "source_url": "https://www.weather.gov/ohx/19001120",
+      "secondary_source_url": "https://www.weather.gov/ohx/nunntornadoesintennessee",
+      "secondary_publisher": "Historical U.S. Weather Bureau climatology paper rehosted by NWS Nashville",
+      "verified_core_fact": "Numerous destructive tornadoes moved across Tennessee during the afternoon and evening of November 20, 1900, amid a wider Lower Mississippi Valley outbreak.",
+      "source_independence_assessment": "NWS Nashville compiles eyewitness newspapers and tornado catalogs; a historical Weather Bureau narrative independently describes four Tennessee tornadoes, but both are presented on NWS-hosted pages and may share source reports.",
+      "unverified_claims": "The 73 fatalities often quoted refer to the multi-state outbreak and vary with contemporary versus later accounting. Pre-modern F4 path and rating are retrospective; do not present exact path, damage counts or chronology as directly instrumented.",
+      "graphic_concept": "Original time-resolved November 20 Tennessee tornado-track reconstruction using archived eyewitness accounts with uncertain track corridors.",
+      "review_scope": "core event/date/location only",
+      "full_human_fact_check_status": "pending",
+      "publication_approval_status": "not_approved",
+      "image_rights_status": "not_reviewed",
+      "change": "source_led_alternate_replacement"
+    },
+    {
+      "date": "12-11",
+      "alternate_rank": 2,
+      "historical_event_date": "1992-12-11",
+      "event_id": "phasea-pass29-1992-12-11-noreaster-coastal-flood",
+      "previous_event_id": "ncei-141840",
+      "title": "A fierce nor'easter floods New York Harbor on December 11",
+      "weather_type": "flood",
+      "region": "Northeast",
+      "country": "USA",
+      "location": "New York City and northeastern Atlantic seaboard",
+      "primary_publisher": "National Weather Service Albany",
+      "source_url": "https://www.weather.gov/aly/majorwinterstorms",
+      "secondary_source_url": "https://www.cdc.gov/Mmwr/preview/mmwrhtml/00018780.htm",
+      "secondary_publisher": "Centers for Disease Control and Prevention event surveillance report",
+      "verified_core_fact": "A powerful December 10–13, 1992 nor'easter brought destructive coastal flooding, damaging winds and heavy snow to the U.S. Northeast; December 11 was a major coastal flood and impact date.",
+      "source_independence_assessment": "NWS Albany provides meteorological chronology; CDC independently reviewed December 11 human impacts through medical examiners. Both cite some regional weather and impact reports; NOAA tide records can supply separate gauge evidence.",
+      "unverified_claims": "Do not confuse 1992 coastal flooding with the primary's 2008 freezing-rain episode. CDC's three December 11 deaths represent its selected medical-examiner jurisdictions, not a total storm fatality tally. Multiday snow totals must not be dated December 11 alone.",
+      "graphic_concept": "Original December 11 tide-gauge stage versus astronomical tide with a snow-rain terrain transect and event timeline.",
+      "review_scope": "core event/date/location only",
+      "full_human_fact_check_status": "pending",
+      "publication_approval_status": "not_approved",
+      "image_rights_status": "not_reviewed",
+      "change": "source_led_alternate_replacement"
+    },
+    {
+      "date": "12-22",
+      "alternate_rank": 1,
+      "historical_event_date": "1989-12-22",
+      "event_id": "phasea-pass29-1989-12-22-arctic-carolinas",
+      "previous_event_id": "ncei-5675017",
+      "title": "Arctic air grips the Carolinas ahead of a remarkable Christmas coastal snowstorm",
+      "weather_type": "temperature",
+      "region": "Southeast",
+      "country": "USA",
+      "location": "North and South Carolina",
+      "primary_publisher": "NWS Wilmington, North Carolina",
+      "source_url": "https://www.weather.gov/ilm/ChristmasSnow1989",
+      "secondary_source_url": "https://www.weather.gov/mhx/Dec231989EventReview",
+      "secondary_publisher": "NWS Newport/Morehead City regional weather reconstruction",
+      "verified_core_fact": "By December 22, 1989, a deep Arctic air mass had entered the Carolinas ahead of the December 23–24 historic coastal snowstorm; surface observations document the cold air and approaching frontal boundary.",
+      "source_independence_assessment": "NWS Wilmington supplies detailed December 22 surface analysis; a separate NWS North Carolina regional retrospective documents the ensuing December 23 coastal cyclone. Both use historical NOAA observing networks and synoptic maps.",
+      "unverified_claims": "December 22 is the antecedent cold-air setup, NOT the date of the main December 23–24 coastal snowfall. The strongest later snow totals, coastal cyclogenesis and all poststorm impacts must not be called December 22 observations.",
+      "graphic_concept": "Original December 22 12Z surface cold-air and high-pressure map with December 23 coastal development shown as an ensuing phase.",
+      "review_scope": "core event/date/location only",
+      "full_human_fact_check_status": "pending",
+      "publication_approval_status": "not_approved",
+      "image_rights_status": "not_reviewed",
+      "change": "source_led_alternate_replacement"
+    }
+  ],
+  "replacement_log": [
+    {
+      "anniversary": "03-06",
+      "alternate_rank": 1,
+      "previous_event_id": "ncei-687309",
+      "new_event_id": "phasea-pass29-1908-03-06-atlantic-march-tropical-storm"
+    },
+    {
+      "anniversary": "05-03",
+      "alternate_rank": 2,
+      "previous_event_id": "ncei-5690169",
+      "new_event_id": "phasea-pass29-2013-05-03-ozarks-may-snow"
+    },
+    {
+      "anniversary": "08-15",
+      "alternate_rank": 2,
+      "previous_event_id": "ncei-1136321",
+      "new_event_id": "phasea-pass29-2023-08-15-smith-river-fire"
+    },
+    {
+      "anniversary": "09-13",
+      "alternate_rank": 2,
+      "previous_event_id": "ncei-476956",
+      "new_event_id": "phasea-pass29-1988-09-13-gilbert-aircraft-888mb"
+    },
+    {
+      "anniversary": "09-19",
+      "alternate_rank": 2,
+      "previous_event_id": "ncei-858116",
+      "new_event_id": "phasea-pass29-2022-09-19-fiona-dominican-landfall"
+    },
+    {
+      "anniversary": "09-24",
+      "alternate_rank": 1,
+      "previous_event_id": "ncei-5478316",
+      "new_event_id": "phasea-pass29-2005-09-24-rita-landfall"
+    },
+    {
+      "anniversary": "10-04",
+      "alternate_rank": 2,
+      "previous_event_id": "ncei-601429",
+      "new_event_id": "phasea-pass29-1995-10-04-opal-landfall"
+    },
+    {
+      "anniversary": "10-17",
+      "alternate_rank": 2,
+      "previous_event_id": "ncei-5672495",
+      "new_event_id": "phasea-pass29-1984-10-17-salt-lake-snow"
+    },
+    {
+      "anniversary": "11-06",
+      "alternate_rank": 1,
+      "previous_event_id": "ncei-5480598",
+      "new_event_id": "phasea-pass29-1977-11-06-kelly-barnes-dam"
+    },
+    {
+      "anniversary": "11-20",
+      "alternate_rank": 1,
+      "previous_event_id": "ncei-267294",
+      "new_event_id": "phasea-pass29-1900-11-20-tennessee-tornado-outbreak"
+    },
+    {
+      "anniversary": "12-11",
+      "alternate_rank": 2,
+      "previous_event_id": "ncei-141840",
+      "new_event_id": "phasea-pass29-1992-12-11-noreaster-coastal-flood"
+    },
+    {
+      "anniversary": "12-22",
+      "alternate_rank": 1,
+      "previous_event_id": "ncei-5675017",
+      "new_event_id": "phasea-pass29-1989-12-22-arctic-carolinas"
+    }
+  ],
+  "remaining_p0_screen": [
+    {
+      "anniversary": "07-11",
+      "rank": 1,
+      "id": "ncei-826139",
+      "next": "All or most proposed stories for 07-11 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. Evaluate geographic rotation."
+    },
+    {
+      "anniversary": "11-15",
+      "rank": 2,
+      "id": "ncei-135143",
+      "next": "All or most proposed stories for 11-15 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. Evaluate geographic rotation. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
+    },
+    {
+      "anniversary": "01-28",
+      "rank": 1,
+      "id": "ncei-1072116",
+      "next": "All or most proposed stories for 01-28 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
+    },
+    {
+      "anniversary": "02-17",
+      "rank": 1,
+      "id": "ncei-282670",
+      "next": "All or most proposed stories for 02-17 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
+    },
+    {
+      "anniversary": "02-17",
+      "rank": 2,
+      "id": "ncei-5488787",
+      "next": "All or most proposed stories for 02-17 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
+    },
+    {
+      "anniversary": "02-23",
+      "rank": 2,
+      "id": "ncei-613449",
+      "next": "All or most proposed stories for 02-23 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
+    },
+    {
+      "anniversary": "05-11",
+      "rank": 2,
+      "id": "ncei-109020",
+      "next": "All or most proposed stories for 05-11 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
+    },
+    {
+      "anniversary": "05-13",
+      "rank": 1,
+      "id": "ncei-10320629",
+      "next": "All or most proposed stories for 05-13 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
+    },
+    {
+      "anniversary": "05-13",
+      "rank": 2,
+      "id": "ncei-1087621",
+      "next": "All or most proposed stories for 05-13 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
+    },
+    {
+      "anniversary": "07-11",
+      "rank": 2,
+      "id": "ncei-5706929",
+      "next": "All or most proposed stories for 07-11 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
+    },
+    {
+      "anniversary": "07-17",
+      "rank": 1,
+      "id": "ncei-5257022",
+      "next": "All or most proposed stories for 07-17 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
+    },
+    {
+      "anniversary": "07-17",
+      "rank": 2,
+      "id": "ncei-242713",
+      "next": "All or most proposed stories for 07-17 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
+    },
+    {
+      "anniversary": "09-13",
+      "rank": 1,
+      "id": "ncei-135506",
+      "next": "All or most proposed stories for 09-13 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
+    },
+    {
+      "anniversary": "09-19",
+      "rank": 1,
+      "id": "ncei-406779",
+      "next": "All or most proposed stories for 09-19 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
+    },
+    {
+      "anniversary": "09-24",
+      "rank": 2,
+      "id": "ncei-848531",
+      "next": "All or most proposed stories for 09-24 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
+    },
+    {
+      "anniversary": "11-06",
+      "rank": 2,
+      "id": "ncei-794526",
+      "next": "All or most proposed stories for 11-06 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
+    },
+    {
+      "anniversary": "11-20",
+      "rank": 2,
+      "id": "ncei-5621703",
+      "next": "All or most proposed stories for 11-20 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
+    },
+    {
+      "anniversary": "12-22",
+      "rank": 2,
+      "id": "ncei-68362",
+      "next": "All or most proposed stories for 12-22 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
+    }
+  ],
+  "claim_checks": [],
+  "editorial_deferrals": [
+    {
+      "date": "10-04",
+      "reason": "Do not use 2013 Winter Storm Atlas: October 3 primary already marks the same snowstorm; chose unrelated Hurricane Opal 1995 landfall."
+    },
+    {
+      "date": "12-11",
+      "reason": "Do not use December 11 2021 Kentucky outbreak in alternate: adjacent December 10 primary already features the same tornado event; selected 1992 coastal flood stage instead."
+    },
+    {
+      "date": "09-13",
+      "reason": "Gilbert's 888 hPa 13 September 1988 aircraft observation must not be conflated with a 00Z September 14 best-track data point."
+    },
+    {
+      "date": "12-22",
+      "reason": "1989 Arctic cold-air setup is dated December 22; historic main coastal snow fell principally December 23–24."
+    }
+  ]
+}

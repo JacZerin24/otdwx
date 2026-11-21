@@ -3,35 +3,37 @@
     "phase": "A",
     "as_of": "2026-11-21",
     "status": "RESEARCH TRIAGE ONLY — do not promote to corroborated, fact-checked, approved or graphics-cleared",
-    "base_calendar_blob_sha": "0b5ba77206363d85401897ac29cd1f67e2424df2",
+    "base_calendar_blob_sha": "f7f3ad3dca661722c883347b360aecac0b52fd00",
     "source_catalog_sha": "4dfc2387034a9c8c19f0a23cb06af794bb743056",
     "total_calendar_days": 366,
     "expected_alt_leads": 732,
-    "source_supported_alternates": 30,
-    "unverified_alternates": 702,
+    "source_supported_alternates": 42,
+    "unverified_alternates": 690,
     "days_with_two_corroborated_alternates": 11,
-    "days_with_one_corroborated_alternate": 8,
-    "days_with_no_corroborated_alternates": 347,
+    "days_with_one_corroborated_alternate": 20,
+    "days_with_no_corroborated_alternates": 335,
     "missing_catalog_records": 0,
     "date_mismatch_records": 0,
     "priority_counts": {
-      "P0 — Replace or investigate": 30,
-      "Reviewed — Core source paired": 5,
+      "Reviewed — Core source paired": 17,
+      "P0 — Replace or investigate": 18,
       "P1 — High review": 222,
       "P2 — Standard review": 450
     },
     "flag_counts": {
-      "NCEI_SEGMENT_ONLY": 702,
-      "SAME_HAZARD_AS_PRIMARY": 98,
-      "BOTH_ALTERNATES_SAME_HAZARD": 178,
-      "SAME_YEAR_AND_HAZARD_AS_PRIMARY": 9,
-      "GENERIC_EVENT_LABEL": 702,
-      "SAME_REGION_AS_PRIMARY": 39
+      "NCEI_SEGMENT_ONLY": 690,
+      "SAME_HAZARD_AS_PRIMARY": 86,
+      "BOTH_ALTERNATES_SAME_HAZARD": 172,
+      "GENERIC_EVENT_LABEL": 690,
+      "SAME_REGION_AS_PRIMARY": 35
     },
-    "ranking_notes": "Risk weights are mechanical triage cues, NOT strength of evidence or fact check. Same hazard is a diversity flag, not proof of the same storm. P0 is a prompt to replace/investigate; P1/2 still unverified. Two selections per calendar month form an intentionally geographically and seasonally distributed next-batch starting queue.",
-    "duplicate_episode_candidates_flagged": 6,
-    "reviewed_rows_retained_in_backlog": 5,
-    "notes": "Pass28: Five formerly P0 alternate leads now source-paired for core date/event/location only; six other high-risk leads quarantined as same-event/episode alternatives. 707 historic backlog rows retained; 702 still unverified. Priority counts include five reviewed rows."
+    "ranking_notes": "Prioritized triage only. Pass29 replaced 12 P0 candidates with independent dated event selections (six previously flagged duplicated episodes plus six additional upgrades). Eighteen still-P0 rows have screening notes but no corroboration. Additional NCEI lead queues remain unapproved.",
+    "duplicate_episode_candidates_flagged": 0,
+    "reviewed_rows_retained_in_backlog": 17,
+    "notes": "Pass28: Five formerly P0 alternate leads now source-paired for core date/event/location only; six other high-risk leads quarantined as same-event/episode alternatives. 707 historic backlog rows retained; 702 still unverified. Priority counts include five reviewed rows.",
+    "pass29_replacements": 12,
+    "pass29_p0_remaining": 18,
+    "pass29_p0_preliminarily_screened": 18
   },
   "next_24_balanced_review_targets": [
     {
@@ -46,7 +48,7 @@
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
+      "reason": "All or most proposed stories for 01-28 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
       "anniversary": "01-01",
@@ -73,7 +75,7 @@
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
+      "reason": "All or most proposed stories for 02-17 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
     },
     {
       "anniversary": "02-23",
@@ -87,26 +89,25 @@
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
-    },
-    {
-      "anniversary": "03-06",
-      "alternate_rank": 1,
-      "event_id": "ncei-687309",
-      "priority": "P0 — Replace or investigate",
-      "priority_score": 14,
-      "risk_flags": [
-        "NCEI_SEGMENT_ONLY",
-        "SAME_HAZARD_AS_PRIMARY",
-        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
-        "GENERIC_EVENT_LABEL"
-      ],
-      "reason": "Reject as independent alternate; replace with separate dated meteorological episode. Gray County Texas wildfire is part of the same regional March 6, 2017 Plains wildfire outbreak as the primary; distinct ignition has not been verified, so this is not a defensible independent backup"
+      "reason": "All or most proposed stories for 02-23 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
       "anniversary": "03-05",
       "alternate_rank": 1,
       "event_id": "ncei-5136030",
+      "priority": "P1 — High review",
+      "priority_score": 10,
+      "risk_flags": [
+        "NCEI_SEGMENT_ONLY",
+        "BOTH_ALTERNATES_SAME_HAZARD",
+        "GENERIC_EVENT_LABEL"
+      ],
+      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
+    },
+    {
+      "anniversary": "03-22",
+      "alternate_rank": 1,
+      "event_id": "ncei-5137677",
       "priority": "P1 — High review",
       "priority_score": 10,
       "risk_flags": [
@@ -143,20 +144,6 @@
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
     {
-      "anniversary": "05-03",
-      "alternate_rank": 2,
-      "event_id": "ncei-5690169",
-      "priority": "P0 — Replace or investigate",
-      "priority_score": 14,
-      "risk_flags": [
-        "NCEI_SEGMENT_ONLY",
-        "SAME_HAZARD_AS_PRIMARY",
-        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
-        "GENERIC_EVENT_LABEL"
-      ],
-      "reason": "Check whether this duplicates the primary storm; replace if same episode"
-    },
-    {
       "anniversary": "05-11",
       "alternate_rank": 2,
       "event_id": "ncei-109020",
@@ -168,7 +155,21 @@
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
+      "reason": "All or most proposed stories for 05-11 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
+    },
+    {
+      "anniversary": "05-13",
+      "alternate_rank": 1,
+      "event_id": "ncei-10320629",
+      "priority": "P0 — Replace or investigate",
+      "priority_score": 12,
+      "risk_flags": [
+        "NCEI_SEGMENT_ONLY",
+        "SAME_HAZARD_AS_PRIMARY",
+        "BOTH_ALTERNATES_SAME_HAZARD",
+        "GENERIC_EVENT_LABEL"
+      ],
+      "reason": "All or most proposed stories for 05-13 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
     },
     {
       "anniversary": "06-07",
@@ -210,7 +211,7 @@
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
+      "reason": "All or most proposed stories for 07-11 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. Evaluate geographic rotation."
     },
     {
       "anniversary": "07-17",
@@ -224,21 +225,7 @@
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
-    },
-    {
-      "anniversary": "08-15",
-      "alternate_rank": 2,
-      "event_id": "ncei-1136321",
-      "priority": "P0 — Replace or investigate",
-      "priority_score": 14,
-      "risk_flags": [
-        "NCEI_SEGMENT_ONLY",
-        "SAME_HAZARD_AS_PRIMARY",
-        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
-        "GENERIC_EVENT_LABEL"
-      ],
-      "reason": "Check whether this duplicates the primary storm; replace if same episode"
+      "reason": "All or most proposed stories for 07-17 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
     },
     {
       "anniversary": "08-07",
@@ -255,80 +242,73 @@
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
     {
+      "anniversary": "08-12",
+      "alternate_rank": 1,
+      "event_id": "ncei-992712",
+      "priority": "P1 — High review",
+      "priority_score": 11,
+      "risk_flags": [
+        "NCEI_SEGMENT_ONLY",
+        "BOTH_ALTERNATES_SAME_HAZARD",
+        "GENERIC_EVENT_LABEL",
+        "SAME_REGION_AS_PRIMARY"
+      ],
+      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
+    },
+    {
       "anniversary": "09-13",
-      "alternate_rank": 2,
-      "event_id": "ncei-476956",
+      "alternate_rank": 1,
+      "event_id": "ncei-135506",
       "priority": "P0 — Replace or investigate",
-      "priority_score": 18,
+      "priority_score": 12,
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
-        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
         "GENERIC_EVENT_LABEL"
       ],
-      "reason": "Check whether this duplicates the primary storm; replace if same episode"
+      "reason": "All or most proposed stories for 09-13 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
       "anniversary": "09-19",
-      "alternate_rank": 2,
-      "event_id": "ncei-858116",
+      "alternate_rank": 1,
+      "event_id": "ncei-406779",
       "priority": "P0 — Replace or investigate",
-      "priority_score": 18,
+      "priority_score": 12,
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
-        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
         "GENERIC_EVENT_LABEL"
       ],
-      "reason": "Reject as independent alternate; replace with separate dated meteorological episode. Houston airport flash flooding is within the same September 19, 2019 Tropical Storm Imelda episode as the primary"
+      "reason": "All or most proposed stories for 09-19 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
-      "anniversary": "10-04",
-      "alternate_rank": 2,
-      "event_id": "ncei-601429",
-      "priority": "P0 — Replace or investigate",
-      "priority_score": 15,
-      "risk_flags": [
-        "NCEI_SEGMENT_ONLY",
-        "SAME_HAZARD_AS_PRIMARY",
-        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
-        "GENERIC_EVENT_LABEL",
-        "SAME_REGION_AS_PRIMARY"
-      ],
-      "reason": "Reject as independent alternate; replace with separate dated meteorological episode. Woodland Terrace flash flooding is within the same October 4, 2015 South Carolina flood episode as the primary"
-    },
-    {
-      "anniversary": "10-17",
-      "alternate_rank": 2,
-      "event_id": "ncei-5672495",
-      "priority": "P0 — Replace or investigate",
-      "priority_score": 15,
-      "risk_flags": [
-        "NCEI_SEGMENT_ONLY",
-        "SAME_HAZARD_AS_PRIMARY",
-        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
-        "GENERIC_EVENT_LABEL",
-        "SAME_REGION_AS_PRIMARY"
-      ],
-      "reason": "Reject as independent alternate; replace with separate dated meteorological episode. A countywide Texas flash-flood entry is a segment of the same October 17, 1998 Central Texas flood primary"
-    },
-    {
-      "anniversary": "11-06",
+      "anniversary": "10-09",
       "alternate_rank": 1,
-      "event_id": "ncei-5480598",
-      "priority": "P0 — Replace or investigate",
-      "priority_score": 19,
+      "event_id": "ncei-663369",
+      "priority": "P1 — High review",
+      "priority_score": 11,
       "risk_flags": [
         "NCEI_SEGMENT_ONLY",
-        "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
-        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "reason": "Reject as independent alternate; replace with separate dated meteorological episode. Newburgh, Indiana is a downstream segment of the same November 6, 2005 Evansville-area F3 tornado featured as primary"
+      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
+    },
+    {
+      "anniversary": "10-01",
+      "alternate_rank": 1,
+      "event_id": "ncei-604878",
+      "priority": "P1 — High review",
+      "priority_score": 10,
+      "risk_flags": [
+        "NCEI_SEGMENT_ONLY",
+        "BOTH_ALTERNATES_SAME_HAZARD",
+        "GENERIC_EVENT_LABEL"
+      ],
+      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
     {
       "anniversary": "11-15",
@@ -343,27 +323,12 @@
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
+      "reason": "All or most proposed stories for 11-15 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. Evaluate geographic rotation. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
-      "anniversary": "12-11",
+      "anniversary": "11-06",
       "alternate_rank": 2,
-      "event_id": "ncei-141840",
-      "priority": "P0 — Replace or investigate",
-      "priority_score": 15,
-      "risk_flags": [
-        "NCEI_SEGMENT_ONLY",
-        "SAME_HAZARD_AS_PRIMARY",
-        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
-        "GENERIC_EVENT_LABEL",
-        "SAME_REGION_AS_PRIMARY"
-      ],
-      "reason": "Reject as independent alternate; replace with separate dated meteorological episode. Schenectady ice is part of the same December 11–12, 2008 Northeastern ice storm as the primary"
-    },
-    {
-      "anniversary": "12-22",
-      "alternate_rank": 1,
-      "event_id": "ncei-5675017",
+      "event_id": "ncei-794526",
       "priority": "P0 — Replace or investigate",
       "priority_score": 12,
       "risk_flags": [
@@ -371,6 +336,34 @@
         "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
+      ],
+      "reason": "All or most proposed stories for 11-06 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
+    },
+    {
+      "anniversary": "12-22",
+      "alternate_rank": 2,
+      "event_id": "ncei-68362",
+      "priority": "P0 — Replace or investigate",
+      "priority_score": 12,
+      "risk_flags": [
+        "NCEI_SEGMENT_ONLY",
+        "SAME_HAZARD_AS_PRIMARY",
+        "BOTH_ALTERNATES_SAME_HAZARD",
+        "GENERIC_EVENT_LABEL"
+      ],
+      "reason": "All or most proposed stories for 12-22 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
+    },
+    {
+      "anniversary": "12-01",
+      "alternate_rank": 1,
+      "event_id": "ncei-70204",
+      "priority": "P1 — High review",
+      "priority_score": 11,
+      "risk_flags": [
+        "NCEI_SEGMENT_ONLY",
+        "BOTH_ALTERNATES_SAME_HAZARD",
+        "GENERIC_EVENT_LABEL",
+        "SAME_REGION_AS_PRIMARY"
       ],
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     }
@@ -703,8 +696,8 @@
     },
     {
       "anniversary": "03-06",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "03-07",
@@ -993,8 +986,8 @@
     },
     {
       "anniversary": "05-03",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "05-04",
@@ -1513,8 +1506,8 @@
     },
     {
       "anniversary": "08-15",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "08-16",
@@ -1658,8 +1651,8 @@
     },
     {
       "anniversary": "09-13",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "09-14",
@@ -1688,8 +1681,8 @@
     },
     {
       "anniversary": "09-19",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "09-20",
@@ -1713,8 +1706,8 @@
     },
     {
       "anniversary": "09-24",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "09-25",
@@ -1763,8 +1756,8 @@
     },
     {
       "anniversary": "10-04",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "10-05",
@@ -1828,8 +1821,8 @@
     },
     {
       "anniversary": "10-17",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "10-18",
@@ -1928,8 +1921,8 @@
     },
     {
       "anniversary": "11-06",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "11-07",
@@ -1998,8 +1991,8 @@
     },
     {
       "anniversary": "11-20",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "11-21",
@@ -2103,8 +2096,8 @@
     },
     {
       "anniversary": "12-11",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "12-12",
@@ -2158,8 +2151,8 @@
     },
     {
       "anniversary": "12-22",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "12-23",
@@ -2211,18 +2204,32 @@
     {
       "anniversary": "11-06",
       "alternate_rank": 1,
-      "event_id": "ncei-5480598",
-      "historical_event_date": "2005-11-06",
-      "candidate_title": "Tornado — NEWBURGH, Indiana",
-      "candidate_hazard": "tornado",
-      "candidate_location": "NEWBURGH, Indiana",
+      "event_id": "phasea-pass29-1977-11-06-kelly-barnes-dam",
+      "historical_event_date": "1977-11-06",
+      "candidate_title": "Rain-swollen Kelly Barnes Dam fails above Toccoa Falls, Georgia",
+      "candidate_hazard": "flood",
+      "candidate_location": "Toccoa Falls, Stephens County, Georgia",
       "candidate_country": "USA",
       "primary_title": "A predawn F3 tornado strikes communities south of Evansville",
       "primary_hazard": "tornado",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "U.S. Geological Survey",
+      "source_family": "source_led_authoritative_pass29",
+      "original_source_url": "https://pubs.usgs.gov/ha/ha613/",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and rights clearance: Dam structural failure, storage, and antecedent rain all mattered; do not assert rainfall alone caused the failure. The height and 38-death figure need case-specific scope review if later used. November 5 rainfall is not the failure date.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "duplicate_scope": "Newburgh, Indiana is a downstream segment of the same November 6, 2005 Evansville-area F3 tornado featured as primary",
+      "evidence_url": "https://www.weather.gov/pah/2005evansvilletornado",
+      "replaced_event_id": "ncei-5480598",
+      "original_source_url_before_pass29": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 19,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
@@ -2230,75 +2237,85 @@
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "priority_score": 19,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Reject as independent alternate; replace with separate dated meteorological episode. Newburgh, Indiana is a downstream segment of the same November 6, 2005 Evansville-area F3 tornado featured as primary",
-      "corroboration_status": "duplicate_replacement_required",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed",
-      "duplicate_scope": "Newburgh, Indiana is a downstream segment of the same November 6, 2005 Evansville-area F3 tornado featured as primary",
-      "evidence_url": "https://www.weather.gov/pah/2005evansvilletornado"
+      "corroborating_source_url": "https://damsafety.org/content/reconnaissance-report-failure-kelly-barnes-lake-dam-toccoa-falls-georgia",
+      "evidence_independence": "USGS reconstructed rainfall and peak flow; an independent National Research Council reconnaissance report assesses failure mechanism and post-failure impacts; both reconstruct the same incident through shared field/investigative records.",
+      "pass29_disposition": "separate_story_replacement_source_paired"
     },
     {
       "anniversary": "09-13",
       "alternate_rank": 2,
-      "event_id": "ncei-476956",
-      "historical_event_date": "2013-09-13",
-      "candidate_title": "Flash Flood — (TCS)TRUTH/CONSQNCES, New Mexico",
-      "candidate_hazard": "flood",
-      "candidate_location": "(TCS)TRUTH/CONSQNCES, New Mexico",
-      "candidate_country": "USA",
+      "event_id": "phasea-pass29-1988-09-13-gilbert-aircraft-888mb",
+      "historical_event_date": "1988-09-13",
+      "candidate_title": "Hurricane Gilbert produces an extraordinary 888-mb aircraft pressure observation",
+      "candidate_hazard": "tropical",
+      "candidate_location": "Northwestern Caribbean Sea, south of Cuba",
+      "candidate_country": "Caribbean Sea",
       "primary_title": "Record floods and streamflow peaks spread along Colorado's Front Range",
       "primary_hazard": "flood",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2013_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "NOAA AOML Hurricane Research Division",
+      "source_family": "source_led_authoritative_pass29",
+      "original_source_url": "https://www.aoml.noaa.gov/hurricane_blog/25th-anniversary-of-hurricane-gilberts-record-low-pressure/",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and rights clearance: The 888 hPa measurement is a September 13 aircraft event, while 00 UTC September 14 best-track positions may also assign 888 hPa. Avoid implying two different records or that this is still the standing Atlantic record (Wilma 2005). Research estimated 888 ±2 hPa, not a station barometer.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-476956",
+      "original_source_url_before_pass29": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2013_c20260323.csv.gz",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 18,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 18,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Check whether this duplicates the primary storm; replace if same episode",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://journals.ametsoc.org/view/journals/mwre/117/12/1520-0493_1989_117_2824_armslp_2_0_co_2.xml",
+      "evidence_independence": "NOAA describes the contemporaneous aircraft flight, while peer-reviewed pressure corrections analyze the same flight data; two institutional publications are not independent measurements.",
+      "pass29_disposition": "separate_story_replacement_source_paired"
     },
     {
       "anniversary": "09-19",
       "alternate_rank": 2,
-      "event_id": "ncei-858116",
-      "historical_event_date": "2019-09-19",
-      "candidate_title": "Flash Flood — (IAH)HOUSTON INTL AR, Texas",
-      "candidate_hazard": "flood",
-      "candidate_location": "(IAH)HOUSTON INTL AR, Texas",
-      "candidate_country": "USA",
+      "event_id": "phasea-pass29-2022-09-19-fiona-dominican-landfall",
+      "historical_event_date": "2022-09-19",
+      "candidate_title": "Hurricane Fiona makes landfall in the Dominican Republic",
+      "candidate_hazard": "tropical",
+      "candidate_location": "Boca de Yuma area, southeastern Dominican Republic",
+      "candidate_country": "Dominican Republic",
       "primary_title": "Imelda triggers catastrophic flash flooding in southeast Texas",
       "primary_hazard": "flood",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2019_c20261119.csv.gz",
-      "risk_flags": [
+      "source_publisher": "National Hurricane Center",
+      "source_family": "source_led_authoritative_pass29",
+      "original_source_url": "https://www.nhc.noaa.gov/archive/2022/al07/al072022.update.09190735.shtml",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and rights clearance: Fiona crossed Puerto Rico September 18 and the Dominican Republic September 19. Do not transfer September 18 Puerto Rico rainfall or power impacts into a September 19 Dominican calendar-day claim. NHC timing is 0730 UTC, 0330 AST.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "duplicate_scope": "Houston airport flash flooding is within the same September 19, 2019 Tropical Storm Imelda episode as the primary",
+      "evidence_url": "https://www.weather.gov/hgx/imelda2019",
+      "replaced_event_id": "ncei-858116",
+      "original_source_url_before_pass29": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2019_c20261119.csv.gz",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 18,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 18,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Reject as independent alternate; replace with separate dated meteorological episode. Houston airport flash flooding is within the same September 19, 2019 Tropical Storm Imelda episode as the primary",
-      "corroboration_status": "duplicate_replacement_required",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed",
-      "duplicate_scope": "Houston airport flash flooding is within the same September 19, 2019 Tropical Storm Imelda episode as the primary",
-      "evidence_url": "https://www.weather.gov/hgx/imelda2019"
+      "corroborating_source_url": "https://www.cbsnews.com/news/hurricane-fiona-nears-dominican-republic-puerto-rico-catastrophic-damage-historic-flooding/",
+      "evidence_independence": "NHC's contemporaneous landfall announcement and independently published news dispatch confirm the same dated center crossing, though both draw from the NHC radar-based landfall estimate.",
+      "pass29_disposition": "separate_story_replacement_source_paired"
     },
     {
       "anniversary": "09-29",
@@ -2372,181 +2389,229 @@
     {
       "anniversary": "10-04",
       "alternate_rank": 2,
-      "event_id": "ncei-601429",
-      "historical_event_date": "2015-10-04",
-      "candidate_title": "Flash Flood — WOODLAND TERRACE, South Carolina",
-      "candidate_hazard": "flood",
-      "candidate_location": "WOODLAND TERRACE, South Carolina",
+      "event_id": "phasea-pass29-1995-10-04-opal-landfall",
+      "historical_event_date": "1995-10-04",
+      "candidate_title": "Rapidly intensifying Hurricane Opal strikes Florida's western Panhandle",
+      "candidate_hazard": "tropical",
+      "candidate_location": "Pensacola Beach and western Florida Panhandle",
       "candidate_country": "USA",
       "primary_title": "Record rain swamps Columbia during South Carolina's historic flood",
       "primary_hazard": "flood",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2015_c20260323.csv.gz",
-      "risk_flags": [
-        "NCEI_SEGMENT_ONLY",
-        "SAME_HAZARD_AS_PRIMARY",
-        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
-        "GENERIC_EVENT_LABEL",
-        "SAME_REGION_AS_PRIMARY"
-      ],
-      "priority_score": 15,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Reject as independent alternate; replace with separate dated meteorological episode. Woodland Terrace flash flooding is within the same October 4, 2015 South Carolina flood episode as the primary",
-      "corroboration_status": "duplicate_replacement_required",
+      "source_publisher": "NWS Mobile",
+      "source_family": "source_led_authoritative_pass29",
+      "original_source_url": "https://www.weather.gov/mob/opal",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and rights clearance: Peak early-October-4 Category 4 intensity was offshore; at landfall Opal was Category 3. Avoid confusing 916-mb peak pressure with landfall pressure or treating multiday rainfall as October 4 daily rainfall.",
+      "corroboration_status": "core_date_location_corroborated",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
       "image_rights": "not_reviewed",
       "duplicate_scope": "Woodland Terrace flash flooding is within the same October 4, 2015 South Carolina flood episode as the primary",
-      "evidence_url": "https://www.weather.gov/cae/HistoricFloodingOct2015.html"
+      "evidence_url": "https://www.weather.gov/cae/HistoricFloodingOct2015.html",
+      "replaced_event_id": "ncei-601429",
+      "original_source_url_before_pass29": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2015_c20260323.csv.gz",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 15,
+      "original_risk_flags": [
+        "NCEI_SEGMENT_ONLY",
+        "SAME_HAZARD_AS_PRIMARY",
+        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
+        "GENERIC_EVENT_LABEL",
+        "SAME_REGION_AS_PRIMARY"
+      ],
+      "corroborating_source_url": "https://www.weather.gov/bmx/event_opal1995",
+      "evidence_independence": "NWS Mobile dated landfall and high-resolution meteorological review, with NWS Birmingham separately documenting inland effects; both reference the same NHC intensity and local observations.",
+      "pass29_disposition": "separate_story_replacement_source_paired"
     },
     {
       "anniversary": "10-17",
       "alternate_rank": 2,
-      "event_id": "ncei-5672495",
-      "historical_event_date": "1998-10-17",
-      "candidate_title": "Flash Flood — COUNTYWIDE, Texas",
-      "candidate_hazard": "flood",
-      "candidate_location": "COUNTYWIDE, Texas",
+      "event_id": "phasea-pass29-1984-10-17-salt-lake-snow",
+      "historical_event_date": "1984-10-17",
+      "candidate_title": "A remarkably early snowstorm begins burying Salt Lake City",
+      "candidate_hazard": "winter",
+      "candidate_location": "Salt Lake City and the Wasatch Front, Utah",
       "candidate_country": "USA",
       "primary_title": "A stalled boundary triggers the catastrophic October 1998 Texas floods",
       "primary_hazard": "flood",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1998_c20260323.csv.gz",
-      "risk_flags": [
-        "NCEI_SEGMENT_ONLY",
-        "SAME_HAZARD_AS_PRIMARY",
-        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
-        "GENERIC_EVENT_LABEL",
-        "SAME_REGION_AS_PRIMARY"
-      ],
-      "priority_score": 15,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Reject as independent alternate; replace with separate dated meteorological episode. A countywide Texas flash-flood entry is a segment of the same October 17, 1998 Central Texas flood primary",
-      "corroboration_status": "duplicate_replacement_required",
+      "source_publisher": "NWS Aberdeen daily weather-history archive",
+      "source_family": "source_led_authoritative_pass29",
+      "original_source_url": "https://www.weather.gov/abr/This_Day_in_Weather_History_Oct_17",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and rights clearance: The often-quoted 18.4-inch airport figure measures a 24-hour October 17–18 interval, not calendar-day October 17. Some sources casually round to 18 inches; don't claim that exact value fell only on the 17th. Lake-effect dynamics need analysis before assigning mechanism.",
+      "corroboration_status": "core_date_location_corroborated",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
       "image_rights": "not_reviewed",
       "duplicate_scope": "A countywide Texas flash-flood entry is a segment of the same October 17, 1998 Central Texas flood primary",
-      "evidence_url": "https://www.weather.gov/ewx/wxevent-1998flood"
-    },
-    {
-      "anniversary": "12-11",
-      "alternate_rank": 2,
-      "event_id": "ncei-141840",
-      "historical_event_date": "2008-12-11",
-      "candidate_title": "Ice Storm — EASTERN SCHENECTADY, New York",
-      "candidate_hazard": "winter",
-      "candidate_location": "EASTERN SCHENECTADY, New York",
-      "candidate_country": "USA",
-      "primary_title": "Freezing rain begins a crippling Northeast ice storm",
-      "primary_hazard": "winter",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2008_c20260323.csv.gz",
-      "risk_flags": [
+      "evidence_url": "https://www.weather.gov/ewx/wxevent-1998flood",
+      "replaced_event_id": "ncei-5672495",
+      "original_source_url_before_pass29": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1998_c20260323.csv.gz",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 15,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "priority_score": 15,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Reject as independent alternate; replace with separate dated meteorological episode. Schenectady ice is part of the same December 11–12, 2008 Northeastern ice storm as the primary",
-      "corroboration_status": "duplicate_replacement_required",
+      "corroborating_source_url": "https://www.deseret.com/utah/2024/10/19/deseret-news-archives-remember-big-snowstorm-on-this-day-in-1984/",
+      "evidence_independence": "NWS historical summary records an October 17 onset; contemporary regional newspaper archives separately document the October 17–18 storm and city impacts, though airport snowfall values originate from federal station records.",
+      "pass29_disposition": "separate_story_replacement_source_paired"
+    },
+    {
+      "anniversary": "12-11",
+      "alternate_rank": 2,
+      "event_id": "phasea-pass29-1992-12-11-noreaster-coastal-flood",
+      "historical_event_date": "1992-12-11",
+      "candidate_title": "A fierce nor'easter floods New York Harbor on December 11",
+      "candidate_hazard": "flood",
+      "candidate_location": "New York City and northeastern Atlantic seaboard",
+      "candidate_country": "USA",
+      "primary_title": "Freezing rain begins a crippling Northeast ice storm",
+      "primary_hazard": "winter",
+      "source_publisher": "National Weather Service Albany",
+      "source_family": "source_led_authoritative_pass29",
+      "original_source_url": "https://www.weather.gov/aly/majorwinterstorms",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and rights clearance: Do not confuse 1992 coastal flooding with the primary's 2008 freezing-rain episode. CDC's three December 11 deaths represent its selected medical-examiner jurisdictions, not a total storm fatality tally. Multiday snow totals must not be dated December 11 alone.",
+      "corroboration_status": "core_date_location_corroborated",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
       "image_rights": "not_reviewed",
       "duplicate_scope": "Schenectady ice is part of the same December 11–12, 2008 Northeastern ice storm as the primary",
-      "evidence_url": "https://www.weather.gov/aly/IceStormDec2008"
+      "evidence_url": "https://www.weather.gov/aly/IceStormDec2008",
+      "replaced_event_id": "ncei-141840",
+      "original_source_url_before_pass29": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2008_c20260323.csv.gz",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 15,
+      "original_risk_flags": [
+        "NCEI_SEGMENT_ONLY",
+        "SAME_HAZARD_AS_PRIMARY",
+        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
+        "GENERIC_EVENT_LABEL",
+        "SAME_REGION_AS_PRIMARY"
+      ],
+      "corroborating_source_url": "https://www.cdc.gov/Mmwr/preview/mmwrhtml/00018780.htm",
+      "evidence_independence": "NWS Albany provides meteorological chronology; CDC independently reviewed December 11 human impacts through medical examiners. Both cite some regional weather and impact reports; NOAA tide records can supply separate gauge evidence.",
+      "pass29_disposition": "separate_story_replacement_source_paired"
     },
     {
       "anniversary": "03-06",
       "alternate_rank": 1,
-      "event_id": "ncei-687309",
-      "historical_event_date": "2017-03-06",
-      "candidate_title": "Wildfire — GRAY, Texas",
-      "candidate_hazard": "wildfire_weather",
-      "candidate_location": "GRAY, Texas",
-      "candidate_country": "USA",
+      "event_id": "phasea-pass29-1908-03-06-atlantic-march-tropical-storm",
+      "historical_event_date": "1908-03-06",
+      "candidate_title": "An extraordinarily rare March Atlantic tropical storm develops",
+      "candidate_hazard": "tropical",
+      "candidate_location": "Open Atlantic northeast of the Leeward Islands",
+      "candidate_country": "Atlantic Ocean",
       "primary_title": "Satellite sensors capture explosive Great Plains wildfires",
       "primary_hazard": "wildfire_weather",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2017_c20261119.csv.gz",
-      "risk_flags": [
-        "NCEI_SEGMENT_ONLY",
-        "SAME_HAZARD_AS_PRIMARY",
-        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
-        "GENERIC_EVENT_LABEL"
-      ],
-      "priority_score": 14,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Reject as independent alternate; replace with separate dated meteorological episode. Gray County Texas wildfire is part of the same regional March 6, 2017 Plains wildfire outbreak as the primary; distinct ignition has not been verified, so this is not a defensible independent backup",
-      "corroboration_status": "duplicate_replacement_required",
+      "source_publisher": "NOAA Atlantic Oceanographic and Meteorological Laboratory",
+      "source_family": "source_led_authoritative_pass29",
+      "original_source_url": "https://www.aoml.noaa.gov/hurricane_blog/2013-hurricane-related-anniversaries/",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and rights clearance: Do not call the system a hurricane on March 6: NHC places earliest March hurricane intensity on March 7. The 1908 track and intensity are retrospective and poorly observed; exact formation location is uncertain.",
+      "corroboration_status": "core_date_location_corroborated",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
       "image_rights": "not_reviewed",
       "duplicate_scope": "Gray County Texas wildfire is part of the same regional March 6, 2017 Plains wildfire outbreak as the primary; distinct ignition has not been verified, so this is not a defensible independent backup",
-      "evidence_url": "https://www.weather.gov/ama/2017_Wildfires_Feb_Mar"
+      "evidence_url": "https://www.weather.gov/ama/2017_Wildfires_Feb_Mar",
+      "replaced_event_id": "ncei-687309",
+      "original_source_url_before_pass29": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2017_c20261119.csv.gz",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 14,
+      "original_risk_flags": [
+        "NCEI_SEGMENT_ONLY",
+        "SAME_HAZARD_AS_PRIMARY",
+        "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
+        "GENERIC_EVENT_LABEL"
+      ],
+      "corroborating_source_url": "https://weather.com/news/weather/news/2026-03-06-otd-march-1908-hurricane-atlantic-caribbean",
+      "evidence_independence": "NOAA AOML explicitly dates the origin to March 6; Weather.com reconstructs the track using the same historical best-track and archival reanalysis, not an independent 1908 in situ observation.",
+      "pass29_disposition": "separate_story_replacement_source_paired"
     },
     {
       "anniversary": "05-03",
       "alternate_rank": 2,
-      "event_id": "ncei-5690169",
-      "historical_event_date": "1999-05-03",
-      "candidate_title": "Tornado — PECK, Kansas",
-      "candidate_hazard": "tornado",
-      "candidate_location": "PECK, Kansas",
+      "event_id": "phasea-pass29-2013-05-03-ozarks-may-snow",
+      "historical_event_date": "2013-05-03",
+      "candidate_title": "An extraordinary May snowstorm brings measurable snow to the Ozarks",
+      "candidate_hazard": "winter",
+      "candidate_location": "Springfield and Missouri Ozarks; southeast Kansas",
       "candidate_country": "USA",
       "primary_title": "Bridge Creek–Moore F5 tornado",
       "primary_hazard": "tornado",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1999_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "NWS Springfield",
+      "source_family": "source_led_authoritative_pass29",
+      "original_source_url": "https://www.weather.gov/sgf/events_2013may3",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and rights clearance: The May 3–4 two-day snow totals are not calendar-day May 3 measurements. Springfield's 1.4 inches was a latest measurable snow date, not the biggest May snowfall in its record. Do not link this to 1999 tornadoes.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-5690169",
+      "original_source_url_before_pass29": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1999_c20260323.csv.gz",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 14,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 14,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Check whether this duplicates the primary storm; replace if same episode",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.weather.gov/dmx/maysnow",
+      "evidence_independence": "NWS Springfield directly documents May 3 snowfall and site totals; NWS Des Moines separately documents the May 1–3 broader spring snow pattern, sharing the same federal observing network.",
+      "pass29_disposition": "separate_story_replacement_source_paired"
     },
     {
       "anniversary": "08-15",
       "alternate_rank": 2,
-      "event_id": "ncei-1136321",
+      "event_id": "phasea-pass29-2023-08-15-smith-river-fire",
       "historical_event_date": "2023-08-15",
-      "candidate_title": "Wildfire — DEL NORTE INTERIOR, California",
+      "candidate_title": "Smith River Complex wildfire begins amid a Northern California lightning outbreak",
       "candidate_hazard": "wildfire_weather",
-      "candidate_location": "DEL NORTE INTERIOR, California",
+      "candidate_location": "Six Rivers National Forest, Del Norte County, California",
       "candidate_country": "USA",
       "primary_title": "Wildfire threat brings evacuation alerts to parts of Yellowknife",
       "primary_hazard": "wildfire_weather",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2023_c20261119.csv.gz",
-      "risk_flags": [
+      "source_publisher": "CAL FIRE incident registry",
+      "source_family": "source_led_authoritative_pass29",
+      "original_source_url": "https://www.fire.ca.gov/incidents/2023/8/15/smith-river-complex",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and rights clearance: CAL FIRE lists cause 'under investigation' while federal updates classify lightning; keep cause attribution provisional. Lightning began August 14 in some areas. Later acreage and smoke footprints cannot be attributed to August 15 alone.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-1136321",
+      "original_source_url_before_pass29": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2023_c20261119.csv.gz",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 14,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 14,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Check whether this duplicates the primary storm; replace if same episode",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://nwccinfo.blogspot.com/2023/08/08252023-smith-river-complex-north.html",
+      "evidence_independence": "CAL FIRE lists the August 15 start date while federal interagency fire updates independently identify August 15 as start; incident descriptions are both sourced from fire-response reporting, not independent satellite ignition measurements.",
+      "pass29_disposition": "separate_story_replacement_source_paired"
     },
     {
       "anniversary": "07-11",
@@ -2575,7 +2640,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 07-11 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. Evaluate geographic rotation."
     },
     {
       "anniversary": "11-15",
@@ -2604,7 +2671,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 11-15 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. Evaluate geographic rotation. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
       "anniversary": "01-28",
@@ -2632,7 +2701,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 01-28 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
       "anniversary": "01-28",
@@ -2693,7 +2764,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 02-17 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
     },
     {
       "anniversary": "02-17",
@@ -2721,7 +2794,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 02-17 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
     },
     {
       "anniversary": "02-23",
@@ -2782,7 +2857,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 02-23 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
       "anniversary": "05-11",
@@ -2810,7 +2887,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 05-11 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
       "anniversary": "05-13",
@@ -2838,7 +2917,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 05-13 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
     },
     {
       "anniversary": "05-13",
@@ -2866,7 +2947,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 05-13 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
     },
     {
       "anniversary": "07-11",
@@ -2894,7 +2977,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 07-11 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
     },
     {
       "anniversary": "07-17",
@@ -2922,7 +3007,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 07-17 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
     },
     {
       "anniversary": "07-17",
@@ -2950,7 +3037,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 07-17 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative."
     },
     {
       "anniversary": "09-13",
@@ -2978,7 +3067,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 09-13 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
       "anniversary": "09-19",
@@ -3006,35 +3097,45 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 09-19 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
       "anniversary": "09-24",
       "alternate_rank": 1,
-      "event_id": "ncei-5478316",
+      "event_id": "phasea-pass29-2005-09-24-rita-landfall",
       "historical_event_date": "2005-09-24",
-      "candidate_title": "Tornado — ISOLA, Mississippi",
-      "candidate_hazard": "tornado",
-      "candidate_location": "ISOLA, Mississippi",
+      "candidate_title": "Hurricane Rita makes a predawn Louisiana–Texas border landfall",
+      "candidate_hazard": "tropical",
+      "candidate_location": "Western Cameron Parish near Johnson Bayou, Louisiana",
       "candidate_country": "USA",
       "primary_title": "The College Park F3 tornado rips across Maryland's University of Maryland corridor",
       "primary_hazard": "tornado",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "NWS Lake Charles",
+      "source_family": "source_led_authoritative_pass29",
+      "original_source_url": "https://www.weather.gov/lch/rita_main",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and rights clearance: Peak Gulf intensity on September 21–22 is not landfall strength on September 24. Different historical sources round maximum landfall winds to 115 or 120 mph. Do not import Katrina surge or 2005 evacuation indirect losses without event-specific source.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-5478316",
+      "original_source_url_before_pass29": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 12,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 12,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://ready.nola.gov/hazard-mitigation/hazards/tropical-cyclones/",
+      "evidence_independence": "NWS Lake Charles archived cyclone/ground observation review and New Orleans emergency preparedness hazard history separately date landfall; both derive intensity from NHC best track.",
+      "pass29_disposition": "separate_story_replacement_source_paired"
     },
     {
       "anniversary": "09-24",
@@ -3062,7 +3163,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 09-24 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
       "anniversary": "11-06",
@@ -3090,7 +3193,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 11-06 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
       "anniversary": "11-15",
@@ -3128,30 +3233,38 @@
     {
       "anniversary": "11-20",
       "alternate_rank": 1,
-      "event_id": "ncei-267294",
-      "historical_event_date": "2010-11-20",
-      "candidate_title": "Winter Weather — YORK, Nebraska",
-      "candidate_hazard": "winter",
-      "candidate_location": "YORK, Nebraska",
+      "event_id": "phasea-pass29-1900-11-20-tennessee-tornado-outbreak",
+      "historical_event_date": "1900-11-20",
+      "candidate_title": "A rare November tornado outbreak tears across Tennessee",
+      "candidate_hazard": "tornado",
+      "candidate_location": "Middle and West Tennessee",
       "candidate_country": "USA",
       "primary_title": "Lake-effect snow bands ease after an extended northern Indiana event",
       "primary_hazard": "winter",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2010_c20261119.csv.gz",
-      "risk_flags": [
+      "source_publisher": "NWS Nashville archival tornado history",
+      "source_family": "source_led_authoritative_pass29",
+      "original_source_url": "https://www.weather.gov/ohx/19001120",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and rights clearance: The 73 fatalities often quoted refer to the multi-state outbreak and vary with contemporary versus later accounting. Pre-modern F4 path and rating are retrospective; do not present exact path, damage counts or chronology as directly instrumented.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-267294",
+      "original_source_url_before_pass29": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2010_c20261119.csv.gz",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 12,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 12,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.weather.gov/ohx/nunntornadoesintennessee",
+      "evidence_independence": "NWS Nashville compiles eyewitness newspapers and tornado catalogs; a historical Weather Bureau narrative independently describes four Tennessee tornadoes, but both are presented on NWS-hosted pages and may share source reports.",
+      "pass29_disposition": "separate_story_replacement_source_paired"
     },
     {
       "anniversary": "11-20",
@@ -3179,35 +3292,45 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 11-20 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
       "anniversary": "12-22",
       "alternate_rank": 1,
-      "event_id": "ncei-5675017",
-      "historical_event_date": "1998-12-22",
-      "candidate_title": "Ice Storm — MCLENNAN, Texas",
-      "candidate_hazard": "winter",
-      "candidate_location": "MCLENNAN, Texas",
+      "event_id": "phasea-pass29-1989-12-22-arctic-carolinas",
+      "historical_event_date": "1989-12-22",
+      "candidate_title": "Arctic air grips the Carolinas ahead of a remarkable Christmas coastal snowstorm",
+      "candidate_hazard": "temperature",
+      "candidate_location": "North and South Carolina",
       "candidate_country": "USA",
       "primary_title": "Toronto wakes to a damaging ice storm and widespread power outages",
       "primary_hazard": "winter",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1998_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "NWS Wilmington, North Carolina",
+      "source_family": "source_led_authoritative_pass29",
+      "original_source_url": "https://www.weather.gov/ilm/ChristmasSnow1989",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Human fact check and rights clearance: December 22 is the antecedent cold-air setup, NOT the date of the main December 23–24 coastal snowfall. The strongest later snow totals, coastal cyclogenesis and all poststorm impacts must not be called December 22 observations.",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "replaced_event_id": "ncei-5675017",
+      "original_source_url_before_pass29": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1998_c20260323.csv.gz",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 12,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 12,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.weather.gov/mhx/Dec231989EventReview",
+      "evidence_independence": "NWS Wilmington supplies detailed December 22 surface analysis; a separate NWS North Carolina regional retrospective documents the ensuing December 23 coastal cyclone. Both use historical NOAA observing networks and synoptic maps.",
+      "pass29_disposition": "separate_story_replacement_source_paired"
     },
     {
       "anniversary": "12-22",
@@ -3235,7 +3358,9 @@
       "corroboration_status": "unverified_research_lead",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "pass29_disposition": "outstanding_source_research_and_diversity_screen",
+      "pass29_screen_note": "All or most proposed stories for 12-22 emphasize the same hazard; seek a distinct historical storm category. Different year/location alone does not establish a compelling independent backup; verify via local event review. A single NCEI hazard/locality line is not a finished story; source an authoritative dated narrative. One other backup is now source-supported on this date; prioritize contrasting hazard and era."
     },
     {
       "anniversary": "06-07",
