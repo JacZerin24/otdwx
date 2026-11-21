@@ -4,13 +4,13 @@
     "as_of": "2026-11-21",
     "source_catalog_sha": "4dfc2387034a9c8c19f0a23cb06af794bb743056",
     "source_candidates": 4323,
-    "additional_authoritative_anchors": 287,
+    "additional_authoritative_anchors": 299,
     "manual_curated_seeds": 7,
     "selection_status": "PROVISIONAL RESEARCH — NOT EDITORIALLY APPROVED",
     "notes": "These 366 provisional research selections are not 366 verified stories. Source-led discovery and editor approval are separate. No published copy or unpublished graphics included.",
     "manual_editorial_override_count": 217,
     "pass2_manual_upgrades": 64,
-    "summary": "Pass30: 366/366 primary cores source-paired; 60/732 alternate source-paired cores on 35 anniversaries (25 with both), 672 pending, P0 0; no human approvals, completed full fact checks or media rights."
+    "summary": "Pass31: 366 primary source-paired cores; 72/732 alternate cores paired across 47 dates (25 both, 22 one). 660 unverified (P1 210, P2 450); zero human approvals, completed full fact checks or media rights."
   },
   "metrics": {
     "calendar_rows": 366,
@@ -406,12 +406,12 @@
     "pass2_alternate_screened_leads": 30,
     "pass2_alternates_independently_corroborated": 0,
     "adjacent_repeated_story_warnings": 0,
-    "alternate_core_evidence_records": 25,
-    "remaining_uncorroborated_alternate_cores": 707,
-    "dates_with_any_alternate_evidence": 14,
-    "source_supported_alternate_cores": 60,
-    "unverified_alternate_cores": 672,
-    "date_with_one_corroborated_alternate": 10,
+    "alternate_core_evidence_records": 72,
+    "remaining_uncorroborated_alternate_cores": 660,
+    "dates_with_any_alternate_evidence": 47,
+    "source_supported_alternate_cores": 72,
+    "unverified_alternate_cores": 660,
+    "date_with_one_corroborated_alternate": 22,
     "alternate_duplicate_episode_flags": 0
   },
   "limitations": [
