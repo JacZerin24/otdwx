@@ -15,6 +15,7 @@ from urllib.parse import urlparse
 
 from .editorial import weighted_length
 from .branded_graphics import render_visual, validate_visual
+from .themed_graphics import render_themed, validate_themed
 
 MAX_CHARS = 280
 VISUAL_TYPES = {
@@ -97,7 +98,10 @@ def validate_package(item: dict) -> list[str]:
     if not isinstance(item["graphic_spec"],dict):
         issues.append("graphic_spec must be a dict")
     elif item["type"] in {"track_map", "point_map"} or item["graphic_spec"].get("style") != "legacy":
-        issues.extend(validate_visual(item))
+        if item["graphic_spec"].get("style") == "v2":
+            issues.extend(validate_visual(item))
+        else:
+            issues.extend(validate_themed(item))
     if len(item["alt"].strip()) < 30:
         issues.append("meaningful image alt text is required")
     if item.get("editor_approval") not in (None,"pending","changes_needed","approved"):
@@ -111,7 +115,9 @@ def render_svg(item: dict) -> str:
     if errors:
         raise ValueError("; ".join(errors))
     if item["type"] in {"track_map", "point_map"} or item["graphic_spec"].get("style") != "legacy":
-        return render_visual(item)
+        if item["graphic_spec"].get("style") == "v2":
+            return render_visual(item)
+        return render_themed(item)
     spec = item["graphic_spec"]
     typ = item["type"]
     parts = [
