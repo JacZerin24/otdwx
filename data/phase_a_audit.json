@@ -4,19 +4,19 @@
     "as_of": "2026-11-21",
     "source_catalog_sha": "4dfc2387034a9c8c19f0a23cb06af794bb743056",
     "source_candidates": 4323,
-    "additional_authoritative_anchors": 248,
+    "additional_authoritative_anchors": 256,
     "manual_curated_seeds": 7,
     "selection_status": "PROVISIONAL RESEARCH — NOT EDITORIALLY APPROVED",
     "notes": "These 366 provisional research selections are not 366 verified stories. Source-led discovery and editor approval are separate. No published copy or unpublished graphics included.",
     "manual_editorial_override_count": 217,
     "pass2_manual_upgrades": 64,
-    "summary": "Pass26: 366/366 primary date/event/location source-paired research cores, zero source gaps; eight source-led replacements, 16 scoped claim checks; 342 total claim checks. 0 fully human fact-checked or approved; 717 of 732 alternate cores still uncorroborated."
+    "summary": "Pass27: 366/366 primary source-paired research cores; 25 evidence-backed alternate event cores on 14 dates (11 dates have both); 707 alternate cores still uncorroborated; 0 editorial approvals, human fact checks or cleared media. Previous scalar 15 missed one existing evidence record and a stale Oct6 status."
   },
   "metrics": {
     "calendar_rows": 366,
     "unique_primary_event_ids": 366,
     "dates_with_two_alternates": 366,
-    "dates_with_two_corroborated_alternates": 4,
+    "dates_with_two_corroborated_alternates": 11,
     "authoritative_core_corroborated": 366,
     "complete_fact_checked": 0,
     "human_approved": 0,
@@ -405,7 +405,10 @@
     "pass2_alternate_screened_days": 15,
     "pass2_alternate_screened_leads": 30,
     "pass2_alternates_independently_corroborated": 0,
-    "adjacent_repeated_story_warnings": 0
+    "adjacent_repeated_story_warnings": 0,
+    "alternate_core_evidence_records": 25,
+    "remaining_uncorroborated_alternate_cores": 707,
+    "dates_with_any_alternate_evidence": 14
   },
   "limitations": [
     "All 366 dates have provisional primary/alternate IDs, not publication-ready vetted stories.",
