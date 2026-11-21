@@ -3,7 +3,7 @@
     "phase": "A",
     "as_of": "2026-11-21",
     "status": "RESEARCH TRIAGE ONLY — do not promote to corroborated, fact-checked, approved or graphics-cleared",
-    "base_calendar_blob_sha": "879509b7d68f39be396eb13bd4243a59f830f72e",
+    "base_calendar_blob_sha": "ef2306481d356cc8b67702d5bf272a05378229f3",
     "source_catalog_sha": "4dfc2387034a9c8c19f0a23cb06af794bb743056",
     "total_calendar_days": 366,
     "expected_alt_leads": 732,
