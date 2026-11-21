@@ -2,6 +2,8 @@
 
 A meteorologist-led editorial workflow for original, accurately sourced, single-post weather-history content on X.
 
+**Visual brand v3 (November 21, 2026):** The production graphic generator now defaults to nine weather-specific visual families (winter, tornado, severe storm, tropical, flood, temperature, drought, wildfire weather, unusual) plus neutral, all sharing one OTDwx masthead. This is a vector-data design system, not AI-generated weather imagery. See [v3 brand guide](docs/VISUAL_BRAND_V3.md), [themed renderer](src/otdwx/themed_graphics.py), and [theme tests](tests/test_theme_v3.py). Archival radar loops use matching category colors when supplied with genuine frames; automatic radar acquisition/decoding is not implemented. No publishing rights or approval is implied.
+
 **Status:** Phase A provisional 366-day primary research calendar source-paired. Alternate event sourcing, full factual verification and human approval remain pending. Phase 2 historical discovery remains enabled; evidence verification and human editorial approval are outstanding. X publishing is NOT enabled.
 
 ## Phase A provisional editorial library (updated Nov 21, 2026)
