@@ -10,7 +10,7 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 
 - [Phase A research status, limitations, and handoff](docs/PHASE_A_PROGRESS.md)
 - [366-day research calendar](data/phase_a_calendar.json) and [quality/diversity audit](data/phase_a_audit.json)
-- [214 registered sourced research anchors](data/phase_a_sourced_anchors.json)
+- [240 registered sourced research anchors](data/phase_a_sourced_anchors.json)
 - [Pass 2: 64 source-checked research upgrades with caveats](data/phase_a_pass2_research.json)
 - [Pass 8: five source-reviewed January primaries and two historic alternates](data/phase_a_pass8_research.json)
 - [Pass 9: 14 new core reviews, five final replacements and repetition repairs](data/phase_a_pass9_research.json)
