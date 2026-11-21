@@ -17,12 +17,13 @@ from .editorial import weighted_length
 from .media import validate_media, export_media
 from .branded_graphics import render_visual, validate_visual
 from .themed_graphics import render_themed, validate_themed
+from .evidence_visuals import TYPES as EVIDENCE_TYPES, validate_evidence, render_evidence
 
 MAX_CHARS = 280
 VISUAL_TYPES = {
     "bar_comparison", "big_number", "contrast",
     "morning_timeline", "warning_timeline", "conceptual_schematic",
-    "track_map", "point_map",
+    "track_map", "point_map", "archive_panel", "geo_track",
 }
 BG = "#0c1825"
 FG = "#f3f4f1"
@@ -98,6 +99,8 @@ def validate_package(item: dict) -> list[str]:
         issues.append("unknown graphic layout")
     if not isinstance(item["graphic_spec"],dict):
         issues.append("graphic_spec must be a dict")
+    elif item["type"] in EVIDENCE_TYPES:
+        issues.extend(validate_evidence(item))
     elif item["type"] in {"track_map", "point_map"} or item["graphic_spec"].get("style") != "legacy":
         if item["graphic_spec"].get("style") == "v2":
             issues.extend(validate_visual(item))
@@ -111,11 +114,13 @@ def validate_package(item: dict) -> list[str]:
     return issues
 
 
-def render_svg(item: dict) -> str:
+def render_svg(item: dict, *, asset_root: Path | None = None) -> str:
     """Render source-linked facts with vector shapes, never fabricated radar or maps."""
     errors = validate_package(item)
     if errors:
         raise ValueError("; ".join(errors))
+    if item["type"] in EVIDENCE_TYPES:
+        return render_evidence(item, asset_root)
     if item["type"] in {"track_map", "point_map"} or item["graphic_spec"].get("style") != "legacy":
         if item["graphic_spec"].get("style") == "v2":
             return render_visual(item)
@@ -224,7 +229,7 @@ def generate(packages: list[dict],output: Path,make_png: bool = False,
     rows=[]
     for item in packages:
         slug=item["post_date"]+"_"+item["event_id"]
-        svg=render_svg(item)
+        svg=render_svg(item,asset_root=asset_root)
         (output/(slug+".svg")).write_text(svg,encoding="utf-8")
         (output/(slug+".txt")).write_text(item["caption"]+"\n",encoding="utf-8")
         (output/(slug+".alt.txt")).write_text(item["alt"]+"\n",encoding="utf-8")
