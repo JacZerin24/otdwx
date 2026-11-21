@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "project": "OTDwx",
+  "production_window": [
+    "2027-11-20",
+    "2027-11-14"
+  ],
+  "created_on": "2026-11-21",
+  "source_policy": "Never publish invented radar/track imagery; source-specific license & chronology checks required. Every graphic must prioritize direct evidence. If original media cannot be obtained, keep the date in production_hold. No autoapproval.",
+  "statuses": {
+    "historic_claims": "drafted_not_final_human_review",
+    "rejected_earlier_graphics": "v3_stat_cards_rejected_for_lack_of_evidence",
+    "editorial_approval": "pending",
+    "x_scheduling": "not_scheduled"
+  },
+  "entries": [
+    {
+      "post_date": "2027-11-20",
+      "event_date": "2022-11-20",
+      "event_id": "curated-2022-11-20-northern-indiana-lake-effect",
+      "visual_priority": "observed_snowfall_analysis",
+      "secondary": "source-checked comparison",
+      "source_page": "https://www.weather.gov/iwx/November2022-LES",
+      "archive_requirement": "NWS Northern Indiana Nov 15–20 2022 original lake-effect snowfall footprint. The 30.2 in statement is Nov 1–20 station accumulation, not snowfall on Nov 20 alone.",
+      "mode": "archive_panel",
+      "asset_kind": "snowfall_analysis",
+      "rights_status": "unreviewed",
+      "asset_status": "not_staged",
+      "publication": "hold"
+    },
+    {
+      "post_date": "2027-11-19",
+      "event_date": "1977-11-19",
+      "event_id": "phasea-pass2-1977-11-19",
+      "visual_priority": "original_NOAA5_satellite_scan",
+      "secondary": "IMD historical Madras radar analysis (do not call scan radar)",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nov1977indiatc.png",
+      "secondary_url": "https://mausamjournal.imd.gov.in/index.php/MAUSAM/article/view/3857",
+      "archive_requirement": "Genuine NOAA-5 cyclone photograph; verify observation time and keep low-res original proportions. Distinguish radar observations in IMD study from the satellite image.",
+      "mode": "archive_panel",
+      "asset_kind": "satellite",
+      "rights_status": "source_public_domain_human_check_pending",
+      "asset_status": "not_staged",
+      "publication": "hold"
+    },
+    {
+      "post_date": "2027-11-18",
+      "event_date": "2011-11-18",
+      "event_id": "ncei-352651",
+      "visual_priority": "US_Forest_Service_historical_photo",
+      "secondary": "actual prefrontal wind observation",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Caughlin_Fire_11-18-11_Reno,_Nevada_Humboldt-Toiyabe_N._F._(11739796945).jpg",
+      "archive_requirement": "Steve Grimaldi USFS image of actual Caughlin Fire. Attribution and photograph inspection required; regional Sierra Front 80 mph winds not an ignition-site station report.",
+      "mode": "archive_panel",
+      "asset_kind": "documentary_photo",
+      "rights_status": "source_public_domain_human_check_pending",
+      "asset_status": "not_staged",
+      "publication": "hold"
+    },
+    {
+      "post_date": "2027-11-17",
+      "event_date": "2014-11-17",
+      "event_id": "ncei-550166",
+      "visual_priority": "NWS_Buffalo_observed_snowfall_analysis",
+      "secondary": "KBUF archived reflectivity loop ONLY IF REAL frames decoded",
+      "source_page": "https://www.weather.gov/buf/lake1415_stormB.html",
+      "archive_requirement": "Observed Nov 17–19 FIRST storm snow map; not the following Nov 19–21 second burst. If radar shown, archive actual KBUF November 17–18 frames with scan times and dBZ.",
+      "mode": "archive_panel",
+      "asset_kind": "snowfall_analysis",
+      "rights_status": "unreviewed",
+      "asset_status": "not_staged",
+      "publication": "hold"
+    },
+    {
+      "post_date": "2027-11-16",
+      "event_date": "2006-11-16",
+      "event_id": "ncei-3485",
+      "visual_priority": "NWS_Wilmington_surveyed_tornado_path",
+      "secondary": "NWS KLTX archived reflectivity and velocity loops",
+      "source_page": "https://www.weather.gov/ilm/2006-Nov-16tornado",
+      "survey_file_page": "https://commons.wikimedia.org/wiki/File:Riegelwood_North_Carolina_tornado_track_Nov_16_2006.png",
+      "archive_requirement": "Use exact NWS survey map with 7 mi path and ~1 mi F3 segment. NWS webpage has a genuine 2006 reflectivity loop, surveyed path map, and velocity loop. Original F3, not EF3. SPC endpoint-only line is not the full surveyed damage track.",
+      "mode": "archive_panel",
+      "asset_kind": "survey_map",
+      "rights_status": "source_public_domain_human_check_pending",
+      "asset_status": "not_staged",
+      "publication": "hold"
+    },
+    {
+      "post_date": "2027-11-15",
+      "event_date": "2017-11-15",
+      "event_id": "phasea-pass30-2017-11-15-mandra-greece-flash-flood",
+      "visual_priority": "Copernicus_rapid_mapping_flood_footprint",
+      "secondary": "Original radar hydrology output only with figure-specific publication permission",
+      "source_page": "https://mapping.emergency.copernicus.eu/activations/EMSR257/",
+      "secondary_url": "https://www.mdpi.com/2072-4292/11/1/45",
+      "archive_requirement": "Actual EMSR257 Copernicus postevent delineation, dated by product issue date and clearly marked postevent. Do not represent imagery released Nov 22 as Nov 15 radar observation. Evaluate product copyright and base-layer rights individually.",
+      "mode": "archive_panel",
+      "asset_kind": "flood_extent",
+      "rights_status": "unreviewed",
+      "asset_status": "not_staged",
+      "publication": "hold"
+    },
+    {
+      "post_date": "2027-11-14",
+      "event_date": "1969-11-14",
+      "event_id": "phasea-pass15-1969-11-14-apollo12-triggered-lightning",
+      "visual_priority": "NASA_actual_1969_lightning_photo",
+      "secondary": "36.5 and 52 sec instrument timestamp detail",
+      "source_page": "https://science.nasa.gov/resource/lightning-strikes-twice/",
+      "archive_requirement": "NASA photograph from November 14, 1969 of lightning near the Apollo 12 launch tower; credit NASA per asset page. Original photo must remain documentary, not AI recreation. Dates 36.5 and 52 sec from NASA.",
+      "mode": "archive_panel",
+      "asset_kind": "documentary_photo",
+      "rights_status": "source_public_domain_human_check_pending",
+      "asset_status": "not_staged",
+      "publication": "hold"
+    }
+  ]
+}
