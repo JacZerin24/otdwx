@@ -57,8 +57,13 @@ def _check_asset(asset: object, *, position: str, composite: bool) -> list[str]:
         problems.append(f"{position}: unsupported kind")
     if not _safe_file(asset.get("file")):
         problems.append(f"{position}: local relative image/media file required")
-    if kind == "photo" and Path(str(asset.get("file", ""))).suffix.lower() not in IMAGE_EXTENSIONS:
+    suffix = Path(str(asset.get("file", ""))).suffix.lower()
+    if kind == "photo" and suffix not in IMAGE_EXTENSIONS:
         problems.append(f"{position}: photo must be JPEG or PNG")
+    if kind in ("radar_loop", "satellite_loop") and suffix not in (".gif", ".mp4"):
+        problems.append(f"{position}: animated loop must be GIF or MP4")
+    if kind in ("map", "radar_still", "satellite_still", "newspaper") and suffix not in IMAGE_EXTENSIONS | {".webp"}:
+        problems.append(f"{position}: supporting still asset must be image")
     for field in ("source_url", "rights_basis_url"):
         if not _https(asset.get(field)):
             problems.append(f"{position}: {field} must be an HTTPS source")
@@ -149,6 +154,9 @@ def validate_media(item: dict) -> list[str]:
         if any(isinstance(a, dict) and a.get("kind") in ("radar_loop", "satellite_loop")
                for a in supporting):
             errors.append("animated loops must be a separate X post or reply")
+        if any(isinstance(a, dict) and Path(str(a.get("file", ""))).suffix.lower()
+               not in IMAGE_EXTENSIONS | {".webp"} for a in supporting):
+            errors.append("carousel supports still images only")
     return errors
 
 
@@ -213,8 +221,8 @@ def render_photo_card(item: dict, photo_path: Path) -> str:
     title = str(item["graphic_spec"].get("photo_title",
                 item["graphic_spec"].get("title", "From the archive")))
     dek = str(item["graphic_spec"].get("photo_deck", photo["caption"]))
-    title_lines = _wrap_words(title, 25, 3)
-    dek_lines = _wrap_words(dek, 45, 4)
+    title_lines = _wrap_words(title, 21, 3)
+    dek_lines = _wrap_words(dek, 33, 4)
     header = date.fromisoformat(item["event_date"]).strftime("%B %d, %Y").replace(" 0", " ")
     p = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img">',
          f'<title>{escape(title)}</title><desc>{escape(photo["alt_text"])}</desc>',
@@ -228,7 +236,7 @@ def render_photo_card(item: dict, photo_path: Path) -> str:
          f'<line x1="1015" y1="182" x2="1015" y2="764" stroke="{theme.accent}" stroke-width="6"/>',
          _svg_text(1050, 210, "ARCHIVAL PHOTOGRAPH", 19, theme.accent, bold=True)]
     for i, row in enumerate(title_lines):
-        p.append(_svg_text(1050, 298 + 68 * i, row, 47, theme.ink, bold=True, serif=True))
+        p.append(_svg_text(1050, 298 + 68 * i, row, 40, theme.ink, bold=True, serif=True))
     for i, row in enumerate(dek_lines):
         p.append(_svg_text(1050, 535 + 38 * i, row, 24, theme.ink))
     rel = photo.get("event_relation")
