@@ -3,34 +3,35 @@
     "phase": "A",
     "as_of": "2026-11-21",
     "status": "RESEARCH TRIAGE ONLY — do not promote to corroborated, fact-checked, approved or graphics-cleared",
-    "base_calendar_blob_sha": "7b30bd4a2cd1d33068d2253d0b25ee1a3fc20c4b",
+    "base_calendar_blob_sha": "0b5ba77206363d85401897ac29cd1f67e2424df2",
     "source_catalog_sha": "4dfc2387034a9c8c19f0a23cb06af794bb743056",
     "total_calendar_days": 366,
     "expected_alt_leads": 732,
-    "source_supported_alternates": 25,
-    "unverified_alternates": 707,
+    "source_supported_alternates": 30,
+    "unverified_alternates": 702,
     "days_with_two_corroborated_alternates": 11,
-    "days_with_one_corroborated_alternate": 3,
-    "days_with_no_corroborated_alternates": 352,
+    "days_with_one_corroborated_alternate": 8,
+    "days_with_no_corroborated_alternates": 347,
     "missing_catalog_records": 0,
     "date_mismatch_records": 0,
     "priority_counts": {
-      "P0 — Replace or investigate": 35,
+      "P0 — Replace or investigate": 30,
+      "Reviewed — Core source paired": 5,
       "P1 — High review": 222,
       "P2 — Standard review": 450
     },
     "flag_counts": {
-      "NCEI_SEGMENT_ONLY": 706,
-      "SAME_HAZARD_AS_PRIMARY": 102,
-      "BOTH_ALTERNATES_SAME_HAZARD": 182,
+      "NCEI_SEGMENT_ONLY": 702,
+      "SAME_HAZARD_AS_PRIMARY": 98,
+      "BOTH_ALTERNATES_SAME_HAZARD": 178,
       "SAME_YEAR_AND_HAZARD_AS_PRIMARY": 9,
-      "GENERIC_EVENT_LABEL": 707,
-      "SAME_REGION_AS_PRIMARY": 40,
-      "OFFSHORE_TRACK_MARKER": 1,
-      "THIN_EVENT_NARRATIVE": 2,
-      "GEOGRAPHY_NEEDS_VERIFICATION": 1
+      "GENERIC_EVENT_LABEL": 702,
+      "SAME_REGION_AS_PRIMARY": 39
     },
-    "ranking_notes": "Risk weights are mechanical triage cues, NOT strength of evidence or fact check. Same hazard is a diversity flag, not proof of the same storm. P0 is a prompt to replace/investigate; P1/2 still unverified. Two selections per calendar month form an intentionally geographically and seasonally distributed next-batch starting queue."
+    "ranking_notes": "Risk weights are mechanical triage cues, NOT strength of evidence or fact check. Same hazard is a diversity flag, not proof of the same storm. P0 is a prompt to replace/investigate; P1/2 still unverified. Two selections per calendar month form an intentionally geographically and seasonally distributed next-batch starting queue.",
+    "duplicate_episode_candidates_flagged": 6,
+    "reviewed_rows_retained_in_backlog": 5,
+    "notes": "Pass28: Five formerly P0 alternate leads now source-paired for core date/event/location only; six other high-risk leads quarantined as same-event/episode alternatives. 707 historic backlog rows retained; 702 still unverified. Priority counts include five reviewed rows."
   },
   "next_24_balanced_review_targets": [
     {
@@ -76,8 +77,8 @@
     },
     {
       "anniversary": "02-23",
-      "alternate_rank": 1,
-      "event_id": "ncei-799239",
+      "alternate_rank": 2,
+      "event_id": "ncei-613449",
       "priority": "P0 — Replace or investigate",
       "priority_score": 12,
       "risk_flags": [
@@ -100,7 +101,7 @@
         "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
         "GENERIC_EVENT_LABEL"
       ],
-      "reason": "Check whether this duplicates the primary storm; replace if same episode"
+      "reason": "Reject as independent alternate; replace with separate dated meteorological episode. Gray County Texas wildfire is part of the same regional March 6, 2017 Plains wildfire outbreak as the primary; distinct ignition has not been verified, so this is not a defensible independent backup"
     },
     {
       "anniversary": "03-05",
@@ -142,22 +143,6 @@
       "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
     {
-      "anniversary": "05-11",
-      "alternate_rank": 1,
-      "event_id": "ncei-10135837",
-      "priority": "P0 — Replace or investigate",
-      "priority_score": 16,
-      "risk_flags": [
-        "NCEI_SEGMENT_ONLY",
-        "SAME_HAZARD_AS_PRIMARY",
-        "BOTH_ALTERNATES_SAME_HAZARD",
-        "GENERIC_EVENT_LABEL",
-        "THIN_EVENT_NARRATIVE",
-        "SAME_REGION_AS_PRIMARY"
-      ],
-      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
-    },
-    {
       "anniversary": "05-03",
       "alternate_rank": 2,
       "event_id": "ncei-5690169",
@@ -170,6 +155,20 @@
         "GENERIC_EVENT_LABEL"
       ],
       "reason": "Check whether this duplicates the primary storm; replace if same episode"
+    },
+    {
+      "anniversary": "05-11",
+      "alternate_rank": 2,
+      "event_id": "ncei-109020",
+      "priority": "P0 — Replace or investigate",
+      "priority_score": 12,
+      "risk_flags": [
+        "NCEI_SEGMENT_ONLY",
+        "SAME_HAZARD_AS_PRIMARY",
+        "BOTH_ALTERNATES_SAME_HAZARD",
+        "GENERIC_EVENT_LABEL"
+      ],
+      "reason": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope"
     },
     {
       "anniversary": "06-07",
@@ -283,7 +282,7 @@
         "SAME_YEAR_AND_HAZARD_AS_PRIMARY",
         "GENERIC_EVENT_LABEL"
       ],
-      "reason": "Check whether this duplicates the primary storm; replace if same episode"
+      "reason": "Reject as independent alternate; replace with separate dated meteorological episode. Houston airport flash flooding is within the same September 19, 2019 Tropical Storm Imelda episode as the primary"
     },
     {
       "anniversary": "10-04",
@@ -298,7 +297,7 @@
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "reason": "Check whether this duplicates the primary storm; replace if same episode"
+      "reason": "Reject as independent alternate; replace with separate dated meteorological episode. Woodland Terrace flash flooding is within the same October 4, 2015 South Carolina flood episode as the primary"
     },
     {
       "anniversary": "10-17",
@@ -313,7 +312,7 @@
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "reason": "Check whether this duplicates the primary storm; replace if same episode"
+      "reason": "Reject as independent alternate; replace with separate dated meteorological episode. A countywide Texas flash-flood entry is a segment of the same October 17, 1998 Central Texas flood primary"
     },
     {
       "anniversary": "11-06",
@@ -329,7 +328,7 @@
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "reason": "Check whether this duplicates the primary storm; replace if same episode"
+      "reason": "Reject as independent alternate; replace with separate dated meteorological episode. Newburgh, Indiana is a downstream segment of the same November 6, 2005 Evansville-area F3 tornado featured as primary"
     },
     {
       "anniversary": "11-15",
@@ -359,7 +358,7 @@
         "GENERIC_EVENT_LABEL",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "reason": "Check whether this duplicates the primary storm; replace if same episode"
+      "reason": "Reject as independent alternate; replace with separate dated meteorological episode. Schenectady ice is part of the same December 11–12, 2008 Northeastern ice storm as the primary"
     },
     {
       "anniversary": "12-22",
@@ -514,8 +513,8 @@
     },
     {
       "anniversary": "01-28",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "01-29",
@@ -644,8 +643,8 @@
     },
     {
       "anniversary": "02-23",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "02-24",
@@ -1034,8 +1033,8 @@
     },
     {
       "anniversary": "05-11",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "05-12",
@@ -1739,8 +1738,8 @@
     },
     {
       "anniversary": "09-29",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "09-30",
@@ -1974,8 +1973,8 @@
     },
     {
       "anniversary": "11-15",
-      "source_supported_alternates": 0,
-      "remaining_unverified_alternates": 2
+      "source_supported_alternates": 1,
+      "remaining_unverified_alternates": 1
     },
     {
       "anniversary": "11-16",
@@ -2233,11 +2232,13 @@
       ],
       "priority_score": 19,
       "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Check whether this duplicates the primary storm; replace if same episode",
-      "corroboration_status": "unverified_research_lead",
+      "next_research_action": "Reject as independent alternate; replace with separate dated meteorological episode. Newburgh, Indiana is a downstream segment of the same November 6, 2005 Evansville-area F3 tornado featured as primary",
+      "corroboration_status": "duplicate_replacement_required",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "duplicate_scope": "Newburgh, Indiana is a downstream segment of the same November 6, 2005 Evansville-area F3 tornado featured as primary",
+      "evidence_url": "https://www.weather.gov/pah/2005evansvilletornado"
     },
     {
       "anniversary": "09-13",
@@ -2291,55 +2292,73 @@
       ],
       "priority_score": 18,
       "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Check whether this duplicates the primary storm; replace if same episode",
-      "corroboration_status": "unverified_research_lead",
+      "next_research_action": "Reject as independent alternate; replace with separate dated meteorological episode. Houston airport flash flooding is within the same September 19, 2019 Tropical Storm Imelda episode as the primary",
+      "corroboration_status": "duplicate_replacement_required",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "duplicate_scope": "Houston airport flash flooding is within the same September 19, 2019 Tropical Storm Imelda episode as the primary",
+      "evidence_url": "https://www.weather.gov/hgx/imelda2019"
     },
     {
       "anniversary": "09-29",
       "alternate_rank": 2,
-      "event_id": "nhc-al081959-19590929-landfall_marker",
+      "event_id": "phasea-pass28-1959-09-29-gracie-landfall",
       "historical_event_date": "1959-09-29",
-      "candidate_title": "Gracie — landfall marker",
+      "candidate_title": "Hurricane Gracie makes landfall on South Carolina's Lowcountry",
       "candidate_hazard": "tropical",
-      "candidate_location": "32.5N 80.4W (geography unverified)",
-      "candidate_country": "Unconfirmed",
+      "candidate_location": "St. Helena Island–Beaufort area, South Carolina",
+      "candidate_country": "USA",
       "primary_title": "The 1927 St. Louis tornado through the city center",
       "primary_hazard": "tornado",
-      "source_publisher": "NOAA National Hurricane Center",
-      "source_family": "nhc-hurdat-atlantic",
-      "original_source_url": "https://www.nhc.noaa.gov/data/hurdat/hurdat2-1851-2025-092326.txt",
-      "risk_flags": [
+      "source_publisher": "South Carolina State Climatology Office",
+      "source_family": "sc-climatology",
+      "original_source_url": "https://www.dnr.sc.gov/climate/sco/hurricanes/table-view.html",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Continue claim-specific observations, historical impact figures, publication approval and visual asset rights",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 18,
+      "original_risk_flags": [
         "OFFSHORE_TRACK_MARKER",
         "GENERIC_EVENT_LABEL",
         "THIN_EVENT_NARRATIVE",
         "GEOGRAPHY_NEEDS_VERIFICATION"
       ],
-      "priority_score": 18,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Find a human-impact observation on the exact date or replace offshore-only track point",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.weather.gov/chs/tchistory",
+      "evidence_independence": "South Carolina state climatology's historical storm summary and NWS Charleston's regional tropical-cyclone history both date landfall to September 29; both use overlapping retrospective HURDAT, weather-observation, and historical archives.",
+      "replaced_event_id": "nhc-al081959-19590929-landfall_marker"
     },
     {
       "anniversary": "05-11",
       "alternate_rank": 1,
       "event_id": "ncei-10135837",
       "historical_event_date": "1970-05-11",
-      "candidate_title": "Tornado — LUBBOCK, Texas",
+      "candidate_title": "An F5 tornado devastates Lubbock, Texas",
       "candidate_hazard": "tornado",
-      "candidate_location": "LUBBOCK, Texas",
+      "candidate_location": "Lubbock, Texas",
       "candidate_country": "USA",
       "primary_title": "The deadly 1953 Waco downtown tornado",
       "primary_hazard": "tornado",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1970_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "NWS Lubbock",
+      "source_family": "cross_checked_storm_events",
+      "original_source_url": "https://www.weather.gov/lub/events-1970-19700511",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Continue claim-specific observations, historical impact figures, publication approval and visual asset rights",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 16,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
@@ -2347,13 +2366,8 @@
         "THIN_EVENT_NARRATIVE",
         "SAME_REGION_AS_PRIMARY"
       ],
-      "priority_score": 16,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.nist.gov/publications/lubbock-tornado-survey-building-damage-urban-area-nbs-tn-558",
+      "evidence_independence": "NWS/Weather Bureau chronology and a separately conducted National Bureau of Standards structural field survey provide complementary event evidence; both necessarily reference the same physical tornado, and F5 rating derives from damage analysis."
     },
     {
       "anniversary": "10-04",
@@ -2378,11 +2392,13 @@
       ],
       "priority_score": 15,
       "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Check whether this duplicates the primary storm; replace if same episode",
-      "corroboration_status": "unverified_research_lead",
+      "next_research_action": "Reject as independent alternate; replace with separate dated meteorological episode. Woodland Terrace flash flooding is within the same October 4, 2015 South Carolina flood episode as the primary",
+      "corroboration_status": "duplicate_replacement_required",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "duplicate_scope": "Woodland Terrace flash flooding is within the same October 4, 2015 South Carolina flood episode as the primary",
+      "evidence_url": "https://www.weather.gov/cae/HistoricFloodingOct2015.html"
     },
     {
       "anniversary": "10-17",
@@ -2407,11 +2423,13 @@
       ],
       "priority_score": 15,
       "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Check whether this duplicates the primary storm; replace if same episode",
-      "corroboration_status": "unverified_research_lead",
+      "next_research_action": "Reject as independent alternate; replace with separate dated meteorological episode. A countywide Texas flash-flood entry is a segment of the same October 17, 1998 Central Texas flood primary",
+      "corroboration_status": "duplicate_replacement_required",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "duplicate_scope": "A countywide Texas flash-flood entry is a segment of the same October 17, 1998 Central Texas flood primary",
+      "evidence_url": "https://www.weather.gov/ewx/wxevent-1998flood"
     },
     {
       "anniversary": "12-11",
@@ -2436,11 +2454,13 @@
       ],
       "priority_score": 15,
       "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Check whether this duplicates the primary storm; replace if same episode",
-      "corroboration_status": "unverified_research_lead",
+      "next_research_action": "Reject as independent alternate; replace with separate dated meteorological episode. Schenectady ice is part of the same December 11–12, 2008 Northeastern ice storm as the primary",
+      "corroboration_status": "duplicate_replacement_required",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "duplicate_scope": "Schenectady ice is part of the same December 11–12, 2008 Northeastern ice storm as the primary",
+      "evidence_url": "https://www.weather.gov/aly/IceStormDec2008"
     },
     {
       "anniversary": "03-06",
@@ -2464,11 +2484,13 @@
       ],
       "priority_score": 14,
       "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Check whether this duplicates the primary storm; replace if same episode",
-      "corroboration_status": "unverified_research_lead",
+      "next_research_action": "Reject as independent alternate; replace with separate dated meteorological episode. Gray County Texas wildfire is part of the same regional March 6, 2017 Plains wildfire outbreak as the primary; distinct ignition has not been verified, so this is not a defensible independent backup",
+      "corroboration_status": "duplicate_replacement_required",
       "full_human_fact_check_status": "pending",
       "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "image_rights": "not_reviewed",
+      "duplicate_scope": "Gray County Texas wildfire is part of the same regional March 6, 2017 Plains wildfire outbreak as the primary; distinct ignition has not been verified, so this is not a defensible independent backup",
+      "evidence_url": "https://www.weather.gov/ama/2017_Wildfires_Feb_Mar"
     },
     {
       "anniversary": "05-03",
@@ -2617,28 +2639,33 @@
       "alternate_rank": 2,
       "event_id": "ncei-500996",
       "historical_event_date": "2014-01-28",
-      "candidate_title": "Winter Storm — ELMORE, Alabama",
+      "candidate_title": "A rare snow-and-ice event paralyzes central Alabama",
       "candidate_hazard": "winter",
-      "candidate_location": "ELMORE, Alabama",
+      "candidate_location": "Elmore County and the Birmingham–Montgomery corridor, Alabama",
       "candidate_country": "USA",
       "primary_title": "The Buffalo Blizzard of 1977 begins amid deep pre-existing snow",
       "primary_hazard": "winter",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2014_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "NWS Birmingham",
+      "source_family": "cross_checked_storm_events",
+      "original_source_url": "https://www.weather.gov/bmx/winter_01282014",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Continue claim-specific observations, historical impact figures, publication approval and visual asset rights",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 12,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 12,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://ejssm.com/ojs/index.php/site/article/view/74",
+      "evidence_independence": "NWS Birmingham provides contemporaneous local observation and impact records; a later peer-reviewed meteorological case study independently analyzes the episode but uses some of the same surface observations and reports."
     },
     {
       "anniversary": "02-17",
@@ -2701,28 +2728,33 @@
       "alternate_rank": 1,
       "event_id": "ncei-799239",
       "historical_event_date": "2019-02-23",
-      "candidate_title": "Tornado — COLUMBUS, Mississippi",
+      "candidate_title": "An EF3 tornado strikes Columbus, Mississippi",
       "candidate_hazard": "tornado",
-      "candidate_location": "COLUMBUS, Mississippi",
+      "candidate_location": "Columbus and Lowndes County, Mississippi",
       "candidate_country": "USA",
       "primary_title": "The Kissimmee F3 tornado strikes during Florida's deadly overnight outbreak",
       "primary_hazard": "tornado",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2019_c20261119.csv.gz",
-      "risk_flags": [
+      "source_publisher": "NWS Jackson",
+      "source_family": "cross_checked_storm_events",
+      "original_source_url": "https://www.weather.gov/jan/20190223tornadoes",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Continue claim-specific observations, historical impact figures, publication approval and visual asset rights",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 12,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 12,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=799239",
+      "evidence_independence": "NWS Jackson tornado survey and NCEI local event entry derive from the same NOAA damage-assessment and storm-report system, so they corroborate the identity/date but do NOT independently verify EF-scale wind speeds or injury totals."
     },
     {
       "anniversary": "02-23",
@@ -3065,28 +3097,33 @@
       "alternate_rank": 1,
       "event_id": "ncei-5479575",
       "historical_event_date": "2005-11-15",
-      "candidate_title": "Tornado — EARLINGTON, Kentucky",
+      "candidate_title": "An F4 tornado sweeps past Earlington, Kentucky",
       "candidate_hazard": "tornado",
-      "candidate_location": "EARLINGTON, Kentucky",
+      "candidate_location": "Earlington–Hanson, Hopkins County, Kentucky",
       "candidate_country": "USA",
       "primary_title": "An F4 tornado tears through Huntsville during evening rush hour",
       "primary_hazard": "tornado",
-      "source_publisher": "NOAA NCEI Storm Events",
-      "source_family": "ncei-storm-events",
-      "original_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz",
-      "risk_flags": [
+      "source_publisher": "NWS Paducah",
+      "source_family": "cross_checked_storm_events",
+      "original_source_url": "https://www.weather.gov/pah/nov152005tornadooutbreak",
+      "risk_flags": [],
+      "priority_score": 0,
+      "priority_group": "Reviewed — Core source paired",
+      "next_research_action": "Continue claim-specific observations, historical impact figures, publication approval and visual asset rights",
+      "corroboration_status": "core_date_location_corroborated",
+      "full_human_fact_check_status": "pending",
+      "publication_approval": "not_approved",
+      "image_rights": "not_reviewed",
+      "original_priority_group": "P0 — Replace or investigate",
+      "original_priority_score": 12,
+      "original_risk_flags": [
         "NCEI_SEGMENT_ONLY",
         "SAME_HAZARD_AS_PRIMARY",
         "BOTH_ALTERNATES_SAME_HAZARD",
         "GENERIC_EVENT_LABEL"
       ],
-      "priority_score": 12,
-      "priority_group": "P0 — Replace or investigate",
-      "next_research_action": "Locate dated NWS, agency, or original observational report independent of NCEI row and verify event scope",
-      "corroboration_status": "unverified_research_lead",
-      "full_human_fact_check_status": "pending",
-      "publication_approval": "not_approved",
-      "image_rights": "not_reviewed"
+      "corroborating_source_url": "https://www.weather.gov/lmk/violent_tornadoes_kentucky",
+      "evidence_independence": "Two NWS office archives independently present the tornado's date and geographic track but refer to the same underlying NWS/Storm Data damage survey. They are not independent F-scale intensity measurements."
     },
     {
       "anniversary": "11-20",

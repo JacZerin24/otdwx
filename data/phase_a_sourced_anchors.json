@@ -6365,5 +6365,29 @@
     "research_note": "ALTERNATE ONLY. NASA imagery and JTWC track synthesis corroborate landfall timing; ADRC reports regional impact, while a separate peer-reviewed flood/debris-flow study supports the event geography. NASA's 1:12 a.m. Dec 4 Philippine-time satellite scan is 17:12 UTC Dec 3. Do not use UTC-only dates to dispute local landfall date; extreme rainfall maps are multiday and impact totals evolved.",
     "base_score": 90,
     "evidence_status": "two_source_alternate_core_only"
+  },
+  {
+    "event_id": "phasea-pass28-1959-09-29-gracie-landfall",
+    "event_date": "1959-09-29",
+    "title": "Hurricane Gracie makes landfall on South Carolina's Lowcountry",
+    "weather_type": "tropical",
+    "location": "St. Helena Island–Beaufort area, South Carolina",
+    "region": "Southeast",
+    "country": "USA",
+    "source_id": "sc-climatology",
+    "source_publisher": "South Carolina State Climatology Office",
+    "source_url": "https://www.dnr.sc.gov/climate/sco/hurricanes/table-view.html",
+    "secondary_source_url": "https://www.weather.gov/chs/tchistory",
+    "primary_angle": "Track the landfall near St. Helena Island and date operational versus retrospective storm intensity",
+    "alternate_angle": "Cross-check tide and observed wind timing at Beaufort and Charleston",
+    "verified_core_fact": "Hurricane Gracie made landfall near the South Carolina Lowcountry's St. Helena Island/Beaufort area on September 29, 1959; later official summaries classify it as a major hurricane.",
+    "graphic_type": "Storm track and observed landfall points",
+    "graphic_data_source": "https://www.dnr.sc.gov/climate/sco/hurricanes/table-view.html",
+    "source_verification_status": "core_date_location_corroborated",
+    "editorial_review_status": "researching",
+    "image_rights_status": "not_reviewed",
+    "research_note": "An older South Carolina historical summary lists Category 3, whereas modern state/NWS pages list Category 4. Distinguish retrospective intensity revisions from contemporary 1959 analysis and do not assert precise landfall point or instantaneous wind without a reviewed best track. Original HURDAT point had unverified geographic precision. Two institutional writeups share portions of historical best-track evidence.",
+    "base_score": 82,
+    "evidence_status": "two_authority_core_sources"
   }
 ]

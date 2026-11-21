@@ -4,16 +4,18 @@
     "as_of": "2026-11-21",
     "source_catalog_sha": "4dfc2387034a9c8c19f0a23cb06af794bb743056",
     "source_candidates": 4323,
-    "additional_authoritative_anchors": 256,
+    "additional_authoritative_anchors": 257,
     "manual_curated_seeds": 7,
     "selection_status": "PROVISIONAL RESEARCH — NOT EDITORIALLY APPROVED",
     "notes": "These 366 provisional research selections are not 366 verified stories. Source-led discovery and editor approval are separate. No published copy or unpublished graphics included.",
     "manual_editorial_override_count": 206,
-    "summary": "Pass27: all 366 primary source-paired cores, 0 primary gaps, 25 evidence-backed alternate cores on 14 dates (11 dates have both), 707 alternate gaps; none human approved.",
+    "summary": "Pass28: all 366 primary source-paired cores; 30 evidence-backed alternate cores on 19 dates (11 with both); 702 alternate cores remain unverified. Six same-episode alternate leads quarantined. No human approvals, fully checked posts or media rights.",
     "pass2_manual_upgrades": 64,
-    "alternate_screened_date_count": 21,
+    "alternate_screened_date_count": 26,
     "alternate_core_corroborated_days": 11,
-    "alternate_core_corroborated_leads": 25
+    "alternate_core_corroborated_leads": 30,
+    "pass28_reviewed_alternates": 5,
+    "pass28_duplicate_leads_flagged": 6
   },
   "days": [
     {
@@ -1523,10 +1525,10 @@
       "first_alternate_event_id": "ncei-1072116",
       "first_alternate_title": "Winter Storm — NORTH SNOWY RANGE FOOTHILLS, Wyoming",
       "second_alternate_event_id": "ncei-500996",
-      "second_alternate_title": "Winter Storm — ELMORE, Alabama",
-      "alternates_verification_status": "Original alternates preserved; date matched in prior pipeline; NOT independently corroborated or re-screened this pass",
+      "second_alternate_title": "A rare snow-and-ice event paralyzes central Alabama",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "NWS says snowfall commenced near 5 a.m. Jan 28 on top of pre-existing 37-inch snowpack; avoid implying zero new snowfall or treating windblown snow as all fresh. Cornell NRCC may rely on NOAA observations, so not independent measurements. The 1887 giant-snowflake lead for this date remains held, NOT selected due to disputed reporting date. Original primary retained for later assessment: ncei-5434636. Retained pre-upgrade alternates: ncei-1072116, ncei-500996.",
+      "research_notes": "NWS says snowfall commenced near 5 a.m. Jan 28 on top of pre-existing 37-inch snowpack; avoid implying zero new snowfall or treating windblown snow as all fresh. Cornell NRCC may rely on NOAA observations, so not independent measurements. The 1887 giant-snowflake lead for this date remains held, NOT selected due to disputed reporting date. Original primary retained for later assessment: ncei-5434636. Retained pre-upgrade alternates: ncei-1072116, ncei-500996.\nPass28 2026-11-21: Alternate 2 A rare snow-and-ice event paralyzes central Alabama (ncei-500996) now source-paired for occurrence/date/location ONLY. Snow and freezing rain affected central Alabama on January 28, 2014, with extensive road icing and hazardous travel; the selected NCEI Elmore County segment is one piece of that regional event. Source dependence: NWS Birmingham provides contemporaneous local observation and impact records; a later peer-reviewed meteorological case study independently analyzes the episode but uses some of the same surface observations and reports. Cautions: Do not conflate January 28 conditions with January 29–30 impacts, assume all roads had equal icing, or treat one Elmore County row as statewide statistics. First-hand photos embedded in agency pages may be privately owned. No human fact check, approval or media rights clearance.",
       "event_source_excerpt": "The Blizzard of 1977 began in western New York on 28 January 1977 and continued into early February, with deep pre-existing snow helping produce severe blowing snow.",
       "input_research_score": 96,
       "editorial_selection_score": null,
@@ -1535,7 +1537,19 @@
       "research_priority": "Claim-level fact check; verify underlying dates/times, original observation data, corroboration independence and asset-level reuse rights",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_institution_related_climate_network"
+      "source_independence_assessment": "cross_institution_related_climate_network",
+      "alternate_corroboration": [
+        {
+          "event_id": "ncei-500996",
+          "event_date": "2014-01-28",
+          "source_url": "https://www.weather.gov/bmx/winter_01282014",
+          "secondary_source_url": "https://ejssm.com/ojs/index.php/site/article/view/74",
+          "verified_core_fact": "Snow and freezing rain affected central Alabama on January 28, 2014, with extensive road icing and hazardous travel; the selected NCEI Elmore County segment is one piece of that regional event.",
+          "source_independence_assessment": "NWS Birmingham provides contemporaneous local observation and impact records; a later peer-reviewed meteorological case study independently analyzes the episode but uses some of the same surface observations and reports.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "01-29",
@@ -2881,21 +2895,33 @@
       "historical_imagery_available": "not_assessed",
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-799239",
-      "first_alternate_title": "Tornado — COLUMBUS, Mississippi",
+      "first_alternate_title": "An EF3 tornado strikes Columbus, Mississippi",
       "second_alternate_event_id": "ncei-613449",
       "second_alternate_title": "Tornado — UNION, Louisiana",
-      "alternates_verification_status": "research_leads_unverified",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 7 (2026-11-20): NWS Melbourne documents a major Central Florida tornado outbreak late February 22 into early February 23, 1998; NCEI's Intercession City F3 belongs to the Kissimmee-track tornado on February 23. CAUTIONS: Use the pre-2007 F3 rating rather than EF3. Survey fatalities in Kissimmee (individual tornado) must not be conflated with all outbreak fatalities. Exact local midnight timing varies by storm. Second publisher: NWS Melbourne (https://www.weather.gov/mlb/022398). Source independence: NWS Melbourne tornado assessment is the original survey that informs the NCEI Intercession City report. Supporting source: https://www.weather.gov/mlb/enso_florida_severe. Original NCEI report place/headline: INTERCESSION CITY, Florida / Tornado — INTERCESSION CITY, Florida; catalog ID preserved.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 7 (2026-11-20): NWS Melbourne documents a major Central Florida tornado outbreak late February 22 into early February 23, 1998; NCEI's Intercession City F3 belongs to the Kissimmee-track tornado on February 23. CAUTIONS: Use the pre-2007 F3 rating rather than EF3. Survey fatalities in Kissimmee (individual tornado) must not be conflated with all outbreak fatalities. Exact local midnight timing varies by storm. Second publisher: NWS Melbourne (https://www.weather.gov/mlb/022398). Source independence: NWS Melbourne tornado assessment is the original survey that informs the NCEI Intercession City report. Supporting source: https://www.weather.gov/mlb/enso_florida_severe. Original NCEI report place/headline: INTERCESSION CITY, Florida / Tornado — INTERCESSION CITY, Florida; catalog ID preserved.\nPass28 2026-11-21: Alternate 1 An EF3 tornado strikes Columbus, Mississippi (ncei-799239) now source-paired for occurrence/date/location ONLY. A destructive EF3 tornado moved through Columbus, Mississippi, on February 23, 2019, as part of an evening severe-weather episode. Source dependence: NWS Jackson tornado survey and NCEI local event entry derive from the same NOAA damage-assessment and storm-report system, so they corroborate the identity/date but do NOT independently verify EF-scale wind speeds or injury totals. Cautions: Source injury totals differ by account/reporting scope (NCEI individual segment versus NWS event summary); do not publish injuries or fatalities before direct/indirect and geographic reconciliation. EF3 is a surveyed damage rating, not a measured wind gust. No human fact check, approval or media rights clearance.",
       "event_source_excerpt": "The deadliest tornado of the outbreak was a category F3 that touched down initially one mile south of Intercession City. The tornado moved northeast at 45 mph and ripped through the town of Kissimmee killing 25 people. The hardest hit areas were the Morningside Acres mobile home community and the Po",
       "input_research_score": 75.95,
       "editorial_selection_score": 72.6,
       "historical_era": "1980–1999",
       "geography_key": "Florida",
       "research_priority": "original event observation and date review; graphic rights and distinct alternate quality",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "ncei-799239",
+          "event_date": "2019-02-23",
+          "source_url": "https://www.weather.gov/jan/20190223tornadoes",
+          "secondary_source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=799239",
+          "verified_core_fact": "A destructive EF3 tornado moved through Columbus, Mississippi, on February 23, 2019, as part of an evening severe-weather episode.",
+          "source_independence_assessment": "NWS Jackson tornado survey and NCEI local event entry derive from the same NOAA damage-assessment and storm-report system, so they corroborate the identity/date but do NOT independently verify EF-scale wind speeds or injury totals.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "02-24",
@@ -3513,7 +3539,7 @@
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass26 final primary-gap closure (2026-11-21): VIIRS on Suomi NPP captured fires raging along the Kansas–Oklahoma border on March 6, 2017; dry fuels, low humidity and strong winds contributed to destructive regional wildfire spread. The March 6 VIIRS acquisition was at 19:24 UTC (early afternoon Central time). Distinguish separately named Starbuck, Perryton and other fires: acreage totals differ by agency, burn complex, date and mapping method. A satellite hot spot is not a precise ignition timestamp. Third-party photography is not automatically public domain. Source interdependence: NASA satellite detections document March 6 burning directly, while NWS Amarillo supplies dated ground fire-weather and response information. Their meteorological analyses share regional NOAA observing infrastructure, but visual and response observations differ. Displaced primary ncei-5610916 retained in source record; existing distinct-date-matched alternates ncei-687309 and ncei-5546526 remain unverified research leads. No media cleared or human approval.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass26 final primary-gap closure (2026-11-21): VIIRS on Suomi NPP captured fires raging along the Kansas–Oklahoma border on March 6, 2017; dry fuels, low humidity and strong winds contributed to destructive regional wildfire spread. The March 6 VIIRS acquisition was at 19:24 UTC (early afternoon Central time). Distinguish separately named Starbuck, Perryton and other fires: acreage totals differ by agency, burn complex, date and mapping method. A satellite hot spot is not a precise ignition timestamp. Third-party photography is not automatically public domain. Source interdependence: NASA satellite detections document March 6 burning directly, while NWS Amarillo supplies dated ground fire-weather and response information. Their meteorological analyses share regional NOAA observing infrastructure, but visual and response observations differ. Displaced primary ncei-5610916 retained in source record; existing distinct-date-matched alternates ncei-687309 and ncei-5546526 remain unverified research leads. No media cleared or human approval.\nPass28 alternate 1 integrity alert: Gray County Texas wildfire is part of the same regional March 6, 2017 Plains wildfire outbreak as the primary; distinct ignition has not been verified, so this is not a defensible independent backup. https://www.weather.gov/ama/2017_Wildfires_Feb_Mar. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.",
       "event_source_excerpt": "As a large and intense low pressure system moved from Kentucky east-northeast just north of New York City and across Eastern Massachusetts, it caused high winds. Winds gusted over 60 MPH at many locations. They knocked down trees and power lines on houses and streets.In Laurelton of Queens, a 75 foo",
       "input_research_score": 44.15,
       "editorial_selection_score": 56.95,
@@ -6878,15 +6904,15 @@
       "historical_imagery_available": "NWS city map and Waco city historic aerial/street map; NWS page's Tribune-Herald photographs are explicitly copyrighted.",
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-10135837",
-      "first_alternate_title": "Tornado — LUBBOCK, Texas",
+      "first_alternate_title": "An F5 tornado devastates Lubbock, Texas",
       "second_alternate_event_id": "ncei-109020",
       "second_alternate_title": "Tornado — DARIEN EDEN FLD, Georgia",
-      "alternates_verification_status": "both alternatives narrative/date-screened only; no independent source corroboration",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [
         "same hazard as previous day",
         "three consecutive days same hazard"
       ],
-      "research_notes": "City history cites NOAA as a source, so it is not fully independent factual corroboration; archival photos on NWS page credit Waco Tribune-Herald, do not reuse absent permission. Prior research primary (preserved): ncei-26380. Previous alternate IDs: ncei-1031734, ncei-112205.",
+      "research_notes": "City history cites NOAA as a source, so it is not fully independent factual corroboration; archival photos on NWS page credit Waco Tribune-Herald, do not reuse absent permission. Prior research primary (preserved): ncei-26380. Previous alternate IDs: ncei-1031734, ncei-112205.\nPass28 2026-11-21: Alternate 1 An F5 tornado devastates Lubbock, Texas (ncei-10135837) now source-paired for occurrence/date/location ONLY. On May 11, 1970, a violent tornado devastated parts of Lubbock, Texas; federal Weather Bureau records and a National Bureau of Standards structural-damage survey document the event. Source dependence: NWS/Weather Bureau chronology and a separately conducted National Bureau of Standards structural field survey provide complementary event evidence; both necessarily reference the same physical tornado, and F5 rating derives from damage analysis. Cautions: Use historical F-scale (F5), not modern EF5. Lubbock experienced more than one tornado that evening; distinguish first and destructive second tornado. Damage estimates, fatalities, and wind speeds require claim-specific archival reconciliation. Historic photographs have item-specific rights. No human fact check, approval or media rights clearance.",
       "event_source_excerpt": "An F5 tornado devastated central Waco on May 11, 1953; NWS reports 114 deaths and 597 injuries attributable to this tornado.",
       "input_research_score": 90,
       "editorial_selection_score": null,
@@ -6895,7 +6921,19 @@
       "research_priority": "Fact-check each numerical claim, verify other primary/archival evidence and individual media licensing",
       "post_readiness": "NOT READY",
       "source_independence_assessment": "cross_institution_but_secondary_cites_primary",
-      "alternates_screening_status": "two_source_record_leads_screened_unverified"
+      "alternates_screening_status": "two_source_record_leads_screened_unverified",
+      "alternate_corroboration": [
+        {
+          "event_id": "ncei-10135837",
+          "event_date": "1970-05-11",
+          "source_url": "https://www.weather.gov/lub/events-1970-19700511",
+          "secondary_source_url": "https://www.nist.gov/publications/lubbock-tornado-survey-building-damage-urban-area-nbs-tn-558",
+          "verified_core_fact": "On May 11, 1970, a violent tornado devastated parts of Lubbock, Texas; federal Weather Bureau records and a National Bureau of Standards structural-damage survey document the event.",
+          "source_independence_assessment": "NWS/Weather Bureau chronology and a separately conducted National Bureau of Standards structural field survey provide complementary event evidence; both necessarily reference the same physical tornado, and F5 rating derives from damage analysis.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "05-12",
@@ -13435,7 +13473,7 @@
       "second_alternate_title": "Flash Flood — (IAH)HOUSTON INTL AR, Texas",
       "alternates_verification_status": "Carried-forward alternate IDs, no independent corroboration or screening",
       "diversity_repetition_warnings": [],
-      "research_notes": "Imelda made landfall on September 17, NOT September 19. WWA examines September 19–20 rainfall with independent attribution modeling but relies partly on NOAA rain data. Early fatality/property estimates not cleared; 1-in-1200 year station statistical probability is NOT a universal literal return interval. Displaced primary preserved: ncei-262703. Previously selected alternate IDs retained, not independently researched: ncei-406779, ncei-858116.",
+      "research_notes": "Imelda made landfall on September 17, NOT September 19. WWA examines September 19–20 rainfall with independent attribution modeling but relies partly on NOAA rain data. Early fatality/property estimates not cleared; 1-in-1200 year station statistical probability is NOT a universal literal return interval. Displaced primary preserved: ncei-262703. Previously selected alternate IDs retained, not independently researched: ncei-406779, ncei-858116.\nPass28 alternate 2 integrity alert: Houston airport flash flooding is within the same September 19, 2019 Tropical Storm Imelda episode as the primary. https://www.weather.gov/hgx/imelda2019. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.",
       "event_source_excerpt": "Remnants of Tropical Storm Imelda produced destructive flash flooding across southeast Texas on September 19, 2019.",
       "input_research_score": 94,
       "editorial_selection_score": null,
@@ -13916,11 +13954,11 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-260347",
       "first_alternate_title": "Flood — SCUPPERNONG, North Carolina",
-      "second_alternate_event_id": "nhc-al081959-19590929-landfall_marker",
-      "second_alternate_title": "Gracie — landfall marker",
-      "alternates_verification_status": "both alternatives narrative/date-screened only; no independent source corroboration",
+      "second_alternate_event_id": "phasea-pass28-1959-09-29-gracie-landfall",
+      "second_alternate_title": "Hurricane Gracie makes landfall on South Carolina's Lowcountry",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "NWS St. Louis lists 72 deaths, St. Louis Public Library 78, Missouri emergency management 79. Do not publish exact casualty figure before reconciliation. Pre-1970 Fujita ratings are retrospective, not original EF ratings. Prior research primary (preserved): ncei-1141666. Previous alternate IDs: ncei-856779, ncei-348764.",
+      "research_notes": "NWS St. Louis lists 72 deaths, St. Louis Public Library 78, Missouri emergency management 79. Do not publish exact casualty figure before reconciliation. Pre-1970 Fujita ratings are retrospective, not original EF ratings. Prior research primary (preserved): ncei-1141666. Previous alternate IDs: ncei-856779, ncei-348764.\nPass28 2026-11-21: Alternate 2 Hurricane Gracie makes landfall on South Carolina's Lowcountry (phasea-pass28-1959-09-29-gracie-landfall) now source-paired for occurrence/date/location ONLY. Hurricane Gracie made landfall near the South Carolina Lowcountry's St. Helena Island/Beaufort area on September 29, 1959; later official summaries classify it as a major hurricane. Source dependence: South Carolina state climatology's historical storm summary and NWS Charleston's regional tropical-cyclone history both date landfall to September 29; both use overlapping retrospective HURDAT, weather-observation, and historical archives. Cautions: An older South Carolina historical summary lists Category 3, whereas modern state/NWS pages list Category 4. Distinguish retrospective intensity revisions from contemporary 1959 analysis and do not assert precise landfall point or instantaneous wind without a reviewed best track. Original HURDAT point had unverified geographic precision. No human fact check, approval or media rights clearance. Replaced unverified offshore HURDAT marker nhc-al081959-19590929-landfall_marker.",
       "event_source_excerpt": "A violent tornado struck central St. Louis on September 29, 1927, leaving extensive damage documented by period photography.",
       "input_research_score": 90,
       "editorial_selection_score": null,
@@ -13929,7 +13967,19 @@
       "research_priority": "Fact-check each numerical claim, verify other primary/archival evidence and individual media licensing",
       "post_readiness": "NOT READY",
       "source_independence_assessment": "cross_institution",
-      "alternates_screening_status": "two_source_record_leads_screened_unverified"
+      "alternates_screening_status": "two_source_record_leads_screened_unverified",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass28-1959-09-29-gracie-landfall",
+          "event_date": "1959-09-29",
+          "source_url": "https://www.dnr.sc.gov/climate/sco/hurricanes/table-view.html",
+          "secondary_source_url": "https://www.weather.gov/chs/tchistory",
+          "verified_core_fact": "Hurricane Gracie made landfall near the South Carolina Lowcountry's St. Helena Island/Beaufort area on September 29, 1959; later official summaries classify it as a major hurricane.",
+          "source_independence_assessment": "South Carolina state climatology's historical storm summary and NWS Charleston's regional tropical-cyclone history both date landfall to September 29; both use overlapping retrospective HURDAT, weather-observation, and historical archives.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "09-30",
@@ -14167,7 +14217,7 @@
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass17 on 2026-11-20: Torrential rainfall and severe flooding occurred around Columbia on October 4, 2015, with a USGS Congaree River crest that day. Caution: KCAE 6.71 inches is Oct4 daily rainfall; 10.28 inches is Oct3–4 total. River peak flow/stage is distinct from rainfall or a universal statewide maximum. Evidence: https://www.weather.gov/cae/historicfloodingoct2015.html; https://www.usgs.gov/news/national-news-release/floods-south-carolina-set-17-usgs-streamgage-records; https://www.weather.gov/cae/historicfloodingoct2015.html. Independence: NWS meteorological reports and USGS independent streamgage observations measure different parts of the same event. Displaced ncei-5673318 (Flash Flood — KANSAS CITY, Missouri; https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1998_c20260323.csv.gz) retained in Pass17 ledger. Two original alternate IDs remain. No human approval or rights clearance.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass17 on 2026-11-20: Torrential rainfall and severe flooding occurred around Columbia on October 4, 2015, with a USGS Congaree River crest that day. Caution: KCAE 6.71 inches is Oct4 daily rainfall; 10.28 inches is Oct3–4 total. River peak flow/stage is distinct from rainfall or a universal statewide maximum. Evidence: https://www.weather.gov/cae/historicfloodingoct2015.html; https://www.usgs.gov/news/national-news-release/floods-south-carolina-set-17-usgs-streamgage-records; https://www.weather.gov/cae/historicfloodingoct2015.html. Independence: NWS meteorological reports and USGS independent streamgage observations measure different parts of the same event. Displaced ncei-5673318 (Flash Flood — KANSAS CITY, Missouri; https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1998_c20260323.csv.gz) retained in Pass17 ledger. Two original alternate IDs remain. No human approval or rights clearance.\nPass28 alternate 2 integrity alert: Woodland Terrace flash flooding is within the same October 4, 2015 South Carolina flood episode as the primary. https://www.weather.gov/cae/HistoricFloodingOct2015.html. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.",
       "event_source_excerpt": "",
       "input_research_score": 90,
       "editorial_selection_score": 90,
@@ -14872,7 +14922,7 @@
       "second_alternate_title": "Flash Flood — COUNTYWIDE, Texas",
       "alternates_verification_status": "research_leads_unverified",
       "diversity_repetition_warnings": [],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 12 research (2026-11-20): A major rainstorm October 17–18, 1998 caused severe floods in the Guadalupe and San Antonio river basins in south-central Texas. Caveat: The NCEI source may be one county flash-flood segment of a multi-day basin-wide event. Basin flood crests occurred across October 17–20; rainfall-day, storm total, stage, fatality and damage counts need explicit separate provenance. Source dependence: cross_agency_USGS_hydrometric_fieldwork_and_CDC_mortality_analysis; corroboration https://pubs.usgs.gov/fs/FS-147-99/; supplemental https://www.cdc.gov/Mmwr/preview/mmwrhtml/mm4907a1.htm. Numerical assertions, wording and media rights remain unapproved.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 12 research (2026-11-20): A major rainstorm October 17–18, 1998 caused severe floods in the Guadalupe and San Antonio river basins in south-central Texas. Caveat: The NCEI source may be one county flash-flood segment of a multi-day basin-wide event. Basin flood crests occurred across October 17–20; rainfall-day, storm total, stage, fatality and damage counts need explicit separate provenance. Source dependence: cross_agency_USGS_hydrometric_fieldwork_and_CDC_mortality_analysis; corroboration https://pubs.usgs.gov/fs/FS-147-99/; supplemental https://www.cdc.gov/Mmwr/preview/mmwrhtml/mm4907a1.htm. Numerical assertions, wording and media rights remain unapproved.\nPass28 alternate 2 integrity alert: A countywide Texas flash-flood entry is a segment of the same October 17, 1998 Central Texas flood primary. https://www.weather.gov/ewx/wxevent-1998flood. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.",
       "event_source_excerpt": "The Great October FloodIn advance of a very slow-moving upper level trough of low pressure over West Texas, a cold front drifted slowly southeastward into West Central Texas during the evening of Friday, October 16th. Deep moisture was in place across South Central Texas as the two systems approache",
       "input_research_score": 68.01,
       "editorial_selection_score": 82.41,
@@ -15895,7 +15945,7 @@
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass11 2026-11-20: A long-track F3 tornado crossed northwest Kentucky and southern Indiana near Evansville before dawn on November 6, 2005. Cautions: Use F3, not EF3 (pre-2007 scale). The specific NCEI Evansville segment is not a different tornado from the larger multistate path. Fatality and injury counts depend on direct versus indirect and affected-county definitions. Publisher NOAA NCEI, original https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz; corroboration NWS Paducah https://www.weather.gov/pah/2005evansvilletornado; context https://www.weather.gov/abr/This_Day_in_Weather_History_Nov_06. Independence NCEI Evansville local segment and NWS Paducah full-track survey share the same NOAA tornado reports; adding a second page does not independently measure 41-mile tornado path.. Original NOAA NCEI local segment ID preserved. NOT approved; rights and numerical claims remain pending.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass11 2026-11-20: A long-track F3 tornado crossed northwest Kentucky and southern Indiana near Evansville before dawn on November 6, 2005. Cautions: Use F3, not EF3 (pre-2007 scale). The specific NCEI Evansville segment is not a different tornado from the larger multistate path. Fatality and injury counts depend on direct versus indirect and affected-county definitions. Publisher NOAA NCEI, original https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz; corroboration NWS Paducah https://www.weather.gov/pah/2005evansvilletornado; context https://www.weather.gov/abr/This_Day_in_Weather_History_Nov_06. Independence NCEI Evansville local segment and NWS Paducah full-track survey share the same NOAA tornado reports; adding a second page does not independently measure 41-mile tornado path.. Original NOAA NCEI local segment ID preserved. NOT approved; rights and numerical claims remain pending.\nPass28 alternate 1 integrity alert: Newburgh, Indiana is a downstream segment of the same November 6, 2005 Evansville-area F3 tornado featured as primary. https://www.weather.gov/pah/2005evansvilletornado. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.",
       "event_source_excerpt": "The tornado crossed into Vanderburgh County from Henderson County, KY a second time near Ellis Park, a horse-racing facility off U.S. Highway 41. The tornado moved rapidly east-northeast at close to 60 MPH, staying a mile or less south of Interstate 164 and the southern city limit of Evansville. Twe",
       "input_research_score": 76.91,
       "editorial_selection_score": 84.91,
@@ -16347,21 +16397,33 @@
       "historical_imagery_available": "not_assessed",
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-5479575",
-      "first_alternate_title": "Tornado — EARLINGTON, Kentucky",
+      "first_alternate_title": "An F4 tornado sweeps past Earlington, Kentucky",
       "second_alternate_event_id": "ncei-135143",
       "second_alternate_title": "Tornado — WILSON, North Carolina",
-      "alternates_verification_status": "research_leads_unverified",
+      "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass14 (2026-11-20): A violent F4 tornado struck Huntsville, Alabama, on November 15, 1989 during evening rush hour. Caveat: F4 on the original Fujita scale, not EF4. Avoid summing casualty totals across track segments and reconcile differing contemporary property-loss estimates. Source dependence: NWS Huntsville retrospective and digitized contemporary federal Storm Data share the underlying original survey. Reviewed secondary https://digital.library.unt.edu/ark:/67531/metadc2595505/m1/2/; additional https://www.weather.gov/bmx/event_11151989_summary. No editorial approval or image-rights clearance. Previous primary retained in Pass14 registry: ncei-5272972",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass14 (2026-11-20): A violent F4 tornado struck Huntsville, Alabama, on November 15, 1989 during evening rush hour. Caveat: F4 on the original Fujita scale, not EF4. Avoid summing casualty totals across track segments and reconcile differing contemporary property-loss estimates. Source dependence: NWS Huntsville retrospective and digitized contemporary federal Storm Data share the underlying original survey. Reviewed secondary https://digital.library.unt.edu/ark:/67531/metadc2595505/m1/2/; additional https://www.weather.gov/bmx/event_11151989_summary. No editorial approval or image-rights clearance. Previous primary retained in Pass14 registry: ncei-5272972\nPass28 2026-11-21: Alternate 1 An F4 tornado sweeps past Earlington, Kentucky (ncei-5479575) now source-paired for occurrence/date/location ONLY. An F4 tornado touched down near Earlington, Kentucky, on November 15, 2005 and tracked toward the Hanson area, separate in time and geography from the November 1989 Huntsville tornado primary. Source dependence: Two NWS office archives independently present the tornado's date and geographic track but refer to the same underlying NWS/Storm Data damage survey. They are not independent F-scale intensity measurements. Cautions: Use F4 (pre-EF scale). Do not equate maximum F4 damage with intensity along the full path or conflate this Hopkins County tornado with other tornadoes in the November 15, 2005 outbreak. Historical tornado timing uses local CST. No human fact check, approval or media rights clearance.",
       "event_source_excerpt": "",
       "input_research_score": 88,
       "editorial_selection_score": 88,
       "historical_era": "1980–1999",
       "geography_key": "Alabama",
       "research_priority": "Primary observations, date/segment review and graphic asset rights",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "ncei-5479575",
+          "event_date": "2005-11-15",
+          "source_url": "https://www.weather.gov/pah/nov152005tornadooutbreak",
+          "secondary_source_url": "https://www.weather.gov/lmk/violent_tornadoes_kentucky",
+          "verified_core_fact": "An F4 tornado touched down near Earlington, Kentucky, on November 15, 2005 and tracked toward the Hanson area, separate in time and geography from the November 1989 Huntsville tornado primary.",
+          "source_independence_assessment": "Two NWS office archives independently present the tornado's date and geographic track but refer to the same underlying NWS/Storm Data damage survey. They are not independent F-scale intensity measurements.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "11-16",
@@ -17660,7 +17722,7 @@
       "second_alternate_title": "Ice Storm — EASTERN SCHENECTADY, New York",
       "alternates_verification_status": "research_leads_unverified",
       "diversity_repetition_warnings": [],
-      "research_notes": "Pass23 (2026-11-21): A major freezing-rain and sleet storm started December 11, 2008 across parts of New York and New England, causing extensive tree and power-line damage through December 12. Source independence: NWS Albany provides the dated precipitation type, soundings and event chronology; NASA Terra imagery independently documents the storm's regional aftermath but its outage count is from contemporary news reports. Scientific and publication cautions: This is a December 11–12 event; do not imply all ice accumulated December 11 or that NASA's post-storm December 13 image is a real-time scene. Regional outage counts are preliminary and have varying restoration dates. Additional source: https://digital.library.unt.edu/ark:/67531/metadc2639364/m1/4/.",
+      "research_notes": "Pass23 (2026-11-21): A major freezing-rain and sleet storm started December 11, 2008 across parts of New York and New England, causing extensive tree and power-line damage through December 12. Source independence: NWS Albany provides the dated precipitation type, soundings and event chronology; NASA Terra imagery independently documents the storm's regional aftermath but its outage count is from contemporary news reports. Scientific and publication cautions: This is a December 11–12 event; do not imply all ice accumulated December 11 or that NASA's post-storm December 13 image is a real-time scene. Regional outage counts are preliminary and have varying restoration dates. Additional source: https://digital.library.unt.edu/ark:/67531/metadc2639364/m1/4/.\nPass28 alternate 2 integrity alert: Schenectady ice is part of the same December 11–12, 2008 Northeastern ice storm as the primary. https://www.weather.gov/aly/IceStormDec2008. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.",
       "event_source_excerpt": "Original unverified NCEI segment ncei-5624156 remains in research ledger; not supporting new primary.",
       "input_research_score": 92,
       "editorial_selection_score": 92,
