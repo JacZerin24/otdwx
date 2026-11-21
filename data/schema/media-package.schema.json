@@ -1,0 +1,344 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JacZerin24/otdwx/blob/main/data/schema/media-package.schema.json",
+  "title": "OTDwx private production and media package v1",
+  "description": "Documentary media metadata, not a legal rights determination or publishing authorization. Runtime checks in otdwx.media additionally enforce cross-field and local-file safety.",
+  "type": "object",
+  "required": [
+    "event_id",
+    "event_date",
+    "post_date",
+    "caption",
+    "source_name",
+    "source_url",
+    "evidence",
+    "alt",
+    "type",
+    "graphic_spec"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "post_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "caption": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 600
+    },
+    "source_name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "source_url": {
+      "$ref": "#/$defs/https"
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "fact",
+          "section"
+        ],
+        "properties": {
+          "fact": {
+            "type": "string"
+          },
+          "section": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "alt": {
+      "type": "string",
+      "minLength": 30
+    },
+    "type": {
+      "enum": [
+        "bar_comparison",
+        "big_number",
+        "contrast",
+        "morning_timeline",
+        "warning_timeline",
+        "conceptual_schematic",
+        "track_map",
+        "point_map"
+      ]
+    },
+    "graphic_spec": {
+      "type": "object"
+    },
+    "weather_category": {
+      "type": "string"
+    },
+    "editor_approval": {
+      "enum": [
+        "pending",
+        "changes_needed",
+        "approved"
+      ]
+    },
+    "media_mode": {
+      "enum": [
+        "graphic_only",
+        "graphic_plus_photo",
+        "graphic_plus_map",
+        "carousel",
+        "animated_package"
+      ],
+      "default": "graphic_only"
+    },
+    "photo_layout": {
+      "enum": [
+        "none",
+        "editorial_split"
+      ],
+      "default": "none"
+    },
+    "photo": {
+      "$ref": "#/$defs/asset"
+    },
+    "supporting_media": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "$ref": "#/$defs/asset"
+      }
+    },
+    "media_editor_approval": {
+      "enum": [
+        "pending",
+        "approved",
+        "changes_needed",
+        "rejected"
+      ],
+      "default": "pending"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "media_mode": {
+            "const": "graphic_plus_photo"
+          }
+        },
+        "required": [
+          "media_mode"
+        ]
+      },
+      "then": {
+        "required": [
+          "photo"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "media_mode": {
+            "const": "graphic_plus_map"
+          }
+        },
+        "required": [
+          "media_mode"
+        ]
+      },
+      "then": {
+        "properties": {
+          "supporting_media": {
+            "contains": {
+              "properties": {
+                "kind": {
+                  "const": "map"
+                }
+              },
+              "required": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "required": [
+          "supporting_media"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "media_mode": {
+            "const": "animated_package"
+          }
+        },
+        "required": [
+          "media_mode"
+        ]
+      },
+      "then": {
+        "properties": {
+          "supporting_media": {
+            "minItems": 1,
+            "maxItems": 1,
+            "items": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "radar_loop",
+                    "satellite_loop"
+                  ]
+                }
+              },
+              "required": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "required": [
+          "supporting_media"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "photo_layout": {
+            "const": "editorial_split"
+          }
+        },
+        "required": [
+          "photo_layout"
+        ]
+      },
+      "then": {
+        "required": [
+          "photo"
+        ]
+      }
+    }
+  ],
+  "$defs": {
+    "https": {
+      "type": "string",
+      "pattern": "^https://[^/]+/.+"
+    },
+    "asset": {
+      "type": "object",
+      "required": [
+        "kind",
+        "file",
+        "source_url",
+        "rights_basis_url",
+        "creator",
+        "credit",
+        "caption",
+        "alt_text",
+        "rights_status",
+        "rights_reviewed_by",
+        "rights_reviewed_on",
+        "commercial_use_allowed",
+        "modifications_allowed",
+        "credit_placement_confirmed"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "photo",
+            "map",
+            "radar_loop",
+            "satellite_loop",
+            "radar_still",
+            "satellite_still",
+            "newspaper",
+            "other"
+          ]
+        },
+        "file": {
+          "type": "string",
+          "minLength": 5,
+          "description": "relative path within an explicit private --asset-root; never HTTP"
+        },
+        "source_url": {
+          "$ref": "#/$defs/https"
+        },
+        "rights_basis_url": {
+          "$ref": "#/$defs/https"
+        },
+        "creator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "credit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "caption": {
+          "type": "string",
+          "minLength": 5
+        },
+        "alt_text": {
+          "type": "string",
+          "minLength": 30
+        },
+        "event_relation": {
+          "enum": [
+            "during_event",
+            "aftermath",
+            "related_context"
+          ]
+        },
+        "context_disclosure": {
+          "type": "string"
+        },
+        "rights_status": {
+          "enum": [
+            "public_domain",
+            "government_reusable",
+            "cc_by",
+            "licensed",
+            "permission_granted",
+            "original_work"
+          ]
+        },
+        "license_url": {
+          "$ref": "#/$defs/https"
+        },
+        "license_scope": {
+          "type": "string"
+        },
+        "rights_reviewed_by": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rights_reviewed_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "commercial_use_allowed": {
+          "const": true
+        },
+        "modifications_allowed": {
+          "type": "boolean"
+        },
+        "credit_placement_confirmed": {
+          "const": true
+        },
+        "changes_disclosed": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
