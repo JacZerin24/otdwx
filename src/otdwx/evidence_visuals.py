@@ -128,6 +128,10 @@ def validate_evidence(item):
         if not spec.get("source_creator") or not spec.get("source_credit"):
             errors.append("specific asset source creator and credit required")
     if typ=="geo_track":
+        if not spec.get("context_file") or not _https(spec.get("context_source_url")):
+            errors.append("geo_track requires real context_file and context_source_url")
+        if not _https(spec.get("context_rights_basis_url")):
+            errors.append("geo_track basemap rights_basis_url required")
         if not spec.get("geometry_file"):
             errors.append("track source GeoJSON file required")
         if spec.get("track_quality") not in (
@@ -174,7 +178,8 @@ def _geometry_points(data):
 
 def _header(item, palette, evidence_label):
     bg,white,accent=palette
-    event_day=date.fromisoformat(item["event_date"]).strftime("%b %-d, %Y")
+    day=date.fromisoformat(item["event_date"])
+    event_day=f"{day.strftime('%b')} {day.day}, {day.year}"
     parts=[
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{CANVAS_W}" height="{CANVAS_H}" viewBox="0 0 1600 900" role="img">',
         f'<title>{_esc(item["graphic_spec"]["title"])}</title>',
@@ -246,6 +251,10 @@ def render_geo_track(item, asset_root):
     fp=_private_path(asset_root,spec["geometry_file"],{".geojson",".json"})
     data=json.loads(fp.read_text(encoding="utf-8"))
     tracks=_geometry_points(data)
+    base=_private_path(asset_root,spec["context_file"],{".geojson",".json"})
+    basemap=json.loads(base.read_text(encoding="utf-8"))
+    if basemap.get("type")!="FeatureCollection" or not 1<=len(basemap.get("features",[]))<=250:
+        raise ValueError("Real basemap FeatureCollection of 1-250 features required")
     # Approximate/equirectangular lon correction at reference latitude.
     # No claims about measured track widths, distances or wind swaths.
     pts=[p for t in tracks for p in t]
@@ -262,8 +271,30 @@ def render_geo_track(item, asset_root):
     palette=PALETTES.get(item.get("weather_category","tornado"),PALETTES["tornado"])
     bg,white,accent=palette
     parts=_header(item,palette,"GEOGRAPHIC TRACK / OBSERVED")
-    parts += ['<rect x="52" y="128" width="1035" height="675" fill="#f1f3f1"/>']
-    # Verified only: do not invent a coastline, county outline, street or map tile.
+    parts += ['<rect x="52" y="128" width="1035" height="675" fill="#f1f3f1"/>',
+              '<defs><clipPath id="mapframe"><rect x="52" y="128" width="1035" height="675"/></clipPath></defs>',
+              '<g clip-path="url(#mapframe)">']
+    # Real GeoJSON context (counties/coastline/roads); no made-up basemap.
+    for feature in basemap["features"]:
+        geo=feature.get("geometry",{})
+        typ=geo.get("type")
+        co=geo.get("coordinates",[])
+        if typ=="LineString": seqs=[co];polygon=False
+        elif typ=="MultiLineString":seqs=co;polygon=False
+        elif typ=="Polygon":seqs=co[:1];polygon=True
+        elif typ=="MultiPolygon":seqs=[p[0] for p in co];polygon=True
+        else:raise ValueError("Context GeoJSON must contain lines/polygons")
+        for seq in seqs:
+            if not 2<=len(seq)<=8000:raise ValueError("Base geography size invalid")
+            coords=[]
+            for p in seq:
+                lon,lat=float(p[0]),float(p[1])
+                if not math.isfinite(lon) or not math.isfinite(lat) or abs(lon)>180 or abs(lat)>90:
+                    raise ValueError("Invalid context geographic coordinate")
+                x,y=xy((lon,lat));coords.append(f"{x:.2f},{y:.2f}")
+            style='fill="#dce8e3" stroke="#99b1a8" stroke-width="2"' if polygon else 'fill="none" stroke="#8ea7a1" stroke-width="2"'
+            parts.append('<polyline points="'+' '.join(coords)+'" '+style+'/>')
+    # Source track geometry, distinct from real basemap geometry.
     for t in tracks:
         coords=" ".join(f"{xy(p)[0]:.1f},{xy(p)[1]:.1f}" for p in t)
         dash='stroke-dasharray="13 13"' if spec["track_quality"] in ("approximate","endpoint_summary") else ""
@@ -272,8 +303,9 @@ def render_geo_track(item, asset_root):
         for idx,p in enumerate((t[0],t[-1])):
             x,y=xy(p)
             parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="13" fill="{accent}" stroke="#ffffff" stroke-width="4"/>')
+    parts.append('</g>')
     parts.append(_text(77,164,spec["track_quality"].replace("_"," ").upper()+" / SOURCE GEOMETRY",17,"#494f4e",700))
-    parts.append(_text(80,776,"NO SYNTHETIC BASEMAP / NO INTERPOLATED WIDTH",15,"#556260"))
+    parts.append(_text(80,776,"AUTHENTIC GEOJSON / NO INTERPOLATED TRACK WIDTH",15,"#556260"))
     parts.append('<line x1="1124" y1="160" x2="1124" y2="767" stroke="'+accent+'" stroke-width="5"/>')
     for i,line in enumerate(_wrap(spec["title"],21,3)):
         parts.append(_text(1160,232+i*64,line,42,white,700,True))
