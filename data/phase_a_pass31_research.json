@@ -19,7 +19,8 @@
     "fully_fact_checked": 0,
     "approved": 0,
     "media_rights_cleared": 0,
-    "notes": "A source pair establishes anniversary event/date/location only; detailed numerical claims, measurement metadata, dependencies, visual assets and rights remain unchecked. All 12 former NCEI segment leads preserved with original IDs and source URLs."
+    "notes": "A source pair establishes anniversary event/date/location only; detailed numerical claims, measurement metadata, dependencies, visual assets and rights remain unchecked. All 12 former NCEI segment leads preserved with original IDs and source URLs.",
+    "claim_ledger_entries": 0
   },
   "alternate_reviews": [
     {
