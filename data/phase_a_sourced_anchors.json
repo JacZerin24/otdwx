@@ -5882,7 +5882,7 @@
     "source_verification_status": "core_date_location_corroborated",
     "editorial_review_status": "researching",
     "image_rights_status": "not_reviewed",
-    "research_note": "NWS Raleigh lists an official 28 November event summary; original 1988 NOAA Storm Data digitized at UNT identifies the F4 and damage, while the independently compiled Raleigh Fire Department archive chronicles the rescue response and dated scene. Never call this 1988 storm EF4. Some derived tornado catalogs report November 27 UTC, but the Raleigh impact was early November 28 EST. Historical 83–84-mile track length and fatality/injury counts are rounded and must refer to the correct long-track tornado, not all same-night storms.",
+    "research_note": "NWS Raleigh lists an official 28 November event summary; original 1988 NOAA Storm Data digitized at UNT identifies the F4 and damage, while the independently compiled Raleigh Fire Department archive chronicles the rescue response and dated scene. Never call this 1988 storm EF4. Some catalog summaries group the broader storm episode under November 27 because storms began that evening; the north Raleigh tornado struck after local midnight on November 28 EST (November 28 UTC). Historical 83–84-mile track length and fatality/injury counts are rounded and must refer to the correct long-track tornado, not all same-night storms.",
     "base_score": 92,
     "evidence_status": "two_source_core_only"
   },
