@@ -53,6 +53,10 @@ The CI quality workflow rejects broken anniversaries, duplicated or mismatched e
 - Rotate location, weather hazard, era, source, and visual format without suppressing important anniversaries.
 - No auto-generated event claims, invented quotes, or unsupervised publishing.
 
+## Visual brand v2 — reproducible editorial weather graphics
+
+The production generator now defaults to a consistent warm-paper / ink / archive-blue house style rather than six near-identical dark cards. It supports source-backed **track and station-observation maps** in addition to charts, chronology, and diagrams. The separate `otdwx.radar_loop` command assembles real, timestamped, locally supplied historical radar frames into branded GIFs (Pillow optional); it does not invent storms or automatically fetch/decode raw NEXRAD scans. [Design, inputs, rights and accuracy boundaries](docs/VISUAL_BRAND_V2.md). New graphics require human editorial approval before X scheduling.
+
 ## Repository layout
 
 - docs/EDITORIAL_GUIDE.md — the post format, voice, and editorial gate.
