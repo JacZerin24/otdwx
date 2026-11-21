@@ -14,6 +14,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from .editorial import weighted_length
+from .media import validate_media, export_media
 from .branded_graphics import render_visual, validate_visual
 from .themed_graphics import render_themed, validate_themed
 
@@ -106,6 +107,7 @@ def validate_package(item: dict) -> list[str]:
         issues.append("meaningful image alt text is required")
     if item.get("editor_approval") not in (None,"pending","changes_needed","approved"):
         issues.append("unrecognized editor approval state")
+    issues.extend(validate_media(item))
     return issues
 
 
@@ -201,7 +203,8 @@ def render_svg(item: dict) -> str:
     return "\n".join(parts) + "\n"
 
 
-def generate(packages: list[dict],output: Path,make_png: bool = False) -> list[dict]:
+def generate(packages: list[dict],output: Path,make_png: bool = False,
+             asset_root: Path | None = None) -> list[dict]:
     """Write review-only post text, original SVGs, alt text and a manifest."""
     all_issues = []
     seen=set()
@@ -229,11 +232,15 @@ def generate(packages: list[dict],output: Path,make_png: bool = False) -> list[d
             converter.svg2png(bytestring=svg.encode("utf-8"),
                               write_to=str(output/(slug+".png")),
                               output_width=1920,output_height=1080)
+        media_package = export_media(item, output, asset_root, slug,
+                                     png_converter=converter)
         rows.append({"planned_date":item["post_date"],"event_id":item["event_id"],
                      "source_url":item["source_url"],
                      "weighted_characters":weighted_length(item["caption"]),
                      "editor_approval":item.get("editor_approval","pending"),
-                     "asset":slug+".svg"})
+                     "asset":slug+".svg",
+                     "media_mode":media_package["mode"],
+                     "supplemental_assets":len(media_package["assets"])})
     with (output/"manifest.csv").open("w",newline="",encoding="utf-8") as f:
         writer=csv.DictWriter(f,fieldnames=rows[0].keys() if rows else
                               ["planned_date","event_id","source_url","weighted_characters","editor_approval","asset"])
@@ -247,11 +254,13 @@ def main(argv=None) -> int:
                         help="private post-package JSON (outside the public repository)")
     parser.add_argument("--output",type=Path,default=Path("exports/post-studio"))
     parser.add_argument("--png",action="store_true",help="also render PNG with optional CairoSVG")
+    parser.add_argument("--asset-root",type=Path,default=None,
+                        help="private directory for rights-cleared local photos/maps/loops")
     args=parser.parse_args(argv)
     payload=json.loads(args.input.read_text(encoding="utf-8"))
     if not isinstance(payload,list):
         parser.error("input JSON must be an array of post packages")
-    rows=generate(payload,args.output,args.png)
+    rows=generate(payload,args.output,args.png,asset_root=args.asset_root)
     print(f"Created {len(rows)} editor-review-only original graphics and text packages in {args.output}")
     return 0
 
