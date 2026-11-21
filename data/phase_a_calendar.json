@@ -4,16 +4,16 @@
     "as_of": "2026-11-21",
     "source_catalog_sha": "4dfc2387034a9c8c19f0a23cb06af794bb743056",
     "source_candidates": 4323,
-    "additional_authoritative_anchors": 248,
+    "additional_authoritative_anchors": 256,
     "manual_curated_seeds": 7,
     "selection_status": "PROVISIONAL RESEARCH — NOT EDITORIALLY APPROVED",
     "notes": "These 366 provisional research selections are not 366 verified stories. Source-led discovery and editor approval are separate. No published copy or unpublished graphics included.",
     "manual_editorial_override_count": 206,
-    "summary": "Pass24: 350/366 date/place cores, 16 primary-source gaps, 237 sourced research anchors, 310 scoped claim checks; no human approval or image clearance.",
+    "summary": "Pass27: all 366 primary source-paired cores, 0 primary gaps, 25 evidence-backed alternate cores on 14 dates (11 dates have both), 707 alternate gaps; none human approved.",
     "pass2_manual_upgrades": 64,
     "alternate_screened_date_count": 21,
-    "alternate_core_corroborated_days": 4,
-    "alternate_core_corroborated_leads": 15
+    "alternate_core_corroborated_days": 11,
+    "alternate_core_corroborated_leads": 25
   },
   "days": [
     {
@@ -1276,11 +1276,11 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "phasea-pass8-1916-01-24-browning-plunge",
       "first_alternate_title": "Browning, Montana completes a 100°F plunge between January 23 and 24",
-      "second_alternate_event_id": "ncei-804274",
-      "second_alternate_title": "Winter Weather — MARQUETTE, Michigan",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "second_alternate_event_id": "phasea-pass27-2026-01-24-us-winter-storm",
+      "second_alternate_title": "An immense snow-and-ice storm expands across the southern United States",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Pass24 (2026-11-21): On January 24, 1997, an F4 tornado moved through the Barfield and Southridge areas of Murfreesboro, Tennessee, within a broader Middle Tennessee severe-weather outbreak. Source independence: The detailed NWS Nashville survey gives the dated F4 path and local damage. A decade-later interview archived by Rutherford County Historical Society independently confirms the Friday January 24 Southridge event, but relies on retrospective survivor accounts. Editorial/physical caution: Use historical F4, never EF4. The city also had a separate 2009 Good Friday EF4 already selected for April 10; ensure no accidental cross-year photo or casualty attribution. Do not describe the first F1 touchdown as already F4. Third source: https://www.weather.gov/ohx/19970124_staffing. No reproduction rights determined.",
+      "research_notes": "Pass24 (2026-11-21): On January 24, 1997, an F4 tornado moved through the Barfield and Southridge areas of Murfreesboro, Tennessee, within a broader Middle Tennessee severe-weather outbreak. Source independence: The detailed NWS Nashville survey gives the dated F4 path and local damage. A decade-later interview archived by Rutherford County Historical Society independently confirms the Friday January 24 Southridge event, but relies on retrospective survivor accounts. Editorial/physical caution: Use historical F4, never EF4. The city also had a separate 2009 Good Friday EF4 already selected for April 10; ensure no accidental cross-year photo or casualty attribution. Do not describe the first F1 touchdown as already F4. Third source: https://www.weather.gov/ohx/19970124_staffing. No reproduction rights determined.\nPass27 alternate 2: An immense snow-and-ice storm expands across the southern United States (2026-01-24). On January 24, 2026, a major winter storm spread snow and freezing rain through the Southern Plains and Mid-South, disrupting travel and utilities while expanding eastward. Evidence lineage: WPC's meteorological review and contemporaneous AP impact reporting separately document the event; both ultimately reference shared NWS operational guidance.. Cautions: Storm began January 23 in some areas and lasted through January 26; Pennsylvania's major snow mainly began Jan 25. Do not describe full multiday snowfall or ice totals as January 24 values.. Displaced alternate ID retained in Pass27 ledger. Not human-fact-checked or media-cleared.",
       "event_source_excerpt": "This was one of those extraordinary cases where the National Weather Service had a 41 minute lead time on a tornado warning . The F4 tornado struck the Southridge Subdivision, near Barfield, TN, at 503 PM. The tornado caused 18 injuries and 4.7 million dollars in property damages. One person had to",
       "input_research_score": 41.83,
       "editorial_selection_score": 41.8,
@@ -1304,6 +1304,20 @@
           "source_independence_assessment": "Both accounts derive from the same historical Weather Bureau/COOP documentation; NOAA retrospective provides comparison, not independent second temperature measurements",
           "verified_core_fact": "The Browning, Montana 1916 cold-front episode spans January 23–24, when historical records document a 100°F drop from 44°F to −56°F.",
           "unverified_claims": "The full decline spanned the two days; February or modern date assumptions are wrong. Loma's 103°F 1972 *rise* later superseded Browning's 100°F 24-hour national change figure. These are opposite-sign events; do not call the 1916 change current national 24-hour record.",
+          "review_scope": "core event/date/location only",
+          "human_fact_check_status": "pending",
+          "publication_approval_status": "not_approved",
+          "image_rights_status": "not_reviewed"
+        },
+        {
+          "event_id": "phasea-pass27-2026-01-24-us-winter-storm",
+          "event_date": "2026-01-24",
+          "title": "An immense snow-and-ice storm expands across the southern United States",
+          "source_url": "https://www.wpc.ncep.noaa.gov/storm_summaries/event_reviews.php?YYYYMMDD=20260124&product=h5",
+          "secondary_source_url": "https://apnews.com/article/a94c9d155615333a50e174a4d7d54fc1",
+          "source_independence_assessment": "WPC's meteorological review and contemporaneous AP impact reporting separately document the event; both ultimately reference shared NWS operational guidance.",
+          "verified_core_fact": "On January 24, 2026, a major winter storm spread snow and freezing rain through the Southern Plains and Mid-South, disrupting travel and utilities while expanding eastward.",
+          "unverified_claims": "Storm began January 23 in some areas and lasted through January 26; Pennsylvania's major snow mainly began Jan 25. Do not describe full multiday snowfall or ice totals as January 24 values.",
           "review_scope": "core event/date/location only",
           "human_fact_check_status": "pending",
           "publication_approval_status": "not_approved",
@@ -1796,15 +1810,15 @@
       "graphic_feasibility_status": "requires_original_observations_and_asset_rights",
       "historical_imagery_available": "not_assessed",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-156996",
-      "first_alternate_title": "Winter Weather — HAMILTON, Indiana",
+      "first_alternate_event_id": "phasea-pass27-2023-02-03-mount-washington-windchill",
+      "first_alternate_title": "Mount Washington reports an extraordinary −109°F wind chill",
       "second_alternate_event_id": "ncei-5631521",
       "second_alternate_title": "Heavy Snow — JEFFERSON, Kentucky",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass20 (2026-11-20): Severe Tropical Cyclone Yasi made landfall near Mission Beach, Queensland, shortly after midnight in the early morning of February 3, 2011 (Queensland local time). Sources https://www.bom.gov.au/cyclone/history/yasi.shtml, https://www.abc.net.au/news/2011-05-25/cyclone-yasi/2730558, https://www.qld.gov.au/environment/coasts-waterways/coast-hazards/storms. Dependence: Bureau of Meteorology post-analysis documents landfall time and category; ABC contemporary Australian reporting independently confirms the place/date but follows the bureau for storm classification. CAUTION Use Queensland AEST, not AEDT; local February 3 versus UTC February 2 can confuse the anniversary. Australian cyclone Category 5 is NOT the U.S. SSHWS Category 5; gust estimates and post-analysis central pressures need source-specific attribution.. Displaced ncei-5324227 (Dense Fog — C W BOX ELDER/C W XE TOOLE/X W SALT LAKE/X NW UTAH, Utah) original URL https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2002_c20260323.csv.gz; recorded in Pass20 research registry. Alternate IDs unchanged; graphics/figures require original creation and rights. Human fact check pending.\nPass20 alternate 2 (ncei-5631521): The extraordinary February 3–6, 1998 snowstorm began the evening of February 3, with heavy snow across Louisville and northern Kentucky. Sources: https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=5631521; https://www.weather.gov/lmk/top10winter; https://www.weather.gov/ohx/19980203. Dependence Original county Storm Data record and NWS Louisville climatology share the same climate observations; NWS Nashville documents broader regional progression separately.. Caution February3 is beginning, not day of all-time snow depth; Louisville largest single-day amount was Feb4, while storm totals accumulated Feb3–6. NWS current airport totals and older NCEI station totals need reconciliation.. Core only; not approved or media-cleared.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass20 (2026-11-20): Severe Tropical Cyclone Yasi made landfall near Mission Beach, Queensland, shortly after midnight in the early morning of February 3, 2011 (Queensland local time). Sources https://www.bom.gov.au/cyclone/history/yasi.shtml, https://www.abc.net.au/news/2011-05-25/cyclone-yasi/2730558, https://www.qld.gov.au/environment/coasts-waterways/coast-hazards/storms. Dependence: Bureau of Meteorology post-analysis documents landfall time and category; ABC contemporary Australian reporting independently confirms the place/date but follows the bureau for storm classification. CAUTION Use Queensland AEST, not AEDT; local February 3 versus UTC February 2 can confuse the anniversary. Australian cyclone Category 5 is NOT the U.S. SSHWS Category 5; gust estimates and post-analysis central pressures need source-specific attribution.. Displaced ncei-5324227 (Dense Fog — C W BOX ELDER/C W XE TOOLE/X W SALT LAKE/X NW UTAH, Utah) original URL https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2002_c20260323.csv.gz; recorded in Pass20 research registry. Alternate IDs unchanged; graphics/figures require original creation and rights. Human fact check pending.\nPass20 alternate 2 (ncei-5631521): The extraordinary February 3–6, 1998 snowstorm began the evening of February 3, with heavy snow across Louisville and northern Kentucky. Sources: https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=5631521; https://www.weather.gov/lmk/top10winter; https://www.weather.gov/ohx/19980203. Dependence Original county Storm Data record and NWS Louisville climatology share the same climate observations; NWS Nashville documents broader regional progression separately.. Caution February3 is beginning, not day of all-time snow depth; Louisville largest single-day amount was Feb4, while storm totals accumulated Feb3–6. NWS current airport totals and older NCEI station totals need reconciliation.. Core only; not approved or media-cleared.\nPass27 alternate 1: Mount Washington reports an extraordinary −109°F wind chill (2023-02-03). At 11:35 p.m. EST on February 3, 2023, Mount Washington Observatory's summit conditions page reported approximately −109°F wind chill amid exceptionally cold and windy conditions. Evidence lineage: Observatory supplied direct station air temperature/wind and computed wind chill; local reporting describes it but does not independently measure the summit.. Cautions: Wind chill is calculated apparent temperature, not measured air temperature. Actual low of roughly −47°F occurred around 3 a.m. February 4. Reports use −108 or −109 for separate timestamps; all-time U.S. wind-chill record scope is unsettled.. Displaced alternate ID retained in Pass27 ledger. Not human-fact-checked or media-cleared.",
       "event_source_excerpt": "",
       "input_research_score": 95,
       "editorial_selection_score": 95,
@@ -1822,6 +1836,20 @@
           "source_independence_assessment": "Original county Storm Data record and NWS Louisville climatology share the same climate observations; NWS Nashville documents broader regional progression separately.",
           "review_scope": "core event/date/location only",
           "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass27-2023-02-03-mount-washington-windchill",
+          "event_date": "2023-02-03",
+          "title": "Mount Washington reports an extraordinary −109°F wind chill",
+          "source_url": "https://mountwashington.org/brutal-cold-on-mount-washington-a-weather-story/",
+          "secondary_source_url": "https://www.wmur.com/article/meteorologist-describes-record-breaking-cold-atop-mount-washington/42763378",
+          "source_independence_assessment": "Observatory supplied direct station air temperature/wind and computed wind chill; local reporting describes it but does not independently measure the summit.",
+          "verified_core_fact": "At 11:35 p.m. EST on February 3, 2023, Mount Washington Observatory's summit conditions page reported approximately −109°F wind chill amid exceptionally cold and windy conditions.",
+          "unverified_claims": "Wind chill is calculated apparent temperature, not measured air temperature. Actual low of roughly −47°F occurred around 3 a.m. February 4. Reports use −108 or −109 for separate timestamps; all-time U.S. wind-chill record scope is unsettled.",
+          "review_scope": "core event/date/location only",
+          "human_fact_check_status": "pending",
+          "publication_approval_status": "not_approved",
+          "image_rights_status": "not_reviewed"
         }
       ]
     },
@@ -3147,24 +3175,54 @@
       "graphic_feasibility_status": "official surveyed path and meteorological graphics available; exact asset rights must be checked",
       "historical_imagery_available": "NWS report/forecast graphic materials linked on case study",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-1154508",
-      "first_alternate_title": "February 29, 2024 West Texas winter weather",
-      "second_alternate_event_id": "ncei-362596",
-      "second_alternate_title": "February 29, 2012 Tennessee EF2 tornado",
-      "alternates_verification_status": "research_leads_unverified; second alternate is within same broad outbreak",
+      "first_alternate_event_id": "phasea-pass27-2024-02-29-sierra-blizzard-start",
+      "first_alternate_title": "A powerful Sierra Nevada blizzard begins on Leap Day",
+      "second_alternate_event_id": "phasea-pass27-2008-02-29-emma-europe",
+      "second_alternate_title": "Windstorm Emma approaches Europe on Leap Day",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [
         "same hazard as previous day",
         "same region as previous day",
         "same state/country as previous day"
       ],
-      "research_notes": "Confirm individual surveyed path geometry, county segment totals and exact tornado-versus-outbreak casualties. Second alternate shares wider outbreak, so seek a more independent alternate if possible.",
+      "research_notes": "Confirm individual surveyed path geometry, county segment totals and exact tornado-versus-outbreak casualties. Second alternate shares wider outbreak, so seek a more independent alternate if possible.\nPass27 alternate 1: A powerful Sierra Nevada blizzard begins on Leap Day (2024-02-29). On February 29, 2024, a powerful Pacific winter storm began producing snow and strong winds in the Sierra Nevada before a multiday blizzard developed. Evidence lineage: WPC's event analysis and contemporaneous AP dispatch corroborate Leap Day onset; later NASA snowpack imagery covers the multiday episode rather than a single day.. Cautions: Most four-to-eight-foot storm-total snowfall accumulated into March 1–3, not during February 29 alone. Severe blizzard conditions peaked later. Do not claim late-storm totals as Leap Day observations.. Displaced alternate ID retained in Pass27 ledger. Not human-fact-checked or media-cleared.\nPass27 alternate 2: Windstorm Emma approaches Europe on Leap Day (2008-02-29). On February 29, 2008, Windstorm Emma's system approached northwestern Europe, with a warm front reaching Germany by evening before widespread overnight wind damage. Evidence lineage: KNMI supplies Dutch surface-station and cyclone chronology, while the European Windstorm Catalogue supplies separate ERA-Interim reanalysis-based February 29 pressure and vorticity milestones.. Cautions: Most destructive Central European gusts and deaths occurred March 1, not February 29. The reanalysis 959.5-hPa low is not an independently measured Dutch station value.. Displaced alternate ID retained in Pass27 ledger. Not human-fact-checked or media-cleared.",
       "event_source_excerpt": "NWS Paducah case study describes a February 29 squall line containing supercells and a strong EF4 tornado through Harrisburg.",
       "input_research_score": 73.06,
       "editorial_selection_score": 73.06,
       "historical_era": "2000–2025",
       "geography_key": "Illinois",
       "research_priority": "check exact survey path and impact scope",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass27-2024-02-29-sierra-blizzard-start",
+          "event_date": "2024-02-29",
+          "title": "A powerful Sierra Nevada blizzard begins on Leap Day",
+          "source_url": "https://www.wpc.ncep.noaa.gov/storm_summaries/event_reviews.php?YYYYMMDD=20240229&product=h8",
+          "secondary_source_url": "https://apnews.com/article/07b91294ec6970453150a3df6d4135f3",
+          "source_independence_assessment": "WPC's event analysis and contemporaneous AP dispatch corroborate Leap Day onset; later NASA snowpack imagery covers the multiday episode rather than a single day.",
+          "verified_core_fact": "On February 29, 2024, a powerful Pacific winter storm began producing snow and strong winds in the Sierra Nevada before a multiday blizzard developed.",
+          "unverified_claims": "Most four-to-eight-foot storm-total snowfall accumulated into March 1–3, not during February 29 alone. Severe blizzard conditions peaked later. Do not claim late-storm totals as Leap Day observations.",
+          "review_scope": "core event/date/location only",
+          "human_fact_check_status": "pending",
+          "publication_approval_status": "not_approved",
+          "image_rights_status": "not_reviewed"
+        },
+        {
+          "event_id": "phasea-pass27-2008-02-29-emma-europe",
+          "event_date": "2008-02-29",
+          "title": "Windstorm Emma approaches Europe on Leap Day",
+          "source_url": "https://www.knmi.nl/over-het-knmi/nieuws/schrikkelstorm-ging-vergezeld-van-felle-windstoten",
+          "secondary_source_url": "https://www.europeanwindstorms.org/cgi-bin/storms/storms.cgi?storm1=Emma",
+          "source_independence_assessment": "KNMI supplies Dutch surface-station and cyclone chronology, while the European Windstorm Catalogue supplies separate ERA-Interim reanalysis-based February 29 pressure and vorticity milestones.",
+          "verified_core_fact": "On February 29, 2008, Windstorm Emma's system approached northwestern Europe, with a warm front reaching Germany by evening before widespread overnight wind damage.",
+          "unverified_claims": "Most destructive Central European gusts and deaths occurred March 1, not February 29. The reanalysis 959.5-hPa low is not an independently measured Dutch station value.",
+          "review_scope": "core event/date/location only",
+          "human_fact_check_status": "pending",
+          "publication_approval_status": "not_approved",
+          "image_rights_status": "not_reviewed"
+        }
+      ]
     },
     {
       "calendar_date": "03-01",
@@ -4183,13 +4241,13 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-5347027",
       "first_alternate_title": "Tornado — CAMILLA, Georgia",
-      "second_alternate_event_id": "ncei-5135652",
-      "second_alternate_title": "Winter Storm — LITTLE COLORADO RIVER VALLEY IN NAVAJO COUNTY, Arizona",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "second_alternate_event_id": "phasea-pass27-2003-03-20-colorado-blizzard-satellite",
+      "second_alternate_title": "A satellite reveals the aftermath of Colorado's historic March blizzard",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass16 (2026-11-20): Cyclone Larry crossed the Queensland coast near Innisfail around daybreak March 20, 2006, at Australian tropical cyclone Category 4 intensity in BoM's post-analysis. Caution: BoM history lists Australian Category 4 landfall around 0700 AEST March20 (2100 UTC March19), while older research narrations describe brief pre-landfall Category 5. Australian cyclone categories use a different 10-minute sustained-wind basis from U.S. Saffir–Simpson ratings; NEVER equate numerically. Sources: https://www.bom.gov.au/cyclone/history/larry.shtml, https://science.nasa.gov/earth/earth-observatory/tropical-cyclone-larry-strikes-queensland-6387/; additional: https://www.abc.net.au/am/archive/articles/2006/03/20/s1595625.htm. Dependence: Australian Bureau of Meteorology post-analysis is source of classification; NASA's near-landfall satellite scene independently confirms timing/location but not surface wind speed.. Former primary ncei-5633550 remains preserved in research ledger. Research only; no media rights or human review.\nPass16 Alternate 1 screen: F3 tornado near Camilla, Georgia. one_alternate_core_corroborated. Historic F3 NOT EF3; Camilla had a different damaging tornado in February 2000, so do not conflate 2000 and 2003. This is an alternate for March20 Larry (different year, region and hazard).\nPass16 Alternate 2 screen: Winter storm across Navajo County, Arizona. research_lead_screened_unverified. Original Storm Data describes several fatalities across a two-day snowfall event; neither Navajo County segment nor Mar20 independently establishes all death dates or location. Candidate remains uncorroborated.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass16 (2026-11-20): Cyclone Larry crossed the Queensland coast near Innisfail around daybreak March 20, 2006, at Australian tropical cyclone Category 4 intensity in BoM's post-analysis. Caution: BoM history lists Australian Category 4 landfall around 0700 AEST March20 (2100 UTC March19), while older research narrations describe brief pre-landfall Category 5. Australian cyclone categories use a different 10-minute sustained-wind basis from U.S. Saffir–Simpson ratings; NEVER equate numerically. Sources: https://www.bom.gov.au/cyclone/history/larry.shtml, https://science.nasa.gov/earth/earth-observatory/tropical-cyclone-larry-strikes-queensland-6387/; additional: https://www.abc.net.au/am/archive/articles/2006/03/20/s1595625.htm. Dependence: Australian Bureau of Meteorology post-analysis is source of classification; NASA's near-landfall satellite scene independently confirms timing/location but not surface wind speed.. Former primary ncei-5633550 remains preserved in research ledger. Research only; no media rights or human review.\nPass16 Alternate 1 screen: F3 tornado near Camilla, Georgia. one_alternate_core_corroborated. Historic F3 NOT EF3; Camilla had a different damaging tornado in February 2000, so do not conflate 2000 and 2003. This is an alternate for March20 Larry (different year, region and hazard).\nPass16 Alternate 2 screen: Winter storm across Navajo County, Arizona. research_lead_screened_unverified. Original Storm Data describes several fatalities across a two-day snowfall event; neither Navajo County segment nor Mar20 independently establishes all death dates or location. Candidate remains uncorroborated.\nPass27 alternate 2: A satellite reveals the aftermath of Colorado's historic March blizzard (2003-03-20). On March 20, 2003, NASA Terra MODIS imaged the expansive snow cover left across Colorado and Wyoming by a historic March 18–19 upslope blizzard. Evidence lineage: NASA directly observed the snow-cover field on March 20 and CSU independently reviews the previous storm's meteorology; both use common NOAA cooperative/snow reports for totals.. Cautions: The March 20 anniversary is satellite acquisition and aftermath, NOT when Denver's main accumulation fell. Do not date 30-inch storm totals to March 20.. Displaced alternate ID retained in Pass27 ledger. Not human-fact-checked or media-cleared.",
       "event_source_excerpt": "",
       "input_research_score": 89,
       "editorial_selection_score": 89,
@@ -4207,6 +4265,20 @@
           "source_independence_assessment": "NCEI and NWS Tallahassee same underlying historic survey; the NWS independent synoptic write-up confirms event occurrence/date only.",
           "review_scope": "core event and anniversary date only; not full fact checking",
           "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass27-2003-03-20-colorado-blizzard-satellite",
+          "event_date": "2003-03-20",
+          "title": "A satellite reveals the aftermath of Colorado's historic March blizzard",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/blizzard-hits-colorado-3306/",
+          "secondary_source_url": "https://climate.colostate.edu/blog/index.php/2024/03/13/how-has-front-range-snowstorm-forecasting-advanced-since-march-2003/",
+          "source_independence_assessment": "NASA directly observed the snow-cover field on March 20 and CSU independently reviews the previous storm's meteorology; both use common NOAA cooperative/snow reports for totals.",
+          "verified_core_fact": "On March 20, 2003, NASA Terra MODIS imaged the expansive snow cover left across Colorado and Wyoming by a historic March 18–19 upslope blizzard.",
+          "unverified_claims": "The March 20 anniversary is satellite acquisition and aftermath, NOT when Denver's main accumulation fell. Do not date 30-inch storm totals to March 20.",
+          "review_scope": "core event/date/location only",
+          "human_fact_check_status": "pending",
+          "publication_approval_status": "not_approved",
+          "image_rights_status": "not_reviewed"
         }
       ]
     },
@@ -10430,13 +10502,13 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-123372",
       "first_alternate_title": "Tornado — LEAVITTS HILL, New Hampshire",
-      "second_alternate_event_id": "ncei-773537",
-      "second_alternate_title": "Excessive Heat — LAS VEGAS VALLEY, Nevada",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "second_alternate_event_id": "phasea-pass27-2018-07-24-attica-wildfire-imagery",
+      "second_alternate_title": "Satellite imagery reveals the deadly Attica wildfires' footprint",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass16 (2026-11-20): A waterspout developed over Chesapeake Bay and moved ashore at Cherrystone campground on July 24, 2014, producing a surveyed EF1 tornado. Caution: NWS survey distinguishes the EF1 tornado track from a nearby broader damaging STRAIGHT-LINE wind swath and separate large hail swaths; original Cape Charles NCEI wind record was not a tornado itself. July24 tornado warning around 8:20 AM EDT, onshore impact around 8:31 AM. Photographs/Google Earth base layers in NWS newsletter are NOT granted rights for OTDwx merely by being public. Sources: https://www.weather.gov/media/akq/newsletter/LatestNewsLetter.pdf, https://capecharleswave.com/2014/07/extra-county-declares-local-emergency/; additional: https://www.weather.gov/media/akq/miscNEWS/Top_Weather_Events_2014.pdf. Dependence: NWS Wakefield storm survey provides tornado classification; local government emergency declaration independently documents exact occurrence but not EF-scale engineering intensity.. Former primary ncei-537158 remains preserved in research ledger. Research only; no media rights or human review.\nPass16 Alternate 1 screen: A long-track EF2 tornado crosses several New Hampshire towns. one_alternate_core_corroborated. NCEI Leavitts Hill is one of many county portions; do not count multiple segments as separate tornadoes or infer maximum intensity along entire path. Different from July24 2014 Cherrystone, Virginia primary.\nPass16 Alternate 2 screen: Multiday excessive heat in Las Vegas, Nevada. research_lead_screened_unverified. The 17 heat-related deaths noted in the source refer to episode and aftermath, not July24 alone; attribution and county time windows remain unverified.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass16 (2026-11-20): A waterspout developed over Chesapeake Bay and moved ashore at Cherrystone campground on July 24, 2014, producing a surveyed EF1 tornado. Caution: NWS survey distinguishes the EF1 tornado track from a nearby broader damaging STRAIGHT-LINE wind swath and separate large hail swaths; original Cape Charles NCEI wind record was not a tornado itself. July24 tornado warning around 8:20 AM EDT, onshore impact around 8:31 AM. Photographs/Google Earth base layers in NWS newsletter are NOT granted rights for OTDwx merely by being public. Sources: https://www.weather.gov/media/akq/newsletter/LatestNewsLetter.pdf, https://capecharleswave.com/2014/07/extra-county-declares-local-emergency/; additional: https://www.weather.gov/media/akq/miscNEWS/Top_Weather_Events_2014.pdf. Dependence: NWS Wakefield storm survey provides tornado classification; local government emergency declaration independently documents exact occurrence but not EF-scale engineering intensity.. Former primary ncei-537158 remains preserved in research ledger. Research only; no media rights or human review.\nPass16 Alternate 1 screen: A long-track EF2 tornado crosses several New Hampshire towns. one_alternate_core_corroborated. NCEI Leavitts Hill is one of many county portions; do not count multiple segments as separate tornadoes or infer maximum intensity along entire path. Different from July24 2014 Cherrystone, Virginia primary.\nPass16 Alternate 2 screen: Multiday excessive heat in Las Vegas, Nevada. research_lead_screened_unverified. The 17 heat-related deaths noted in the source refer to episode and aftermath, not July24 alone; attribution and county time windows remain unverified.\nPass27 alternate 2: Satellite imagery reveals the deadly Attica wildfires' footprint (2018-07-24). On July 24, 2018, satellites documented the destructive Attica wildfire outbreak near Athens after rapid fire growth under hot, dry, windy conditions. Evidence lineage: NASA July 24 satellite imagery and EU JRC event-mapping independently describe fire footprint, but may share satellite retrievals.. Cautions: Kineta and Mati fires ignited July 23. The July 24 anniversary is satellite observation/ongoing response, not ignition. Published satellite products and imagery need rights review.. Displaced alternate ID retained in Pass27 ledger. Not human-fact-checked or media-cleared.",
       "event_source_excerpt": "",
       "input_research_score": 89,
       "editorial_selection_score": 89,
@@ -10454,6 +10526,20 @@
           "source_independence_assessment": "NCEI and NWS Gray both draw on the initial damage survey. Historical NWS context confirms exact date but does not independently measure EF2 winds.",
           "review_scope": "core event and anniversary date only; not full fact checking",
           "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass27-2018-07-24-attica-wildfire-imagery",
+          "event_date": "2018-07-24",
+          "title": "Satellite imagery reveals the deadly Attica wildfires' footprint",
+          "source_url": "https://www.nasa.gov/image-article/athens-greece-surrounded-by-two-huge-deadly-wildfires/",
+          "secondary_source_url": "https://data.jrc.ec.europa.eu/dataset/0ba95c65-f330-45ba-ad15-7e81849fbb03",
+          "source_independence_assessment": "NASA July 24 satellite imagery and EU JRC event-mapping independently describe fire footprint, but may share satellite retrievals.",
+          "verified_core_fact": "On July 24, 2018, satellites documented the destructive Attica wildfire outbreak near Athens after rapid fire growth under hot, dry, windy conditions.",
+          "unverified_claims": "Kineta and Mati fires ignited July 23. The July 24 anniversary is satellite observation/ongoing response, not ignition. Published satellite products and imagery need rights review.",
+          "review_scope": "core event/date/location only",
+          "human_fact_check_status": "pending",
+          "publication_approval_status": "not_approved",
+          "image_rights_status": "not_reviewed"
         }
       ]
     },
@@ -11517,13 +11603,13 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-774545",
       "first_alternate_title": "Flash Flood — ELK CITY LAKE, Kansas",
-      "second_alternate_event_id": "ncei-347737",
-      "second_alternate_title": "Flood — MT ROYAL, New Jersey",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "second_alternate_event_id": "phasea-pass27-2017-08-14-freetown-landslide",
+      "second_alternate_title": "Extreme rain triggers a catastrophic Freetown landslide and flooding",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass20 (2026-11-20): The Amite River at Denham Springs rose during the August 2016 Louisiana flood and reached a record crest early on Sunday, August 14, following days of extraordinary rainfall. Sources https://www.usgs.gov/news/national-news-release/usgs-records-historic-flooding-south-louisiana, https://science.nasa.gov/earth/earth-observatory/deluge-in-louisiana-88587/, https://pubs.usgs.gov/publication/sir20175005. Dependence: USGS streamgage hydrograph supplies independent hydrological timing; NASA satellite/aerial coverage documents the flood extent on August14, but does not independently measure the same river crest. CAUTION August14 is the Denham Springs gauge's crest, not the maximum rainfall for every basin. Amite, Comite and Tickfaw peak times differ. Distinguish gage height from above-ground inundation depth, and observed stage from preliminary/final data; avoid using unlicensed flood photographs.. Displaced ncei-1136290 (Excessive Heat — GREATER  PORTLAND METRO AREA, Oregon) original URL https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2023_c20261119.csv.gz; recorded in Pass20 research registry. Alternate IDs unchanged; graphics/figures require original creation and rights. Human fact check pending.\nPass20 alternate 1 (ncei-774545): Intense thunderstorms produced deadly flash flooding near Elk City Lake in southeast Kansas on August 14, 2018. Sources: https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=774545; https://www.weather.gov/ict/event_20180814; https://www.kwch.com/content/news/Water-rescues-underway-in-southeast-Kansas-490889521.html. Dependence The NCEI county-local record and NWS Wichita storm review share gauge/radar estimates and emergency-management reports; contemporaneous local reporting supplies another narrative source.. Caution This alternate duplicates the flood hazard of Aug14 Louisiana's 2016 primary, though it's a different meteorological event and region. Racket Creek flash flood is not uniform Elk City Lake reservoir stage; 24-hour rainfall estimates versus totals should not be conflated.. Core only; not approved or media-cleared.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass20 (2026-11-20): The Amite River at Denham Springs rose during the August 2016 Louisiana flood and reached a record crest early on Sunday, August 14, following days of extraordinary rainfall. Sources https://www.usgs.gov/news/national-news-release/usgs-records-historic-flooding-south-louisiana, https://science.nasa.gov/earth/earth-observatory/deluge-in-louisiana-88587/, https://pubs.usgs.gov/publication/sir20175005. Dependence: USGS streamgage hydrograph supplies independent hydrological timing; NASA satellite/aerial coverage documents the flood extent on August14, but does not independently measure the same river crest. CAUTION August14 is the Denham Springs gauge's crest, not the maximum rainfall for every basin. Amite, Comite and Tickfaw peak times differ. Distinguish gage height from above-ground inundation depth, and observed stage from preliminary/final data; avoid using unlicensed flood photographs.. Displaced ncei-1136290 (Excessive Heat — GREATER  PORTLAND METRO AREA, Oregon) original URL https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2023_c20261119.csv.gz; recorded in Pass20 research registry. Alternate IDs unchanged; graphics/figures require original creation and rights. Human fact check pending.\nPass20 alternate 1 (ncei-774545): Intense thunderstorms produced deadly flash flooding near Elk City Lake in southeast Kansas on August 14, 2018. Sources: https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=774545; https://www.weather.gov/ict/event_20180814; https://www.kwch.com/content/news/Water-rescues-underway-in-southeast-Kansas-490889521.html. Dependence The NCEI county-local record and NWS Wichita storm review share gauge/radar estimates and emergency-management reports; contemporaneous local reporting supplies another narrative source.. Caution This alternate duplicates the flood hazard of Aug14 Louisiana's 2016 primary, though it's a different meteorological event and region. Racket Creek flash flood is not uniform Elk City Lake reservoir stage; 24-hour rainfall estimates versus totals should not be conflated.. Core only; not approved or media-cleared.\nPass27 alternate 2: Extreme rain triggers a catastrophic Freetown landslide and flooding (2017-08-14). Heavy rain during August 14, 2017 contributed to a massive Regent-area slope failure near Freetown, flooding valleys and causing a major humanitarian disaster. Evidence lineage: World Bank-linked assessment records date/impacts, and British Geological Survey separately dates rainfall and studies geomorphology. Human impact estimates changed through later assessments.. Cautions: The triggering process involved preceding heavy rain, slope vulnerability and land use; accumulated rainfall is often multiweek. Do not attribute the disaster solely to one day's rainfall or quote conflicting fatality totals.. Displaced alternate ID retained in Pass27 ledger. Not human-fact-checked or media-cleared.",
       "event_source_excerpt": "",
       "input_research_score": 96,
       "editorial_selection_score": 96,
@@ -11541,6 +11627,20 @@
           "source_independence_assessment": "The NCEI county-local record and NWS Wichita storm review share gauge/radar estimates and emergency-management reports; contemporaneous local reporting supplies another narrative source.",
           "review_scope": "core event/date/location only",
           "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass27-2017-08-14-freetown-landslide",
+          "event_date": "2017-08-14",
+          "title": "Extreme rain triggers a catastrophic Freetown landslide and flooding",
+          "source_url": "https://www.gfdrr.org/en/publication/sierra-leone-rapid-damage-and-loss-assessment",
+          "secondary_source_url": "https://www.bgs.ac.uk/news/sierra-leone-distaster-response-august-2017/",
+          "source_independence_assessment": "World Bank-linked assessment records date/impacts, and British Geological Survey separately dates rainfall and studies geomorphology. Human impact estimates changed through later assessments.",
+          "verified_core_fact": "Heavy rain during August 14, 2017 contributed to a massive Regent-area slope failure near Freetown, flooding valleys and causing a major humanitarian disaster.",
+          "unverified_claims": "The triggering process involved preceding heavy rain, slope vulnerability and land use; accumulated rainfall is often multiweek. Do not attribute the disaster solely to one day's rainfall or quote conflicting fatality totals.",
+          "review_scope": "core event/date/location only",
+          "human_fact_check_status": "pending",
+          "publication_approval_status": "not_approved",
+          "image_rights_status": "not_reviewed"
         }
       ]
     },
@@ -14175,14 +14275,30 @@
       "second_alternate_title": "Heat — TOHONO O ODHAM NATION, Arizona",
       "alternates_verification_status": "one_alternate_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Pass21 core corroboration: Multiple tornadoes struck northern Arizona near Bellemont and Flagstaff on October 6, 2010, in one of the state's most unusual tornado outbreaks. Source dependence: NWS Flagstaff retrospective documents tornado tracks; same-day KNAU reporting documents impacts independently, but initial touchdown counts were preliminary and derived partly from public-safety reporting. Unverified: The NWS retrospective says at least 11 while early reports said 3 or 4; never compare those as competing final totals. Original Kachina alternate belongs to same outbreak; replace it. Full human check and image licensing remain pending.",
+      "research_notes": "Pass21 core corroboration: Multiple tornadoes struck northern Arizona near Bellemont and Flagstaff on October 6, 2010, in one of the state's most unusual tornado outbreaks. Source dependence: NWS Flagstaff retrospective documents tornado tracks; same-day KNAU reporting documents impacts independently, but initial touchdown counts were preliminary and derived partly from public-safety reporting. Unverified: The NWS retrospective says at least 11 while early reports said 3 or 4; never compare those as competing final totals. Original Kachina alternate belongs to same outbreak; replace it. Full human check and image licensing remain pending.\nPass27 alternate 1: Hurricane Matthew passes near Andros Island in the Bahamas (2016-10-06). On the morning of October 6, 2016, Hurricane Matthew's center passed near Andros and New Providence in the Bahamas, bringing hurricane conditions. Evidence lineage: Contemporaneous NHC advisory and Bahamian Prime Minister statement citing local meteorological reports corroborate passage. Both share some best-track satellite information.. Cautions: October 5–6 island passage has local and UTC date shifts; distinguish observed center tracks, forecast surge and later impact estimates, and do not transfer Grand Bahama impacts to Andros.. Fixed a stale corroborated label with missing evidence record. Not human-fact-checked or media-cleared.",
       "event_source_excerpt": "Superseded NCEI research lead ncei-661648; do not treat this as new-primary source narrative.",
       "input_research_score": 92,
       "editorial_selection_score": 92,
       "historical_era": "2000–2025",
       "geography_key": "Arizona",
       "research_priority": "claim-level observation checks, editorial selection and graphic asset rights",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass21-alt-2016-10-06-matthew-bahamas",
+          "event_date": "2016-10-06",
+          "title": "Hurricane Matthew passes near Andros Island in the Bahamas",
+          "source_url": "https://www.nhc.noaa.gov/archive/2016/al14/al142016.public_a.033.shtml",
+          "secondary_source_url": "https://www.bahamaslocal.com/newsitem/162538/Communication_by_the_Prime_Minister_on_the_impact_of_Hurricane_Matthew.html",
+          "source_independence_assessment": "Contemporaneous NHC advisory and Bahamian Prime Minister statement citing local meteorological reports corroborate passage. Both share some best-track satellite information.",
+          "verified_core_fact": "On the morning of October 6, 2016, Hurricane Matthew's center passed near Andros and New Providence in the Bahamas, bringing hurricane conditions.",
+          "unverified_claims": "October 5–6 island passage has local and UTC date shifts; distinguish observed center tracks, forecast surge and later impact estimates, and do not transfer Grand Bahama impacts to Andros.",
+          "review_scope": "core event/date/location only",
+          "human_fact_check_status": "pending",
+          "publication_approval_status": "not_approved",
+          "image_rights_status": "not_reviewed"
+        }
+      ]
     },
     {
       "calendar_date": "10-07",
@@ -17168,11 +17284,11 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-729836",
       "first_alternate_title": "Wildfire — VENTURA COUNTY COAST, California",
-      "second_alternate_event_id": "ncei-544667",
-      "second_alternate_title": "Winter Weather — FLATHEAD/MISSION VALLEYS, Montana",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "second_alternate_event_id": "phasea-pass27-2012-12-04-bopha-mindanao",
+      "second_alternate_title": "Typhoon Bopha strikes Mindanao in the southern Philippines",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Pass24 (2026-11-21): Torrential rain associated with Cyclone Michaung caused widespread flooding across Chennai on December 4, 2023, before the cyclone's later landfall along India's Andhra Pradesh coast. Source independence: India's disaster response authority dates cyclone intensification and major operational response to December 4, while contemporaneous Indian Express reporting documents city floods and flight disruption; a peer-reviewed comparative analysis supports high rain on that specific calendar day. Measured rain comes from IMD stations. Editorial/physical caution: Do not date Michaung's Andhra Pradesh landfall to December 4 (that occurred later). Date 24-hour totals to the specific IMD observation ending time, not calendar-midnight; rainfall, storm surge and city-drainage flooding are different mechanisms. Source news photos remain copyrighted. Third source: https://www.mdpi.com/2073-4441/16/17/2477. No reproduction rights determined.",
+      "research_notes": "Pass24 (2026-11-21): Torrential rain associated with Cyclone Michaung caused widespread flooding across Chennai on December 4, 2023, before the cyclone's later landfall along India's Andhra Pradesh coast. Source independence: India's disaster response authority dates cyclone intensification and major operational response to December 4, while contemporaneous Indian Express reporting documents city floods and flight disruption; a peer-reviewed comparative analysis supports high rain on that specific calendar day. Measured rain comes from IMD stations. Editorial/physical caution: Do not date Michaung's Andhra Pradesh landfall to December 4 (that occurred later). Date 24-hour totals to the specific IMD observation ending time, not calendar-midnight; rainfall, storm surge and city-drainage flooding are different mechanisms. Source news photos remain copyrighted. Third source: https://www.mdpi.com/2073-4441/16/17/2477. No reproduction rights determined.\nPass27 alternate 2: Typhoon Bopha strikes Mindanao in the southern Philippines (2012-12-04). Typhoon Bopha (Pablo) made landfall over eastern Mindanao early December 4, 2012 local time, with destructive winds, heavy rain and damaging debris flows. Evidence lineage: NASA imagery and JTWC track synthesis corroborate landfall timing; ADRC reports regional impact, while a separate peer-reviewed flood/debris-flow study supports the event geography.. Cautions: NASA's 1:12 a.m. Dec 4 Philippine-time satellite scan is 17:12 UTC Dec 3. Do not use UTC-only dates to dispute local landfall date; extreme rainfall maps are multiday and impact totals evolved.. Displaced alternate ID retained in Pass27 ledger. Not human-fact-checked or media-cleared.",
       "event_source_excerpt": "Former original NCEI segment ncei-274007 preserved in Pass24 ledger, not evidence for replacement.",
       "input_research_score": 92,
       "editorial_selection_score": 92,
@@ -17190,6 +17306,20 @@
           "source_independence_assessment": "NCEI county weather record and Ventura County Fire Department cause investigation support original ignition date and wind influence; investigators provide primary fire-origin evidence.",
           "review_scope": "core event/date/location only",
           "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass27-2012-12-04-bopha-mindanao",
+          "event_date": "2012-12-04",
+          "title": "Typhoon Bopha strikes Mindanao in the southern Philippines",
+          "source_url": "https://science.nasa.gov/earth/earth-observatory/bopha-makes-landfall-79892/",
+          "secondary_source_url": "https://www.adrc.asia/view_disaster_en.php?Key=1711&Lang=en",
+          "source_independence_assessment": "NASA imagery and JTWC track synthesis corroborate landfall timing; ADRC reports regional impact, while a separate peer-reviewed flood/debris-flow study supports the event geography.",
+          "verified_core_fact": "Typhoon Bopha (Pablo) made landfall over eastern Mindanao early December 4, 2012 local time, with destructive winds, heavy rain and damaging debris flows.",
+          "unverified_claims": "NASA's 1:12 a.m. Dec 4 Philippine-time satellite scan is 17:12 UTC Dec 3. Do not use UTC-only dates to dispute local landfall date; extreme rainfall maps are multiday and impact totals evolved.",
+          "review_scope": "core event/date/location only",
+          "human_fact_check_status": "pending",
+          "publication_approval_status": "not_approved",
+          "image_rights_status": "not_reviewed"
         }
       ]
     },
