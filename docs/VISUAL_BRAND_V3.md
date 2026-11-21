@@ -1,3 +1,5 @@
+> **Superseded as a publication visual standard:** November 21, 2026 source-first update. Hazard palettes remain available for supporting charts, but earlier seven v3 examples were rejected for lacking authentic map/radar/satellite/photos. Use [evidence-first visual guide](EVIDENCE_FIRST_VISUALS.md).
+
 # OTDwx Visual Identity v3 — weather-specific families
 
 The goal is **one recognizable editorial publication with different visual families**,
