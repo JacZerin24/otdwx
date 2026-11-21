@@ -396,3 +396,24 @@ For each reviewed event, the [Pass25 dated evidence and caution ledger](../data/
 - **Sep 25, 1942 — unusually early central Illinois snowfall**: NWS Lincoln reports most central Illinois accumulations on the 25th; separate NWS La Crosse regional analysis covers Sep24–26. La Crosse's particular earliest measurable snow date is **Sep26** and must not be shifted.
 
 **New state:** all **366/366** primary occurrence/date/location cores have dated source-pair research records; **0** primary source gaps, **248** researched anchors, **342** scoped claim checks, **15/732** alternate cores corroborated (717 uncorroborated), **0** full human fact-checks, **0** editorial approvals and **0** image asset-rights clearances. The remaining work is extensive: check every detailed quantitative claim and original observation, complete the 717 missing alternate story corroborations (or intentionally reduce alternate requirements with explicit editor decision), do a human editorial and international/era/adjacency quality pass, confirm image licenses or create original charts, and separately approve each post before publication. Neither GitHub CI nor this research-pass status may autoapprove a calendar row.
+
+
+## Pass 27 — independently research stronger alternate stories (November 21, 2026)
+
+All **366 primary event/date/place cores remain source-paired** and unapproved. This pass tackles the optional 732 backup-event leads while maintaining a strict standard: two links do not guarantee two independent physical measurements; a satellite date is not automatically an event ignition/landfall date, and multiday totals may not be shifted to a single anniversary. Full original-dataset verification and image rights are still pending.
+
+Eight weak or repetitive alternate research IDs were **replaced** and retained in the Pass27 displacement ledger; an additional October 6 Hurricane Matthew alternate's prior `one_alternate_core_corroborated` label was repaired by recording the missing primary and second dated evidence. All nine reviewed records live in [Pass27 alternate evidence and caution ledger](../data/phase_a_pass27_research.json), with exact source URLs, source dependencies, date-specific cautions and original graphic concepts.
+
+- **January 24, 2026** — a sprawling U.S. snow/ice storm across the Southern Plains and Mid-South; this is a January 24 expansion milestone, NOT a claim that Pennsylvania's major snow fell on the 24th.
+- **February 3, 2023** — Mount Washington summit's extraordinary near-−109°F computed wind chill late on Feb3; distinguish −47°F actual-air low in the early hours Feb4 and −108/−109 index reporting.
+- **February 29, 2024** — the opening stage of the multiday Sierra Nevada blizzard; most multi-foot snowfall fell in March.
+- **February 29, 2008** — Windstorm Emma approaches the North Sea and western Europe; the most destructive central-European winds occurred March 1. The previous Feb29 secondary EF2 was part of the selected primary's broad 2012 tornado outbreak and was deliberately displaced.
+- **March 20, 2003** — NASA Terra observes Colorado's fresh snow cover, after the big Denver accumulation on March 18–19.
+- **July 24, 2018** — satellite documentation of Attica wildfires in Greece, which *ignited July 23*, not July 24.
+- **August 14, 2017** — catastrophic rain-related Freetown/Regent landslide and flooding in Sierra Leone; antecedent rainfall/slope conditions matter, and fatalities changed by report date.
+- **December 4, 2012** — Typhoon Bopha's early-morning Philippine *local-date* landfall on Mindanao; UTC for the earlier VIIRS nighttime image was Dec 3.
+- **October 6, 2016** — repaired the evidence object for the existing Bahamas Matthew alternate using dated NHC advisories and a Bahamas government statement.
+
+**Integrity finding:** The previous Pass26 narrative said 15 of 732 alternates corroborated. Counting existing `alternate_corroboration` objects found **16** actual records, but one additional `one_alternate_core_corroborated` status on October 6 had **no evidence array**. After adding eight replacement reviews and repairing that October 6 record, **25/732** now have explicit core evidence (707 remain). **11 calendar dates have BOTH source-supported alternates** and **3 have one**, covering 14 dates in total. No human approval or media licensing status was upgraded.
+
+**Next:** start a systematic independent-source and date-claim research series for the other 707 alternates. Then conduct full, per-claim meteorological and observational checks on all 366 primaries and their chosen graphics, with editorial approval granted only by a human editor. Unverified alternates are available as leads, never publication-ready backups.
