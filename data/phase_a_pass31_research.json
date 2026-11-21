@@ -46,7 +46,10 @@
       "change": "source_led_alternate_replacement",
       "previous_event_id": "ncei-5341554",
       "previous_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2003_c20260323.csv.gz",
-      "previous_title": "Dust Storm — COCHISE COUNTY, Arizona"
+      "previous_title": "Dust Storm — COCHISE COUNTY, Arizona",
+      "date": "01-06",
+      "rank": 1,
+      "alternate_rank": 1
     },
     {
       "title": "The Groundhog Day blizzard slams Chicago with thundersnow",
@@ -72,7 +75,10 @@
       "change": "source_led_alternate_replacement",
       "previous_event_id": "ncei-18540",
       "previous_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2007_c20261119.csv.gz",
-      "previous_title": "Extreme Cold/Wind Chill — COOK, Illinois"
+      "previous_title": "Extreme Cold/Wind Chill — COOK, Illinois",
+      "date": "02-01",
+      "rank": 1,
+      "alternate_rank": 1
     },
     {
       "title": "Severe Mount Fuji lee-wave turbulence destroys BOAC Flight 911",
@@ -98,7 +104,10 @@
       "change": "source_led_alternate_replacement",
       "previous_event_id": "ncei-5136030",
       "previous_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2000_c20260323.csv.gz",
-      "previous_title": "Winter Storm — SAN DIEGO COUNTY MOUNTAINS, California"
+      "previous_title": "Winter Storm — SAN DIEGO COUNTY MOUNTAINS, California",
+      "date": "03-05",
+      "rank": 1,
+      "alternate_rank": 1
     },
     {
       "title": "An April Fools’ blizzard buries eastern Massachusetts",
@@ -124,7 +133,10 @@
       "change": "source_led_alternate_replacement",
       "previous_event_id": "ncei-5241953",
       "previous_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz",
-      "previous_title": "Flood — ANOKA, Minnesota"
+      "previous_title": "Flood — ANOKA, Minnesota",
+      "date": "04-01",
+      "rank": 1,
+      "alternate_rank": 1
     },
     {
       "title": "Record-breaking rainfall begins Nashville's historic May flood",
@@ -150,7 +162,10 @@
       "change": "source_led_alternate_replacement",
       "previous_event_id": "ncei-5697130",
       "previous_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1999_c20260323.csv.gz",
-      "previous_title": "High Wind — GUADALUPE MOUNTAINS OF CHAVES COUNTY / X SW CHAVES, New Mexico"
+      "previous_title": "High Wind — GUADALUPE MOUNTAINS OF CHAVES COUNTY / X SW CHAVES, New Mexico",
+      "date": "05-01",
+      "rank": 1,
+      "alternate_rank": 1
     },
     {
       "title": "A powerful winter cold front batters Cape Town",
@@ -176,7 +191,10 @@
       "change": "source_led_alternate_replacement",
       "previous_event_id": "ncei-5703510",
       "previous_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1999_c20260323.csv.gz",
-      "previous_title": "Heat — MONTGOMERY, Pennsylvania"
+      "previous_title": "Heat — MONTGOMERY, Pennsylvania",
+      "date": "06-07",
+      "rank": 1,
+      "alternate_rank": 1
     },
     {
       "title": "A stalled thunderstorm floods Vanguard, Saskatchewan",
@@ -203,7 +221,10 @@
       "change": "source_led_alternate_replacement",
       "previous_event_id": "ncei-5457546",
       "previous_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz",
-      "previous_title": "Thunderstorm Wind — PRETTY PRAIRIE, Kansas"
+      "previous_title": "Thunderstorm Wind — PRETTY PRAIRIE, Kansas",
+      "date": "07-03",
+      "rank": 1,
+      "alternate_rank": 1
     },
     {
       "title": "Giant hailstones fall near Fort Walker, Virginia",
@@ -229,7 +250,10 @@
       "change": "source_led_alternate_replacement",
       "previous_event_id": "ncei-5266980",
       "previous_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz",
-      "previous_title": "Flash Flood — THE GAP, Arizona"
+      "previous_title": "Flash Flood — THE GAP, Arizona",
+      "date": "08-07",
+      "rank": 2,
+      "alternate_rank": 2
     },
     {
       "title": "The 1935 Labor Day Hurricane strikes the Florida Keys",
@@ -256,7 +280,10 @@
       "change": "source_led_alternate_replacement",
       "previous_event_id": "ncei-197338",
       "previous_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2009_c20261119.csv.gz",
-      "previous_title": "Flood — BORGER, Texas"
+      "previous_title": "Flood — BORGER, Texas",
+      "date": "09-02",
+      "rank": 1,
+      "alternate_rank": 1
     },
     {
       "title": "Diablo winds drive the North Bay wildfires into Santa Rosa",
@@ -282,7 +309,10 @@
       "change": "source_led_alternate_replacement",
       "previous_event_id": "ncei-663369",
       "previous_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2016_c20261119.csv.gz",
-      "previous_title": "Flood — DRUG STORE, North Carolina"
+      "previous_title": "Flood — DRUG STORE, North Carolina",
+      "date": "10-09",
+      "rank": 1,
+      "alternate_rank": 1
     },
     {
       "title": "Typhoon Vamco makes multiple landfalls in the Philippines",
@@ -308,7 +338,10 @@
       "change": "source_led_alternate_replacement",
       "previous_event_id": "ncei-866592",
       "previous_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2019_c20261119.csv.gz",
-      "previous_title": "Lake-Effect Snow — SUMMIT, Ohio"
+      "previous_title": "Lake-Effect Snow — SUMMIT, Ohio",
+      "date": "11-11",
+      "rank": 1,
+      "alternate_rank": 1
     },
     {
       "title": "A powerful early-December ice and snowstorm paralyzes Missouri",
@@ -335,7 +368,10 @@
       "change": "source_led_alternate_replacement",
       "previous_event_id": "ncei-70204",
       "previous_source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2007_c20261119.csv.gz",
-      "previous_title": "Winter Storm — COLUMBIA, Wisconsin"
+      "previous_title": "Winter Storm — COLUMBIA, Wisconsin",
+      "date": "12-01",
+      "rank": 1,
+      "alternate_rank": 1
     }
   ],
   "replacement_log": [
