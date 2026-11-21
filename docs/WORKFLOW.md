@@ -1,5 +1,7 @@
 # Phase 1 operating procedure
 
+For the November 2026–November 2027 daily-post workflow, see [reverse production and scheduling](REVERSE_PRODUCTION_WORKFLOW.md). The private editorial desk holds proposed posts; no schedule or X publication is presumed.
+
 ## Responsibilities
 
 **GitHub** stores canonical IDs, event evidence, post-check code, historic publishing identifiers, and documentation. **Google Sheets** is the manual editor's daily workspace for drafts, approvals, source review, and publishing URLs. **X** is the final distribution platform after a later integration.
