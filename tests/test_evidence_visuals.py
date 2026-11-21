@@ -106,10 +106,18 @@ class EvidencePipelineTests(unittest.TestCase):
                              "geometry":{"type":"LineString","coordinates":[[-78.24,34.34],[-78.21,34.36]]}}]
             }
             (root/"shape.geojson").write_text(json.dumps(geometry))
+            context={"type":"FeatureCollection","features":[{"type":"Feature",
+                     "properties":{"source":"synthetic unit-test context"},
+                     "geometry":{"type":"Polygon","coordinates":[[
+                         [-78.4,34.1],[-78.1,34.1],[-78.1,34.5],[-78.4,34.5],[-78.4,34.1]]]}}]}
+            (root/"context.geojson").write_text(json.dumps(context))
             pkg=fixture("geo_track")
             pkg["graphic_spec"]={
                 "title":"Synthetic track only","deck":"Two artificial endpoints; not surveyed",
                 "geometry_file":"shape.geojson",
+                "context_file":"context.geojson",
+                "context_source_url":"https://example.org/authentic-context-in-production",
+                "context_rights_basis_url":"https://example.org/context-rights",
                 "geometry_role":"straight summary line",
                 "track_quality":"endpoint_summary",
                 "data_source_url":"https://example.org/test-only",
