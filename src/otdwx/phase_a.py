@@ -195,6 +195,21 @@ def validate_calendar(calendar: dict, catalog: dict[str, dict],
                 or row.get("image_rights_status") not in
                 {"verified_public_domain", "licensed", "permission_granted"}):
             problems.append(f"{day}: approval requires completed fact check and image rights")
+        if row.get("alternates_verification_status") == "one_alternate_core_corroborated":
+            evidence = row.get("alternate_corroboration", [])
+            if (not isinstance(evidence, list) or len(evidence) != 1
+                    or not isinstance(evidence[0], dict)
+                    or evidence[0].get("event_id") not in alternates):
+                problems.append(f"{day}: single corroborated alternate requires one matching evidence record")
+            else:
+                item = evidence[0]
+                if (item.get("event_date", "")[5:] != day
+                        or not source_is_url(item.get("source_url", ""))
+                        or not source_is_url(item.get("secondary_source_url", ""))
+                        or not item.get("verified_core_fact")
+                        or not item.get("source_independence_assessment")
+                        or item.get("publication_approval_status") != "not_approved"):
+                    problems.append(f"{day}: single alternate evidence lacks research-only date/source/approval gates")
         if row.get("alternates_verification_status") == "two_alternates_core_corroborated":
             evidence = row.get("alternate_corroboration", [])
             if (not isinstance(evidence, list) or len(evidence) != 2
