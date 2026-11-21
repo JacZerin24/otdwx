@@ -4,20 +4,22 @@
     "as_of": "2026-11-21",
     "source_catalog_sha": "4dfc2387034a9c8c19f0a23cb06af794bb743056",
     "source_candidates": 4323,
-    "additional_authoritative_anchors": 269,
+    "additional_authoritative_anchors": 287,
     "manual_curated_seeds": 7,
     "selection_status": "PROVISIONAL RESEARCH — NOT EDITORIALLY APPROVED",
     "notes": "These 366 provisional research selections are not 366 verified stories. Source-led discovery and editor approval are separate. No published copy or unpublished graphics included.",
     "manual_editorial_override_count": 206,
-    "summary": "Pass29: 366 source-paired primary date/location cores; 42/732 alternate source-paired cores on 31 dates (11 fully paired), 690 outstanding, 12 high-risk replacements completed and remaining 18 P0 screened, 0 full approvals or media rights.",
+    "summary": "Pass30: 366 primary event/date/location cores source-paired. All 35 initial P0 high-risk alternates resolved or replaced across Pass28-30; 60/732 alternates source-paired on 35 anniversaries (25 with both); 672 unverified P1/P2 alternates remain; 0 human approved/fact-checked/media-cleared.",
     "pass2_manual_upgrades": 64,
-    "alternate_screened_date_count": 38,
+    "alternate_screened_date_count": 60,
     "alternate_core_corroborated_days": 11,
-    "alternate_core_corroborated_leads": 42,
+    "alternate_core_corroborated_leads": 60,
     "pass28_reviewed_alternates": 5,
     "pass28_duplicate_leads_flagged": 6,
     "pass29_replacements": 12,
-    "pass29_p0_remaining": 18
+    "pass29_p0_remaining": 18,
+    "pass30_replacements": 18,
+    "pass30_p0_remaining": 0
   },
   "days": [
     {
@@ -1524,13 +1526,13 @@
       "graphic_feasibility_status": "Source-led visual concept; original data and rendering feasibility require validation",
       "historical_imagery_available": "NWS Buffalo chronology and Cornell/NRCC Great Lakes ice-cover reference; create original georeferenced schematic from observation data rather than reusing uncertain-license photographs.",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-1072116",
-      "first_alternate_title": "Winter Storm — NORTH SNOWY RANGE FOOTHILLS, Wyoming",
+      "first_alternate_event_id": "phasea-pass30-2021-01-28-bond-burn-scar-debris",
+      "first_alternate_title": "Atmospheric-river rain triggers debris flows in Southern California burn scars",
       "second_alternate_event_id": "ncei-500996",
       "second_alternate_title": "A rare snow-and-ice event paralyzes central Alabama",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "NWS says snowfall commenced near 5 a.m. Jan 28 on top of pre-existing 37-inch snowpack; avoid implying zero new snowfall or treating windblown snow as all fresh. Cornell NRCC may rely on NOAA observations, so not independent measurements. The 1887 giant-snowflake lead for this date remains held, NOT selected due to disputed reporting date. Original primary retained for later assessment: ncei-5434636. Retained pre-upgrade alternates: ncei-1072116, ncei-500996.\nPass28 2026-11-21: Alternate 2 A rare snow-and-ice event paralyzes central Alabama (ncei-500996) now source-paired for occurrence/date/location ONLY. Snow and freezing rain affected central Alabama on January 28, 2014, with extensive road icing and hazardous travel; the selected NCEI Elmore County segment is one piece of that regional event. Source dependence: NWS Birmingham provides contemporaneous local observation and impact records; a later peer-reviewed meteorological case study independently analyzes the episode but uses some of the same surface observations and reports. Cautions: Do not conflate January 28 conditions with January 29–30 impacts, assume all roads had equal icing, or treat one Elmore County row as statewide statistics. First-hand photos embedded in agency pages may be privately owned. No human fact check, approval or media rights clearance.",
+      "research_notes": "NWS says snowfall commenced near 5 a.m. Jan 28 on top of pre-existing 37-inch snowpack; avoid implying zero new snowfall or treating windblown snow as all fresh. Cornell NRCC may rely on NOAA observations, so not independent measurements. The 1887 giant-snowflake lead for this date remains held, NOT selected due to disputed reporting date. Original primary retained for later assessment: ncei-5434636. Retained pre-upgrade alternates: ncei-1072116, ncei-500996.\nPass28 2026-11-21: Alternate 2 A rare snow-and-ice event paralyzes central Alabama (ncei-500996) now source-paired for occurrence/date/location ONLY. Snow and freezing rain affected central Alabama on January 28, 2014, with extensive road icing and hazardous travel; the selected NCEI Elmore County segment is one piece of that regional event. Source dependence: NWS Birmingham provides contemporaneous local observation and impact records; a later peer-reviewed meteorological case study independently analyzes the episode but uses some of the same surface observations and reports. Cautions: Do not conflate January 28 conditions with January 29–30 impacts, assume all roads had equal icing, or treat one Elmore County row as statewide statistics. First-hand photos embedded in agency pages may be privately owned. No human fact check, approval or media rights clearance.\nPass30 (2026-11-21) alternate 1: Atmospheric-river rain triggers debris flows in Southern California burn scars [phasea-pass30-2021-01-28-bond-burn-scar-debris]. On January 28, 2021, rainfall from a Pacific atmospheric river triggered additional debris flows in the Bond Fire burn area near Silverado, Southern California. Sources: https://www.usgs.gov/news/bond-fire-debris-flows-california-january-25-and-28-2021 ; https://www.wpc.ncep.noaa.gov/storm_summaries/event_reviews.php?YYYYMMDD=20210128&product=h2. Independence: USGS mapped post-fire debris-flow impacts and WPC independently analyzed the regional atmospheric river; both rely on some common rain observations, and the California storm began January 26. Claim/anniversary cautions: USGS documents separate debris-flow episodes on January 25 and 28; do not place January 27 central-coast debris flows or multiday storm totals wholly on January 28. Avoid implying all burn scars responded the same way. Proposed visual: Original January 28 hourly rainfall intensity and burned-slope cross-section with dated debris-flow observations. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-1072116.",
       "event_source_excerpt": "The Blizzard of 1977 began in western New York on 28 January 1977 and continued into early February, with deep pre-existing snow helping produce severe blowing snow.",
       "input_research_score": 96,
       "editorial_selection_score": null,
@@ -1548,6 +1550,16 @@
           "secondary_source_url": "https://ejssm.com/ojs/index.php/site/article/view/74",
           "verified_core_fact": "Snow and freezing rain affected central Alabama on January 28, 2014, with extensive road icing and hazardous travel; the selected NCEI Elmore County segment is one piece of that regional event.",
           "source_independence_assessment": "NWS Birmingham provides contemporaneous local observation and impact records; a later peer-reviewed meteorological case study independently analyzes the episode but uses some of the same surface observations and reports.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-2021-01-28-bond-burn-scar-debris",
+          "event_date": "2021-01-28",
+          "source_url": "https://www.usgs.gov/news/bond-fire-debris-flows-california-january-25-and-28-2021",
+          "secondary_source_url": "https://www.wpc.ncep.noaa.gov/storm_summaries/event_reviews.php?YYYYMMDD=20210128&product=h2",
+          "verified_core_fact": "On January 28, 2021, rainfall from a Pacific atmospheric river triggered additional debris flows in the Bond Fire burn area near Silverado, Southern California.",
+          "source_independence_assessment": "USGS mapped post-fire debris-flow impacts and WPC independently analyzed the regional atmospheric river; both rely on some common rain observations, and the California storm began January 26.",
           "review_scope": "core event/date/location only",
           "publication_approval_status": "not_approved"
         }
@@ -2600,22 +2612,44 @@
       "graphic_feasibility_status": "requires_original_observations_and_asset_rights",
       "historical_imagery_available": "not_assessed",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-282670",
-      "first_alternate_title": "Dense Fog — CLARK, Wisconsin",
-      "second_alternate_event_id": "ncei-5488787",
-      "second_alternate_title": "Dense Fog — DUVAL, Florida",
-      "alternates_verification_status": "research_leads_unverified",
+      "first_alternate_event_id": "phasea-pass30-1926-02-17-bingham-canyon-avalanche",
+      "first_alternate_title": "A deadly avalanche buries part of Bingham Canyon, Utah",
+      "second_alternate_event_id": "phasea-pass30-1962-02-17-hamburg-storm-surge",
+      "second_alternate_title": "An exceptional North Sea storm surge overtops defenses in Hamburg",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass16 (2026-11-20): Storm Dudley brought damaging winds to northern parts of the UK on February 16–17, 2022, before the separate Storm Eunice arrived February 18. Caution: February 17 captures the trailing phase of Dudley, NOT Eunice's February 18 peak or Franklin on Feb20–21. ITV reported forecast and observed gusts with distinct times; do not label every 80 mph figure as observed Feb17. Sources: https://weather.metoffice.gov.uk/warnings-and-advice/uk-storm-centre/uk-storm-season-2021-22, https://www.itv.com/news/2022-02-16/storm-dudley-strikes-the-uk-bringing-80mph-winds-and-heavy-downpours; additional: https://www.metoffice.gov.uk/blog/2023/one-year-on-from-three-storms-in-a-week. Dependence: The Met Office storm-season retrospective and independently published UK news corroborate the February 16–17 Dudley window, but reporter wind figures rely partly on the Met Office.. Former primary ncei-1011171 remains preserved in research ledger. Research only; no media rights or human review.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass16 (2026-11-20): Storm Dudley brought damaging winds to northern parts of the UK on February 16–17, 2022, before the separate Storm Eunice arrived February 18. Caution: February 17 captures the trailing phase of Dudley, NOT Eunice's February 18 peak or Franklin on Feb20–21. ITV reported forecast and observed gusts with distinct times; do not label every 80 mph figure as observed Feb17. Sources: https://weather.metoffice.gov.uk/warnings-and-advice/uk-storm-centre/uk-storm-season-2021-22, https://www.itv.com/news/2022-02-16/storm-dudley-strikes-the-uk-bringing-80mph-winds-and-heavy-downpours; additional: https://www.metoffice.gov.uk/blog/2023/one-year-on-from-three-storms-in-a-week. Dependence: The Met Office storm-season retrospective and independently published UK news corroborate the February 16–17 Dudley window, but reporter wind figures rely partly on the Met Office.. Former primary ncei-1011171 remains preserved in research ledger. Research only; no media rights or human review.\nPass30 (2026-11-21) alternate 1: A deadly avalanche buries part of Bingham Canyon, Utah [phasea-pass30-1926-02-17-bingham-canyon-avalanche]. On February 17, 1926, a major natural avalanche swept into Bingham Canyon, Utah, destroying homes and a boarding house following a snowy period. Sources: https://utahavalanchecenter.org/avalanche/82986 ; https://geology.utah.gov/hazards/info/costs/. Independence: Utah Avalanche Center event entry and Utah Geological Survey historical hazard archive independently index the precise date/location but draw on overlapping period newspapers and avalanche historical compilations. Claim/anniversary cautions: Historical fatality totals vary (35, 39 or about 40 depending on registry and retrospective accounts). Avoid an exact death figure until source/scope reconciled. Avalanche was snow, rock and debris, not only a simple snow slab. Proposed visual: Original Bingham Canyon slope/settlement hazard map with documented avalanche runout and archive-source uncertainty. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-282670.\nPass30 (2026-11-21) alternate 2: An exceptional North Sea storm surge overtops defenses in Hamburg [phasea-pass30-1962-02-17-hamburg-storm-surge]. During the early morning of February 17, 1962, a devastating North Sea storm surge reached Hamburg and breached flood defenses along the lower Elbe; Hamburg's historic tide archive marks the local storm-tide peak around 03:08. Sources: https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/klima/klimaanpassung/klimainformationssystem/intensitaetsturmfluten-254708 ; https://www.ndr.de/geschichte/chronologie/Sturmflut-in-Hamburg-1962-Eine-Chronologie%2Csturmfluthamburg123.html. Independence: Hamburg municipal tide/flood archives and NDR's event chronology cross-check the local date; NDR's reporting draws partly on municipal historical/meteorological records, so numerical claims require original gauge context. Claim/anniversary cautions: Severe cyclone winds developed February 16 and surge flooding occurred overnight February 16–17; mark early February 17 local tide peak, not storm's initial formation. Gauge heights require correct elevation datum. Proposed visual: Original Lower Elbe surge propagation and dated Hamburg tide-stage curve with levee breaches mapped. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-5488787.",
       "event_source_excerpt": "",
       "input_research_score": 89,
       "editorial_selection_score": 89,
       "historical_era": "2000–2025",
       "geography_key": "UK northern regions",
       "research_priority": "Verify underlying observational data, timing, geography, and rights before approval",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass30-1926-02-17-bingham-canyon-avalanche",
+          "event_date": "1926-02-17",
+          "source_url": "https://utahavalanchecenter.org/avalanche/82986",
+          "secondary_source_url": "https://geology.utah.gov/hazards/info/costs/",
+          "verified_core_fact": "On February 17, 1926, a major natural avalanche swept into Bingham Canyon, Utah, destroying homes and a boarding house following a snowy period.",
+          "source_independence_assessment": "Utah Avalanche Center event entry and Utah Geological Survey historical hazard archive independently index the precise date/location but draw on overlapping period newspapers and avalanche historical compilations.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-1962-02-17-hamburg-storm-surge",
+          "event_date": "1962-02-17",
+          "source_url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/klima/klimaanpassung/klimainformationssystem/intensitaetsturmfluten-254708",
+          "secondary_source_url": "https://www.ndr.de/geschichte/chronologie/Sturmflut-in-Hamburg-1962-Eine-Chronologie%2Csturmfluthamburg123.html",
+          "verified_core_fact": "During the early morning of February 17, 1962, a devastating North Sea storm surge reached Hamburg and breached flood defenses along the lower Elbe; Hamburg's historic tide archive marks the local storm-tide peak around 03:08.",
+          "source_independence_assessment": "Hamburg municipal tide/flood archives and NDR's event chronology cross-check the local date; NDR's reporting draws partly on municipal historical/meteorological records, so numerical claims require original gauge context.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "02-18",
@@ -2898,13 +2932,13 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-799239",
       "first_alternate_title": "An EF3 tornado strikes Columbus, Mississippi",
-      "second_alternate_event_id": "ncei-613449",
-      "second_alternate_title": "Tornado — UNION, Louisiana",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "second_alternate_event_id": "phasea-pass30-2026-02-23-northeast-blizzard",
+      "second_alternate_title": "A late-February blizzard paralyzes the New York metropolitan area",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 7 (2026-11-20): NWS Melbourne documents a major Central Florida tornado outbreak late February 22 into early February 23, 1998; NCEI's Intercession City F3 belongs to the Kissimmee-track tornado on February 23. CAUTIONS: Use the pre-2007 F3 rating rather than EF3. Survey fatalities in Kissimmee (individual tornado) must not be conflated with all outbreak fatalities. Exact local midnight timing varies by storm. Second publisher: NWS Melbourne (https://www.weather.gov/mlb/022398). Source independence: NWS Melbourne tornado assessment is the original survey that informs the NCEI Intercession City report. Supporting source: https://www.weather.gov/mlb/enso_florida_severe. Original NCEI report place/headline: INTERCESSION CITY, Florida / Tornado — INTERCESSION CITY, Florida; catalog ID preserved.\nPass28 2026-11-21: Alternate 1 An EF3 tornado strikes Columbus, Mississippi (ncei-799239) now source-paired for occurrence/date/location ONLY. A destructive EF3 tornado moved through Columbus, Mississippi, on February 23, 2019, as part of an evening severe-weather episode. Source dependence: NWS Jackson tornado survey and NCEI local event entry derive from the same NOAA damage-assessment and storm-report system, so they corroborate the identity/date but do NOT independently verify EF-scale wind speeds or injury totals. Cautions: Source injury totals differ by account/reporting scope (NCEI individual segment versus NWS event summary); do not publish injuries or fatalities before direct/indirect and geographic reconciliation. EF3 is a surveyed damage rating, not a measured wind gust. No human fact check, approval or media rights clearance.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 7 (2026-11-20): NWS Melbourne documents a major Central Florida tornado outbreak late February 22 into early February 23, 1998; NCEI's Intercession City F3 belongs to the Kissimmee-track tornado on February 23. CAUTIONS: Use the pre-2007 F3 rating rather than EF3. Survey fatalities in Kissimmee (individual tornado) must not be conflated with all outbreak fatalities. Exact local midnight timing varies by storm. Second publisher: NWS Melbourne (https://www.weather.gov/mlb/022398). Source independence: NWS Melbourne tornado assessment is the original survey that informs the NCEI Intercession City report. Supporting source: https://www.weather.gov/mlb/enso_florida_severe. Original NCEI report place/headline: INTERCESSION CITY, Florida / Tornado — INTERCESSION CITY, Florida; catalog ID preserved.\nPass28 2026-11-21: Alternate 1 An EF3 tornado strikes Columbus, Mississippi (ncei-799239) now source-paired for occurrence/date/location ONLY. A destructive EF3 tornado moved through Columbus, Mississippi, on February 23, 2019, as part of an evening severe-weather episode. Source dependence: NWS Jackson tornado survey and NCEI local event entry derive from the same NOAA damage-assessment and storm-report system, so they corroborate the identity/date but do NOT independently verify EF-scale wind speeds or injury totals. Cautions: Source injury totals differ by account/reporting scope (NCEI individual segment versus NWS event summary); do not publish injuries or fatalities before direct/indirect and geographic reconciliation. EF3 is a surveyed damage rating, not a measured wind gust. No human fact check, approval or media rights clearance.\nPass30 (2026-11-21) alternate 2: A late-February blizzard paralyzes the New York metropolitan area [phasea-pass30-2026-02-23-northeast-blizzard]. On February 23, 2026, a strong coastal cyclone generated heavy snow, damaging wind and qualifying blizzard conditions across numerous New York metropolitan counties. Sources: https://www.weather.gov/okx/20260222_23 ; https://www.wpc.ncep.noaa.gov/storm_summaries/event_reviews.php?YYYYMMDD=20260222&product=h5. Independence: NWS New York documents observed snow/blizzard criteria, while WPC independently reconstructs the same coastal low but uses shared NWS reports and analysis data; neither source clears claims of individual town storm totals. Claim/anniversary cautions: Storm began February 22; confirm local blizzard-criteria timing and distinguish preliminarily confirmed county-wide reports from single-site sustained wind data. Final snowfall amounts cover multiple days. Proposed visual: Original February 22–23 coastal cyclone track, snowband radar timeline and locally verified blizzard-observation map. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-613449.",
       "event_source_excerpt": "The deadliest tornado of the outbreak was a category F3 that touched down initially one mile south of Intercession City. The tornado moved northeast at 45 mph and ripped through the town of Kissimmee killing 25 people. The hardest hit areas were the Morningside Acres mobile home community and the Po",
       "input_research_score": 75.95,
       "editorial_selection_score": 72.6,
@@ -2920,6 +2954,16 @@
           "secondary_source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=799239",
           "verified_core_fact": "A destructive EF3 tornado moved through Columbus, Mississippi, on February 23, 2019, as part of an evening severe-weather episode.",
           "source_independence_assessment": "NWS Jackson tornado survey and NCEI local event entry derive from the same NOAA damage-assessment and storm-report system, so they corroborate the identity/date but do NOT independently verify EF-scale wind speeds or injury totals.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-2026-02-23-northeast-blizzard",
+          "event_date": "2026-02-23",
+          "source_url": "https://www.weather.gov/okx/20260222_23",
+          "secondary_source_url": "https://www.wpc.ncep.noaa.gov/storm_summaries/event_reviews.php?YYYYMMDD=20260222&product=h5",
+          "verified_core_fact": "On February 23, 2026, a strong coastal cyclone generated heavy snow, damaging wind and qualifying blizzard conditions across numerous New York metropolitan counties.",
+          "source_independence_assessment": "NWS New York documents observed snow/blizzard criteria, while WPC independently reconstructs the same coastal low but uses shared NWS reports and analysis data; neither source clears claims of individual town storm totals.",
           "review_scope": "core event/date/location only",
           "publication_approval_status": "not_approved"
         }
@@ -6931,14 +6975,14 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-10135837",
       "first_alternate_title": "An F5 tornado devastates Lubbock, Texas",
-      "second_alternate_event_id": "ncei-109020",
-      "second_alternate_title": "Tornado — DARIEN EDEN FLD, Georgia",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "second_alternate_event_id": "phasea-pass30-2016-05-11-fort-mcmurray-wildfire",
+      "second_alternate_title": "Fort McMurray wildfire emergency continues across northern Alberta",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [
         "same hazard as previous day",
         "three consecutive days same hazard"
       ],
-      "research_notes": "City history cites NOAA as a source, so it is not fully independent factual corroboration; archival photos on NWS page credit Waco Tribune-Herald, do not reuse absent permission. Prior research primary (preserved): ncei-26380. Previous alternate IDs: ncei-1031734, ncei-112205.\nPass28 2026-11-21: Alternate 1 An F5 tornado devastates Lubbock, Texas (ncei-10135837) now source-paired for occurrence/date/location ONLY. On May 11, 1970, a violent tornado devastated parts of Lubbock, Texas; federal Weather Bureau records and a National Bureau of Standards structural-damage survey document the event. Source dependence: NWS/Weather Bureau chronology and a separately conducted National Bureau of Standards structural field survey provide complementary event evidence; both necessarily reference the same physical tornado, and F5 rating derives from damage analysis. Cautions: Use historical F-scale (F5), not modern EF5. Lubbock experienced more than one tornado that evening; distinguish first and destructive second tornado. Damage estimates, fatalities, and wind speeds require claim-specific archival reconciliation. Historic photographs have item-specific rights. No human fact check, approval or media rights clearance.",
+      "research_notes": "City history cites NOAA as a source, so it is not fully independent factual corroboration; archival photos on NWS page credit Waco Tribune-Herald, do not reuse absent permission. Prior research primary (preserved): ncei-26380. Previous alternate IDs: ncei-1031734, ncei-112205.\nPass28 2026-11-21: Alternate 1 An F5 tornado devastates Lubbock, Texas (ncei-10135837) now source-paired for occurrence/date/location ONLY. On May 11, 1970, a violent tornado devastated parts of Lubbock, Texas; federal Weather Bureau records and a National Bureau of Standards structural-damage survey document the event. Source dependence: NWS/Weather Bureau chronology and a separately conducted National Bureau of Standards structural field survey provide complementary event evidence; both necessarily reference the same physical tornado, and F5 rating derives from damage analysis. Cautions: Use historical F-scale (F5), not modern EF5. Lubbock experienced more than one tornado that evening; distinguish first and destructive second tornado. Damage estimates, fatalities, and wind speeds require claim-specific archival reconciliation. Historic photographs have item-specific rights. No human fact check, approval or media rights clearance.\nPass30 (2026-11-21) alternate 2: Fort McMurray wildfire emergency continues across northern Alberta [phasea-pass30-2016-05-11-fort-mcmurray-wildfire]. On May 11, 2016, Alberta's emergency authorities maintained urgent fire-related restrictions and response measures around Fort McMurray while the long-running wildfire emergency continued. Sources: https://www.alberta.ca/aea/cap/2016/05/11/2016-05-11T12_37_11-06_00%3DPROD-4947%40www.emergencyalert.alberta.ca%3DCA-AB-AEA1-3656.htm ; https://www.jpl.nasa.gov/images/pia20663-large-smoke-plumes-from-alberta-canada-fires-observed-by-nasas-misr/. Independence: The Government of Alberta's contemporaneous May 11 alert directly documents ongoing operational restrictions; NASA JPL's May 11 publication documents earlier MISR observations, not a new May 11 satellite image. Claim/anniversary cautions: The Fort McMurray fire started earlier in May; JPL article date was May 11 but its referenced MISR acquisition was May 6. Do not claim first ignition, initial evacuation or displayed satellite image occurred May 11. Proposed visual: Original fire-growth versus dated public-alert timeline distinguishing May 6 MISR acquisition and May 11 Alberta bulletin. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-109020.",
       "event_source_excerpt": "An F5 tornado devastated central Waco on May 11, 1953; NWS reports 114 deaths and 597 injuries attributable to this tornado.",
       "input_research_score": 90,
       "editorial_selection_score": null,
@@ -6956,6 +7000,16 @@
           "secondary_source_url": "https://www.nist.gov/publications/lubbock-tornado-survey-building-damage-urban-area-nbs-tn-558",
           "verified_core_fact": "On May 11, 1970, a violent tornado devastated parts of Lubbock, Texas; federal Weather Bureau records and a National Bureau of Standards structural-damage survey document the event.",
           "source_independence_assessment": "NWS/Weather Bureau chronology and a separately conducted National Bureau of Standards structural field survey provide complementary event evidence; both necessarily reference the same physical tornado, and F5 rating derives from damage analysis.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-2016-05-11-fort-mcmurray-wildfire",
+          "event_date": "2016-05-11",
+          "source_url": "https://www.alberta.ca/aea/cap/2016/05/11/2016-05-11T12_37_11-06_00%3DPROD-4947%40www.emergencyalert.alberta.ca%3DCA-AB-AEA1-3656.htm",
+          "secondary_source_url": "https://www.jpl.nasa.gov/images/pia20663-large-smoke-plumes-from-alberta-canada-fires-observed-by-nasas-misr/",
+          "verified_core_fact": "On May 11, 2016, Alberta's emergency authorities maintained urgent fire-related restrictions and response measures around Fort McMurray while the long-running wildfire emergency continued.",
+          "source_independence_assessment": "The Government of Alberta's contemporaneous May 11 alert directly documents ongoing operational restrictions; NASA JPL's May 11 publication documents earlier MISR observations, not a new May 11 satellite image.",
           "review_scope": "core event/date/location only",
           "publication_approval_status": "not_approved"
         }
@@ -7040,13 +7094,13 @@
       "graphic_feasibility_status": "Proposed original graphic anchored to traceable source; final data/render/license not verified",
       "historical_imagery_available": "Museum exhibit supplies original oral histories, photographs, damage documentation; license/permissions are separate for each asset, so map from independently verified survey geography.",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-10320629",
-      "first_alternate_title": "Tornado — Ipava to, Illinois",
-      "second_alternate_event_id": "ncei-1087621",
-      "second_alternate_title": "Tornado — BAYSIDE, Texas",
-      "alternates_verification_status": "existing alternate leads preserved; independently unverified",
+      "first_alternate_event_id": "phasea-pass30-2014-05-13-balkans-yvette-rain-start",
+      "first_alternate_title": "Cyclone Yvette begins a devastating Balkan rainfall episode",
+      "second_alternate_event_id": "phasea-pass30-2023-05-13-laguna-heights-ef1",
+      "second_alternate_title": "A nocturnal EF1 tornado strikes Laguna Heights near South Padre Island",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Museum lists 16-minute path, 5 killed and 79 seriously hurt, but casualty classifications and full track locations need claim-level verification before captions. NWS GRR links to an external ArcGIS story map; not necessarily independent of the museum source. Historic press photos have explicit copyright. Prior primary retained: ncei-5513521. Original alternate IDs carried forward without new screening: ncei-10320629, ncei-1087621.",
+      "research_notes": "Museum lists 16-minute path, 5 killed and 79 seriously hurt, but casualty classifications and full track locations need claim-level verification before captions. NWS GRR links to an external ArcGIS story map; not necessarily independent of the museum source. Historic press photos have explicit copyright. Prior primary retained: ncei-5513521. Original alternate IDs carried forward without new screening: ncei-10320629, ncei-1087621.\nPass30 (2026-11-21) alternate 1: Cyclone Yvette begins a devastating Balkan rainfall episode [phasea-pass30-2014-05-13-balkans-yvette-rain-start]. On May 13, 2014, an intense, persistent precipitation episode associated with the developing Balkan cyclone Yvette began over the western Balkans, before catastrophic flooding developed over subsequent days. Sources: https://www.ecmwf.int/en/about/media-centre/news/2014/severe-floods-balkans ; https://blogs.reading.ac.uk/weather-and-climate-at-reading/2015/early-warnings-of-the-may-2014-balkan-floods/. Independence: ECMWF's operational forecast/verification chronology and University of Reading meteorological reconstruction independently describe May 13 rainfall onset but share some ECMWF model and hydrometric datasets. Claim/anniversary cautions: The worst flooding and major river peaks occurred May 14–18, not all on May 13; May 13 denotes beginning of the high-rainfall episode, not highest daily water stage. Different studies use May 13/14 analysis start. Proposed visual: Original May 13–16 cutoff low track and 24-hour rain chart separating rain onset from later river crests. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-10320629.\nPass30 (2026-11-21) alternate 2: A nocturnal EF1 tornado strikes Laguna Heights near South Padre Island [phasea-pass30-2023-05-13-laguna-heights-ef1]. Early May 13, 2023, a tornado rated EF1 struck Laguna Heights, Texas, producing extensive structural damage and a deadly local impact near South Padre Island. Sources: https://storymaps.arcgis.com/stories/3b5005f971c940aca8d07c770318b105 ; https://abcnews.com/US/1-dead-multiple-injured-tornado-rio-grande-valley/story?id=99303681. Independence: NWS Brownsville case study presents survey/radar analysis while contemporaneous ABC reporting separately documents scene and human impacts, but EF1 intensity relies on the NWS survey. Claim/anniversary cautions: The earlier selected Bayside, Texas NCEI segment is a different locale; do not transfer its reported path or damage counts. EF1 is a surveyed damage rating, not an observed 10-m wind speed. Injury and casualty figures vary by report release. Proposed visual: Original May 13 radar/sea-breeze-boundary analysis, local tornado path, and damage survey indicators. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-1087621.",
       "event_source_excerpt": "On May 13, 1980, an F3 tornado struck Kalamazoo, Michigan, leaving an approximately 11-mile damage path through the city.",
       "input_research_score": 90,
       "editorial_selection_score": null,
@@ -7055,7 +7109,29 @@
       "research_priority": "Claim-level verification, primary data/timing, independent corroboration quality, exact graphic asset reuse rights",
       "post_readiness": "NOT READY",
       "alternates_screening_status": "existing_unverified_leads_carried_forward",
-      "source_independence_assessment": "cross_institution_shared_historical_case_study_possible"
+      "source_independence_assessment": "cross_institution_shared_historical_case_study_possible",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass30-2014-05-13-balkans-yvette-rain-start",
+          "event_date": "2014-05-13",
+          "source_url": "https://www.ecmwf.int/en/about/media-centre/news/2014/severe-floods-balkans",
+          "secondary_source_url": "https://blogs.reading.ac.uk/weather-and-climate-at-reading/2015/early-warnings-of-the-may-2014-balkan-floods/",
+          "verified_core_fact": "On May 13, 2014, an intense, persistent precipitation episode associated with the developing Balkan cyclone Yvette began over the western Balkans, before catastrophic flooding developed over subsequent days.",
+          "source_independence_assessment": "ECMWF's operational forecast/verification chronology and University of Reading meteorological reconstruction independently describe May 13 rainfall onset but share some ECMWF model and hydrometric datasets.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-2023-05-13-laguna-heights-ef1",
+          "event_date": "2023-05-13",
+          "source_url": "https://storymaps.arcgis.com/stories/3b5005f971c940aca8d07c770318b105",
+          "secondary_source_url": "https://abcnews.com/US/1-dead-multiple-injured-tornado-rio-grande-valley/story?id=99303681",
+          "verified_core_fact": "Early May 13, 2023, a tornado rated EF1 struck Laguna Heights, Texas, producing extensive structural damage and a deadly local impact near South Padre Island.",
+          "source_independence_assessment": "NWS Brownsville case study presents survey/radar analysis while contemporaneous ABC reporting separately documents scene and human impacts, but EF1 intensity relies on the NWS survey.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "05-14",
@@ -9928,22 +10004,44 @@
       "graphic_feasibility_status": "requires_original_timeseries_or_reanalysis_data",
       "historical_imagery_available": "not_assessed",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-826139",
-      "first_alternate_title": "Flash Flood — PINE FORGE, Pennsylvania",
-      "second_alternate_event_id": "ncei-5706929",
-      "second_alternate_title": "Flash Flood — FOREST FALLS, California",
-      "alternates_verification_status": "research_leads_unverified",
+      "first_alternate_event_id": "phasea-pass30-2011-07-11-chicago-derecho-seiche",
+      "first_alternate_title": "A derecho produces a rare Lake Michigan seiche",
+      "second_alternate_event_id": "phasea-pass30-1990-07-11-denver-hailstorm",
+      "second_alternate_title": "A devastating hailstorm sweeps Colorado's Front Range",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass15 (2026-11-20): After heavy rainfall July 9–10, 2023, the Winooski River at Montpelier crested during the morning of July 11, inundating Vermont's capital. Boundaries: Rainfall had largely occurred the preceding day(s), while July 11 is the Montpelier river-crest and impact anniversary. NWS narrative cites 21.35 feet while city records cite about 21.29 feet: confirm precise gauge, datum and final quality control before quoting crest heights. Independence: NWS Burlington hydrometeorological case analysis and USGS post-flood streamgage/high-water-mark report use separate agency hydrologic methods, though some source gauges are shared. Secondary: https://pubs.usgs.gov/publication/sir20255016/full. Further reading: https://www.montpelier-vt.org/610/Flood-Guide. Replaced primary ncei-1126074 retained in pass15 registry. Research-only, no publication clearance.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass15 (2026-11-20): After heavy rainfall July 9–10, 2023, the Winooski River at Montpelier crested during the morning of July 11, inundating Vermont's capital. Boundaries: Rainfall had largely occurred the preceding day(s), while July 11 is the Montpelier river-crest and impact anniversary. NWS narrative cites 21.35 feet while city records cite about 21.29 feet: confirm precise gauge, datum and final quality control before quoting crest heights. Independence: NWS Burlington hydrometeorological case analysis and USGS post-flood streamgage/high-water-mark report use separate agency hydrologic methods, though some source gauges are shared. Secondary: https://pubs.usgs.gov/publication/sir20255016/full. Further reading: https://www.montpelier-vt.org/610/Flood-Guide. Replaced primary ncei-1126074 retained in pass15 registry. Research-only, no publication clearance.\nPass30 (2026-11-21) alternate 1: A derecho produces a rare Lake Michigan seiche [phasea-pass30-2011-07-11-chicago-derecho-seiche]. On July 11, 2011, fast-moving severe thunderstorm winds swept northern Illinois and southern Lake Michigan, damaging trees and structures and helping generate a lake seiche. Sources: https://www.weather.gov/lot/2011Jul11 ; https://www.noaa.gov/jetstream/derecho-past. Independence: NWS Chicago details the local measured harbor water-level response while NOAA's derecho historical summary independently describes broad July 10–11 convective wind swaths, though both are NOAA analyses. Claim/anniversary cautions: The derecho evolved July 10–11 across a multistate path; the lake seiche occurred July 11. Do not attribute 1,300+ miles of damage to a single Chicago thunderstorm line or misrepresent seiche as storm surge. Proposed visual: Original July 11 convective radar bow echo paired with harbor water-level oscillation timeline. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-826139.\nPass30 (2026-11-21) alternate 2: A devastating hailstorm sweeps Colorado's Front Range [phasea-pass30-1990-07-11-denver-hailstorm]. On July 11, 1990, intense thunderstorms dropped destructive large hail along Colorado's Front Range, including the Denver area, causing an historically expensive hail disaster. Sources: https://www.weather.gov/abr/This_Day_in_Weather_History_jul_11 ; https://wwa.colorado.edu/resources/high-impact-weather-and-climate-events?page=12. Independence: NWS historical reference and Colorado Western Water Assessment event catalog separately date the episode; impact costs trace to historical insurance and Storm Data compilations, not independent hail-gauge observations. Claim/anniversary cautions: A $600-million figure is an approximately 1990-era reported damage estimate, not an inflation-adjusted modern figure or current national rank. Hailstone maxima differ by location and reporting methodology. Proposed visual: Original storm-track and hail-size reports across Denver with historical-versus-adjusted damages clearly distinguished. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-5706929.",
       "event_source_excerpt": "",
       "input_research_score": 90,
       "editorial_selection_score": 90,
       "historical_era": "2000–2025",
       "geography_key": "Vermont",
       "research_priority": "Validate full observations, chronology, public domain/archival image permissions",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass30-2011-07-11-chicago-derecho-seiche",
+          "event_date": "2011-07-11",
+          "source_url": "https://www.weather.gov/lot/2011Jul11",
+          "secondary_source_url": "https://www.noaa.gov/jetstream/derecho-past",
+          "verified_core_fact": "On July 11, 2011, fast-moving severe thunderstorm winds swept northern Illinois and southern Lake Michigan, damaging trees and structures and helping generate a lake seiche.",
+          "source_independence_assessment": "NWS Chicago details the local measured harbor water-level response while NOAA's derecho historical summary independently describes broad July 10–11 convective wind swaths, though both are NOAA analyses.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-1990-07-11-denver-hailstorm",
+          "event_date": "1990-07-11",
+          "source_url": "https://www.weather.gov/abr/This_Day_in_Weather_History_jul_11",
+          "secondary_source_url": "https://wwa.colorado.edu/resources/high-impact-weather-and-climate-events?page=12",
+          "verified_core_fact": "On July 11, 1990, intense thunderstorms dropped destructive large hail along Colorado's Front Range, including the Denver area, causing an historically expensive hail disaster.",
+          "source_independence_assessment": "NWS historical reference and Colorado Western Water Assessment event catalog separately date the episode; impact costs trace to historical insurance and Storm Data compilations, not independent hail-gauge observations.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "07-12",
@@ -10228,22 +10326,44 @@
       "graphic_feasibility_status": "needs_observational_or_GIS_data",
       "historical_imagery_available": "not_assessed",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-5257022",
-      "first_alternate_title": "Flash Flood — COUNTYWIDE, Ohio",
-      "second_alternate_event_id": "ncei-242713",
-      "second_alternate_title": "Flash Flood — META, Kentucky",
-      "alternates_verification_status": "research_leads_unverified",
+      "first_alternate_event_id": "phasea-pass30-2023-07-17-death-valley-midnight-heat",
+      "first_alternate_title": "Death Valley records an extraordinary 120°F midnight temperature",
+      "second_alternate_event_id": "phasea-pass30-2005-07-17-emily-category-five",
+      "second_alternate_title": "Hurricane Emily reaches Category 5 intensity over the Caribbean",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [
         "same region as previous day"
       ],
-      "research_notes": "Pass24 (2026-11-21): On July 17, 1942, extreme convective rainfall near Smethport, Pennsylvania caused devastating flash flooding; a 34.50-inch amount is a historical poststorm bucket-survey estimate rather than a continuous standard gauge measurement. Source independence: Penn State's state-record discussion and NOAA's dated archive recount the July 17 cloudburst. The AMS climate-extremes evaluation separately analyzes how the nonstandard bucket estimate was obtained, documenting uncertainty rather than independently measuring 34.50 inches. Editorial/physical caution: The standard gauge failed after reporting 6.68 inches; 34.50 inches is an estimated postevent bucket-derived total and is questioned as a precisely calibrated 24-hour record. The broader flood peaked July 17–18. Do NOT present 34.50 inches as an automated station reading or currently uncontested world record. Third source: https://journals.ametsoc.org/view/journals/apme/51/11/jamc-d-11-0226.1.xml. No reproduction rights determined.",
+      "research_notes": "Pass24 (2026-11-21): On July 17, 1942, extreme convective rainfall near Smethport, Pennsylvania caused devastating flash flooding; a 34.50-inch amount is a historical poststorm bucket-survey estimate rather than a continuous standard gauge measurement. Source independence: Penn State's state-record discussion and NOAA's dated archive recount the July 17 cloudburst. The AMS climate-extremes evaluation separately analyzes how the nonstandard bucket estimate was obtained, documenting uncertainty rather than independently measuring 34.50 inches. Editorial/physical caution: The standard gauge failed after reporting 6.68 inches; 34.50 inches is an estimated postevent bucket-derived total and is questioned as a precisely calibrated 24-hour record. The broader flood peaked July 17–18. Do NOT present 34.50 inches as an automated station reading or currently uncontested world record. Third source: https://journals.ametsoc.org/view/journals/apme/51/11/jamc-d-11-0226.1.xml. No reproduction rights determined.\nPass30 (2026-11-21) alternate 1: Death Valley records an extraordinary 120°F midnight temperature [phasea-pass30-2023-07-17-death-valley-midnight-heat]. On July 17, 2023, Death Valley experienced a reported 120°F temperature around midnight during the exceptional July heat wave, as documented in NOAA's July 2023 national climate summary. Sources: https://www.ncei.noaa.gov/news/national-climate-202307 ; https://weather.com/safety/heat/news/2023-07-25-heat-records-us-europe-world-tracker-summer. Independence: NOAA NCEI official monthly climate assessment and independent media reporting both cite a 120°F midnight reading, likely relying on the same underlying temperature record rather than independent instruments. Claim/anniversary cautions: The midnight observation is not July 17's afternoon maximum and is not the same as a daily minimum; site/time zone may differ between Badwater Basin and official Furnace Creek observations. Confirm station sensor and exact local clock prior to final X copy. Proposed visual: Original July 16–17 hourly temperature curve highlighting midnight reading separately from daily maximum and minimum. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-5257022.\nPass30 (2026-11-21) alternate 2: Hurricane Emily reaches Category 5 intensity over the Caribbean [phasea-pass30-2005-07-17-emily-category-five]. Near 0000 UTC on July 17, 2005, Hurricane Emily was assessed at Category 5 intensity in the Caribbean after rapid strengthening, with the peak category documented in subsequent NHC analyses. Sources: https://vos.noaa.gov/MWL/aug_06/atl_hurricane_season_2005.shtml ; https://journals.ametsoc.org/view/journals/mwre/136/3/2007mwr2074.1.xml. Independence: NOAA Mariners Weather Log and the peer-reviewed Atlantic season analysis cross-reference common National Hurricane Center best-track and reconnaissance aircraft data; separate publications are not independent flight observations. Claim/anniversary cautions: 0000 UTC July 17 was still evening July 16 for some Caribbean local clocks. The 140-kt intensity is a poststorm best-track estimate, not a 10-meter anemometer measurement; later July 18–20 landfalls cannot be used as July 17 claims. Proposed visual: Original UTC/local time comparison of Emily's central pressure, category/intensity and track near Jamaica. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-242713.",
       "event_source_excerpt": "Former original NCEI segment ncei-372751 preserved in Pass24 ledger, not evidence for replacement.",
       "input_research_score": 92,
       "editorial_selection_score": 92,
       "historical_era": "1900–1949",
       "geography_key": "Pennsylvania",
       "research_priority": "human numerical/UTC validation, source-led visual reconstruction and rights clearance",
-      "post_readiness": "NOT READY"
+      "post_readiness": "NOT READY",
+      "alternate_corroboration": [
+        {
+          "event_id": "phasea-pass30-2023-07-17-death-valley-midnight-heat",
+          "event_date": "2023-07-17",
+          "source_url": "https://www.ncei.noaa.gov/news/national-climate-202307",
+          "secondary_source_url": "https://weather.com/safety/heat/news/2023-07-25-heat-records-us-europe-world-tracker-summer",
+          "verified_core_fact": "On July 17, 2023, Death Valley experienced a reported 120°F temperature around midnight during the exceptional July heat wave, as documented in NOAA's July 2023 national climate summary.",
+          "source_independence_assessment": "NOAA NCEI official monthly climate assessment and independent media reporting both cite a 120°F midnight reading, likely relying on the same underlying temperature record rather than independent instruments.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-2005-07-17-emily-category-five",
+          "event_date": "2005-07-17",
+          "source_url": "https://vos.noaa.gov/MWL/aug_06/atl_hurricane_season_2005.shtml",
+          "secondary_source_url": "https://journals.ametsoc.org/view/journals/mwre/136/3/2007mwr2074.1.xml",
+          "verified_core_fact": "Near 0000 UTC on July 17, 2005, Hurricane Emily was assessed at Category 5 intensity in the Caribbean after rapid strengthening, with the peak category documented in subsequent NHC analyses.",
+          "source_independence_assessment": "NOAA Mariners Weather Log and the peer-reviewed Atlantic season analysis cross-reference common National Hurricane Center best-track and reconnaissance aircraft data; separate publications are not independent flight observations.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        }
+      ]
     },
     {
       "calendar_date": "07-18",
@@ -13210,13 +13330,13 @@
       "graphic_feasibility_status": "Source-led visual concept; original data and rendering feasibility require validation",
       "historical_imagery_available": "USGS streamgage sites and time series can support a new map; avoid incorrectly treating reach-level inferred peaks as directly instrument-measured.",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-135506",
-      "first_alternate_title": "Flash Flood — BRYN MAWR, Illinois",
+      "first_alternate_event_id": "phasea-pass30-2008-09-13-chicago-record-rain-ike",
+      "first_alternate_title": "Chicago logs an extraordinary daily rainfall record as Ike moisture surges north",
       "second_alternate_event_id": "phasea-pass29-1988-09-13-gilbert-aircraft-888mb",
       "second_alternate_title": "Hurricane Gilbert produces an extraordinary 888-mb aircraft pressure observation",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "USGS flood-peak timing is mostly Sep 12–13, not all Sep 13; City of Boulder dates broader event Sep 11–15. Do not describe September 13 as the single onset or storm-total precipitation day. Separate USGS inferred values from measured stage; retain station identifiers, rating-curve limitations and gauge period of record. Original primary retained for later assessment: ncei-543844. Retained pre-upgrade alternates: ncei-135506, ncei-476956.\nPass29 (2026-11-21), alternate 2: Replaced ncei-476956 with distinct event phasea-pass29-1988-09-13-gilbert-aircraft-888mb — Hurricane Gilbert produces an extraordinary 888-mb aircraft pressure observation. Scope: On September 13, 1988, NOAA reconnaissance aircraft sampled Hurricane Gilbert at extraordinarily low pressure near 888 hPa in the northwest Caribbean, then an Atlantic basin record. Evidence: https://www.aoml.noaa.gov/hurricane_blog/25th-anniversary-of-hurricane-gilberts-record-low-pressure/; https://journals.ametsoc.org/view/journals/mwre/117/12/1520-0493_1989_117_2824_armslp_2_0_co_2.xml. Dependence: NOAA describes the contemporaneous aircraft flight, while peer-reviewed pressure corrections analyze the same flight data; two institutional publications are not independent measurements. Cautions: The 888 hPa measurement is a September 13 aircraft event, while 00 UTC September 14 best-track positions may also assign 888 hPa. Avoid implying two different records or that this is still the standing Atlantic record (Wilma 2005). Research estimated 888 ±2 hPa, not a station barometer. Concept: Original aircraft fixes and corrected pressure observations across September 13–14 UTC; explicitly separate instantaneous aircraft dropsonde/flight observation from 6-hour best track. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
+      "research_notes": "USGS flood-peak timing is mostly Sep 12–13, not all Sep 13; City of Boulder dates broader event Sep 11–15. Do not describe September 13 as the single onset or storm-total precipitation day. Separate USGS inferred values from measured stage; retain station identifiers, rating-curve limitations and gauge period of record. Original primary retained for later assessment: ncei-543844. Retained pre-upgrade alternates: ncei-135506, ncei-476956.\nPass29 (2026-11-21), alternate 2: Replaced ncei-476956 with distinct event phasea-pass29-1988-09-13-gilbert-aircraft-888mb — Hurricane Gilbert produces an extraordinary 888-mb aircraft pressure observation. Scope: On September 13, 1988, NOAA reconnaissance aircraft sampled Hurricane Gilbert at extraordinarily low pressure near 888 hPa in the northwest Caribbean, then an Atlantic basin record. Evidence: https://www.aoml.noaa.gov/hurricane_blog/25th-anniversary-of-hurricane-gilberts-record-low-pressure/; https://journals.ametsoc.org/view/journals/mwre/117/12/1520-0493_1989_117_2824_armslp_2_0_co_2.xml. Dependence: NOAA describes the contemporaneous aircraft flight, while peer-reviewed pressure corrections analyze the same flight data; two institutional publications are not independent measurements. Cautions: The 888 hPa measurement is a September 13 aircraft event, while 00 UTC September 14 best-track positions may also assign 888 hPa. Avoid implying two different records or that this is still the standing Atlantic record (Wilma 2005). Research estimated 888 ±2 hPa, not a station barometer. Concept: Original aircraft fixes and corrected pressure observations across September 13–14 UTC; explicitly separate instantaneous aircraft dropsonde/flight observation from 6-hour best track. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.\nPass30 (2026-11-21) alternate 1: Chicago logs an extraordinary daily rainfall record as Ike moisture surges north [phasea-pass30-2008-09-13-chicago-record-rain-ike]. On September 13, 2008, Chicago O'Hare recorded 6.64 inches of rain in a day during a predecessor heavy-rain event enhanced by deep tropical moisture associated with Hurricane Ike. Sources: https://climate.isws.illinois.edu/statecli/2008/September2008/tropical.htm ; https://www.weather.gov/lot/Sept2008_Hurricane_Ike_Rainfall. Independence: State climate analysis compiles the O'Hare observing record and NWS Chicago independently reconstructs the synoptic boundary/moisture transport, but both cite the same airport gauge and storm reports. Claim/anniversary cautions: Much of the Chicago heavy rain preceded arrival of Ike's remnant circulation, as a quasi-stationary front and tropical moisture plume produced a predecessor rain event. Different stations and two-day accumulations vary; label O'Hare specifically. Proposed visual: Original September 13 24-h O'Hare rain hyetograph and southwest-to-northeast moisture transport/front map. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-135506.",
       "event_source_excerpt": "Major flooding affected Colorado's northern Front Range in September 2013, with the U.S. Geological Survey documenting many flood-peak streamflows on 12 or 13 September.",
       "input_research_score": 93,
       "editorial_selection_score": null,
@@ -13234,6 +13354,16 @@
           "secondary_source_url": "https://journals.ametsoc.org/view/journals/mwre/117/12/1520-0493_1989_117_2824_armslp_2_0_co_2.xml",
           "verified_core_fact": "On September 13, 1988, NOAA reconnaissance aircraft sampled Hurricane Gilbert at extraordinarily low pressure near 888 hPa in the northwest Caribbean, then an Atlantic basin record.",
           "source_independence_assessment": "NOAA describes the contemporaneous aircraft flight, while peer-reviewed pressure corrections analyze the same flight data; two institutional publications are not independent measurements.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-2008-09-13-chicago-record-rain-ike",
+          "event_date": "2008-09-13",
+          "source_url": "https://climate.isws.illinois.edu/statecli/2008/September2008/tropical.htm",
+          "secondary_source_url": "https://www.weather.gov/lot/Sept2008_Hurricane_Ike_Rainfall",
+          "verified_core_fact": "On September 13, 2008, Chicago O'Hare recorded 6.64 inches of rain in a day during a predecessor heavy-rain event enhanced by deep tropical moisture associated with Hurricane Ike.",
+          "source_independence_assessment": "State climate analysis compiles the O'Hare observing record and NWS Chicago independently reconstructs the synoptic boundary/moisture transport, but both cite the same airport gauge and storm reports.",
           "review_scope": "core event/date/location only",
           "publication_approval_status": "not_approved"
         }
@@ -13517,13 +13647,13 @@
       "graphic_feasibility_status": "Concept proposed from authentic source; raw observation data, asset license, and accuracy checks outstanding",
       "historical_imagery_available": "NWS Lake Charles radar precipitation and published AEP windows; original plots require validation of gauges and period bounds.",
       "image_rights_status": "not_reviewed",
-      "first_alternate_event_id": "ncei-406779",
-      "first_alternate_title": "Flood — NANCY LAKE, Alaska",
+      "first_alternate_event_id": "phasea-pass30-2020-09-19-medicane-ianos-thessaly-flood",
+      "first_alternate_title": "Medicane Ianos drives major flood damage across central Greece",
       "second_alternate_event_id": "phasea-pass29-2022-09-19-fiona-dominican-landfall",
       "second_alternate_title": "Hurricane Fiona makes landfall in the Dominican Republic",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Imelda made landfall on September 17, NOT September 19. WWA examines September 19–20 rainfall with independent attribution modeling but relies partly on NOAA rain data. Early fatality/property estimates not cleared; 1-in-1200 year station statistical probability is NOT a universal literal return interval. Displaced primary preserved: ncei-262703. Previously selected alternate IDs retained, not independently researched: ncei-406779, ncei-858116.\nPass28 alternate 2 integrity alert: Houston airport flash flooding is within the same September 19, 2019 Tropical Storm Imelda episode as the primary. https://www.weather.gov/hgx/imelda2019. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.\nPass29 (2026-11-21), alternate 2: Replaced ncei-858116 with distinct event phasea-pass29-2022-09-19-fiona-dominican-landfall — Hurricane Fiona makes landfall in the Dominican Republic. Scope: Hurricane Fiona made landfall near Boca de Yuma in the southeastern Dominican Republic early September 19, 2022 local time, following its passage across Puerto Rico. Evidence: https://www.nhc.noaa.gov/archive/2022/al07/al072022.update.09190735.shtml; https://www.cbsnews.com/news/hurricane-fiona-nears-dominican-republic-puerto-rico-catastrophic-damage-historic-flooding/. Dependence: NHC's contemporaneous landfall announcement and independently published news dispatch confirm the same dated center crossing, though both draw from the NHC radar-based landfall estimate. Cautions: Fiona crossed Puerto Rico September 18 and the Dominican Republic September 19. Do not transfer September 18 Puerto Rico rainfall or power impacts into a September 19 Dominican calendar-day claim. NHC timing is 0730 UTC, 0330 AST. Concept: Original Fiona landfall center fixes and timestamped rainfall on Hispaniola, with a Puerto Rico date-boundary inset. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
+      "research_notes": "Imelda made landfall on September 17, NOT September 19. WWA examines September 19–20 rainfall with independent attribution modeling but relies partly on NOAA rain data. Early fatality/property estimates not cleared; 1-in-1200 year station statistical probability is NOT a universal literal return interval. Displaced primary preserved: ncei-262703. Previously selected alternate IDs retained, not independently researched: ncei-406779, ncei-858116.\nPass28 alternate 2 integrity alert: Houston airport flash flooding is within the same September 19, 2019 Tropical Storm Imelda episode as the primary. https://www.weather.gov/hgx/imelda2019. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.\nPass29 (2026-11-21), alternate 2: Replaced ncei-858116 with distinct event phasea-pass29-2022-09-19-fiona-dominican-landfall — Hurricane Fiona makes landfall in the Dominican Republic. Scope: Hurricane Fiona made landfall near Boca de Yuma in the southeastern Dominican Republic early September 19, 2022 local time, following its passage across Puerto Rico. Evidence: https://www.nhc.noaa.gov/archive/2022/al07/al072022.update.09190735.shtml; https://www.cbsnews.com/news/hurricane-fiona-nears-dominican-republic-puerto-rico-catastrophic-damage-historic-flooding/. Dependence: NHC's contemporaneous landfall announcement and independently published news dispatch confirm the same dated center crossing, though both draw from the NHC radar-based landfall estimate. Cautions: Fiona crossed Puerto Rico September 18 and the Dominican Republic September 19. Do not transfer September 18 Puerto Rico rainfall or power impacts into a September 19 Dominican calendar-day claim. NHC timing is 0730 UTC, 0330 AST. Concept: Original Fiona landfall center fixes and timestamped rainfall on Hispaniola, with a Puerto Rico date-boundary inset. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.\nPass30 (2026-11-21) alternate 1: Medicane Ianos drives major flood damage across central Greece [phasea-pass30-2020-09-19-medicane-ianos-thessaly-flood]. On September 19, 2020, torrential rainfall and flash flooding associated with Medicane Ianos affected central Greece, especially Thessaly, after the cyclone reached the Ionian coast the day before. Sources: https://data.jrc.ec.europa.eu/dataset/6c0a1a1c-9ff6-40a0-9cdb-11f78cc4d141 ; https://gpm.nasa.gov/applications/weather/imerg-sees-flooding-rainfall-greek-islands-medicane-ianos. Independence: The EU Copernicus/JRC flood mapping inventory names September 19 as the Thessaly flooding episode, while NASA IMERG independently estimates the broader September 14–20 rain footprint using satellite algorithms. Claim/anniversary cautions: Ianos reached western Greece on September 18, not September 19. NASA's rainfall graphic spans September 14–20; do not label storm-total rainfall as a September 19 one-day gauge amount. Flood mapping date is not landfall date. Proposed visual: Original September 19 Thessaly catchment/flood footprint over annotated IMERG daily rainfall and track valid times. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-406779.",
       "event_source_excerpt": "Remnants of Tropical Storm Imelda produced destructive flash flooding across southeast Texas on September 19, 2019.",
       "input_research_score": 94,
       "editorial_selection_score": null,
@@ -13542,6 +13672,16 @@
           "secondary_source_url": "https://www.cbsnews.com/news/hurricane-fiona-nears-dominican-republic-puerto-rico-catastrophic-damage-historic-flooding/",
           "verified_core_fact": "Hurricane Fiona made landfall near Boca de Yuma in the southeastern Dominican Republic early September 19, 2022 local time, following its passage across Puerto Rico.",
           "source_independence_assessment": "NHC's contemporaneous landfall announcement and independently published news dispatch confirm the same dated center crossing, though both draw from the NHC radar-based landfall estimate.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-2020-09-19-medicane-ianos-thessaly-flood",
+          "event_date": "2020-09-19",
+          "source_url": "https://data.jrc.ec.europa.eu/dataset/6c0a1a1c-9ff6-40a0-9cdb-11f78cc4d141",
+          "secondary_source_url": "https://gpm.nasa.gov/applications/weather/imerg-sees-flooding-rainfall-greek-islands-medicane-ianos",
+          "verified_core_fact": "On September 19, 2020, torrential rainfall and flash flooding associated with Medicane Ianos affected central Greece, especially Thessaly, after the cyclone reached the Ionian coast the day before.",
+          "source_independence_assessment": "The EU Copernicus/JRC flood mapping inventory names September 19 as the Thessaly flooding episode, while NASA IMERG independently estimates the broader September 14–20 rain footprint using satellite algorithms.",
           "review_scope": "core event/date/location only",
           "publication_approval_status": "not_approved"
         }
@@ -13773,13 +13913,13 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "phasea-pass29-2005-09-24-rita-landfall",
       "first_alternate_title": "Hurricane Rita makes a predawn Louisiana–Texas border landfall",
-      "second_alternate_event_id": "ncei-848531",
-      "second_alternate_title": "Tornado — ALBERTVILLE, Wisconsin",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "second_alternate_event_id": "phasea-pass30-2019-09-24-wheaton-wisconsin-ef3",
+      "second_alternate_title": "A rare September EF3 tornado strikes western Wisconsin",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 9 (2026-11-20): An F3 tornado tracked through the College Park area of Maryland on September 24, 2001; the NCEI Hyattsville entry marks an initial portion of the longer tornado. Cautions: This is an F3 (pre-2007 Fujita scale), not EF3. The journal identifies the College Park tornado as one of three tornadoes from the broader supercell; do not conflate its track with earlier separate tornadoes. The article's CC BY paper license does not automatically clear every embedded third-party figure. Primary NOAA NCEI Storm Events: https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz. Second Geosciences academic journal (Pryor et al., 2019): https://www.mdpi.com/2076-3263/9/10/452. Extra https://repository.library.noaa.gov/view/noaa/64588. Evidence dependence: Peer-reviewed satellite/radar environmental analysis distinct from original NCEI county survey, though tornado path and damage ratings still use prior NOAA/NWS observational sources. Original source segment ID retained and not counted as another tornado/storm. NOT approved for publication; no graphics rights cleared.\nPass29 (2026-11-21), alternate 1: Replaced ncei-5478316 with distinct event phasea-pass29-2005-09-24-rita-landfall — Hurricane Rita makes a predawn Louisiana–Texas border landfall. Scope: Category 3 Hurricane Rita made landfall in western Cameron Parish, Louisiana near the Texas border around 2:40 a.m. CDT on September 24, 2005. Evidence: https://www.weather.gov/lch/rita_main; https://ready.nola.gov/hazard-mitigation/hazards/tropical-cyclones/. Dependence: NWS Lake Charles archived cyclone/ground observation review and New Orleans emergency preparedness hazard history separately date landfall; both derive intensity from NHC best track. Cautions: Peak Gulf intensity on September 21–22 is not landfall strength on September 24. Different historical sources round maximum landfall winds to 115 or 120 mph. Do not import Katrina surge or 2005 evacuation indirect losses without event-specific source. Concept: Original landfall track and pressure/swath with 2:40 a.m. CDT September 24 label; compare eyewall and surge evidence without reusing third-party photographs. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass 9 (2026-11-20): An F3 tornado tracked through the College Park area of Maryland on September 24, 2001; the NCEI Hyattsville entry marks an initial portion of the longer tornado. Cautions: This is an F3 (pre-2007 Fujita scale), not EF3. The journal identifies the College Park tornado as one of three tornadoes from the broader supercell; do not conflate its track with earlier separate tornadoes. The article's CC BY paper license does not automatically clear every embedded third-party figure. Primary NOAA NCEI Storm Events: https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2001_c20260323.csv.gz. Second Geosciences academic journal (Pryor et al., 2019): https://www.mdpi.com/2076-3263/9/10/452. Extra https://repository.library.noaa.gov/view/noaa/64588. Evidence dependence: Peer-reviewed satellite/radar environmental analysis distinct from original NCEI county survey, though tornado path and damage ratings still use prior NOAA/NWS observational sources. Original source segment ID retained and not counted as another tornado/storm. NOT approved for publication; no graphics rights cleared.\nPass29 (2026-11-21), alternate 1: Replaced ncei-5478316 with distinct event phasea-pass29-2005-09-24-rita-landfall — Hurricane Rita makes a predawn Louisiana–Texas border landfall. Scope: Category 3 Hurricane Rita made landfall in western Cameron Parish, Louisiana near the Texas border around 2:40 a.m. CDT on September 24, 2005. Evidence: https://www.weather.gov/lch/rita_main; https://ready.nola.gov/hazard-mitigation/hazards/tropical-cyclones/. Dependence: NWS Lake Charles archived cyclone/ground observation review and New Orleans emergency preparedness hazard history separately date landfall; both derive intensity from NHC best track. Cautions: Peak Gulf intensity on September 21–22 is not landfall strength on September 24. Different historical sources round maximum landfall winds to 115 or 120 mph. Do not import Katrina surge or 2005 evacuation indirect losses without event-specific source. Concept: Original landfall track and pressure/swath with 2:40 a.m. CDT September 24 label; compare eyewall and surge evidence without reusing third-party photographs. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.\nPass30 (2026-11-21) alternate 2: A rare September EF3 tornado strikes western Wisconsin [phasea-pass30-2019-09-24-wheaton-wisconsin-ef3]. On the evening of September 24, 2019, a tornado intensified to EF3 while moving from near Elk Mound into the Wheaton area of western Wisconsin. Sources: https://www.weather.gov/mpx/19Sep24EF3Tornado ; https://www.weau.com/content/news/Confirmed-tornado-touches-down-causing-heavy-damage-561293601.html. Independence: The NWS surveyed tornado damage and rating, while contemporaneous regional reporting independently documents extensive impacts but draws its final EF3 classification from that same NWS survey. Claim/anniversary cautions: EF3 damage was confined to portions of the track; the originally selected Albertville local record is not an independent separate rating or a whole-track EF3 wind measure. Verify tornado segments before final geometry. Proposed visual: Original southeast Minnesota/western Wisconsin radar supercell and surveyed tornado track with EF3 indicators. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-848531.",
       "event_source_excerpt": "A large multi-vortex tornado touched down near Hyattsville, tracked along the Route 1 cooridor from College Park to Laurel, then crossed into Howard County. The tornado killed 2 students at the University of Maryland, injured 54 others countywide, and caused 100 million dollars in damage.",
       "input_research_score": 50.26,
       "editorial_selection_score": 59.09,
@@ -13795,6 +13935,16 @@
           "secondary_source_url": "https://ready.nola.gov/hazard-mitigation/hazards/tropical-cyclones/",
           "verified_core_fact": "Category 3 Hurricane Rita made landfall in western Cameron Parish, Louisiana near the Texas border around 2:40 a.m. CDT on September 24, 2005.",
           "source_independence_assessment": "NWS Lake Charles archived cyclone/ground observation review and New Orleans emergency preparedness hazard history separately date landfall; both derive intensity from NHC best track.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-2019-09-24-wheaton-wisconsin-ef3",
+          "event_date": "2019-09-24",
+          "source_url": "https://www.weather.gov/mpx/19Sep24EF3Tornado",
+          "secondary_source_url": "https://www.weau.com/content/news/Confirmed-tornado-touches-down-causing-heavy-damage-561293601.html",
+          "verified_core_fact": "On the evening of September 24, 2019, a tornado intensified to EF3 while moving from near Elk Mound into the Wheaton area of western Wisconsin.",
+          "source_independence_assessment": "The NWS surveyed tornado damage and rating, while contemporaneous regional reporting independently documents extensive impacts but draws its final EF3 classification from that same NWS survey.",
           "review_scope": "core event/date/location only",
           "publication_approval_status": "not_approved"
         }
@@ -16037,13 +16187,13 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "phasea-pass29-1977-11-06-kelly-barnes-dam",
       "first_alternate_title": "Rain-swollen Kelly Barnes Dam fails above Toccoa Falls, Georgia",
-      "second_alternate_event_id": "ncei-794526",
-      "second_alternate_title": "Tornado — NEWTOWN, Tennessee",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "second_alternate_event_id": "phasea-pass30-2018-11-06-tennessee-qlcs-tornadoes",
+      "second_alternate_title": "A nocturnal QLCS produces multiple Tennessee tornadoes",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass11 2026-11-20: A long-track F3 tornado crossed northwest Kentucky and southern Indiana near Evansville before dawn on November 6, 2005. Cautions: Use F3, not EF3 (pre-2007 scale). The specific NCEI Evansville segment is not a different tornado from the larger multistate path. Fatality and injury counts depend on direct versus indirect and affected-county definitions. Publisher NOAA NCEI, original https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz; corroboration NWS Paducah https://www.weather.gov/pah/2005evansvilletornado; context https://www.weather.gov/abr/This_Day_in_Weather_History_Nov_06. Independence NCEI Evansville local segment and NWS Paducah full-track survey share the same NOAA tornado reports; adding a second page does not independently measure 41-mile tornado path.. Original NOAA NCEI local segment ID preserved. NOT approved; rights and numerical claims remain pending.\nPass28 alternate 1 integrity alert: Newburgh, Indiana is a downstream segment of the same November 6, 2005 Evansville-area F3 tornado featured as primary. https://www.weather.gov/pah/2005evansvilletornado. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.\nPass29 (2026-11-21), alternate 1: Replaced ncei-5480598 with distinct event phasea-pass29-1977-11-06-kelly-barnes-dam — Rain-swollen Kelly Barnes Dam fails above Toccoa Falls, Georgia. Scope: Following several days of rain and intense precipitation, Kelly Barnes Dam failed shortly after 1 a.m. local time on November 6, 1977, causing catastrophic downstream flooding near Toccoa Falls, Georgia. Evidence: https://pubs.usgs.gov/ha/ha613/; https://damsafety.org/content/reconnaissance-report-failure-kelly-barnes-lake-dam-toccoa-falls-georgia. Dependence: USGS reconstructed rainfall and peak flow; an independent National Research Council reconnaissance report assesses failure mechanism and post-failure impacts; both reconstruct the same incident through shared field/investigative records. Cautions: Dam structural failure, storage, and antecedent rain all mattered; do not assert rainfall alone caused the failure. The height and 38-death figure need case-specific scope review if later used. November 5 rainfall is not the failure date. Concept: Original 1977 rain-to-runoff timeline with dam cross-section, river profile and failure time clearly attributed to engineering survey. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass11 2026-11-20: A long-track F3 tornado crossed northwest Kentucky and southern Indiana near Evansville before dawn on November 6, 2005. Cautions: Use F3, not EF3 (pre-2007 scale). The specific NCEI Evansville segment is not a different tornado from the larger multistate path. Fatality and injury counts depend on direct versus indirect and affected-county definitions. Publisher NOAA NCEI, original https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz; corroboration NWS Paducah https://www.weather.gov/pah/2005evansvilletornado; context https://www.weather.gov/abr/This_Day_in_Weather_History_Nov_06. Independence NCEI Evansville local segment and NWS Paducah full-track survey share the same NOAA tornado reports; adding a second page does not independently measure 41-mile tornado path.. Original NOAA NCEI local segment ID preserved. NOT approved; rights and numerical claims remain pending.\nPass28 alternate 1 integrity alert: Newburgh, Indiana is a downstream segment of the same November 6, 2005 Evansville-area F3 tornado featured as primary. https://www.weather.gov/pah/2005evansvilletornado. Do NOT regard as separate or corroborated alternate; replace in a future sourcing pass.\nPass29 (2026-11-21), alternate 1: Replaced ncei-5480598 with distinct event phasea-pass29-1977-11-06-kelly-barnes-dam — Rain-swollen Kelly Barnes Dam fails above Toccoa Falls, Georgia. Scope: Following several days of rain and intense precipitation, Kelly Barnes Dam failed shortly after 1 a.m. local time on November 6, 1977, causing catastrophic downstream flooding near Toccoa Falls, Georgia. Evidence: https://pubs.usgs.gov/ha/ha613/; https://damsafety.org/content/reconnaissance-report-failure-kelly-barnes-lake-dam-toccoa-falls-georgia. Dependence: USGS reconstructed rainfall and peak flow; an independent National Research Council reconnaissance report assesses failure mechanism and post-failure impacts; both reconstruct the same incident through shared field/investigative records. Cautions: Dam structural failure, storage, and antecedent rain all mattered; do not assert rainfall alone caused the failure. The height and 38-death figure need case-specific scope review if later used. November 5 rainfall is not the failure date. Concept: Original 1977 rain-to-runoff timeline with dam cross-section, river profile and failure time clearly attributed to engineering survey. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.\nPass30 (2026-11-21) alternate 2: A nocturnal QLCS produces multiple Tennessee tornadoes [phasea-pass30-2018-11-06-tennessee-qlcs-tornadoes]. Late November 5 into the early hours of November 6, 2018, a fast-moving quasi-linear convective system produced multiple tornadoes across Middle Tennessee. Sources: https://www.weather.gov/ohx/20181105 ; https://www.wsmv.com/2018/11/06/1-killed-2-injured-after-7-tornadoes-hit-middle-tennessee/. Independence: The NWS post-event survey documents QLCS morphology and eventual tornado path revisions; WSMV contemporaneously reported local damage and fatalities, drawing EF ratings from NWS. Claim/anniversary cautions: Early preliminary reports listed a single long-track tornado, but 2019 satellite-based review identified two separate tornado paths in one corridor. Do not quote early counts or implied path continuity as definitive; anchor November 6 after midnight local. Proposed visual: Original midnight-to-dawn QLCS reflectivity/velocity evolution and corrected separate track segmentation. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-794526.",
       "event_source_excerpt": "The tornado crossed into Vanderburgh County from Henderson County, KY a second time near Ellis Park, a horse-racing facility off U.S. Highway 41. The tornado moved rapidly east-northeast at close to 60 MPH, staying a mile or less south of Interstate 164 and the southern city limit of Evansville. Twe",
       "input_research_score": 76.91,
       "editorial_selection_score": 84.91,
@@ -16059,6 +16209,16 @@
           "secondary_source_url": "https://damsafety.org/content/reconnaissance-report-failure-kelly-barnes-lake-dam-toccoa-falls-georgia",
           "verified_core_fact": "Following several days of rain and intense precipitation, Kelly Barnes Dam failed shortly after 1 a.m. local time on November 6, 1977, causing catastrophic downstream flooding near Toccoa Falls, Georgia.",
           "source_independence_assessment": "USGS reconstructed rainfall and peak flow; an independent National Research Council reconnaissance report assesses failure mechanism and post-failure impacts; both reconstruct the same incident through shared field/investigative records.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-2018-11-06-tennessee-qlcs-tornadoes",
+          "event_date": "2018-11-06",
+          "source_url": "https://www.weather.gov/ohx/20181105",
+          "secondary_source_url": "https://www.wsmv.com/2018/11/06/1-killed-2-injured-after-7-tornadoes-hit-middle-tennessee/",
+          "verified_core_fact": "Late November 5 into the early hours of November 6, 2018, a fast-moving quasi-linear convective system produced multiple tornadoes across Middle Tennessee.",
+          "source_independence_assessment": "The NWS post-event survey documents QLCS morphology and eventual tornado path revisions; WSMV contemporaneously reported local damage and fatalities, drawing EF ratings from NWS.",
           "review_scope": "core event/date/location only",
           "publication_approval_status": "not_approved"
         }
@@ -16508,13 +16668,13 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "ncei-5479575",
       "first_alternate_title": "An F4 tornado sweeps past Earlington, Kentucky",
-      "second_alternate_event_id": "ncei-135143",
-      "second_alternate_title": "Tornado — WILSON, North Carolina",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "second_alternate_event_id": "phasea-pass30-2017-11-15-mandra-greece-flash-flood",
+      "second_alternate_title": "Intense overnight rainfall sends a violent flash flood through Mandra, Greece",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [
         "same source family as previous day"
       ],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass14 (2026-11-20): A violent F4 tornado struck Huntsville, Alabama, on November 15, 1989 during evening rush hour. Caveat: F4 on the original Fujita scale, not EF4. Avoid summing casualty totals across track segments and reconcile differing contemporary property-loss estimates. Source dependence: NWS Huntsville retrospective and digitized contemporary federal Storm Data share the underlying original survey. Reviewed secondary https://digital.library.unt.edu/ark:/67531/metadc2595505/m1/2/; additional https://www.weather.gov/bmx/event_11151989_summary. No editorial approval or image-rights clearance. Previous primary retained in Pass14 registry: ncei-5272972\nPass28 2026-11-21: Alternate 1 An F4 tornado sweeps past Earlington, Kentucky (ncei-5479575) now source-paired for occurrence/date/location ONLY. An F4 tornado touched down near Earlington, Kentucky, on November 15, 2005 and tracked toward the Hanson area, separate in time and geography from the November 1989 Huntsville tornado primary. Source dependence: Two NWS office archives independently present the tornado's date and geographic track but refer to the same underlying NWS/Storm Data damage survey. They are not independent F-scale intensity measurements. Cautions: Use F4 (pre-EF scale). Do not equate maximum F4 damage with intensity along the full path or conflate this Hopkins County tornado with other tornadoes in the November 15, 2005 outbreak. Historical tornado timing uses local CST. No human fact check, approval or media rights clearance.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass14 (2026-11-20): A violent F4 tornado struck Huntsville, Alabama, on November 15, 1989 during evening rush hour. Caveat: F4 on the original Fujita scale, not EF4. Avoid summing casualty totals across track segments and reconcile differing contemporary property-loss estimates. Source dependence: NWS Huntsville retrospective and digitized contemporary federal Storm Data share the underlying original survey. Reviewed secondary https://digital.library.unt.edu/ark:/67531/metadc2595505/m1/2/; additional https://www.weather.gov/bmx/event_11151989_summary. No editorial approval or image-rights clearance. Previous primary retained in Pass14 registry: ncei-5272972\nPass28 2026-11-21: Alternate 1 An F4 tornado sweeps past Earlington, Kentucky (ncei-5479575) now source-paired for occurrence/date/location ONLY. An F4 tornado touched down near Earlington, Kentucky, on November 15, 2005 and tracked toward the Hanson area, separate in time and geography from the November 1989 Huntsville tornado primary. Source dependence: Two NWS office archives independently present the tornado's date and geographic track but refer to the same underlying NWS/Storm Data damage survey. They are not independent F-scale intensity measurements. Cautions: Use F4 (pre-EF scale). Do not equate maximum F4 damage with intensity along the full path or conflate this Hopkins County tornado with other tornadoes in the November 15, 2005 outbreak. Historical tornado timing uses local CST. No human fact check, approval or media rights clearance.\nPass30 (2026-11-21) alternate 2: Intense overnight rainfall sends a violent flash flood through Mandra, Greece [phasea-pass30-2017-11-15-mandra-greece-flash-flood]. On the morning of November 15, 2017, extraordinary convective rain rapidly overwhelmed steep small catchments west of Athens, triggering destructive flash flooding in Mandra and Nea Peramos. Sources: https://mapping.emergency.copernicus.eu/activations/EMSR257/ ; https://www.mdpi.com/2072-4292/11/1/45. Independence: Copernicus dated flood-response mapping and a separate peer-reviewed radar/rainfall-hydrology analysis independently establish event/date/location, but land impacts and death figures may derive from the same official response sources. Claim/anniversary cautions: Rain began late on November 14 UTC while the most destructive flooding was early November 15 local. Death counts in provisional response updates and later studies differ (20, 23, 24). Do not publish an unqualified casualty figure; archive imagery has separate rights. Proposed visual: Original November 14–15 convective rainfall and rapid runoff timeline for small Attica watersheds, using reproducible radar data. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-135143.",
       "event_source_excerpt": "",
       "input_research_score": 88,
       "editorial_selection_score": 88,
@@ -16530,6 +16690,16 @@
           "secondary_source_url": "https://www.weather.gov/lmk/violent_tornadoes_kentucky",
           "verified_core_fact": "An F4 tornado touched down near Earlington, Kentucky, on November 15, 2005 and tracked toward the Hanson area, separate in time and geography from the November 1989 Huntsville tornado primary.",
           "source_independence_assessment": "Two NWS office archives independently present the tornado's date and geographic track but refer to the same underlying NWS/Storm Data damage survey. They are not independent F-scale intensity measurements.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-2017-11-15-mandra-greece-flash-flood",
+          "event_date": "2017-11-15",
+          "source_url": "https://mapping.emergency.copernicus.eu/activations/EMSR257/",
+          "secondary_source_url": "https://www.mdpi.com/2072-4292/11/1/45",
+          "verified_core_fact": "On the morning of November 15, 2017, extraordinary convective rain rapidly overwhelmed steep small catchments west of Athens, triggering destructive flash flooding in Mandra and Nea Peramos.",
+          "source_independence_assessment": "Copernicus dated flood-response mapping and a separate peer-reviewed radar/rainfall-hydrology analysis independently establish event/date/location, but land impacts and death figures may derive from the same official response sources.",
           "review_scope": "core event/date/location only",
           "publication_approval_status": "not_approved"
         }
@@ -16765,11 +16935,11 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "phasea-pass29-1900-11-20-tennessee-tornado-outbreak",
       "first_alternate_title": "A rare November tornado outbreak tears across Tennessee",
-      "second_alternate_event_id": "ncei-5621703",
-      "second_alternate_title": "Winter Weather — MC KENZIE, North Dakota",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "second_alternate_event_id": "phasea-pass30-1985-11-20-kate-gulf-rapid-intensification",
+      "second_alternate_title": "Hurricane Kate rapidly deepens over the eastern Gulf of Mexico in November",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Focus on the lake-effect band evolution and the local date; independently confirm any proposed measured snowfall statistic and graphic rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass14 (2026-11-20): A prolonged November 15–20, 2022 lake-effect event brought snow bands and squalls to northern Indiana. Caveat: NWS South Bend's 30.2 inches is cumulative from November 1–20, not just Nov20; some snow squalls occurred Nov19. Do not assign entire episode to one anniversary. Source dependence: Curated lead and NWS analysis use same agency observations, not independent snow measurement. Reviewed secondary https://www.weather.gov/iwx/November2022-LES; additional https://www.weather.gov/iwx/events. No editorial approval or image-rights clearance. \nPass29 (2026-11-21), alternate 1: Replaced ncei-267294 with distinct event phasea-pass29-1900-11-20-tennessee-tornado-outbreak — A rare November tornado outbreak tears across Tennessee. Scope: Numerous destructive tornadoes moved across Tennessee during the afternoon and evening of November 20, 1900, amid a wider Lower Mississippi Valley outbreak. Evidence: https://www.weather.gov/ohx/19001120; https://www.weather.gov/ohx/nunntornadoesintennessee. Dependence: NWS Nashville compiles eyewitness newspapers and tornado catalogs; a historical Weather Bureau narrative independently describes four Tennessee tornadoes, but both are presented on NWS-hosted pages and may share source reports. Cautions: The 73 fatalities often quoted refer to the multi-state outbreak and vary with contemporary versus later accounting. Pre-modern F4 path and rating are retrospective; do not present exact path, damage counts or chronology as directly instrumented. Concept: Original time-resolved November 20 Tennessee tornado-track reconstruction using archived eyewitness accounts with uncertain track corridors. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
+      "research_notes": "Focus on the lake-effect band evolution and the local date; independently confirm any proposed measured snowfall statistic and graphic rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass14 (2026-11-20): A prolonged November 15–20, 2022 lake-effect event brought snow bands and squalls to northern Indiana. Caveat: NWS South Bend's 30.2 inches is cumulative from November 1–20, not just Nov20; some snow squalls occurred Nov19. Do not assign entire episode to one anniversary. Source dependence: Curated lead and NWS analysis use same agency observations, not independent snow measurement. Reviewed secondary https://www.weather.gov/iwx/November2022-LES; additional https://www.weather.gov/iwx/events. No editorial approval or image-rights clearance. \nPass29 (2026-11-21), alternate 1: Replaced ncei-267294 with distinct event phasea-pass29-1900-11-20-tennessee-tornado-outbreak — A rare November tornado outbreak tears across Tennessee. Scope: Numerous destructive tornadoes moved across Tennessee during the afternoon and evening of November 20, 1900, amid a wider Lower Mississippi Valley outbreak. Evidence: https://www.weather.gov/ohx/19001120; https://www.weather.gov/ohx/nunntornadoesintennessee. Dependence: NWS Nashville compiles eyewitness newspapers and tornado catalogs; a historical Weather Bureau narrative independently describes four Tennessee tornadoes, but both are presented on NWS-hosted pages and may share source reports. Cautions: The 73 fatalities often quoted refer to the multi-state outbreak and vary with contemporary versus later accounting. Pre-modern F4 path and rating are retrospective; do not present exact path, damage counts or chronology as directly instrumented. Concept: Original time-resolved November 20 Tennessee tornado-track reconstruction using archived eyewitness accounts with uncertain track corridors. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.\nPass30 (2026-11-21) alternate 2: Hurricane Kate rapidly deepens over the eastern Gulf of Mexico in November [phasea-pass30-1985-11-20-kate-gulf-rapid-intensification]. On November 20, 1985, Hurricane Kate strengthened over the eastern Gulf of Mexico, with poststorm analysis documenting a pressure decline from approximately 972 hPa at 0000 UTC to 953 hPa near 2000 UTC. Sources: https://www.wpc.ncep.noaa.gov/tropical/rain/kate1985.html ; https://www.nhc.noaa.gov/data/mwreview/1985.pdf. Independence: The WPC historical account and original NHC peer-reviewed annual cyclone summary both use NOAA reconnaissance and best-track analysis; they are complementary summaries of the same aircraft/buoy observations, not independent independent measurements. Claim/anniversary cautions: Kate crossed the northern Cuban coast on November 19, intensified November 20 in the Gulf, and made Florida Panhandle landfall November 21. Do not describe the November 20 peak central pressure as an at-landfall observation or assume a buoy pressure equals exact cyclone center minimum. Proposed visual: Original November 19–21 6-hour central-pressure/intensity timeline with a November 20 1801Z satellite position. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-5621703.",
       "event_source_excerpt": "NWS analysis documents an extended lake-effect snow episode ending around November 20, with snow squalls, shifting bands and localized extreme totals.",
       "input_research_score": 70,
       "editorial_selection_score": 76,
@@ -16785,6 +16955,16 @@
           "secondary_source_url": "https://www.weather.gov/ohx/nunntornadoesintennessee",
           "verified_core_fact": "Numerous destructive tornadoes moved across Tennessee during the afternoon and evening of November 20, 1900, amid a wider Lower Mississippi Valley outbreak.",
           "source_independence_assessment": "NWS Nashville compiles eyewitness newspapers and tornado catalogs; a historical Weather Bureau narrative independently describes four Tennessee tornadoes, but both are presented on NWS-hosted pages and may share source reports.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-1985-11-20-kate-gulf-rapid-intensification",
+          "event_date": "1985-11-20",
+          "source_url": "https://www.wpc.ncep.noaa.gov/tropical/rain/kate1985.html",
+          "secondary_source_url": "https://www.nhc.noaa.gov/data/mwreview/1985.pdf",
+          "verified_core_fact": "On November 20, 1985, Hurricane Kate strengthened over the eastern Gulf of Mexico, with poststorm analysis documenting a pressure decline from approximately 972 hPa at 0000 UTC to 953 hPa near 2000 UTC.",
+          "source_independence_assessment": "The WPC historical account and original NHC peer-reviewed annual cyclone summary both use NOAA reconnaissance and best-track analysis; they are complementary summaries of the same aircraft/buoy observations, not independent independent measurements.",
           "review_scope": "core event/date/location only",
           "publication_approval_status": "not_approved"
         }
@@ -18392,11 +18572,11 @@
       "image_rights_status": "not_reviewed",
       "first_alternate_event_id": "phasea-pass29-1989-12-22-arctic-carolinas",
       "first_alternate_title": "Arctic air grips the Carolinas ahead of a remarkable Christmas coastal snowstorm",
-      "second_alternate_event_id": "ncei-68362",
-      "second_alternate_title": "Winter Weather — POTTER, Texas",
-      "alternates_verification_status": "one_alternate_core_corroborated",
+      "second_alternate_event_id": "phasea-pass30-1974-12-22-tracy-tiwi-first-warning",
+      "second_alternate_title": "Australian forecasters issue the first full cyclone warning ahead of Tracy",
+      "alternates_verification_status": "two_alternates_core_corroborated",
       "diversity_repetition_warnings": [],
-      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass15 (2026-11-20): Freezing rain on December 21–22, 2013 coated Toronto and southern Ontario in ice, causing widespread damage and significant power disruptions on December 22. Boundaries: The storm began December 21 and outages continued for days. Ice accretion varied by gauge and neighborhood; outage customer counts differ between initial December 22 and later restoration estimates. '30 mm' refers an upper regional ice estimate, not citywide uniform glaze. Independence: City of Toronto municipal recovery records and Public Safety Canada's national disaster registry have separate custodians; both cite ECCC's meteorological history and Toronto Hydro outage records. Secondary: https://bdc.securitepublique.gc.ca/dtpg-eng.aspx?cultureCode=en-Ca&eventId=1075&eventStartDate=%2719820101%27%2C%2720161231%27&eventTypes=%27EP%27%2C%27IN%27%2C%27PA%27%2C%27AV%27%2C%27CE%27%2C%27DR%27%2C%27FL%27%2C%27GS%27%2C%27HE%27%2C%27HU%27%2C%27SO%27%2C%27SS%27%2C%27ST%27%2C%27TO%27%2C%27WF%27%2C%27SW%27%2C%27EQ%27%2C%27LS%27%2C%27TS%27%2C%27VO%27&lang=fra&normalizedCostYear=1&provinces=1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13&totalCost=100000000%2C1000000000. Further reading: https://toronto.citynews.ca/2013/12/22/ice-storm-causes-travel-chaos-power-outages-in-gta/. Replaced primary ncei-200377 retained in pass15 registry. Research-only, no publication clearance.\nPass29 (2026-11-21), alternate 1: Replaced ncei-5675017 with distinct event phasea-pass29-1989-12-22-arctic-carolinas — Arctic air grips the Carolinas ahead of a remarkable Christmas coastal snowstorm. Scope: By December 22, 1989, a deep Arctic air mass had entered the Carolinas ahead of the December 23–24 historic coastal snowstorm; surface observations document the cold air and approaching frontal boundary. Evidence: https://www.weather.gov/ilm/ChristmasSnow1989; https://www.weather.gov/mhx/Dec231989EventReview. Dependence: NWS Wilmington supplies detailed December 22 surface analysis; a separate NWS North Carolina regional retrospective documents the ensuing December 23 coastal cyclone. Both use historical NOAA observing networks and synoptic maps. Cautions: December 22 is the antecedent cold-air setup, NOT the date of the main December 23–24 coastal snowfall. The strongest later snow totals, coastal cyclogenesis and all poststorm impacts must not be called December 22 observations. Concept: Original December 22 12Z surface cold-air and high-pressure map with December 23 coastal development shown as an ensuing phase. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.",
+      "research_notes": "Check exact dates, impacts, individual-event vs outbreak totals, source updates, and media rights. Check whether this source record is a single segment of a wider event. Verify time zone and secondary evidence.\nPass15 (2026-11-20): Freezing rain on December 21–22, 2013 coated Toronto and southern Ontario in ice, causing widespread damage and significant power disruptions on December 22. Boundaries: The storm began December 21 and outages continued for days. Ice accretion varied by gauge and neighborhood; outage customer counts differ between initial December 22 and later restoration estimates. '30 mm' refers an upper regional ice estimate, not citywide uniform glaze. Independence: City of Toronto municipal recovery records and Public Safety Canada's national disaster registry have separate custodians; both cite ECCC's meteorological history and Toronto Hydro outage records. Secondary: https://bdc.securitepublique.gc.ca/dtpg-eng.aspx?cultureCode=en-Ca&eventId=1075&eventStartDate=%2719820101%27%2C%2720161231%27&eventTypes=%27EP%27%2C%27IN%27%2C%27PA%27%2C%27AV%27%2C%27CE%27%2C%27DR%27%2C%27FL%27%2C%27GS%27%2C%27HE%27%2C%27HU%27%2C%27SO%27%2C%27SS%27%2C%27ST%27%2C%27TO%27%2C%27WF%27%2C%27SW%27%2C%27EQ%27%2C%27LS%27%2C%27TS%27%2C%27VO%27&lang=fra&normalizedCostYear=1&provinces=1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13&totalCost=100000000%2C1000000000. Further reading: https://toronto.citynews.ca/2013/12/22/ice-storm-causes-travel-chaos-power-outages-in-gta/. Replaced primary ncei-200377 retained in pass15 registry. Research-only, no publication clearance.\nPass29 (2026-11-21), alternate 1: Replaced ncei-5675017 with distinct event phasea-pass29-1989-12-22-arctic-carolinas — Arctic air grips the Carolinas ahead of a remarkable Christmas coastal snowstorm. Scope: By December 22, 1989, a deep Arctic air mass had entered the Carolinas ahead of the December 23–24 historic coastal snowstorm; surface observations document the cold air and approaching frontal boundary. Evidence: https://www.weather.gov/ilm/ChristmasSnow1989; https://www.weather.gov/mhx/Dec231989EventReview. Dependence: NWS Wilmington supplies detailed December 22 surface analysis; a separate NWS North Carolina regional retrospective documents the ensuing December 23 coastal cyclone. Both use historical NOAA observing networks and synoptic maps. Cautions: December 22 is the antecedent cold-air setup, NOT the date of the main December 23–24 coastal snowfall. The strongest later snow totals, coastal cyclogenesis and all poststorm impacts must not be called December 22 observations. Concept: Original December 22 12Z surface cold-air and high-pressure map with December 23 coastal development shown as an ensuing phase. Source-paired EVENT/DATE/LOCATION only; NOT approved, no human claim-level fact check or image reuse clearance.\nPass30 (2026-11-21) alternate 2: Australian forecasters issue the first full cyclone warning ahead of Tracy [phasea-pass30-1974-12-22-tracy-tiwi-first-warning]. On December 22, 1974, the Darwin Tropical Cyclone Warning Centre issued a full cyclone warning for the Tiwi Islands as Cyclone Tracy was tracked north of Darwin. Sources: https://media.bom.gov.au/social/blog/625/remembering-cyclone-tracy-lessons-from-a-perfect-storm/ ; https://www.naa.gov.au/help-your-research/fact-sheets/cyclone-tracy-darwin. Independence: The Bureau of Meteorology historical operational warning chronology dates the first full warning about 24 hours after a December 21 formation alert; National Archives independently preserves Tracy's larger storm history but cites Bureau reports for this timing. Claim/anniversary cautions: Tracy's tropical depression was identified December 20, first formation alert December 21, full cyclone warning December 22, and catastrophic Darwin passage Christmas Day December 25. Do not place the Darwin destruction on December 22. Proposed visual: Original December 20–25 warning/track timeline with the Tiwi Islands first full cyclone warning highlighted. Research-only date/location core; no human fact check or publication approval or archival rights clearance. Replaces unverified ncei-68362.",
       "event_source_excerpt": "",
       "input_research_score": 90,
       "editorial_selection_score": 90,
@@ -18412,6 +18592,16 @@
           "secondary_source_url": "https://www.weather.gov/mhx/Dec231989EventReview",
           "verified_core_fact": "By December 22, 1989, a deep Arctic air mass had entered the Carolinas ahead of the December 23–24 historic coastal snowstorm; surface observations document the cold air and approaching frontal boundary.",
           "source_independence_assessment": "NWS Wilmington supplies detailed December 22 surface analysis; a separate NWS North Carolina regional retrospective documents the ensuing December 23 coastal cyclone. Both use historical NOAA observing networks and synoptic maps.",
+          "review_scope": "core event/date/location only",
+          "publication_approval_status": "not_approved"
+        },
+        {
+          "event_id": "phasea-pass30-1974-12-22-tracy-tiwi-first-warning",
+          "event_date": "1974-12-22",
+          "source_url": "https://media.bom.gov.au/social/blog/625/remembering-cyclone-tracy-lessons-from-a-perfect-storm/",
+          "secondary_source_url": "https://www.naa.gov.au/help-your-research/fact-sheets/cyclone-tracy-darwin",
+          "verified_core_fact": "On December 22, 1974, the Darwin Tropical Cyclone Warning Centre issued a full cyclone warning for the Tiwi Islands as Cyclone Tracy was tracked north of Darwin.",
+          "source_independence_assessment": "The Bureau of Meteorology historical operational warning chronology dates the first full warning about 24 hours after a December 21 formation alert; National Archives independently preserves Tracy's larger storm history but cites Bureau reports for this timing.",
           "review_scope": "core event/date/location only",
           "publication_approval_status": "not_approved"
         }
