@@ -69,3 +69,23 @@ The public utility produces editable SVG and .txt copies without any third-party
 - Dec 5: 1952 London smog inversion mechanism
 
 Future expansions: automated GIS/GeoJSON import and projection, archived Level II download/decoding and scan rendering, MP4 radar videos, supplementary independent sources, and authenticated syncing to private Drive. Source-backed track/point maps and GIF assembly from pre-rendered radar frames are implemented; they are still human-review-only. Human approval remains mandatory.
+
+## Real photographs, maps and media packages (rights-gated)
+
+A separate [media workflow](MEDIA_STRATEGY.md) now describes the supported
+`media_mode` values (graphic_only, graphic_plus_photo, graphic_plus_map,
+carousel, animated_package), actual photo/path and rights fields, context-photo
+accuracy, and the new `Media Asset Registry` Google Sheet tab. The JSON
+contract is [media-package.schema.json](../data/schema/media-package.schema.json).
+
+With local explicitly cleared photo files, setting `photo_layout: editorial_split`
+creates a second **photo-led** SVG, plus PNG when `--png` is requested. No
+cropping is performed; use a different mode when a license forbids adapted
+layouts. The supplied photo remains unmodified as a separate private asset.
+
+    python -m otdwx.production --input /private/posts.json \\
+      --asset-root /private/cleared-media --output /private/exports --png
+
+No external image download, NOAA-source inference, auto-approval or posting.
+Unknown rights block media export. The original graphic-only packages still
+work unchanged, with all reviews and scheduling controlled by a person.
