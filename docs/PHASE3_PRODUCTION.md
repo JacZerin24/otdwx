@@ -39,6 +39,9 @@ For each candidate record:
 
 ## Reproducible public rendering utility
 
+**Visual brand v2 is now the default:** the off-white editorial house style, real-data `track_map` and `point_map` SVGs, and the separate verified-frame historical radar GIF assembler are documented in [VISUAL_BRAND_V2.md](VISUAL_BRAND_V2.md). The original six template types remain supported; set `graphic_spec.style` to `legacy` to reproduce their old dark appearance. No fabricated imagery or map contours are generated. Radar GIF frames must already be authentic, sourced, and rights-reviewed; the generator does not yet download or decode NEXRAD Level II.
+
+
 The Python package includes six original SVG layouts: bar comparisons, hero statistics, two-location contrast, morning timelines, warning-to-touchdown timelines, and atmospheric concept diagrams.
 
 Private input should be a JSON array with:
@@ -52,7 +55,7 @@ For an actual input example, use the private ZIP package's research_post_package
     python -m unittest discover -s tests -v
     python -m otdwx.production --input /private/path/research_post_packages.json --output exports/post-studio
 
-The public utility produces editable SVG and .txt copies without any third-party dependencies. To also create PNG files for X, install the optional CairoSVG library and run with --png. The first six private PNGs are already included in the starter ZIP and individual Drive folder.
+The public utility produces editable SVG and .txt copies without any third-party dependencies. To also create 1920×1080 PNG files for X, install the optional CairoSVG library and run with --png. For annotated radar GIFs using genuine archival PNG/WEBP frames, install optional Pillow and run `python -m otdwx.radar_loop --manifest /private/radar-case/frames.json --output /private/radar-case/radar.gif`. The first six private PNGs are already included in the starter ZIP and individual Drive folder.
 
 **No automated posting or automatic human approval is provided by this tool.** It does not connect to X or Google Sheets. In the Sheet, Post Studio stores captions, cited source links, image links, alt text, and approval state. Daily Queue mirrors only drafts chosen for the calendar.
 
@@ -65,4 +68,4 @@ The public utility produces editable SVG and .txt copies without any third-party
 - Dec 3: 1978 Bossier City tornado warning lead time
 - Dec 5: 1952 London smog inversion mechanism
 
-Future expansions: actual map layers from GIS shapefiles, new visual variants, supplementary independent sources, and automated syncing to private Drive without publishing drafts to GitHub. Human approval remains mandatory.
+Future expansions: automated GIS/GeoJSON import and projection, archived Level II download/decoding and scan rendering, MP4 radar videos, supplementary independent sources, and authenticated syncing to private Drive. Source-backed track/point maps and GIF assembly from pre-rendered radar frames are implemented; they are still human-review-only. Human approval remains mandatory.
