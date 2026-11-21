@@ -107,6 +107,26 @@ class PhaseAEditorialTests(unittest.TestCase):
         self.assertFalse(match["current_primary"])
         self.assertTrue(match["research_signal_not_verification"] < 100)
 
+    def test_single_corroborated_alternate_needs_attached_evidence(self):
+        cal, cat = self.fixture()
+        row = cal["days"][60]
+        row["alternates_verification_status"] = "one_alternate_core_corroborated"
+        self.assertTrue(any("requires one matching evidence record" in e
+                            for e in validate_calendar(cal, cat)))
+        row["alternate_corroboration"] = [{
+            "event_id": row["first_alternate_event_id"],
+            "event_date": row["historical_event_date"],
+            "source_url": "https://example.org/source",
+            "secondary_source_url": "https://example.com/independent",
+            "verified_core_fact": "Date and location corroborated",
+            "source_independence_assessment": "same official observer network",
+            "publication_approval_status": "not_approved"
+        }]
+        self.assertEqual(validate_calendar(cal, cat), [])
+        row["alternate_corroboration"][0]["secondary_source_url"] = ""
+        self.assertTrue(any("lacks research-only date/source/approval gates" in e
+                            for e in validate_calendar(cal, cat)))
+
     def test_dual_alternates_need_two_explicit_evidence_records(self):
         cal, cat = self.fixture()
         row = cal["days"][60]
