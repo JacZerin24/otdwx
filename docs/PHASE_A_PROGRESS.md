@@ -310,3 +310,12 @@ Important editorial corrections: Aug 28 original Katrina segment duplicated the 
 Cautions: do not treat Apr 17 as volcanic eruption onset, Feb 4 California as a complete Feb 4–6 storm-total window, NYC smoke satellite area as station AQI, 1990 F5 as EF5, or a provisional 2010 Arizona tornado count as the final survey. Kansas NWS and NCEI dust reports share original observational lineage. Do not publish archived artwork without asset-specific rights review.
 
 **Status:** **318/366 primary core/date/place corroborations**, **48 primary gaps**, **205 total source anchors including one alternate**, **78 international/mixed-country primaries**, **44 pre-1950 primaries**, **246 claim checks**, **15 of 732 backup cores corroborated**, **0 complete human checks, 0 approved posts and 0 cleared media assets**.
+
+
+## Pass 22 — dated weather diversity and source-gap closure (21 November 2026)
+
+Nine researched primary dates (7 source-led replacements and 2 retained NCEI IDs): Jan17 2018 Wiregrass snow/sleet; Feb21 2013 near-record Wichita snow; Mar16 2007 Gloucester County nor'easter sleet (retained); May12 2022 Northern Plains derecho; Jun18 2024 Ruidoso fire expansion (Jun17 ignition is separate); Jul1 2024 Category 4 Beryl Carriacou landfall; Aug1 2023 Doksuri-related Beijing floods (multi-day rainfall, not solely Aug1); Aug24 2006 Kasota/Mankato tornado (retained); Oct11 2024 ongoing severe auroras (space weather; storm began Oct10 EDT).
+
+See [Pass22 claim-level and editorial review ledger](../data/phase_a_pass22_research.json) for full source dependence, time-zone and physical-scope caveats, 18 focused research claim checks, original visual concepts, and retained/retired original IDs. Four tempting stories were deliberately deferred: May26 1917 Mattoon tornado between two F5/EF5 anniversaries; Oct30 1991 Perfect Storm directly before same-storm Oct31; Dec4 London fog immediately before the Dec5 Great Smog primary; and Sep4 2011 Bastrop fire immediately before Sep5 wildfire. No images or posts were approved.
+
+**Status:** **327/366 primary occurrence/date/location cores corroborated**, **39 source gaps**, **214 sourced anchors**, **81 international/mixed primaries**, **44 pre-1950 primaries**, **264 claim-level checks**, **15/732 backup leads with occurrence/date/location corroboration**, 0 full human checks, 0 human approvals, 0 media-rights clearances.

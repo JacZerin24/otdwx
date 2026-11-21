@@ -6,11 +6,11 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 
 ## Phase A provisional editorial library (updated Nov 20, 2026)
 
-**Research coverage is not publication readiness.** We now maintain a 366-day provisional research calendar (including leap day), two alternate *leads* per day, visual concepts, verified-versus-unverified fact boundaries, and a recorded diversity audit. Full editorial verification is incomplete. **Pass 21: 318/366 primary occurrence/date/location cores corroborated, 48 source gaps, zero human approvals or media-rights clearances.**
+**Research coverage is not publication readiness.** We now maintain a 366-day provisional research calendar (including leap day), two alternate *leads* per day, visual concepts, verified-versus-unverified fact boundaries, and a recorded diversity audit. Full editorial verification is incomplete. **Pass 22: 327/366 primary occurrence/date/location cores corroborated, 39 source gaps, zero human approvals or media-rights clearances.**
 
 - [Phase A research status, limitations, and handoff](docs/PHASE_A_PROGRESS.md)
 - [366-day research calendar](data/phase_a_calendar.json) and [quality/diversity audit](data/phase_a_audit.json)
-- [122 registered historical research anchors](data/phase_a_sourced_anchors.json)
+- [214 registered sourced research anchors](data/phase_a_sourced_anchors.json)
 - [Pass 2: 64 source-checked research upgrades with caveats](data/phase_a_pass2_research.json)
 - [Pass 8: five source-reviewed January primaries and two historic alternates](data/phase_a_pass8_research.json)
 - [Pass 9: 14 new core reviews, five final replacements and repetition repairs](data/phase_a_pass9_research.json)
@@ -21,9 +21,10 @@ A meteorologist-led editorial workflow for original, accurately sourced, single-
 - [Pass 14: 3 source-led replacements, 12 retained-ID core reviews, 27 scoped claim checks](data/phase_a_pass14_research.json)
 - [Pass 15: 10 global/history-driven replacements, 2 retained-ID reviews and 24 claim checks](data/phase_a_pass15_research.json)
 - [Pass 16: 9 source-led primary upgrades (one alternate promotion), 4 retained-ID reviews, 4 alternate screens and 26 claim checks](data/phase_a_pass16_research.json)
+- [Pass22: nine dated primary cores, 18 claim checks and editorial deferrals](data/phase_a_pass22_research.json)
 - [Pass21: eight dated event cores, 16 claim checks and Oct6 Bahamas alternate](data/phase_a_pass21_research.json)
-- [Claim-level editorial evidence ledger in Google Sheets](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit#gid=1700201026); 246 research assertions tracked, none fully approved.
-- [Google Sheets Phase A Calendar, source-gap triage (48 remaining), and review queue](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit)
+- [Claim-level editorial evidence ledger in Google Sheets](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit#gid=1700201026); 264 research assertions tracked, none fully approved.
+- [Google Sheets Phase A Calendar, source-gap triage (39 remaining), and review queue](https://docs.google.com/spreadsheets/d/1H9BhGYY3FUmdr78sAuK47SQJEyHozyf_FdC5gYlgZzw/edit)
 
 Local read-only audit and exploratory candidate comparison:
 
