@@ -1,7 +1,7 @@
 # OTDwx — Phase A research calendar: status and editorial handoff
 
-**Last populated:** 2026-11-20
-**Status:** Provisional research library, NOT a fully researched, fact-checked, editorially approved publication calendar.
+**Last populated:** 2026-11-21
+**Status:** Pass 30 current checkpoint — 366 primary event/date/location cores and 60 alternate date/location cores source-paired; 672 alternates remain. All 35 original high-risk P0 lead reviews have documented dispositions. This is NOT a fully fact-checked, approved or graphics-cleared publication calendar.
 
 ## What was preserved
 
@@ -483,3 +483,37 @@ Synchronized Google Sheets tabs: **Phase A Calendar** (affected research notes a
 **Synchronized surfaces:** `data/phase_a_calendar.json`, `data/phase_a_sourced_anchors.json`, `data/phase_a_pass29_research.json`, `data/phase_a_alternate_research_backlog.json`, `data/phase_a_audit.json`; plus Google Sheets **Phase A Calendar**, **Phase A Alternate Reviews**, **Phase A Alternate Backlog** and **Phase A Audit**. Existing Post Studio drafts, event library, and publishing history were left intact. The read-only structural audit passed in GitHub Actions. Presence of links and passing CI never prove detailed weather values or media permissions.
 
 **Next Pass 30:** source-led replacements/reviews for the 18 P0 entries before P1 and P2, favoring diverse hazards, countries and historical eras over generic local Storm Events segments. Prefer primary meteorological measurements, civil-defense/incident documentation, original period reporting and dated observations. Explicitly reconcile any source disputes, check visuals and rights, then request human approval separately.
+
+
+## Pass 30 — November 21, 2026: all 18 remaining P0 alternatives researched
+
+**Scope:** Closed the initial P0 source-selection queue by replacing all 18 remaining generic, duplicative or low-narrative-strength NCEI alternate leads with distinct, dated weather-history candidates. Each new candidate has a source pair, a minimally supported anniversary-specific fact, a source-dependence assessment, an explicit observation-time/claim warning, and an original-graphic concept. The original candidate ID, URL and risk flags remain in the research backlog for traceability. All are **research-stage event/date/location cores**, not claim-level human fact checks.
+
+| Anniversary | Alternate rank | New dated research focus | Critical editorial distinction |
+|---|---:|---|---|
+| Jan 28 | 1 | 2021 post-fire Bond burn-scar debris flows, California | Jan 28 debris flows versus separate Jan 25–27 rainfall/impacts |
+| Feb 17 | 1 | 1926 Bingham Canyon avalanche, Utah | Death counts disagree across historical registries |
+| Feb 17 | 2 | 1962 Hamburg lower-Elbe storm surge, Germany | Early Feb 17 local peak after Feb 16 windstorm; gauge datum |
+| Feb 23 | 2 | 2026 New York metro/northern NJ/CT blizzard | Storm began Feb 22; local blizzard windows and multi-day snow totals |
+| May 11 | 2 | 2016 Fort McMurray wildfire emergency continues | May 11 official alert vs NASA's May 6 instrument acquisition |
+| May 13 | 1 | 2014 Cyclone Yvette heavy-rainfall onset, Balkans | May 13 rain start vs May 14–18 catastrophic river flooding |
+| May 13 | 2 | 2023 Laguna Heights EF1 tornado, coastal Texas | Distinct location from prior Bayside NCEI lead; surveyed rating |
+| Jul 11 | 1 | 2011 Chicago-area derecho and Lake Michigan seiche | July 11 seiche vs multistate derecho July 10–11 |
+| Jul 11 | 2 | 1990 Front Range/Denver destructive hailstorm | Historical dollar estimate vs inflation-adjusted expense |
+| Jul 17 | 1 | 2023 Death Valley extraordinary 120°F midnight observation | Midnight report vs daily high/low, and sensor/location differences |
+| Jul 17 | 2 | 2005 Hurricane Emily's Category 5 intensity | 0000 UTC Jul 17, potentially local evening Jul 16; no Jul 17 landfall |
+| Sep 13 | 1 | 2008 Chicago O'Hare daily rainfall record | Station-specific daily rain enhanced by Ike's precursor moisture, not hurricane core |
+| Sep 19 | 1 | 2020 Medicane Ianos's Thessaly flooding, Greece | Flood date Sep 19; western Greece cyclone arrival Sep 18 |
+| Sep 24 | 2 | 2019 western Wisconsin Elk Mound–Wheaton EF3 | Rated EF3 damage only where surveyed, not uniform full path |
+| Nov 6 | 2 | 2018 Tennessee nocturnal QLCS tornado outbreak | Revised surveyed track split; avoid old single-track/early count |
+| Nov 15 | 2 | 2017 Mandra/Nea Peramos flash flood, Greece | No consensus casualty scope; late Nov 14 UTC to Nov 15 local flood |
+| Nov 20 | 2 | 1985 Hurricane Kate intensification in the Gulf | Nov 20 peak near 953 hPa; Florida landfall Nov 21 |
+| Dec 22 | 2 | 1974 Cyclone Tracy full warning for Tiwi Islands | Depression Dec 20, alert Dec 21, full warning Dec 22, Darwin impact Dec 25 |
+
+Research record: [`data/phase_a_pass30_research.json`](../data/phase_a_pass30_research.json). The individual records include exact publisher links and suggested original visual datasets. Links from two publishers can **share the same base observations**. The source-link inventory is not evidence of complete scientific independence, verified fatality counts, or visual licenses.
+
+**Current verified ledger counts:** 366/366 source-paired primary research cores; **60/732** source-paired alternates on **35 dates**; **25 dates with both** alternate cores, **10 dates with one**, **331 dates with zero**. All 35 historical P0 backlog entries have recorded source-led review/replacement dispositions. **672 uncorroborated alternates remain (222 P1, 450 P2).** The source registry has 287 authority-linked anchors. The 342 preexisting primary claim checks were preserved unchanged. No human approvals, fully human fact-checked posts, or reusable visual assets cleared.
+
+**Repository and spreadsheet checks:** Updated `data/phase_a_calendar.json`, `data/phase_a_sourced_anchors.json`, `data/phase_a_alternate_research_backlog.json`, `data/phase_a_audit.json`, and the new Pass 30 ledger. Google Sheet tabs **Phase A Calendar** (18 changed alternate IDs and 18 appended notes), **Phase A Alternate Reviews** (18 added source reviews at rows 46–63), **Phase A Alternate Backlog** (18 P0 dispositions retained), and **Phase A Audit** (counts) were synchronized and read back. GitHub structural quality workflow succeeded for the research commit. Existing post drafts, publishing history and canonical approved event library remain untouched.
+
+**Next Pass 31:** begin the **222 P1 high-review leads** with a balanced monthly/seasonal, geographical, hazard and historical-era sampling strategy, verifying actual calendar-day event milestones with traceable observations. For the newly selected P0 stories, revalidate source-specific links and event-specific numeric claims before any drafting or public graphic production. Continue P2 only after a prioritized diversity- and value-based review; never publish from this provisional research collection automatically.
