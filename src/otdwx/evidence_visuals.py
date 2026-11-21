@@ -224,21 +224,38 @@ def render_archive(item, asset_root):
     palette=PALETTES.get(category,PALETTES["unusual"])
     bg,white,accent=palette
     parts=_header(item,palette,ARCHIVE_KINDS[spec["asset_kind"]])
-    parts += [
-        '<rect x="52" y="128" width="1020" height="667" fill="#ffffff"/>',
-        f'<image x="59" y="135" width="1006" height="653" href="data:{mime};base64,{base64.b64encode(data).decode("ascii")}" preserveAspectRatio="xMidYMid meet"/>',
-        '<line x1="1110" y1="148" x2="1110" y2="787" stroke="'+accent+'" stroke-width="5" opacity=".75"/>'
-    ]
-    for i,line in enumerate(_wrap(spec["title"],21,3)):
-        parts.append(_text(1140,228+i*64,line,42,white,700,True))
-    start=488
-    if spec.get("headline_stat"):
-        parts.append(_text(1138,start,spec["headline_stat"],69,accent,700,True))
-        start+=57
-    for i,line in enumerate(_wrap(spec.get("deck",""),25,5)):
-        parts.append(_text(1140,start+35*i,line,22,white))
-    time_note=spec.get("observed_at_utc") or spec.get("valid_period")
-    parts.append(_text(75,817,str(time_note)[:68],18,accent,700))
+    original=f'data:{mime};base64,{base64.b64encode(data).decode("ascii")}'
+    if spec["asset_kind"]=="documentary_photo":
+        # Photojournalistic treatment: the genuine photograph is the story,
+        # not an AI-style 50/50 statistic card. No crop and no recoloring.
+        parts.extend([
+            '<rect x="52" y="120" width="1496" height="555" fill="#0c171c"/>',
+            f'<image x="60" y="128" width="1480" height="541" href="{original}" preserveAspectRatio="xMidYMid meet"/>',
+            '<line x1="52" y1="694" x2="1548" y2="694" stroke="'+accent+'" stroke-width="4"/>'
+        ])
+        title=_wrap(spec["title"],40,2)
+        for i,label in enumerate(title):
+            parts.append(_text(60,755+i*48,label,40,white,700,True))
+        if spec.get("headline_stat"):
+            parts.append(_text(1175,754,spec["headline_stat"],58,accent,700,True))
+    else:
+        # Actual survey, radar, satellite or observed snowfall imagery has
+        # priority over decorations. Do not cover legends or original labels.
+        parts.extend([
+            '<rect x="52" y="128" width="1035" height="669" fill="#ffffff"/>',
+            f'<image x="59" y="135" width="1021" height="655" href="{original}" preserveAspectRatio="xMidYMid meet"/>',
+            '<line x1="1110" y1="148" x2="1110" y2="787" stroke="'+accent+'" stroke-width="5" opacity=".75"/>'
+        ])
+        for i,label in enumerate(_wrap(spec["title"],18,3)):
+            parts.append(_text(1140,228+i*62,label,40,white,700,True))
+        start_y=488
+        if spec.get("headline_stat"):
+            parts.append(_text(1140,start_y,spec["headline_stat"],64,accent,700,True))
+            start_y+=54
+        for i,label in enumerate(_wrap(spec.get("deck",""),22,5)):
+            parts.append(_text(1140,start_y+33*i,label,20,white))
+        time_note=spec.get("observed_at_utc") or spec.get("valid_period")
+        parts.append(_text(75,817,str(time_note)[:64],17,accent,700))
     _credit(parts,spec,palette)
     parts.append("</svg>")
     return "\n".join(parts)+"\n"
