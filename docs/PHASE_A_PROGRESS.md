@@ -432,3 +432,26 @@ Created a deterministic, **read-only-triage** inventory of all 707 alternate lea
 **High-value early review example:** the November 6 Newburgh, Indiana candidate is a generic tornado segment with the same year, hazard and locality as the selected 2005 Evansville-area F3 primary. The initial task is to resolve whether it is the *same tornado*; do not promote a duplicate backup merely because the county Storm Events ID differs.
 
 The next research pass should investigate these 24 month-balanced high-risk leads and prefer diverse, scientifically interesting source-led replacements over mechanical source-link completion. **707** alternates still require substantive research and **all 366 primary posts still need human claim checks, approval and individual graphic-rights decisions.**
+
+
+## Pass 28 — November 21, 2026: alternate quality and same-event safeguards
+
+Five alternate event/date/location research cores were cross-checked and recorded in [the Pass 28 ledger](../data/phase_a_pass28_research.json), with institutional-dependence and measurement caveats:
+
+| Anniversary | Alternate | Source status |
+|---|---|---|
+| January 28 | January 28, 2014, central Alabama snow and ice (second alternate) | NWS Birmingham + independent peer-reviewed meteorological analysis; same regional observational inputs |
+| February 23 | February 23, 2019, Columbus, MS EF3 tornado (first alternate) | NWS Jackson survey + NCEI event entry; same NOAA report family, injury count requires reconciliation |
+| May 11 | May 11, 1970, Lubbock, TX F5 tornado (first alternate) | NWS Lubbock history + National Bureau of Standards structural damage survey; distinct event from Waco 1953 primary |
+| September 29 | September 29, 1959, Hurricane Gracie SC Lowcountry landfall (second alternate) | SC State Climatology + NWS Charleston, replacing imprecise HURDAT track-point lead; original Category 3 versus retrospective Category 4 disagreement remains |
+| November 15 | November 15, 2005, Earlington, KY F4 tornado (first alternate) | NWS Paducah + NWS Louisville archives; shared NWS survey; distinct from the 1989 Huntsville tornado primary |
+
+Six *other* alternates were flagged, **not** credited as independent backups: November 6 Newburgh is downstream of the same Evansville tornado; September 19 Houston/IAH flooding is part of the same Imelda episode; October 4 Woodland Terrace is part of the same South Carolina flood; October 17 countywide Texas flooding is part of the same 1998 Central Texas flood; December 11 Schenectady ice is part of the same Northeast ice storm; March 6 Gray County wildfires are part of the same regional 2017 Plains fire outbreak and their distinct ignition has not yet been established. The last is an episode-overlap flag, **not** a proven identical ignition.
+
+**Post-pass inventory:** 366 primary source-paired cores; 30/732 alternate source-paired cores on 19 dates (11 dates with both, eight with one); 702 remaining unverified alternates (30 P0 / 222 P1 / 450 P2); 257 authority-led sourced anchors; 342 primary statement-level research cautions. Five newly reviewed historical backlog rows remain present, resulting in 707 total rows for traceability. The prioritized 24-date batch was refreshed to omit completed source checks.
+
+Synchronized Google Sheets tabs: **Phase A Calendar** (affected research notes and Gracie ID), **Phase A Alternate Reviews** (five new evidence rows), **Phase A Alternate Backlog** (eleven reviewed/duplicate rows), **Phase A Audit** (counts). GitHub Actions structural quality checks passed on the Pass 28 research commit.
+
+**Unresolved:** All 366 planned primaries and 732 alternates still require editorially relevant claim-level numerical checks; full human publication approval, visual data construction and asset-specific licensing are not completed. No draft or image should be automatically published.
+
+**Next work:** replace six same-episode backups with entirely separate dated meteorological stories; continue remaining P0 review, then P1/P2 in balanced month/category/geography batches; reconcile disputed source claims, and verify concrete graphics/data rights before moving any record into the canonical approved library.
