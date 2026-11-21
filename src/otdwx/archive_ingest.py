@@ -19,7 +19,7 @@ import json
 from pathlib import Path
 import socket
 from urllib.parse import urljoin,urlparse
-from urllib.request import Request,urlopen
+from urllib.request import Request,build_opener,HTTPRedirectHandler
 
 
 MAX_DOWNLOAD=20_000_000
@@ -46,6 +46,16 @@ def _public_https(value: str):
     return p
 
 
+class _PublicRedirect(HTTPRedirectHandler):
+    def redirect_request(self,req,fp,code,msg,headers,newurl):
+        _public_https(newurl)
+        return super().redirect_request(req,fp,code,msg,headers,newurl)
+
+
+def _open(request,timeout):
+    return build_opener(_PublicRedirect()).open(request,timeout=timeout)
+
+
 class EvidenceLinkParser(HTMLParser):
     def __init__(self,base):
         super().__init__()
@@ -68,7 +78,7 @@ class EvidenceLinkParser(HTMLParser):
 
 def discover(page: str):
     _public_https(page)
-    with urlopen(Request(page,headers={"User-Agent":USER_AGENT}),timeout=30) as r:
+    with _open(Request(page,headers={"User-Agent":USER_AGENT}),timeout=30) as r:
         if r.geturl()!=page:_public_https(r.geturl())
         raw=r.read(2_000_000+1)
     if len(raw)>2_000_000:raise ValueError("Large HTML archive page: manual review needed")
@@ -87,7 +97,7 @@ def fetch(url: str, page: str, output: Path):
         raise ValueError("Only image, PDF, and GeoJSON archive downloads are supported")
     if output.exists():raise FileExistsError(output)
     request=Request(url,headers={"User-Agent":USER_AGENT})
-    with urlopen(request,timeout=40) as r:
+    with _open(request,timeout=40) as r:
         final=r.geturl()
         _public_https(final)
         raw=r.read(MAX_DOWNLOAD+1)
