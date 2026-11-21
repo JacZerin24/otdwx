@@ -1,7 +1,7 @@
 # OTDwx — Phase A research calendar: status and editorial handoff
 
 **Last populated:** 2026-11-21
-**Status:** Pass 30 current checkpoint — 366 primary event/date/location cores and 60 alternate date/location cores source-paired; 672 alternates remain. All 35 original high-risk P0 lead reviews have documented dispositions. This is NOT a fully fact-checked, approved or graphics-cleared publication calendar.
+**Status:** Pass 31 current checkpoint — 366 primary event/date/location research cores and 72 alternate cores source-paired on 47 anniversaries; 660 alternates remain (210 P1 / 450 P2). All original 35 high-risk P0 leads have documented dispositions. This remains NOT a fully fact-checked, approved, or graphics-cleared publication calendar.
 
 ## What was preserved
 
@@ -517,3 +517,29 @@ Research record: [`data/phase_a_pass30_research.json`](../data/phase_a_pass30_re
 **Repository and spreadsheet checks:** Updated `data/phase_a_calendar.json`, `data/phase_a_sourced_anchors.json`, `data/phase_a_alternate_research_backlog.json`, `data/phase_a_audit.json`, and the new Pass 30 ledger. Google Sheet tabs **Phase A Calendar** (18 changed alternate IDs and 18 appended notes), **Phase A Alternate Reviews** (18 added source reviews at rows 46–63), **Phase A Alternate Backlog** (18 P0 dispositions retained), and **Phase A Audit** (counts) were synchronized and read back. GitHub structural quality workflow succeeded for the research commit. Existing post drafts, publishing history and canonical approved event library remain untouched.
 
 **Next Pass 31:** begin the **222 P1 high-review leads** with a balanced monthly/seasonal, geographical, hazard and historical-era sampling strategy, verifying actual calendar-day event milestones with traceable observations. For the newly selected P0 stories, revalidate source-specific links and event-specific numeric claims before any drafting or public graphic production. Continue P2 only after a prioritized diversity- and value-based review; never publish from this provisional research collection automatically.
+
+
+## Pass 31 — November 21, 2026: first month-balanced P1 alternate review
+
+**Scope:** Replaced twelve weak, generic NCEI county-segment alternate leads, one in each calendar month, with more compelling event/date/location stories documented in [`data/phase_a_pass31_research.json`](../data/phase_a_pass31_research.json). Each has two publisher/source entry points and an explicit chronology, observation-scope, or independence warning. These are research-stage cores, not complete claim-level or archival-photo fact checks.
+
+| Anniversary | Backup | Replacement story | Key caution to preserve |
+|---|---:|---|---|
+| 01-06 | 1 | Chicago plunges to −16°F during the January 2014 Arctic outbreak | Chicago −16°F is actual January 6 air temperature, not wind chill |
+| 02-01 | 1 | The Groundhog Day blizzard slams Chicago with thundersnow | Thundersnow February 1; multi-day blizzard accumulation spans Jan 31–Feb 2 |
+| 03-05 | 1 | Severe Mount Fuji lee-wave turbulence destroys BOAC Flight 911 | Lee-wave aviation breakup at Mount Fuji; derived from common accident inquiry |
+| 04-01 | 1 | An April Fools’ blizzard buries eastern Massachusetts | Blue Hill versus Boston instruments; snowfall spans Mar 31–Apr 1 |
+| 05-01 | 1 | Record-breaking rainfall begins Nashville's historic May flood | May 1 rain onset is not the May 3 river crest or full 48-hour total |
+| 06-07 | 1 | A powerful winter cold front batters Cape Town | Cold-front wind observations and Knysna wildfire chronology require separation |
+| 07-03 | 1 | A stalled thunderstorm floods Vanguard, Saskatchewan | 333 mm / 10 h governmental figure differs from 375 mm / 8 h study footprint |
+| 08-07 | 2 | Giant hailstones fall near Fort Walker, Virginia | 4.75-in chaser-collected stones are local; photos and state rankings unapproved |
+| 09-02 | 1 | The 1935 Labor Day Hurricane strikes the Florida Keys | NOAA/AOML histories draw on same 1935 pressure observations |
+| 10-09 | 1 | Diablo winds drive the North Bay wildfires into Santa Rosa | Wildfires ignited Oct 8 evening; extreme wind-driven spread continued early Oct 9 |
+| 11-11 | 1 | Typhoon Vamco makes multiple landfalls in the Philippines | Multiple November 11 Philippine landfalls; local-versus-UTC timestamps |
+| 12-01 | 1 | A powerful early-December ice and snowstorm paralyzes Missouri | Winter storm spans Nov 30–Dec 1, with varying ice and snow zones |
+
+**Current verified inventory:** 366/366 primary cores source-paired; **72/732** alternate cores source-paired on **47 anniversaries**: 25 with both, 22 with one, 319 with none. Remaining **660** source-unverified alternates (**210 P1, 450 P2**) from 707 original backlog rows including 47 reviewed/replaced rows. Source registry **299** authority-linked research anchors. The **342** pre-existing primary claim cautions remain untouched; zero completed full human fact checks, zero approvals, zero media rights cleared. Candidate source documents may depend on identical observing networks and earlier incident reports.
+
+**Synchronization:** GitHub `data/phase_a_calendar.json`, `data/phase_a_alternate_research_backlog.json`, `data/phase_a_sourced_anchors.json`, `data/phase_a_audit.json`, and the Pass 31 ledger have been updated. Google Sheets **Phase A Calendar** (12 alternate IDs and appended date/claim notes), **Phase A Alternate Reviews** (new rows 64–75), **Phase A Alternate Backlog** (12 review dispositions), and **Phase A Audit** (inventory counts) have been updated and read back. Six existing draft posts, the approved-event library, and publication history were not altered.
+
+**Next Pass 32:** Continue the refreshed 24-target P1 month-balanced review queue with high-authority event-specific observations. Investigate date-local versus UTC and conflicting source numeric claims before promotion; avoid several alternates that remain same storm segment or generic same-hazard pairs. After P1, prioritize P2 for distinct editorial value and geography. Do not release a post or graphic until a human approves specific claims and asset rights.
