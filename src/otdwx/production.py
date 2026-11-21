@@ -14,11 +14,13 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from .editorial import weighted_length
+from .branded_graphics import render_visual, validate_visual
 
 MAX_CHARS = 280
 VISUAL_TYPES = {
     "bar_comparison", "big_number", "contrast",
     "morning_timeline", "warning_timeline", "conceptual_schematic",
+    "track_map", "point_map",
 }
 BG = "#0c1825"
 FG = "#f3f4f1"
@@ -94,6 +96,8 @@ def validate_package(item: dict) -> list[str]:
         issues.append("unknown graphic layout")
     if not isinstance(item["graphic_spec"],dict):
         issues.append("graphic_spec must be a dict")
+    elif item["type"] in {"track_map", "point_map"} or item["graphic_spec"].get("style") != "legacy":
+        issues.extend(validate_visual(item))
     if len(item["alt"].strip()) < 30:
         issues.append("meaningful image alt text is required")
     if item.get("editor_approval") not in (None,"pending","changes_needed","approved"):
@@ -106,6 +110,8 @@ def render_svg(item: dict) -> str:
     errors = validate_package(item)
     if errors:
         raise ValueError("; ".join(errors))
+    if item["type"] in {"track_map", "point_map"} or item["graphic_spec"].get("style") != "legacy":
+        return render_visual(item)
     spec = item["graphic_spec"]
     typ = item["type"]
     parts = [
@@ -216,7 +222,7 @@ def generate(packages: list[dict],output: Path,make_png: bool = False) -> list[d
         if converter is not None:
             converter.svg2png(bytestring=svg.encode("utf-8"),
                               write_to=str(output/(slug+".png")),
-                              output_width=1200,output_height=675)
+                              output_width=1920,output_height=1080)
         rows.append({"planned_date":item["post_date"],"event_id":item["event_id"],
                      "source_url":item["source_url"],
                      "weighted_characters":weighted_length(item["caption"]),
